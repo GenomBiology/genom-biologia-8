@@ -1,0 +1,22 @@
+{
+  "pinId": "286330488799846543",
+  "sourcePage": "https://pl.pinterest.com/pin/286330488799846543/",
+  "canonicalSourcePage": "https://www.pinterest.com/pin/richard-daniel--286330488799846543/",
+  "title": "Morning has broken like the first morning",
+  "pinner": "Richard Daniel",
+  "pinnerProfile": "https://www.pinterest.com/richard1anita/",
+  "sourceFile": "https://v1.pinimg.com/videos/mc/720p/8e/a5/4d/8ea54da9e5ff8d8c65c880463a2fb192.mp4",
+  "selection": "Exact Pinterest pin selected by the user. Public pin ID record links directly to this video_list URL.",
+  "width": 1280,
+  "height": 720,
+  "durationSeconds": 21.0,
+  "fps": 30,
+  "codec": "h264",
+  "audioCodec": "aac",
+  "bytes": 6361566,
+  "sha256": "b16b7649b0eb790016904390cc2355fd2f1ef98859f7441f1eaa85b9bd5b8e6a",
+  "changes": "MP4 copied unchanged. Poster extracted from video frame at 0 seconds. Website uses muted background playback.",
+  "video": "media/earth-pinterest.mp4",
+  "poster": "media/earth-pinterest-poster.jpg",
+  "framing": "16:9 landscape: foreground tall green grass and a warm low sun behind it. Use object-fit:cover; center preserves bright sun near horizontal midpoint."
+}
