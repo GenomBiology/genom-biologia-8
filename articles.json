@@ -1,0 +1,3365 @@
+[
+  {
+    "id": "dna",
+    "title": "Czym jest DNA?",
+    "category": "basics",
+    "summary": "Cząsteczka, w której zapisana jest większość informacji dziedzicznej człowieka.",
+    "minutes": 2,
+    "keywords": [
+      "DNA",
+      "podwójna helisa",
+      "nukleotyd",
+      "adenina",
+      "tymina",
+      "guanina",
+      "cytozyna"
+    ],
+    "sections": [
+      {
+        "title": "Instrukcja z czterech liter",
+        "body": "DNA to kwas deoksyrybonukleinowy. Jego nić składa się z nukleotydów zawierających cztery rodzaje zasad: adeninę, tyminę, guaninę i cytozynę. Oznacza się je literami A, T, G i C. Znaczenie ma kolejność tych liter — to w niej zapisana jest informacja biologiczna."
+      },
+      {
+        "title": "Dwie połączone nici",
+        "body": "DNA zwykle tworzy podwójną helisę. Adenina łączy się z tyminą, a guanina z cytozyną. Ta zgodność pomaga komórce kopiować cząsteczkę: każda nić może służyć jako wzorzec dla nowej."
+      },
+      {
+        "title": "Gdzie znajduje się DNA?",
+        "body": "U człowieka większość DNA znajduje się w jądrze komórkowym, a niewielka część — w mitochondriach. DNA zawiera geny oraz odcinki uczestniczące w regulacji ich działania. Nie każdy fragment DNA koduje białko."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics: Czym jest DNA?",
+        "url": "https://medlineplus.gov/genetics/understanding/basics/dna/"
+      }
+    ],
+    "topics": [
+      "dna-structure",
+      "dna-types"
+    ]
+  },
+  {
+    "id": "gene",
+    "title": "Czym jest gen?",
+    "category": "basics",
+    "summary": "Fragment DNA, którego informacja pomaga komórce wytwarzać funkcjonalne cząsteczki.",
+    "minutes": 2,
+    "keywords": [
+      "gen",
+      "białko",
+      "RNA",
+      "allel",
+      "ekspresja"
+    ],
+    "sections": [
+      {
+        "title": "Jednostka informacji dziedzicznej",
+        "body": "Gen to odcinek DNA zawierający informację potrzebną do wytworzenia funkcjonalnego produktu. W przypadku wielu genów jest nim białko; inne geny dają cząsteczki RNA, które same pełnią określone funkcje. Człowiek ma około 20 tysięcy genów kodujących białka."
+      },
+      {
+        "title": "Jeden gen, różne warianty",
+        "body": "Różniące się wersje tego samego genu nazywamy allelami. Zwykle jedną kopię większości genów otrzymujemy od matki, a drugą od ojca. Warianty mogą nie wpływać na zdrowie, nieznacznie zmieniać cechę lub zaburzać działanie genu."
+      },
+      {
+        "title": "Geny działają w określonym kontekście",
+        "body": "Różne komórki korzystają z różnych zestawów genów. Na ich aktywność wpływają odcinki regulatorowe DNA, sygnały wewnątrz organizmu oraz warunki środowiska. Większość złożonych cech, na przykład wzrost, zależy od wielu genów i czynników zewnętrznych."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics: Czym jest gen?",
+        "url": "https://medlineplus.gov/genetics/understanding/basics/gene/"
+      }
+    ],
+    "topics": [
+      "gene-expression"
+    ]
+  },
+  {
+    "id": "chromosomes",
+    "title": "Chromosomy",
+    "category": "basics",
+    "summary": "Jak długie cząsteczki DNA są upakowane w komórkach i dlaczego ich liczba oraz budowa mają znaczenie.",
+    "minutes": 2,
+    "keywords": [
+      "chromosom",
+      "23 pary",
+      "46",
+      "kariotyp",
+      "autosom"
+    ],
+    "sections": [
+      {
+        "title": "Jak upakowane jest DNA?",
+        "body": "Chromosom składa się z DNA i związanych z nim białek. Taka organizacja pozwala przechowywać długą cząsteczkę w niewielkiej przestrzeni i rozdzielać ją podczas podziału komórki. Na jednym chromosomie znajduje się wiele genów."
+      },
+      {
+        "title": "Zestaw chromosomów człowieka",
+        "body": "Typowa komórka somatyczna człowieka z jądrem zawiera 46 chromosomów — 23 pary. Po jednym chromosomie z każdej pary otrzymujemy od każdego z rodziców. Komórki rozrodcze zwykle zawierają 23 chromosomy, bez par. Dojrzałe krwinki czerwone nie mają jądra."
+      },
+      {
+        "title": "Zmiany chromosomowe",
+        "body": "Czasem zmienia się liczba chromosomów lub budowa ich fragmentów. Skutki bywają różne: niektóre zmiany wpływają na rozwój i zdrowie, inne nie powodują zauważalnych objawów. Kariotyp to opis zestawu chromosomów; pokazuje duże zmiany, ale nie wszystkie różnice w DNA."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics: Czym jest chromosom?",
+        "url": "https://medlineplus.gov/genetics/understanding/basics/chromosome/"
+      }
+    ],
+    "topics": [
+      "dna-structure",
+      "cell-division",
+      "chromosomal-effects"
+    ]
+  },
+  {
+    "id": "genome",
+    "title": "Genom człowieka",
+    "category": "basics",
+    "summary": "Kompletny zestaw informacji genetycznej i to, czym różni się od pojedynczego genu.",
+    "minutes": 2,
+    "keywords": [
+      "genom",
+      "kod genetyczny",
+      "genomika",
+      "mitochondrium"
+    ],
+    "sections": [
+      {
+        "title": "Cały zestaw informacji",
+        "body": "Genom to pełny zestaw materiału genetycznego organizmu. Genom człowieka obejmuje DNA jądrowe i mitochondrialne. Jeden zestaw chromosomów jądrowych zawiera około trzech miliardów par zasad."
+      },
+      {
+        "title": "Podobieństwa i różnice",
+        "body": "Sekwencje DNA różnych ludzi są bardzo podobne, ale występuje w nich wiele różnic. Większość takich wariantów nie powoduje choroby. Różnice genetyczne są naturalną częścią ludzkiej różnorodności; pojedynczy wariant nie opisuje całego człowieka."
+      },
+      {
+        "title": "Genom to nie przeznaczenie",
+        "body": "Genom pomaga zrozumieć procesy biologiczne i niektóre zagrożenia dla zdrowia. Rozwój człowieka zależy jednak również od wieku, warunków życia, środowiska i zdarzeń losowych. Nawet obecność wariantu związanego z chorobą nie zawsze oznacza, że choroba na pewno się rozwinie."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NHGRI: Genom",
+        "url": "https://www.genome.gov/genetics-glossary/Genome"
+      }
+    ],
+    "topics": [
+      "dna-structure",
+      "dna-types"
+    ]
+  },
+  {
+    "id": "dna-origin",
+    "title": "Skąd bierze się DNA?",
+    "category": "processes",
+    "summary": "Jak otrzymujemy DNA od rodziców i jak pojawia się ono w nowych komórkach.",
+    "minutes": 2,
+    "keywords": [
+      "skąd DNA",
+      "powstawanie",
+      "zapłodnienie",
+      "pochodzenie",
+      "rodzice"
+    ],
+    "sections": [
+      {
+        "title": "Na początku rozwoju",
+        "body": "Podczas zapłodnienia łączą się komórka jajowa i plemnik. Przyszłe dziecko otrzymuje DNA jądrowe od obojga rodziców. DNA mitochondrialne zwykle dziedziczy po matce. Powstaje w ten sposób nowa kombinacja już istniejącego materiału genetycznego."
+      },
+      {
+        "title": "W każdej nowej komórce",
+        "body": "Przed wieloma podziałami komórkowymi DNA jest kopiowane. Komórka buduje nowe nici z nukleotydów, wykorzystując dotychczasowe nici jako wzorzec. Ten proces nazywamy replikacją. Nowa komórka otrzymuje kopię informacji, zamiast tworzyć cały genom od zera."
+      },
+      {
+        "title": "A pierwsze DNA?",
+        "body": "Pochodzenie pierwszych systemów dziedziczenia pozostaje przedmiotem badań nad początkiem życia. Jedna z hipotez naukowych zakłada ważną rolę RNA na wczesnym etapie. Dokładna droga powstania pierwszych cząsteczek DNA nie jest jeszcze znana; nie należy utożsamiać jej z dobrze zbadanym kopiowaniem DNA we współczesnych komórkach."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics: Jak dzielą się komórki?",
+        "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/cellsdivide/"
+      },
+      {
+        "title": "NHGRI: RNA — kwas rybonukleinowy",
+        "url": "https://www.genome.gov/genetics-glossary/RNA-Ribonucleic-Acid"
+      }
+    ],
+    "topics": [
+      "dna-types",
+      "cell-division"
+    ]
+  },
+  {
+    "id": "replication",
+    "title": "Jak kopiowane jest DNA?",
+    "category": "processes",
+    "summary": "Replikacja: rozdzielenie nici, budowanie kopii i kontrola błędów.",
+    "minutes": 2,
+    "keywords": [
+      "replikacja",
+      "polimeraza DNA",
+      "kopiowanie",
+      "podział"
+    ],
+    "sections": [
+      {
+        "title": "Nici rozdzielają się",
+        "body": "Przed podziałem komórki podwójna helisa otwiera się w określonych miejscach. Dwie dotychczasowe nici stają się matrycami. Enzymy komórkowe pomagają je rozdzielać i wspierają proces kopiowania."
+      },
+      {
+        "title": "Powstają nowe nici",
+        "body": "Enzymy zwane polimerazami DNA dodają nukleotydy zgodnie z zasadą komplementarności: A do T, G do C. Powstają dwie cząsteczki DNA. Każda zawiera jedną starą i jedną nową nić — jest to replikacja semikonserwatywna, czyli półzachowawcza."
+      },
+      {
+        "title": "Błędy i ich naprawa",
+        "body": "Kopiowanie jest zwykle bardzo dokładne. Specjalne mechanizmy wykrywają i naprawiają wiele błędów, ale nie wszystkie. Utrwalona zmiana sekwencji może stać się wariantem genetycznym. Jej skutki zależą od miejsca i charakteru zmiany."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NHGRI: Replikacja DNA",
+        "url": "https://www.genome.gov/genetics-glossary/DNA-Replication"
+      }
+    ],
+    "topics": [
+      "cell-division",
+      "dna-structure",
+      "mutation-causes"
+    ]
+  },
+  {
+    "id": "gene-to-protein",
+    "title": "Od genu do białka",
+    "category": "processes",
+    "summary": "Jak komórka odczytuje informację DNA z pomocą RNA i rybosomów.",
+    "minutes": 2,
+    "keywords": [
+      "transkrypcja",
+      "translacja",
+      "RNA",
+      "rybosom",
+      "aminokwas"
+    ],
+    "sections": [
+      {
+        "title": "Najpierw RNA",
+        "body": "Podczas transkrypcji komórka tworzy cząsteczkę RNA na podstawie określonego fragmentu DNA. W przypadku genów kodujących białka po obróbce powstaje informacyjny RNA, czyli mRNA. Przenosi on informację do struktur komórkowych, które budują białko."
+      },
+      {
+        "title": "Następnie białko",
+        "body": "Rybosom odczytuje mRNA w grupach po trzy zasady, zwanych kodonami. Większość kodonów odpowiada określonemu aminokwasowi. Z aminokwasów powstaje łańcuch, który następnie przyjmuje odpowiedni kształt i może stać się działającym białkiem."
+      },
+      {
+        "title": "Dlaczego to ważne?",
+        "body": "Białka wykonują wiele zadań: uczestniczą w reakcjach chemicznych, przekazują sygnały i tworzą struktury komórki. Niektóre zmiany DNA mogą wpływać na ilość, kształt lub działanie białka. Wiele wariantów nie zmienia jednak jego funkcji w zauważalny sposób."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics: Jak geny kierują produkcją białek?",
+        "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/makingprotein/"
+      }
+    ],
+    "topics": [
+      "gene-expression",
+      "mutation-effects"
+    ]
+  },
+  {
+    "id": "cell-division",
+    "title": "Podział komórek: mitoza i mejoza",
+    "category": "processes",
+    "summary": "Dlaczego zwykłe komórki zachowują zestaw chromosomów, a komórki rozrodcze otrzymują jego połowę.",
+    "minutes": 2,
+    "keywords": [
+      "mitoza",
+      "mejoza",
+      "komórka",
+      "rekombinacja",
+      "crossing-over"
+    ],
+    "sections": [
+      {
+        "title": "Mitoza: wzrost i odnowa",
+        "body": "Podczas mitozy komórka rozdziela wcześniej skopiowane chromosomy między dwie komórki potomne. Zwykle otrzymują one taki sam zestaw chromosomów. W ten sposób organizm rośnie i odnawia wiele tkanek."
+      },
+      {
+        "title": "Mejoza: powstawanie komórek rozrodczych",
+        "body": "Podczas mejozy po jednym kopiowaniu DNA następują dwa kolejne podziały. Liczba chromosomów zmniejsza się o połowę. Podczas zapłodnienia połączenie dwóch komórek rozrodczych odtwarza typowy, podwójny zestaw chromosomów."
+      },
+      {
+        "title": "Źródło różnorodności",
+        "body": "W czasie mejozy chromosomy z pary mogą wymieniać się fragmentami — to rekombinacja. Dodatkową różnorodność tworzy rozdział chromosomów do komórek rozrodczych. Dlatego rodzeństwo zwykle otrzymuje różne kombinacje wariantów DNA."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics: Jak dzielą się komórki?",
+        "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/cellsdivide/"
+      }
+    ],
+    "topics": [
+      "cell-division"
+    ]
+  },
+  {
+    "id": "mutations",
+    "title": "Mutacje i warianty genetyczne",
+    "category": "inheritance",
+    "summary": "Skąd biorą się zmiany DNA i dlaczego zmiana nie musi oznaczać choroby.",
+    "minutes": 2,
+    "keywords": [
+      "mutacja",
+      "wariant",
+      "de novo",
+      "somatyczny",
+      "dziedziczny"
+    ],
+    "sections": [
+      {
+        "title": "Co się zmienia?",
+        "body": "Wariant genetyczny to różnica w sekwencji DNA. Może to być zamiana jednej litery, utrata lub dodanie fragmentu oraz inne zmiany. Słowo „mutacja” bywa używane w tym samym znaczeniu, ale samo w sobie nie oznacza szkodliwości."
+      },
+      {
+        "title": "Skąd biorą się warianty?",
+        "body": "Zmiany powstają podczas kopiowania DNA lub pod wpływem różnych czynników, na przykład promieniowania ultrafioletowego. Niektóre warianty dziedziczymy. Inne pojawiają się po raz pierwszy w komórce rozrodczej rodzica albo na początku rozwoju dziecka; nazywamy je wariantami de novo."
+      },
+      {
+        "title": "Jakie mogą być skutki?",
+        "body": "Wiele wariantów jest neutralnych. Niektóre wiążą się z chorobą lub zmieniają prawdopodobieństwo jej rozwoju. Warianty somatyczne powstają w komórkach ciała i zwykle nie są przekazywane dzieciom. Ocena znaczenia wariantu wymaga danych o genie, samej zmianie i kontekście klinicznym."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics: Czym są warianty genetyczne i jak powstają?",
+        "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/genemutation/"
+      }
+    ],
+    "topics": [
+      "mutations",
+      "mutation-effects"
+    ]
+  },
+  {
+    "id": "inheritance",
+    "title": "Jak dziedziczymy cechy?",
+    "category": "inheritance",
+    "summary": "Dlaczego przypominamy krewnych i dlaczego genetyczne nie zawsze oznacza dziedziczne.",
+    "minutes": 2,
+    "keywords": [
+      "dziedziczenie",
+      "dziedziczność",
+      "genetyczny",
+      "wielogenowy",
+      "rodzina"
+    ],
+    "sections": [
+      {
+        "title": "Dwie kopie większości genów",
+        "body": "W przypadku większości genów otrzymujemy jedną kopię od matki i jedną od ojca. Fragmenty DNA są przekazywane wraz z chromosomami. Ich kombinacje wpływają na cechy, ale reguły różnią się w zależności od cechy."
+      },
+      {
+        "title": "Proste i złożone zależności",
+        "body": "Niektóre schorzenia wiążą się głównie z jednym genem i mają charakterystyczny sposób dziedziczenia. Większość powszechnych cech oraz wiele chorób zależy od kilku genów i czynników zewnętrznych. Ich przekazywania nie da się opisać jednym prostym schematem."
+      },
+      {
+        "title": "Genetyczne a dziedziczne",
+        "body": "Stan genetyczny wiąże się ze zmianą materiału genetycznego. Stan dziedziczny jest przekazywany z rodzica na dziecko. Choroba genetyczna może pojawić się po raz pierwszy w rodzinie, dlatego brak podobnych przypadków jej nie wyklucza. Z kolei stan wrodzony nie zawsze ma przyczynę genetyczną."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics: Jakie są sposoby dziedziczenia chorób genetycznych?",
+        "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+      }
+    ],
+    "topics": [
+      "inheritance-patterns"
+    ]
+  },
+  {
+    "id": "dominant",
+    "title": "Dziedziczenie dominujące",
+    "category": "inheritance",
+    "summary": "Kiedy jedna zmieniona kopia genu może wystarczyć do wystąpienia schorzenia.",
+    "minutes": 2,
+    "keywords": [
+      "autosomalny dominujący",
+      "dominujący",
+      "penetracja",
+      "50%"
+    ],
+    "sections": [
+      {
+        "title": "Jedna kopia może mieć znaczenie",
+        "body": "Przy dziedziczeniu autosomalnym dominującym patogenny wariant w jednej z dwóch kopii określonego genu może prowadzić do choroby. „Autosomalny” oznacza, że gen nie znajduje się na chromosomie płciowym. „Dominujący” nie oznacza silniejszy, korzystniejszy ani częstszy."
+      },
+      {
+        "title": "Prawdopodobieństwo dla dziecka",
+        "body": "W typowej sytuacji, gdy jedno z rodziców ma jeden taki wariant, a drugie go nie ma, prawdopodobieństwo przekazania wariantu każdemu dziecku wynosi 50%. Każda ciąża jest osobnym zdarzeniem. Odziedziczenie wariantu nie zawsze oznacza wystąpienie objawów."
+      },
+      {
+        "title": "Dlaczego objawy się różnią?",
+        "body": "Penetracja określa, u jakiego odsetka osób z danym wariantem pojawiają się cechy choroby. Nasilenie objawów również może być różne. Schorzenia dominujące czasem powstają de novo; przykładem jest zespół Marfana."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics: Sposoby dziedziczenia",
+        "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+      },
+      {
+        "title": "MedlinePlus Genetics: Niepełna penetracja i zmienna ekspresja",
+        "url": "https://medlineplus.gov/genetics/understanding/inheritance/penetranceexpressivity/"
+      }
+    ],
+    "topics": [
+      "inheritance-patterns"
+    ]
+  },
+  {
+    "id": "recessive",
+    "title": "Dziedziczenie recesywne",
+    "category": "inheritance",
+    "summary": "Co oznacza nosicielstwo i jak rozumieć prawdopodobieństwa dziedziczenia.",
+    "minutes": 2,
+    "keywords": [
+      "autosomalny recesywny",
+      "recesywny",
+      "nosiciel",
+      "25%",
+      "50%"
+    ],
+    "sections": [
+      {
+        "title": "Kiedy ważne są obie kopie?",
+        "body": "W chorobie autosomalnej recesywnej zwykle zaburzone jest działanie obu kopii tego samego genu. Występujące w nich warianty patogenne mogą być takie same lub różne. Osoba z jednym wariantem jest często nosicielem i zwykle nie ma samej choroby."
+      },
+      {
+        "title": "Gdy oboje rodzice są nosicielami",
+        "body": "W typowym modelu, gdy oboje rodzice są nosicielami patogennych wariantów tego samego genu, w każdej ciąży prawdopodobieństwo choroby u dziecka wynosi 25%, nosicielstwa — 50%, a braku tych wariantów — 25%. To prawdopodobieństwa, a nie obowiązkowy podział cech wśród czworga dzieci."
+      },
+      {
+        "title": "Przykłady i ograniczenia schematu",
+        "body": "W ten sposób dziedziczone są mukowiscydoza i fenyloketonuria. Prosty schemat dotyczy konkretnego genu i ustalonych wariantów. Nie pozwala rozpoznać nosicielstwa na podstawie wyglądu czy samopoczucia; indywidualne oszacowania omawia się ze specjalistą."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics: Sposoby dziedziczenia",
+        "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+      }
+    ],
+    "topics": [
+      "inheritance-patterns"
+    ]
+  },
+  {
+    "id": "cystic-fibrosis",
+    "title": "Mukowiscydoza",
+    "category": "diseases",
+    "summary": "Choroba dziedziczna związana z genem CFTR i działaniem gruczołów wydzielania zewnętrznego.",
+    "minutes": 2,
+    "keywords": [
+      "CFTR",
+      "mukowiscydoza",
+      "zwłóknienie torbielowate",
+      "płuca"
+    ],
+    "sections": [
+      {
+        "title": "Podłoże genetyczne",
+        "body": "Mukowiscydoza wiąże się z patogennymi wariantami w obu kopiach genu CFTR. Gen ten koduje białko uczestniczące w transporcie jonów przez błonę komórkową. Choroba jest dziedziczona autosomalnie recesywnie."
+      },
+      {
+        "title": "Co dzieje się w organizmie",
+        "body": "Zaburzenie działania CFTR zmienia właściwości wydzielin niektórych gruczołów. Gęsty śluz może utrudniać pracę dróg oddechowych i trzustki. Mogą występować nawracające zakażenia dróg oddechowych i problemy z wchłanianiem składników odżywczych. Objawy i ich nasilenie są zróżnicowane."
+      },
+      {
+        "title": "Jak rozpoznaje się tę chorobę",
+        "body": "Diagnostyka może obejmować oznaczenie stężenia chlorków w pocie oraz badania genetyczne w połączeniu z oceną kliniczną. W wielu krajach mukowiscydoza jest objęta badaniami przesiewowymi noworodków. Pojedynczy objaw ani jeden wykryty wariant nie wystarczają do ustalenia rozpoznania."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics: Mukowiscydoza",
+        "url": "https://medlineplus.gov/genetics/condition/cystic-fibrosis/"
+      }
+    ],
+    "topics": [
+      "organs"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "sickle-cell",
+    "title": "Niedokrwistość sierpowatokrwinkowa",
+    "category": "diseases",
+    "summary": "Grupa dziedzicznych chorób, w których zmieniają się właściwości hemoglobiny.",
+    "minutes": 2,
+    "keywords": [
+      "HBB",
+      "niedokrwistość sierpowatokrwinkowa",
+      "anemia sierpowata",
+      "hemoglobina",
+      "erytrocyt"
+    ],
+    "sections": [
+      {
+        "title": "Zmiana hemoglobiny",
+        "body": "Choroby sierpowatokrwinkowe wiążą się z określonymi wariantami genu HBB. Hemoglobina przenosi tlen wewnątrz erytrocytów, czyli czerwonych krwinek. Zmieniona hemoglobina w pewnych warunkach tworzy włókna, przez co erytrocyty stają się sztywne i mogą przyjmować sierpowaty kształt."
+      },
+      {
+        "title": "Możliwe objawy",
+        "body": "Takie komórki szybciej ulegają rozpadowi i mogą zaburzać przepływ krwi w drobnych naczyniach. Wiąże się to z niedokrwistością, epizodami bólu i innymi powikłaniami. Nasilenie choroby różni się u poszczególnych osób."
+      },
+      {
+        "title": "Dziedziczenie",
+        "body": "Choroba jest dziedziczona autosomalnie recesywnie i obejmuje kilka postaci genetycznych. Nosicielstwo jednego wariantu HbS nazywa się cechą sierpowatokrwinkową; nie jest ono tym samym co choroba. Do określenia postaci wykorzystuje się badanie hemoglobiny i inne metody laboratoryjne."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics: Choroby sierpowatokrwinkowe",
+        "url": "https://medlineplus.gov/genetics/condition/sickle-cell-disease/"
+      }
+    ],
+    "topics": [
+      "blood"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "phenylketonuria",
+    "title": "Fenyloketonuria",
+    "category": "diseases",
+    "summary": "Zaburzenie metabolizmu fenyloalaniny, które warto wykryć już na początku życia.",
+    "minutes": 2,
+    "keywords": [
+      "PKU",
+      "PAH",
+      "fenyloalanina",
+      "badania przesiewowe"
+    ],
+    "sections": [
+      {
+        "title": "Co ulega zmianie",
+        "body": "Klasyczna fenyloketonuria najczęściej wiąże się z patogennymi wariantami w obu kopiach genu PAH. Zmniejszają one aktywność enzymu uczestniczącego w przemianach aminokwasu fenyloalaniny. W rezultacie jej stężenie może wzrastać."
+      },
+      {
+        "title": "Dlaczego ważne są wczesne badania przesiewowe",
+        "body": "Bez odpowiednio wczesnej pomocy wysokie stężenie fenyloalaniny może uszkadzać rozwijający się układ nerwowy. Noworodek może przy tym wyglądać na zdrowego. Dlatego fenyloketonurię wykrywa się w badaniach przesiewowych noworodków, zanim pojawią się objawy."
+      },
+      {
+        "title": "Sposób dziedziczenia",
+        "body": "Fenyloketonuria jest dziedziczona autosomalnie recesywnie. Nosiciele jednego patogennego wariantu zwykle nie chorują. Dodatni wynik badania przesiewowego wymaga badań potwierdzających; sam w sobie nie oznacza jeszcze ustalonego rozpoznania."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics: Fenyloketonuria",
+        "url": "https://medlineplus.gov/genetics/condition/phenylketonuria/"
+      }
+    ],
+    "topics": [
+      "metabolic"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "huntington",
+    "title": "Choroba Huntingtona",
+    "category": "diseases",
+    "summary": "Choroba związana ze zwiększoną liczbą powtórzeń w genie HTT.",
+    "minutes": 2,
+    "keywords": [
+      "Huntington",
+      "choroba Huntingtona",
+      "HTT",
+      "CAG",
+      "powtórzenia"
+    ],
+    "sections": [
+      {
+        "title": "Powtarzający się fragment DNA",
+        "body": "Choroba Huntingtona wiąże się ze zwiększoną liczbą powtórzeń sekwencji CAG w genie HTT. Prowadzi to do zmian białka huntingtyny. Znaczenie wyniku zależy od liczby powtórzeń; istnieją zakresy o różnym prawdopodobieństwie wystąpienia objawów."
+      },
+      {
+        "title": "Główne objawy",
+        "body": "Choroba stopniowo wpływa na działanie układu nerwowego. Mogą występować mimowolne ruchy oraz zmiany myślenia i nastroju. Pierwsze objawy często pojawiają się w dorosłości, ale wiek ich wystąpienia i przebieg choroby są zróżnicowane."
+      },
+      {
+        "title": "Dziedziczenie i badania",
+        "body": "Dziedziczenie jest autosomalne dominujące. Liczba powtórzeń może się zmieniać przy przekazywaniu do następnego pokolenia. Badanie predykcyjne osoby bez objawów jest osobistą decyzją, której zwykle towarzyszy poradnictwo genetyczne i omówienie możliwych konsekwencji wyniku."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics: Choroba Huntingtona",
+        "url": "https://medlineplus.gov/genetics/condition/huntington-disease/"
+      }
+    ],
+    "topics": [
+      "neurological"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "marfan",
+    "title": "Zespół Marfana",
+    "category": "diseases",
+    "summary": "Genetyczna choroba tkanki łącznej związana z genem FBN1.",
+    "minutes": 2,
+    "keywords": [
+      "Marfan",
+      "FBN1",
+      "fibrylina",
+      "tkanka łączna",
+      "aorta"
+    ],
+    "sections": [
+      {
+        "title": "Rola tkanki łącznej",
+        "body": "Zespół Marfana najczęściej wiąże się z patogennymi wariantami genu FBN1, kodującego fibrylinę 1. Białko to uczestniczy w budowie tkanki łącznej, która wspiera wiele narządów i struktur organizmu."
+      },
+      {
+        "title": "Różne układy organizmu",
+        "body": "Objawy mogą dotyczyć szkieletu, oczu, serca i naczyń krwionośnych, w tym aorty. U niektórych osób występują wysoki wzrost i długie palce. Sam wygląd nie pozwala jednak rozpoznać ani wykluczyć zespołu."
+      },
+      {
+        "title": "Przypadki rodzinne i nowe",
+        "body": "Dziedziczenie jest autosomalne dominujące, ale część przypadków powstaje de novo. Nasilenie cech różni się nawet w obrębie jednej rodziny. Rozpoznanie opiera się na łącznej ocenie danych klinicznych, wywiadu rodzinnego i, gdy jest to uzasadnione, badania genetycznego."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics: Zespół Marfana",
+        "url": "https://medlineplus.gov/genetics/condition/marfan-syndrome/"
+      }
+    ],
+    "topics": [
+      "connective"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "hemophilia",
+    "title": "Hemofilia A i B",
+    "category": "diseases",
+    "summary": "Dziedziczne zaburzenia krzepnięcia krwi związane z genami F8 i F9.",
+    "minutes": 2,
+    "keywords": [
+      "hemofilia",
+      "F8",
+      "F9",
+      "chromosom X",
+      "krew"
+    ],
+    "sections": [
+      {
+        "title": "Czynniki krzepnięcia",
+        "body": "W hemofilii A zaburzone jest działanie czynnika krzepnięcia VIII, zwykle z powodu wariantów genu F8. W hemofilii B zmiany dotyczą czynnika IX i genu F9. Białka te są potrzebne do prawidłowego powstawania skrzepu krwi."
+      },
+      {
+        "title": "Jak się objawia",
+        "body": "Mogą występować przedłużone krwawienia oraz wylewy krwi do stawów i mięśni. Ciężkość choroby zależy od resztkowej aktywności danego czynnika. Postacie dziedziczne należy odróżniać od hemofilii nabytej, która ma inny mechanizm."
+      },
+      {
+        "title": "Związek z chromosomem X",
+        "body": "Geny F8 i F9 znajdują się na chromosomie X. Dlatego hemofilia znacznie częściej ujawnia się u osób z jednym chromosomem X. Nosicielki wariantów również mogą mieć objawy. Niektóre przypadki pojawiają się po raz pierwszy w rodzinie; dokładne ryzyko zależy od sytuacji genetycznej."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics: Hemofilia",
+        "url": "https://medlineplus.gov/genetics/condition/hemophilia/"
+      }
+    ],
+    "topics": [
+      "blood"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "down-syndrome",
+    "title": "Zespół Downa",
+    "category": "diseases",
+    "summary": "Zespół uwarunkowany chromosomowo, zwykle związany z dodatkową kopią chromosomu 21.",
+    "minutes": 2,
+    "keywords": [
+      "Down",
+      "zespół Downa",
+      "trisomia 21",
+      "chromosom 21",
+      "mozaicyzm"
+    ],
+    "sections": [
+      {
+        "title": "Dodatkowy materiał genetyczny",
+        "body": "Zespół Downa zwykle występuje, gdy obecne są trzy kopie chromosomu 21 zamiast dwóch — jest to trisomia 21. Rzadziej dodatkowy materiał wiąże się z translokacją lub występuje tylko w części komórek, co nazywa się mozaicyzmem."
+      },
+      {
+        "title": "Rozwój i zdrowie",
+        "body": "Stan ten wpływa na rozwój i może wiązać się ze szczególnymi potrzebami w uczeniu się, wrodzonymi wadami serca oraz innymi schorzeniami. Konkretne zdolności, potrzeby i stan zdrowia znacznie się różnią. Osoby z zespołem Downa mogą się uczyć, pracować i uczestniczyć w życiu społecznym."
+      },
+      {
+        "title": "Genetyczne nie zawsze znaczy dziedziczne",
+        "body": "Większość przypadków wiąże się z losowym zdarzeniem podczas powstawania komórek rozrodczych i nie jest bezpośrednio dziedziczona. Niektóre postacie translokacyjne mogą mieć związek z rodzinną przebudową chromosomów. Badanie przesiewowe ocenia prawdopodobieństwo, a potwierdzenie wymaga badania diagnostycznego."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics: Zespół Downa",
+        "url": "https://medlineplus.gov/genetics/condition/down-syndrome/"
+      }
+    ],
+    "topics": [
+      "chromosomal",
+      "chromosomal-effects"
+    ],
+    "diseaseType": "chromosomal"
+  },
+  {
+    "id": "duchenne",
+    "title": "Dystrofia mięśniowa Duchenne’a",
+    "category": "diseases",
+    "summary": "Dziedziczna choroba mięśni związana z niedoborem białka dystrofiny.",
+    "minutes": 2,
+    "keywords": [
+      "Duchenne",
+      "DMD",
+      "dystrofina",
+      "dystrofia mięśniowa",
+      "Becker"
+    ],
+    "sections": [
+      {
+        "title": "Gen DMD i dystrofina",
+        "body": "Dystrofia mięśniowa Duchenne’a wiąże się z patogennymi wariantami genu DMD. Zwykle prowadzą one do braku lub znacznego niedoboru funkcjonalnej dystrofiny — białka, które pomaga komórkom mięśniowym wytrzymywać obciążenia."
+      },
+      {
+        "title": "Postępujące osłabienie",
+        "body": "Pierwsze objawy zwykle pojawiają się w dzieciństwie. Osłabienie mięśni stopniowo narasta; zmiany mogą obejmować także mięśnie oddechowe i mięsień sercowy. Pokrewna choroba, dystrofia Beckera, zwykle rozpoczyna się później i ma inny przebieg."
+      },
+      {
+        "title": "Dziedziczenie",
+        "body": "Gen DMD znajduje się na chromosomie X. Choroba częściej ujawnia się u chłopców, ale nosicielki również mogą mieć objawy, między innymi ze strony serca. Część przypadków powstaje de novo. Dane kliniczne i badanie genetyczne pomagają wyjaśnić przyczynę."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics: Dystrofia mięśniowa Duchenne’a i Beckera",
+        "url": "https://medlineplus.gov/genetics/condition/duchenne-and-becker-muscular-dystrophy/"
+      }
+    ],
+    "topics": [
+      "neurological"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "genetic-testing",
+    "title": "Co pokazuje badanie genetyczne?",
+    "category": "research",
+    "summary": "Możliwości, ograniczenia i różne rodzaje wyników badań DNA.",
+    "minutes": 2,
+    "keywords": [
+      "badanie genetyczne",
+      "test genetyczny",
+      "analiza DNA",
+      "VUS",
+      "diagnostyka",
+      "wynik ujemny"
+    ],
+    "sections": [
+      {
+        "title": "Różne badania mają różne cele",
+        "body": "Badania genetyczne mogą poszukiwać konkretnego wariantu, analizować wybrany zestaw genów lub wykrywać zmiany liczby i struktury chromosomów. Jedno badanie nie wykrywa wszystkich możliwych zmian. Wybór metody zależy od pytania, na które szukamy odpowiedzi."
+      },
+      {
+        "title": "Wynik wymaga interpretacji",
+        "body": "Patogenny wariant może wyjaśniać dany stan lub wskazywać na ryzyko — zależnie od sytuacji. Wynik ujemny nie zawsze wyklucza przyczynę genetyczną. Wariant o niepewnym znaczeniu oznacza, że nie ma jeszcze wystarczających danych do wiarygodnego wniosku; nie jest potwierdzoną przyczyną choroby."
+      },
+      {
+        "title": "Przed badaniem i po nim",
+        "body": "Warto rozumieć cel badania, jego ograniczenia, możliwość nieoczekiwanych wyników i zasady przechowywania danych. Wyniki mogą mieć znaczenie dla krewnych. Medyczne badanie genetyczne ma inny cel niż test pochodzenia wykonywany z ciekawości."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics: Czym jest badanie genetyczne?",
+        "url": "https://medlineplus.gov/genetics/understanding/testing/genetictesting/"
+      },
+      {
+        "title": "MedlinePlus Genetics: Co oznaczają wyniki badań genetycznych?",
+        "url": "https://medlineplus.gov/genetics/understanding/testing/interpretingresults/"
+      }
+    ],
+    "topics": [
+      "testing"
+    ]
+  },
+  {
+    "id": "sequencing",
+    "title": "Sekwencjonowanie DNA",
+    "category": "research",
+    "summary": "Jak badacze odczytują kolejność liter DNA i czym różnią się panel genów, eksom i genom.",
+    "minutes": 2,
+    "keywords": [
+      "sekwencjonowanie",
+      "eksom",
+      "genom",
+      "panel genów",
+      "NGS"
+    ],
+    "sections": [
+      {
+        "title": "Odczytywanie sekwencji",
+        "body": "Sekwencjonowanie określa kolejność zasad we fragmencie DNA. Współczesne metody pozwalają odczytywać wiele fragmentów jednocześnie, a programy komputerowe porównują wyniki z sekwencją referencyjną. Wykrytą różnicę trzeba jeszcze ocenić pod względem biologicznym i medycznym."
+      },
+      {
+        "title": "Panel, eksom i genom",
+        "body": "Panel obejmuje wybrane geny. Sekwencjonowanie eksomu skupia się głównie na fragmentach kodujących białka. Badanie całogenomowe obejmuje znacznie większą część DNA. Szerszy zakres nie gwarantuje odpowiedzi na każde pytanie medyczne."
+      },
+      {
+        "title": "Ograniczenia",
+        "body": "Niektóre regiony powtarzalne, złożone lub o niewystarczającym pokryciu trudno analizować. Poszczególne metody różnią się zdolnością wykrywania dużych przebudów, zmian liczby kopii i innych cech. Interpretacja zależy od jakości danych oraz aktualnej wiedzy naukowej i może się z czasem zmieniać."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NHGRI: Sekwencjonowanie DNA",
+        "url": "https://www.genome.gov/genetics-glossary/DNA-Sequencing"
+      },
+      {
+        "title": "MedlinePlus Genetics: Sekwencjonowanie całego eksomu i całego genomu",
+        "url": "https://medlineplus.gov/genetics/understanding/testing/sequencing/"
+      }
+    ],
+    "topics": [
+      "testing",
+      "biotechnology"
+    ]
+  },
+  {
+    "id": "screening",
+    "title": "Badania przesiewowe i diagnostyka",
+    "category": "research",
+    "summary": "Dlaczego wynik „podwyższone ryzyko” różni się od ustalonego rozpoznania.",
+    "minutes": 2,
+    "keywords": [
+      "badania przesiewowe",
+      "screening",
+      "NIPT",
+      "noworodek",
+      "wynik fałszywie dodatni",
+      "diagnoza"
+    ],
+    "sections": [
+      {
+        "title": "Cel badań przesiewowych",
+        "body": "Badania przesiewowe pomagają wskazać osoby, które mogą potrzebować dalszych badań, jeszcze przed wystąpieniem objawów. Przykładami są badania przesiewowe noworodków i niektóre badania prenatalne. Wynik przesiewowy zwykle ocenia prawdopodobieństwo, a nie stanowi ostatecznego rozpoznania."
+      },
+      {
+        "title": "Dlaczego potrzebne jest potwierdzenie",
+        "body": "Żadne badanie przesiewowe nie jest całkowicie dokładne: możliwe są wyniki fałszywie dodatnie i fałszywie ujemne. Prawdopodobieństwo, że dodatni wynik odzwierciedla rzeczywisty stan, zależy również od częstości tego stanu w badanej grupie. Dlatego wyniki rozpatruje się łącznie z innymi danymi."
+      },
+      {
+        "title": "Czym zajmuje się diagnostyka",
+        "body": "Badanie diagnostyczne służy potwierdzeniu lub uściśleniu rozpoznania określonego stanu. Dobiera się je do sytuacji klinicznej. Na przykład analiza wolnego DNA podczas ciąży jest badaniem przesiewowym, a nie ostateczną diagnostyką zmian chromosomowych."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics: Zastosowania badań genetycznych",
+        "url": "https://medlineplus.gov/genetics/understanding/testing/uses/"
+      },
+      {
+        "title": "MedlinePlus Genetics: Nieinwazyjne badania prenatalne",
+        "url": "https://medlineplus.gov/genetics/understanding/testing/nipt/"
+      }
+    ],
+    "topics": [
+      "testing"
+    ]
+  },
+  {
+    "id": "genetic-counseling",
+    "title": "Poradnictwo genetyczne",
+    "category": "research",
+    "summary": "Jak specjalista pomaga zrozumieć wywiad rodzinny, badania i ich wyniki.",
+    "minutes": 2,
+    "keywords": [
+      "genetyk",
+      "poradnictwo genetyczne",
+      "rodowód",
+      "wywiad rodzinny",
+      "poufność"
+    ],
+    "sections": [
+      {
+        "title": "Rozmowa o konkretnej sytuacji",
+        "body": "Poradnictwo genetyczne pomaga zrozumieć, jak dziedziczność może wiązać się ze zdrowiem danej osoby i jej rodziny. Specjalista omawia wywiad medyczny i rodzinny, możliwe badania, prawdopodobieństwa oraz ograniczenia dostępnej wiedzy."
+      },
+      {
+        "title": "Świadoma decyzja",
+        "body": "Poradnictwo może być przydatne zarówno przed badaniem, jak i po nim. Jego celem jest wyjaśnienie informacji i wsparcie samodzielnej decyzji osoby z uwzględnieniem jej wartości. Badanie nie jest konieczne w każdej sytuacji."
+      },
+      {
+        "title": "Dane genetyczne są osobiste",
+        "body": "Wyniki mogą dotyczyć kwestii poufności i mieć znaczenie dla krewnych. Przed badaniem warto wiedzieć, kto uzyska dostęp do danych, jak będą przechowywane i czy mogą zostać ponownie wykorzystane. Zasady różnią się między organizacjami i krajami."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics: Czym jest poradnictwo genetyczne?",
+        "url": "https://medlineplus.gov/genetics/understanding/consult/reasons/"
+      }
+    ],
+    "topics": [
+      "testing",
+      "inheritance-patterns"
+    ]
+  },
+  {
+    "id": "nucleotides",
+    "title": "Nukleotydy — budulec DNA",
+    "category": "basics",
+    "summary": "DNA jest długim łańcuchem niewielkich jednostek zwanych nukleotydami. To ich kolejność pozwala zapisywać informację genetyczną.",
+    "minutes": 2,
+    "keywords": [
+      "nukleotyd",
+      "nukleotydy",
+      "adenina",
+      "tymina",
+      "guanina",
+      "cytozyna",
+      "zasada azotowa",
+      "fosforan",
+      "deoksyryboza"
+    ],
+    "topics": [
+      "dna-structure"
+    ],
+    "sections": [
+      {
+        "title": "Trzy części jednej jednostki",
+        "body": "Każdy nukleotyd DNA składa się z cukru — deoksyrybozy — grupy fosforanowej i zasady azotowej. W DNA występują cztery główne zasady: adenina, tymina, guanina i cytozyna, zapisywane literami A, T, G i C. Nukleotyd to cała jednostka, a nie tylko sama litera."
+      },
+      {
+        "title": "Jak powstaje nić",
+        "body": "Cukry i grupy fosforanowe sąsiednich nukleotydów tworzą trwały szkielet nici. Zasady wystają z niego do środka podwójnej helisy i łączą się w pary z zasadami drugiej nici. Budowa chemiczna nadaje nici określony kierunek, istotny podczas kopiowania DNA i odczytywania genów."
+      },
+      {
+        "title": "Kolejność ma znaczenie",
+        "body": "Informacja wynika przede wszystkim z kolejności zasad, podobnie jak znaczenie słowa wynika z układu liter. Zamiana, usunięcie albo dodanie nukleotydu może zmienić działanie genu. Nie każda taka zmiana ma jednak znaczenie dla zdrowia: jej skutek zależy od miejsca w genomie i kontekstu biologicznego."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NHGRI — nukleotyd",
+        "url": "https://www.genome.gov/genetics-glossary/Nucleotide"
+      }
+    ]
+  },
+  {
+    "id": "base-pairing",
+    "title": "Pary zasad: dlaczego A łączy się z T",
+    "category": "basics",
+    "summary": "Dwie nici DNA pasują do siebie dzięki zasadzie komplementarności: adenina tworzy parę z tyminą, a guanina z cytozyną.",
+    "minutes": 2,
+    "keywords": [
+      "pary zasad",
+      "komplementarność",
+      "A T",
+      "G C",
+      "adenina tymina",
+      "guanina cytozyna",
+      "wiązania wodorowe"
+    ],
+    "topics": [
+      "dna-structure"
+    ],
+    "sections": [
+      {
+        "title": "Dopasowanie cząsteczek",
+        "body": "Zasady azotowe mają kształty i właściwości chemiczne sprzyjające określonemu dopasowaniu. W typowej podwójnej helisie DNA A łączy się z T, a G z C za pomocą wiązań wodorowych. Stabilność helisy zależy także od oddziaływań między sąsiadującymi zasadami, a nie wyłącznie od tych wiązań."
+      },
+      {
+        "title": "Druga nić jako wzór",
+        "body": "Jeśli znamy kolejność zasad jednej nici, możemy przewidzieć kolejność w drugiej. Ta zależność pozwala komórce odtworzyć DNA podczas replikacji: każda ze starych nici stanowi wzór dla nowej. Nici biegną w przeciwnych kierunkach, dlatego zapis sekwencji wymaga określenia jej orientacji."
+      },
+      {
+        "title": "Co mierzy para zasad",
+        "body": "Para zasad to również jednostka długości dwuniciowego DNA. Zapis „1000 par zasad” oznacza fragment z tysiącem sparowanych pozycji. Nie mówi natomiast, ile genów zawiera ten odcinek ani jaką pełni funkcję. Długość i biologiczne znaczenie fragmentu to dwie różne cechy."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NHGRI — para zasad",
+        "url": "https://www.genome.gov/genetics-glossary/Base-Pair"
+      }
+    ]
+  },
+  {
+    "id": "dna-rna",
+    "title": "DNA i RNA — podobne litery, różne zadania",
+    "category": "basics",
+    "summary": "DNA zwykle przechowuje informację genetyczną, a różne rodzaje RNA uczestniczą w jej wykorzystaniu i regulowaniu.",
+    "minutes": 2,
+    "keywords": [
+      "DNA RNA",
+      "kwas rybonukleinowy",
+      "kwas deoksyrybonukleinowy",
+      "mRNA",
+      "rRNA",
+      "tRNA",
+      "uracyl",
+      "ryboza"
+    ],
+    "topics": [
+      "dna-structure",
+      "gene-expression"
+    ],
+    "sections": [
+      {
+        "title": "Różnice w budowie",
+        "body": "DNA zawiera cukier deoksyrybozę i zasady A, T, G oraz C. RNA zawiera rybozę, a zamiast tyminy zwykle uracyl, oznaczany literą U. W komórkach człowieka DNA zazwyczaj tworzy dwuniciową helisę. RNA jest często jednoniciowe, ale może się zwijać i tworzyć skomplikowane struktury przestrzenne."
+      },
+      {
+        "title": "Wiele rodzajów RNA",
+        "body": "Informacyjny RNA, czyli mRNA, może przenosić instrukcję budowy białka do rybosomu. Rybosomalny RNA współtworzy rybosomy, a transportujący RNA pomaga dopasowywać aminokwasy do odczytywanej sekwencji. Inne RNA regulują aktywność genów lub uczestniczą w obróbce cząsteczek. Nie każde RNA jest więc instrukcją produkcji białka."
+      },
+      {
+        "title": "Współpraca zamiast rywalizacji",
+        "body": "Podczas transkrypcji informacja z wybranego fragmentu DNA jest przepisywana na RNA. Dzięki temu komórka może korzystać z określonych genów bez zużywania oryginalnego zapisu. To uproszczony opis działania ludzkich komórek; niektóre wirusy używają RNA jako swojego materiału genetycznego i mają inne cykle jego powielania."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NHGRI — kwas rybonukleinowy (RNA)",
+        "url": "https://www.genome.gov/genetics-glossary/Ribonucleic-Acid-RNA"
+      }
+    ]
+  },
+  {
+    "id": "nuclear-dna",
+    "title": "DNA jądrowe — biblioteka w jądrze komórki",
+    "category": "basics",
+    "summary": "Zdecydowana większość ludzkiego DNA znajduje się w jądrze komórkowym. Jest uporządkowana w chromosomy i współpracuje z białkami.",
+    "minutes": 2,
+    "keywords": [
+      "DNA jądrowe",
+      "jądro komórkowe",
+      "chromosomy",
+      "genom jądrowy",
+      "autosomalne",
+      "chromosomy płci"
+    ],
+    "topics": [
+      "dna-types"
+    ],
+    "sections": [
+      {
+        "title": "Gdzie znajduje się zapis",
+        "body": "Jądro to otoczona błonami część komórki, w której znajduje się większość jej DNA. Długie cząsteczki DNA są połączone z białkami i tworzą chromosomy. Nie wszystkie ludzkie komórki mają jądro: dojrzałe krwinki czerwone je tracą, dlatego nie mają typowego zestawu DNA jądrowego."
+      },
+      {
+        "title": "Dwa zestawy chromosomów",
+        "body": "Typowa komórka somatyczna z jądrem zawiera 46 chromosomów, uporządkowanych w 23 pary. Jeden zestaw pochodzi od matki, a drugi od ojca. Komórki rozrodcze mają zazwyczaj po 23 chromosomy. Istnieją też biologiczne wyjątki i zmiany liczby chromosomów, dlatego ta reguła nie opisuje każdej komórki bez wyjątku."
+      },
+      {
+        "title": "Co odróżnia je od mtDNA",
+        "body": "DNA jądrowe zawiera większość genów potrzebnych do rozwoju i funkcjonowania organizmu, w tym liczne geny ważne dla mitochondriów. Same mitochondria przechowują dodatkowo własny, niewielki genom. Te dwa zasoby DNA różnią się organizacją i typowym sposobem dziedziczenia, ale ich produkty współdziałają w tej samej komórce."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NHGRI — jądro komórkowe",
+        "url": "https://www.genome.gov/genetics-glossary/Nucleus"
+      },
+      {
+        "title": "NHGRI — DNA",
+        "url": "https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA"
+      }
+    ]
+  },
+  {
+    "id": "mitochondrial-dna",
+    "title": "DNA mitochondrialne — mały genom poza jądrem",
+    "category": "basics",
+    "summary": "Mitochondria mają własne DNA, nazywane mtDNA. U człowieka jest ono niewielkie i zwykle dziedziczone od matki.",
+    "minutes": 2,
+    "keywords": [
+      "mtDNA",
+      "DNA mitochondrialne",
+      "mitochondrium",
+      "mitochondria",
+      "heteroplazmia",
+      "dziedziczenie mitochondrialne",
+      "37 genów"
+    ],
+    "topics": [
+      "dna-types",
+      "mitochondrial"
+    ],
+    "sections": [
+      {
+        "title": "Co zawiera mtDNA",
+        "body": "Mitochondria pomagają komórce uzyskiwać energię w postaci ATP. Ludzkie DNA mitochondrialne ma zwykle postać kolistej cząsteczki i zawiera 37 genów. Tylko część z nich koduje białka, pozostałe dostarczają niezbędnych RNA. Większość białek potrzebnych mitochondriom jest jednak kodowana przez DNA jądrowe."
+      },
+      {
+        "title": "Dziedziczenie i wiele kopii",
+        "body": "Komórka może zawierać liczne mitochondria i wiele kopii mtDNA. U człowieka przekazywane jest ono zwykle przez komórkę jajową, dlatego typowy wzór dziedziczenia jest matczyny. W jednej osobie mogą współistnieć różne wersje mtDNA. Taką mieszaninę określa się jako heteroplazmię, a jej proporcje mogą różnić się między tkankami."
+      },
+      {
+        "title": "Dlaczego to ważne",
+        "body": "Niektóre warianty mtDNA zaburzają wytwarzanie energii i mogą być związane z chorobami mitochondrialnymi. Ich przebieg zależy między innymi od rodzaju wariantu i udziału zmienionych kopii. Inne choroby mitochondriów wynikają ze zmian w genach jądrowych. Samo określenie „choroba mitochondrialna” nie przesądza więc o matczynym sposobie dziedziczenia."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NHGRI — DNA mitochondrialne",
+        "url": "https://www.genome.gov/genetics-glossary/Mitochondrial-DNA"
+      }
+    ]
+  },
+  {
+    "id": "plasmids",
+    "title": "Plazmidy — dodatkowe cząsteczki DNA",
+    "category": "basics",
+    "summary": "Plazmid to cząsteczka DNA, która może być utrzymywana i kopiowana oddzielnie od głównego chromosomu. Najczęściej omawia się je na przykładzie bakterii.",
+    "minutes": 2,
+    "keywords": [
+      "plazmid",
+      "plazmidy",
+      "DNA bakterii",
+      "koliste DNA",
+      "wektor",
+      "oporność na antybiotyki"
+    ],
+    "topics": [
+      "dna-types"
+    ],
+    "sections": [
+      {
+        "title": "Dodatkowy zasób informacji",
+        "body": "Wiele plazmidów jest niewielkich i kolistych, choć występują także inne formy. Nie każda bakteria ma plazmid, a plazmidy nie są typowym składnikiem ludzkiego genomu. Mogą zawierać geny zwiększające szansę przetrwania w określonych warunkach, na przykład umożliwiające wykorzystanie dodatkowych substancji odżywczych."
+      },
+      {
+        "title": "Przekazywanie między komórkami",
+        "body": "Część plazmidów może przenosić się między bakteriami lub korzystać z mechanizmów, które to umożliwiają. Jest to przykład poziomego transferu genów, czyli wymiany informacji innej niż przekazywanie jej potomstwu. Jeżeli plazmid niesie gen oporności na antybiotyk, jego rozprzestrzenianie może mieć znaczenie dla zdrowia publicznego."
+      },
+      {
+        "title": "Rola w badaniach",
+        "body": "W biologii molekularnej odpowiednio przygotowane plazmidy służą jako wektory, czyli nośniki wybranych fragmentów DNA. Pomagają naukowcom badać funkcję genów i produkować określone białka. Są narzędziem laboratoryjnym, a nie prostym sposobem zmiany cech człowieka. To, jak działają, zależy od ich budowy oraz rodzaju komórki, w której są wykorzystywane."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NHGRI — plazmid",
+        "url": "https://www.genome.gov/genetics-glossary/Plasmid"
+      }
+    ]
+  },
+  {
+    "id": "coding-noncoding",
+    "title": "DNA kodujące i niekodujące",
+    "category": "basics",
+    "summary": "Tylko niewielka część ludzkiego genomu bezpośrednio koduje białka. Pozostałe DNA pełni wiele różnych funkcji, a część z nich nadal badamy.",
+    "minutes": 2,
+    "keywords": [
+      "DNA kodujące",
+      "DNA niekodujące",
+      "niekodujący",
+      "eksony",
+      "introny",
+      "regulacja genów",
+      "promotor",
+      "enhancer"
+    ],
+    "topics": [
+      "dna-structure",
+      "gene-expression"
+    ],
+    "sections": [
+      {
+        "title": "Co znaczy „kodujące”",
+        "body": "Sekwencja kodująca białko zawiera informację o kolejności aminokwasów w jego łańcuchu. Takie fragmenty stanowią około jednego do dwóch procent ludzkiego genomu. Nie należy jednak utożsamiać wszystkich genów z instrukcjami budowy białek: niektóre geny wytwarzają funkcjonalne RNA, które nie jest tłumaczone na białko."
+      },
+      {
+        "title": "Wiele zadań poza białkami",
+        "body": "Niekodujące fragmenty DNA mogą zawierać przełączniki wpływające na miejsce, czas i poziom aktywności genów. Inne są potrzebne do organizacji chromosomów lub powstawania określonych RNA. Do tej szerokiej grupy należą również introny, liczne powtórzenia i sekwencje, których szczegółowej roli jeszcze nie ustalono."
+      },
+      {
+        "title": "Zmiana poza genem też może mieć znaczenie",
+        "body": "Wariant w regionie regulacyjnym może zmienić ilość powstającego produktu genu, mimo że nie zmienia sekwencji samego białka. Z drugiej strony wiele wariantów niekodujących nie powoduje zauważalnych skutków zdrowotnych. Znaczenia konkretnej zmiany nie można więc wywnioskować wyłącznie z etykiety „kodująca” albo „niekodująca”."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — DNA niekodujące",
+        "url": "https://medlineplus.gov/genetics/understanding/basics/noncodingdna/"
+      }
+    ]
+  },
+  {
+    "id": "chromatin",
+    "title": "Chromatyna — jak komórka pakuje DNA",
+    "category": "basics",
+    "summary": "Chromatyna to DNA połączone z białkami. Pomaga zmieścić genom w jądrze i decyduje, które fragmenty są łatwo dostępne dla komórki.",
+    "minutes": 2,
+    "keywords": [
+      "chromatyna",
+      "histony",
+      "nukleosom",
+      "upakowanie DNA",
+      "euchromatyna",
+      "heterochromatyna",
+      "chromosom"
+    ],
+    "topics": [
+      "dna-structure"
+    ],
+    "sections": [
+      {
+        "title": "Nić na białkowych szpulkach",
+        "body": "Bardzo długie cząsteczki DNA muszą zmieścić się w niewielkim jądrze. Podstawową jednostką ich organizacji jest nukleosom: odcinek DNA owinięty wokół zespołu białek histonowych. Nukleosomy i kolejne poziomy organizacji tworzą chromatynę. Nie jest to sztywny kłębek, lecz struktura, którą komórka stale przebudowuje."
+      },
+      {
+        "title": "Dostęp do informacji",
+        "body": "Luźniej upakowane obszary bywają bardziej dostępne dla białek uczestniczących w odczytywaniu genów. Gęściej upakowane mogą utrudniać ten dostęp, chociaż zależność nie sprowadza się do prostego przełącznika. Modyfikacje histonów, chemiczne znaczniki DNA i różne białka współtworzą system regulacji. Sama sekwencja liter DNA nie opisuje całej jego organizacji."
+      },
+      {
+        "title": "Chromatyna i chromosomy",
+        "body": "Chromosomy są zbudowane z chromatyny przez cały cykl komórkowy. Podczas podziału ulegają silnemu upakowaniu i stają się wyraźniej widoczne pod mikroskopem. To zmiana organizacji materiału, a nie powstanie nowego rodzaju DNA. Zaburzenia białek organizujących chromatynę mogą wpływać na rozwój i działanie wielu genów jednocześnie."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NHGRI — chromatyna",
+        "url": "https://www.genome.gov/genetics-glossary/Chromatin"
+      }
+    ]
+  },
+  {
+    "id": "telomeres",
+    "title": "Telomery — zakończenia chromosomów",
+    "category": "basics",
+    "summary": "Telomery to powtarzające się sekwencje DNA i współpracujące z nimi białka na końcach liniowych chromosomów. Pomagają chronić te zakończenia.",
+    "minutes": 2,
+    "keywords": [
+      "telomer",
+      "telomery",
+      "telomeraza",
+      "końce chromosomów",
+      "starzenie komórek",
+      "TTAGGG"
+    ],
+    "topics": [
+      "dna-structure",
+      "cell-division"
+    ],
+    "sections": [
+      {
+        "title": "Ochrona końców DNA",
+        "body": "Naturalne zakończenie chromosomu nie powinno być traktowane przez komórkę tak jak przypadkowe pęknięcie DNA. Telomery i związane z nimi białka pomagają odróżnić te sytuacje oraz ograniczać nieprawidłowe łączenie końców. U człowieka zawierają wiele powtórzeń krótkiej sekwencji TTAGGG, ale ich długość nie jest taka sama w każdej komórce."
+      },
+      {
+        "title": "Podziały i telomeraza",
+        "body": "W wielu komórkach somatycznych telomery stopniowo skracają się w trakcie kolejnych podziałów. Enzym telomeraza może wydłużać ich DNA i jest aktywny między innymi w określonych komórkach rozrodczych i macierzystych. Krótkie lub uszkodzone telomery mogą uruchamiać odpowiedzi ograniczające dalsze podziały komórki."
+      },
+      {
+        "title": "Więcej niż zegar wieku",
+        "body": "Długość telomerów zależy od wielu czynników, dlatego nie jest prostym licznikiem wieku ani samodzielną prognozą zdrowia. Utrzymywanie telomerów ma także znaczenie w biologii wielu nowotworów. Nie wynika z tego, że ich wydłużanie zawsze służy organizmowi. Zależności między telomerami, starzeniem i chorobą pozostają złożone i intensywnie badane."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NHGRI — telomer",
+        "url": "https://www.genome.gov/genetics-glossary/Telomere"
+      }
+    ]
+  },
+  {
+    "id": "transcription",
+    "title": "Transkrypcja — przepisywanie DNA na RNA",
+    "category": "processes",
+    "summary": "Transkrypcja pozwala komórce korzystać z informacji zapisanej w DNA: wybrany fragment jest przepisywany na cząsteczkę RNA.",
+    "minutes": 2,
+    "keywords": [
+      "transkrypcja",
+      "polimeraza RNA",
+      "mRNA",
+      "promotor",
+      "ekspresja genu",
+      "matryca"
+    ],
+    "topics": [
+      "gene-expression"
+    ],
+    "sections": [
+      {
+        "title": "Od wybranego genu do kopii",
+        "body": "Komórka nie odczytuje całego genomu naraz. Białka regulacyjne pomagają wskazać miejsca, w których może rozpocząć się transkrypcja. Enzym zwany polimerazą RNA wykorzystuje jedną nić DNA jako matrycę i łączy odpowiednie nukleotydy RNA. Sekwencja nowej cząsteczki jest komplementarna do odczytywanego fragmentu matrycy."
+      },
+      {
+        "title": "Co powstaje w wyniku odczytu",
+        "body": "RNA może być etapem prowadzącym do powstania białka, lecz nie zawsze nim jest. Powstają również RNA rybosomalne, transportujące i liczne cząsteczki regulacyjne. W ludzkich komórkach wstępny transkrypt genu kodującego białko zwykle przechodzi obróbkę, zanim dojrzałe mRNA zostanie wykorzystane przez rybosom."
+      },
+      {
+        "title": "Ilość też ma znaczenie",
+        "body": "Aktywność transkrypcji jest regulowana zależnie od rodzaju komórki, etapu rozwoju i sygnałów z otoczenia. Dlatego komórka nerwowa i mięśniowa mogą wykorzystywać różne zestawy genów, mimo że mają podobną sekwencję DNA. Transkrypcja nie kopiuje całego genomu przed podziałem: to zadanie replikacji, czyli innego procesu."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NHGRI — transkrypcja",
+        "url": "https://www.genome.gov/genetics-glossary/Transcription"
+      }
+    ]
+  },
+  {
+    "id": "translation",
+    "title": "Translacja — jak rybosom buduje białko",
+    "category": "processes",
+    "summary": "W translacji kolejność nukleotydów mRNA pomaga określić kolejność aminokwasów w białku. Tę pracę wykonuje rybosom.",
+    "minutes": 2,
+    "keywords": [
+      "translacja",
+      "rybosom",
+      "kodon",
+      "aminokwas",
+      "kod genetyczny",
+      "tRNA",
+      "synteza białka"
+    ],
+    "topics": [
+      "gene-expression"
+    ],
+    "sections": [
+      {
+        "title": "Odczyt po trzy litery",
+        "body": "Rybosom odczytuje informację w mRNA w grupach po trzy nukleotydy, zwanych kodonami. Większość kodonów odpowiada określonemu aminokwasowi, a inne wyznaczają zakończenie odczytu. Cząsteczki transportującego RNA, czyli tRNA, pomagają dostarczać właściwe aminokwasy. Ten system przyporządkowania nazywamy kodem genetycznym."
+      },
+      {
+        "title": "Powstawanie łańcucha",
+        "body": "Rybosom łączy aminokwasy w rosnący łańcuch, przesuwając się wzdłuż mRNA. Gdy odczyt dobiega końca, powstały polipeptyd zostaje uwolniony. Żeby działać prawidłowo, często musi jeszcze przyjąć odpowiedni kształt, zostać zmodyfikowany lub połączyć się z innymi cząsteczkami. Sama kolejność aminokwasów to dopiero część historii gotowego białka."
+      },
+      {
+        "title": "Nie każdy RNA jest tłumaczony",
+        "body": "Translacja dotyczy odpowiednich sekwencji w mRNA. Liczne inne RNA pełnią własne funkcje i nie są instrukcjami budowy białek. Zmiana DNA może wpłynąć na translację, jeżeli zmieni kodon, ramkę odczytu albo regulację procesu. Jej skutek zależy jednak od konkretnego wariantu, więc nie każda zmiana prowadzi do uszkodzenia białka."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NHGRI — translacja",
+        "url": "https://www.genome.gov/genetics-glossary/Translation"
+      }
+    ]
+  },
+  {
+    "id": "rna-splicing",
+    "title": "Splicing RNA — składanie wiadomości",
+    "category": "processes",
+    "summary": "Wiele ludzkich transkryptów RNA wymaga obróbki. Podczas splicingu wybrane fragmenty są usuwane, a pozostałe łączone w dojrzałą cząsteczkę.",
+    "minutes": 2,
+    "keywords": [
+      "splicing",
+      "składanie RNA",
+      "splicing alternatywny",
+      "ekson",
+      "intron",
+      "izoformy",
+      "spliceosom"
+    ],
+    "topics": [
+      "gene-expression"
+    ],
+    "sections": [
+      {
+        "title": "Eksony i introny",
+        "body": "Wstępny RNA powstający z wielu ludzkich genów zawiera eksony i introny. Podczas splicingu introny są zwykle wycinane, a eksony łączone. Proces odbywa się w RNA, więc nie oznacza usuwania fragmentów z samego chromosomu. Pomaga w nim rozbudowany zespół białek i RNA zwany spliceosomem."
+      },
+      {
+        "title": "Jeden gen, różne wersje",
+        "body": "Splicing alternatywny pozwala łączyć fragmenty transkryptu na różne sposoby. Jeden gen może dzięki temu dostarczać więcej niż jedną wersję RNA, a czasem również różne postacie białka. Wybór wersji zależy między innymi od rodzaju komórki i jej stanu. Nie każda powstająca wersja musi być równie trwała lub aktywna."
+      },
+      {
+        "title": "Gdy sygnał zostaje zmieniony",
+        "body": "Wariant DNA w miejscu ważnym dla splicingu może utrudnić prawidłowe rozpoznanie granic fragmentów. Może to prowadzić do pominięcia eksonu albo pozostawienia części intronu w RNA. Znaczenie zdrowotne takiej zmiany ocenia się w kontekście konkretnego genu i wyników badań. Sama bliskość granicy eksonu nie jest jeszcze dowodem chorobotwórczości."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NHGRI — splicing alternatywny",
+        "url": "https://www.genome.gov/genetics-glossary/Alternative-Splicing"
+      }
+    ]
+  },
+  {
+    "id": "dna-repair",
+    "title": "Jak komórka naprawia DNA",
+    "category": "processes",
+    "summary": "DNA może ulegać uszkodzeniom podczas normalnej pracy komórki i pod wpływem otoczenia. Systemy naprawcze pomagają zachować jego informację.",
+    "minutes": 2,
+    "keywords": [
+      "naprawa DNA",
+      "uszkodzenie DNA",
+      "reperacja",
+      "błędy replikacji",
+      "BRCA1",
+      "stabilność genomu"
+    ],
+    "sections": [
+      {
+        "title": "Uszkodzenie to nie zawsze mutacja",
+        "body": "W DNA mogą powstawać uszkodzone zasady, nieprawidłowe połączenia i pęknięcia nici. Źródłem bywa metabolizm komórki, promieniowanie ultrafioletowe albo błąd podczas kopiowania. Uszkodzenie chemiczne nie jest tym samym co utrwalona zmiana sekwencji. Jeżeli komórka poprawnie je usunie, informacja genetyczna może pozostać bez zmian. Dlatego sam kontakt z czynnikiem uszkadzającym nie przesądza o mutacji."
+      },
+      {
+        "title": "Różne zespoły naprawcze",
+        "body": "Komórka korzysta z wielu białek, które rozpoznają problem, usuwają wadliwy fragment i odtwarzają brakujący zapis. Inne mechanizmy poprawiają błędnie sparowane zasady, a inne zajmują się pęknięciami obu nici. Niektóre naprawy wykorzystują podobną sekwencję jako wzorzec. Żaden system nie działa jednak bezbłędnie we wszystkich sytuacjach; sposób naprawy zależy między innymi od rodzaju uszkodzenia."
+      },
+      {
+        "title": "Dlaczego to ma znaczenie",
+        "body": "Gdy naprawa zawiedzie, zmiana może zostać przekazana komórkom potomnym. Warianty niektórych genów naprawy zwiększają podatność na określone choroby, w tym nowotwory, ale nie oznaczają pewnego zachorowania. Przykładem jest BRCA1, którego białko uczestniczy w naprawie DNA. Procesy te łączą codzienną biologię komórki z dziedziczną predyspozycją i zmianami nabywanymi w ciągu życia."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — warianty i mutacje genów",
+        "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/genemutation/"
+      },
+      {
+        "title": "MedlinePlus Genetics — gen BRCA1 i naprawa DNA",
+        "url": "https://medlineplus.gov/genetics/gene/brca1/"
+      }
+    ],
+    "topics": [
+      "mutations",
+      "mutation-causes"
+    ]
+  },
+  {
+    "id": "recombination",
+    "title": "Rekombinacja i crossing-over",
+    "category": "processes",
+    "summary": "Podczas tworzenia komórek rozrodczych chromosomy mogą wymieniać odpowiadające sobie fragmenty. Dzięki temu potomstwo otrzymuje nowe zestawienia wariantów genów.",
+    "minutes": 2,
+    "keywords": [
+      "rekombinacja",
+      "crossing-over",
+      "mejoza",
+      "chromosomy homologiczne",
+      "różnorodność genetyczna",
+      "sprzężenie genów"
+    ],
+    "sections": [
+      {
+        "title": "Wymiana między podobnymi chromosomami",
+        "body": "W mejozie chromosom odziedziczony od matki łączy się w parę z odpowiadającym mu chromosomem od ojca. Ich niesiostrzane chromatydy mogą wymienić fragmenty DNA. Zjawisko to nazywamy crossing-over. Zwykle wymiana odbywa się między odpowiadającymi sobie obszarami, dzięki czemu powstają nowe kombinacje już istniejących wariantów bez konieczności tworzenia nowych mutacji."
+      },
+      {
+        "title": "Dlaczego rodzeństwo się różni",
+        "body": "Rekombinacja, niezależny rozdział chromosomów i losowe połączenie komórek rozrodczych zwiększają różnorodność potomstwa. Chromosom przekazany dziecku nie musi być wierną kopią jednego chromosomu dziadka lub babci. Jest często mieszaniną odziedziczonych od nich fragmentów. Dlatego rodzeństwo, poza bliźniętami jednojajowymi, otrzymuje różne zestawy wariantów DNA, choć ma tych samych biologicznych rodziców."
+      },
+      {
+        "title": "Rekombinacja ma swoje ograniczenia",
+        "body": "Warianty leżące blisko siebie na jednym chromosomie częściej są dziedziczone razem niż warianty odległe. To podstawa pojęcia sprzężenia genów. Zdarza się również nieprawidłowe dopasowanie fragmentów, które może prowadzić do delecji lub duplikacji. Rekombinacja nie jest więc dowolnym mieszaniem całego genomu; podlega organizacji chromosomów i biologicznym mechanizmom kontroli podczas podziału."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NHGRI — crossing-over i wymiana fragmentów chromosomów",
+        "url": "https://www.genome.gov/genetics-glossary/Crossing-Over"
+      }
+    ],
+    "topics": [
+      "cell-division",
+      "inheritance-patterns"
+    ]
+  },
+  {
+    "id": "epigenetics",
+    "title": "Epigenetyka: regulacja aktywności genów",
+    "category": "inheritance",
+    "summary": "Komórki mogą odmiennie korzystać z podobnego DNA. Epigenetyka opisuje część mechanizmów regulujących aktywność genów bez zmiany kolejności liter DNA.",
+    "minutes": 2,
+    "keywords": [
+      "epigenetyka",
+      "epigenom",
+      "regulacja genów",
+      "metylacja",
+      "histony",
+      "ekspresja genów"
+    ],
+    "sections": [
+      {
+        "title": "Ten sam zapis, różne komórki",
+        "body": "Komórka skóry i komórka nerwowa mają zasadniczo ten sam genom, lecz wykonują inne zadania. Korzystają z odmiennych zestawów genów. W utrzymaniu tych różnic uczestniczą mechanizmy epigenetyczne, między innymi znaczniki chemiczne na DNA i białkach chromatyny. Współpracują one z innymi elementami regulacji, a nie zastępują samej sekwencji genetycznej."
+      },
+      {
+        "title": "Znaczniki mogą się zmieniać",
+        "body": "Epigenom zmienia się podczas rozwoju, starzenia i różnicowania komórek. Wpływ mogą mieć także niektóre czynniki środowiskowe. Nie oznacza to jednak, że każda codzienna czynność przewidywalnie włącza lub wyłącza konkretny gen. Skutek zależy od tkanki, etapu życia i kontekstu biologicznego, a obserwowane powiązanie nie zawsze potwierdza bezpośredni związek przyczynowy."
+      },
+      {
+        "title": "Czy takie zmiany są dziedziczne",
+        "body": "Niektóre wzorce epigenetyczne są utrzymywane podczas podziałów komórek, co pomaga zachować ich tożsamość. Przekaz między pokoleniami organizmów jest innym i bardziej złożonym zagadnieniem. W tworzeniu komórek rozrodczych i we wczesnym rozwoju wiele znaczników zostaje przeprogramowanych. Wyników dotyczących dziedziczenia epigenetycznego u innych gatunków nie można automatycznie przenosić na ludzi."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — epigenetyka i epigenom",
+        "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/epigenome/"
+      }
+    ],
+    "topics": [
+      "epigenetics"
+    ]
+  },
+  {
+    "id": "dna-methylation",
+    "title": "Metylacja DNA",
+    "category": "processes",
+    "summary": "Do niektórych miejsc DNA mogą być dołączane małe grupy chemiczne. Metylacja pomaga komórkom regulować wykorzystanie informacji genetycznej.",
+    "minutes": 2,
+    "keywords": [
+      "metylacja DNA",
+      "grupa metylowa",
+      "cytozyna",
+      "CpG",
+      "epigenetyka",
+      "imprinting",
+      "piętnowanie genomowe"
+    ],
+    "sections": [
+      {
+        "title": "Mały znacznik na cząsteczce",
+        "body": "Metylacja polega na dołączeniu grupy metylowej do DNA. U człowieka często dotyczy cytozyny w miejscach określanych jako CpG. Nie zmienia to sekwencji liter DNA, lecz może wpływać na sposób rozpoznawania danego obszaru przez białka. Wzory metylacji należą do epigenomu i różnią się między typami komórek oraz etapami rozwoju."
+      },
+      {
+        "title": "Nie działa jak jeden przełącznik",
+        "body": "Metylacja niektórych obszarów regulatorowych wiąże się z ograniczeniem aktywności genu. Nie każda metylacja oznacza jednak wyłączenie genu: znaczenie zależy od jej położenia i otoczenia. Ważna jest również budowa chromatyny oraz działanie białek regulacyjnych. Aby zrozumieć efekt, trzeba rozpatrywać konkretną tkankę i region genomu, zamiast liczyć znaczniki w całej cząsteczce."
+      },
+      {
+        "title": "Rola w rozwoju i zdrowiu",
+        "body": "Metylacja uczestniczy między innymi w utrzymaniu tożsamości komórek i piętnowaniu genomowym, czyli zależnej od pochodzenia rodzicielskiego aktywności niektórych genów. Nieprawidłowe wzorce występują w różnych chorobach, ale pojedynczy wynik metylacji zwykle nie daje samodzielnego rozpoznania. Badania epigenetyczne mierzą określony stan biologiczny; nie są prostym odczytem wszystkich doświadczeń człowieka ani jego przyszłości."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — znaczniki epigenetyczne i metylacja DNA",
+        "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/epigenome/"
+      }
+    ],
+    "topics": [
+      "epigenetics"
+    ]
+  },
+  {
+    "id": "x-linked",
+    "title": "Dziedziczenie sprzężone z chromosomem X",
+    "category": "inheritance",
+    "summary": "Niektóre geny leżą na chromosomie X. Ich położenie sprawia, że wzory przekazywania wariantów i występowania objawów różnią się między rodzinami.",
+    "minutes": 2,
+    "keywords": [
+      "sprzężone z X",
+      "chromosom X",
+      "dziedziczenie recesywne",
+      "dziedziczenie dominujące",
+      "nosicielka",
+      "hemofilia"
+    ],
+    "sections": [
+      {
+        "title": "Dlaczego chromosom X jest szczególny",
+        "body": "W typowym układzie chromosomów płci osoby z zestawem XY mają jeden chromosom X, a osoby z zestawem XX mają dwa. Wariant genu na jedynym X może ujawnić swój efekt bez drugiej kopii tego genu na drugim X. Istnieją jednak różne układy chromosomów i wiele wyjątków zależnych od konkretnego schorzenia."
+      },
+      {
+        "title": "Przekazywanie w rodzinie",
+        "body": "Ojciec przekazuje swój chromosom X córkom, a synom chromosom Y, więc nie przekazuje synowi wariantu sprzężonego z X poprzez ten chromosom. Matka może przekazać jedną ze swoich kopii X zarówno córce, jak i synowi. Ryzyko choroby zależy od wariantu, sposobu dziedziczenia i genotypów rodziców; nie wynika wyłącznie z płci dziecka."
+      },
+      {
+        "title": "Kobiety także mogą mieć objawy",
+        "body": "W chorobach recesywnych sprzężonych z X kobiety z jednym wariantem bywają określane jako nosicielki. Nie zawsze oznacza to brak objawów. Znaczenie może mieć między innymi nierównomierna inaktywacja chromosomu X. W chorobach dominujących jedna zmieniona kopia może powodować objawy także u osób XX. Każdy wzór należy więc odnieść do określonej choroby."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — wzory dziedziczenia, w tym sprzężone z X",
+        "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+      }
+    ],
+    "topics": [
+      "inheritance-patterns"
+    ]
+  },
+  {
+    "id": "mitochondrial-inheritance",
+    "title": "Dziedziczenie mitochondrialne",
+    "category": "inheritance",
+    "summary": "Mitochondria mają własne DNA, przekazywane człowiekowi zasadniczo przez matkę. Jego dziedziczenie różni się od dziedziczenia genów jądrowych.",
+    "minutes": 2,
+    "keywords": [
+      "dziedziczenie mitochondrialne",
+      "mtDNA",
+      "linia matczyna",
+      "heteroplazmia",
+      "mitochondria",
+      "próg mitochondrialny"
+    ],
+    "sections": [
+      {
+        "title": "DNA spoza jądra komórkowego",
+        "body": "Większość genów człowieka znajduje się w jądrze komórkowym, lecz niewielki genom mają także mitochondria. Zarodek otrzymuje je zasadniczo z komórki jajowej. Dlatego mężczyźni i kobiety mogą mieć warianty mitochondrialnego DNA, ale przekazywanie mtDNA kolejnemu pokoleniu odbywa się zazwyczaj przez matkę. Nie jest to typowy wzór dominujący ani recesywny."
+      },
+      {
+        "title": "Różne proporcje w różnych komórkach",
+        "body": "W jednej komórce mogą współistnieć kopie mtDNA z danym wariantem i bez niego. Tę sytuację nazywamy heteroplazmią. Proporcje mogą różnić się między tkankami oraz między dziećmi tej samej matki. Z tego powodu objawy i ich nasilenie bywają bardzo zróżnicowane, a wykrycie wariantu nie daje prostego procentowego przewidywania przebiegu choroby."
+      },
+      {
+        "title": "Nie każda choroba mitochondriów dziedziczy się tak samo",
+        "body": "Wiele białek potrzebnych mitochondriom jest kodowanych przez geny jądrowe. Choroby związane z takimi genami mogą mieć na przykład dziedziczenie autosomalne recesywne. Określenie „choroba mitochondrialna” opisuje zaburzoną funkcję komórkową, a nie jeden schemat dziedziczenia. Do zrozumienia historii rodzinnej potrzebna jest informacja o konkretnym genie, wariancie i miejscu jego występowania."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — mitochondrialny wzór dziedziczenia",
+        "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+      }
+    ],
+    "topics": [
+      "inheritance-patterns",
+      "mitochondrial"
+    ]
+  },
+  {
+    "id": "penetrance",
+    "title": "Penetracja i zmienna ekspresywność",
+    "category": "inheritance",
+    "summary": "Ten sam wariant genetyczny może wywoływać różne objawy albo nie ujawniać się wcale. Penetracja i ekspresywność pomagają opisać te różnice.",
+    "minutes": 2,
+    "keywords": [
+      "penetracja",
+      "penetrance",
+      "zmienna ekspresja",
+      "ekspresywność",
+      "niepełna penetracja",
+      "objawy",
+      "ryzyko"
+    ],
+    "sections": [
+      {
+        "title": "Penetracja: czy cecha się ujawni",
+        "body": "Penetracja opisuje, jaka część osób z określonym wariantem genetycznym wykazuje związaną z nim cechę lub objawy. Przy niepełnej penetracji nie każda osoba z wariantem zachoruje. Wartość może zależeć od wieku, badanego objawu i sposobu obserwacji. Nie jest uniwersalną liczbą przypisaną raz na zawsze do całego genu lub całej choroby."
+      },
+      {
+        "title": "Ekspresywność: jak wygląda ujawniona cecha",
+        "body": "Zmienna ekspresywność oznacza różnice w rodzaju lub nasileniu objawów u osób, u których cecha się ujawniła. Jedna osoba może mieć łagodne dolegliwości, a inna istotne problemy w kilku narządach. Penetracja i ekspresywność opisują różne pytania: pierwsza dotyczy wystąpienia cechy, druga jej postaci. W rodzinie można obserwować oba zjawiska jednocześnie."
+      },
+      {
+        "title": "Dlaczego wynik nie opisuje całej przyszłości",
+        "body": "Na obraz choroby mogą wpływać inne warianty genetyczne, środowisko, wiek i procesy losowe. Dlatego identyczny wynik dotyczący jednego wariantu nie gwarantuje identycznego przebiegu. Dane populacyjne pomagają szacować ryzyko, lecz nie pozwalają dokładnie przewidzieć życia konkretnej osoby. Interpretacja wymaga uwzględnienia choroby, historii rodzinnej i aktualnej wiedzy o danym wariancie."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — niepełna penetracja i zmienna ekspresywność",
+        "url": "https://medlineplus.gov/genetics/understanding/inheritance/penetranceexpressivity/"
+      }
+    ],
+    "topics": [
+      "inheritance-patterns",
+      "mutation-effects"
+    ]
+  },
+  {
+    "id": "mosaicism",
+    "title": "Mozaicyzm genetyczny",
+    "category": "inheritance",
+    "summary": "Nie wszystkie komórki jednej osoby muszą mieć identyczny zestaw wariantów DNA. Mozaicyzm może powstać po zapłodnieniu, podczas rozwoju organizmu.",
+    "minutes": 2,
+    "keywords": [
+      "mozaicyzm",
+      "mozaika genetyczna",
+      "wariant somatyczny",
+      "mozaicyzm germinalny",
+      "mozaicyzm gonadalny",
+      "komórki rozrodcze"
+    ],
+    "sections": [
+      {
+        "title": "Zmiana w jednej linii komórek",
+        "body": "Jeżeli nowy wariant DNA pojawi się w komórce po zapłodnieniu, jej komórki potomne mogą go odziedziczyć, podczas gdy inne linie komórkowe pozostaną bez tej zmiany. Powstaje mozaika genetyczna. Może dotyczyć pojedynczej litery DNA, większego fragmentu chromosomu lub liczby chromosomów. Jej zasięg zależy między innymi od momentu i miejsca powstania zmiany."
+      },
+      {
+        "title": "Tkanki mogą pokazywać inny obraz",
+        "body": "Wariant może występować w dużej części organizmu albo tylko w wybranych tkankach. Nasilenie objawów nie zależy więc wyłącznie od samej nazwy wariantu. Badanie próbki krwi może nie ujawnić zmiany obecnej głównie w innej tkance. Ujemny wynik konkretnego testu nie zawsze wyklucza mozaicyzm; znaczenie mają rodzaj próbki i czułość zastosowanej metody."
+      },
+      {
+        "title": "Znaczenie dla dziedziczenia",
+        "body": "Jeżeli wariant obejmuje komórki rozrodcze, może zostać przekazany dziecku, nawet gdy rodzic nie ma wyraźnych objawów. Mówimy wtedy o mozaicyzmie germinalnym lub gonadalnym. Zmiany ograniczone do innych komórek ciała nie są przekazywane tą samą drogą. Dlatego brak wariantu we krwi rodzica nie zawsze oznacza zerowe ryzyko ponownego wystąpienia w rodzinie."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NHGRI — mozaicyzm genetyczny",
+        "url": "https://www.genome.gov/genetics-glossary/Mosaicism"
+      }
+    ],
+    "topics": [
+      "mutations",
+      "mutation-causes"
+    ]
+  },
+  {
+    "id": "gene-environment",
+    "title": "Geny i środowisko",
+    "category": "inheritance",
+    "summary": "Wiele cech i chorób zależy jednocześnie od licznych wariantów DNA oraz warunków życia. Genetyczna podatność nie jest tym samym co przeznaczenie.",
+    "minutes": 2,
+    "keywords": [
+      "geny i środowisko",
+      "wieloczynnikowe",
+      "wielogenowe",
+      "predyspozycja",
+      "interakcja",
+      "złożone choroby"
+    ],
+    "sections": [
+      {
+        "title": "Więcej niż jeden czynnik",
+        "body": "W przypadku wielu częstych chorób nie istnieje jeden wariant, który sam wyjaśnia wszystkie zachorowania. Znaczenie mają liczne geny, wiek, czynniki środowiskowe i inne procesy biologiczne. Takie schorzenia nazywamy złożonymi lub wieloczynnikowymi. Występowanie choroby w rodzinie może wynikać zarówno ze wspólnych wariantów DNA, jak i z podobnych warunków życia."
+      },
+      {
+        "title": "Ten sam czynnik, różne efekty",
+        "body": "Wpływ określonego środowiska może zależeć od uwarunkowań genetycznych. Również znaczenie wariantu może różnić się w zależności od otoczenia. Nie oznacza to, że znamy wszystkie takie zależności ani że możemy obliczyć je dla każdej osoby. Wyniki badań grupowych bywają zależne od badanej populacji i nie zawsze łatwo przenoszą się na inną grupę."
+      },
+      {
+        "title": "Co z tego wynika",
+        "body": "Predyspozycja oznacza zmianę prawdopodobieństwa, a nie pewność zachorowania. Geny i środowisko nie są konkurującymi wyjaśnieniami: mogą działać razem. Nie każda zależność przebiega przez epigenetykę, a złożonych chorób nie należy mylić z prostymi wzorami dziedziczenia jednogenowego. Udział poszczególnych czynników różni się między cechami, chorobami oraz etapami życia człowieka."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — choroby złożone i wieloczynnikowe",
+        "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/complexdisorders/"
+      }
+    ],
+    "topics": [
+      "epigenetics",
+      "inheritance-patterns"
+    ]
+  },
+  {
+    "id": "pcr",
+    "title": "PCR: powielanie wybranego fragmentu DNA",
+    "category": "research",
+    "summary": "Reakcja łańcuchowa polimerazy pozwala uzyskać wiele kopii określonego fragmentu DNA. To ważne narzędzie badań biologicznych i diagnostyki laboratoryjnej.",
+    "minutes": 2,
+    "keywords": [
+      "PCR",
+      "reakcja łańcuchowa polimerazy",
+      "amplifikacja",
+      "startery",
+      "polimeraza",
+      "RT-PCR",
+      "qPCR"
+    ],
+    "sections": [
+      {
+        "title": "Kopiowanie wybranego celu",
+        "body": "PCR nie powiela dowolnie całego materiału genetycznego. Krótkie fragmenty zwane starterami wskazują obszar, który ma zostać skopiowany, a polimeraza DNA buduje nowe nici. Kolejne cykle reakcji zwiększają liczbę kopii celu. Dzięki temu fragment obecny początkowo w małej ilości może stać się łatwiejszy do wykrycia lub dalszego zbadania."
+      },
+      {
+        "title": "Różne wersje jednej idei",
+        "body": "Klasyczna PCR pozwala uzyskać produkt do późniejszej analizy. W qPCR sygnał jest śledzony podczas reakcji, co umożliwia określone pomiary ilościowe. Gdy materiałem wyjściowym jest RNA, najpierw można przepisać je na DNA za pomocą odwrotnej transkrypcji. Skrót RT-PCR odnosi się do tego etapu i nie jest prostym synonimem każdej PCR w czasie rzeczywistym."
+      },
+      {
+        "title": "Wynik zależy od pytania",
+        "body": "PCR może służyć badaniu wybranych wariantów, wykrywaniu materiału drobnoustrojów albo przygotowaniu DNA do innych analiz. Sama metoda nie odczytuje automatycznie całego genomu i nie wykrywa wszystkich możliwych zmian. Znaczenie wyniku zależy od celu badania, jakości próbki, kontroli i projektu testu. Dodatni sygnał wymaga interpretacji w kontekście konkretnego zastosowania."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NHGRI — reakcja łańcuchowa polimerazy PCR",
+        "url": "https://www.genome.gov/genetics-glossary/Polymerase-Chain-Reaction-PCR"
+      }
+    ],
+    "topics": [
+      "testing",
+      "biotechnology"
+    ]
+  },
+  {
+    "id": "crispr",
+    "title": "CRISPR i edycja genomu",
+    "category": "research",
+    "summary": "CRISPR to rodzina narzędzi umożliwiających celowane zmiany w DNA. Badacze wykorzystują je do poznawania genów i opracowywania wybranych terapii.",
+    "minutes": 2,
+    "keywords": [
+      "CRISPR",
+      "Cas9",
+      "edycja genomu",
+      "edycja genów",
+      "RNA przewodnikowe",
+      "terapia genowa",
+      "base editing"
+    ],
+    "sections": [
+      {
+        "title": "Narzędzie kierowane do celu",
+        "body": "W popularnych systemach CRISPR odpowiednio dobrane RNA pomaga skierować białko, na przykład Cas9, do określonego miejsca w genomie. Niektóre narzędzia przecinają DNA, a komórka naprawia powstałe pęknięcie. Inne wersje mogą zmieniać wybrane zasady bez klasycznego przecięcia obu nici. To grupa różnych technik, a nie jeden identyczny sposób naprawiania każdego genu."
+      },
+      {
+        "title": "Co można dzięki temu badać",
+        "body": "Zmiana aktywności lub sekwencji genu pozwala sprawdzać jego funkcję w komórkach i modelach badawczych. Edycję wykorzystuje się także w części zaawansowanych terapii dla ściśle określonych wskazań. Nie oznacza to możliwości bezpiecznego usunięcia dowolnej choroby genetycznej. Przeszkodą mogą być między innymi dostarczenie narzędzia do właściwych komórek i złożona przyczyna choroby."
+      },
+      {
+        "title": "Precyzja wymaga sprawdzenia",
+        "body": "Badacze oceniają zamierzone i niezamierzone zmiany oraz skutki biologiczne edycji. Nawet prawidłowo wybrane miejsce nie gwarantuje identycznego efektu we wszystkich komórkach. Zmiany komórek somatycznych dotyczą leczonej osoby. Edycja komórek rozrodczych lub zarodków wiąże się z odrębnymi ograniczeniami naukowymi, etycznymi i prawnymi; nie jest rutynową metodą zapobiegania dziedzicznym chorobom."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — edycja genomu i CRISPR",
+        "url": "https://medlineplus.gov/genetics/understanding/genomicresearch/genomeediting/"
+      }
+    ],
+    "topics": [
+      "biotechnology"
+    ]
+  },
+  {
+    "id": "gene-therapy",
+    "title": "Na czym polega terapia genowa",
+    "category": "research",
+    "summary": "Terapia genowa wykorzystuje materiał genetyczny lub jego modyfikację do leczenia określonych chorób. Jej możliwości zależą od konkretnego schorzenia i metody.",
+    "minutes": 2,
+    "keywords": [
+      "terapia genowa",
+      "wektor",
+      "leczenie genetyczne",
+      "edycja genów",
+      "ex vivo",
+      "in vivo",
+      "komórki somatyczne"
+    ],
+    "sections": [
+      {
+        "title": "Różne sposoby działania",
+        "body": "Jedna strategia dostarcza komórkom działającą kopię genu, inna zmniejsza aktywność szkodliwego genu lub modyfikuje wybraną sekwencję. Materiał może być przenoszony za pomocą odpowiednio przygotowanego nośnika. Pojęcie terapii genowej obejmuje różne technologie i nie oznacza zawsze usunięcia pierwotnego wariantu DNA ze wszystkich komórek organizmu. Mechanizm zależy od projektowanego produktu i celu leczenia."
+      },
+      {
+        "title": "W organizmie albo poza nim",
+        "body": "W podejściu in vivo materiał jest dostarczany bezpośrednio do organizmu. W podejściu ex vivo pobrane komórki są modyfikowane poza organizmem, a następnie podawane pacjentowi. Nie każda tkanka jest równie łatwo dostępna. Ważne pozostają właściwe komórki docelowe, skuteczność dostarczania, trwałość działania oraz ocena bezpieczeństwa w danym wskazaniu klinicznym."
+      },
+      {
+        "title": "Możliwość nie oznacza uniwersalnego rozwiązania",
+        "body": "Część terapii jest zatwierdzona dla ściśle określonych chorób i grup pacjentów, a wiele innych pozostaje przedmiotem badań. Nie każda terapia prowadzi do całkowitego wyleczenia i nie każda będzie odpowiednia dla każdej osoby z podobnym rozpoznaniem. Leczenie komórek somatycznych zasadniczo nie zmienia DNA przekazywanego dzieciom. Ocenę kwalifikacji i ryzyka prowadzą wyspecjalizowane zespoły medyczne."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — czym jest terapia genowa",
+        "url": "https://medlineplus.gov/genetics/understanding/therapy/genetherapy/"
+      }
+    ],
+    "topics": [
+      "biotechnology"
+    ]
+  },
+  {
+    "id": "turner",
+    "title": "Zespół Turnera",
+    "category": "diseases",
+    "summary": "Zespół Turnera wiąże się z całkowitym lub częściowym brakiem jednego chromosomu X. Jego cechy i nasilenie są bardzo zróżnicowane.",
+    "minutes": 2,
+    "keywords": [
+      "Turner",
+      "45 X",
+      "monosomia X",
+      "chromosom X",
+      "mozaicyzm",
+      "niski wzrost"
+    ],
+    "sections": [
+      {
+        "title": "Co zmienia się w chromosomach",
+        "body": "W zespole Turnera brakuje całego drugiego chromosomu płciowego lub jego fragmentu. Częsty zapis kariotypu to 45,X. U części osób występuje mozaicyzm: różne komórki mają różne zestawy chromosomów. Zespół dotyczy zwykle osób o żeńskim kierunku rozwoju płciowego."
+      },
+      {
+        "title": "Jakie cechy mogą występować",
+        "body": "Do częstych cech należą niski wzrost oraz odmienny rozwój jajników, który może wpływać na dojrzewanie i płodność. Mogą też występować różnice w budowie serca lub nerek. Zakres cech jest indywidualny; sam kariotyp nie opisuje całego zdrowia ani możliwości danej osoby."
+      },
+      {
+        "title": "Czy jest dziedziczony",
+        "body": "Większość przypadków powstaje przypadkowo podczas tworzenia komórki rozrodczej lub wczesnych podziałów zarodka. Nie jest to zwykle choroba przekazywana z pokolenia na pokolenie. Niektóre rzadkie zmiany struktury chromosomu X mogą być dziedziczne. To przykład, dlaczego określenia „genetyczny” i „dziedziczny” nie są równoznaczne."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Zespół Turnera",
+        "url": "https://medlineplus.gov/genetics/condition/turner-syndrome/"
+      }
+    ],
+    "topics": [
+      "chromosomal",
+      "chromosomal-effects"
+    ],
+    "diseaseType": "chromosomal"
+  },
+  {
+    "id": "klinefelter",
+    "title": "Zespół Klinefeltera",
+    "category": "diseases",
+    "summary": "Dodatkowy chromosom X może wpływać na rozwój jąder, dojrzewanie i płodność. Wiele cech zespołu Klinefeltera jest subtelnych i zmiennych.",
+    "minutes": 2,
+    "keywords": [
+      "Klinefelter",
+      "47 XXY",
+      "XXY",
+      "chromosomy płciowe",
+      "testosteron",
+      "mozaicyzm"
+    ],
+    "sections": [
+      {
+        "title": "Dodatkowy chromosom X",
+        "body": "Najczęściej zespół Klinefeltera wiąże się z kariotypem 47,XXY, zamiast typowego 46,XY. Dotyczy zwykle osób o męskim kierunku rozwoju płciowego. Możliwy jest mozaicyzm, na przykład obecność komórek 46,XY i 47,XXY w tym samym organizmie. Zmiana obejmuje liczbę chromosomów, a nie pojedynczy gen."
+      },
+      {
+        "title": "Różnorodny obraz",
+        "body": "Cechy mogą obejmować wyższy wzrost, mniejsze jądra, niższe wytwarzanie testosteronu i trudności z płodnością. U części osób pojawiają się trudności językowe lub w uczeniu się, ale nie są one jednakowe u wszystkich. Zespół bywa rozpoznawany dopiero w dorosłości, ponieważ wcześniejsze cechy mogą być mało widoczne."
+      },
+      {
+        "title": "Skąd bierze się zmiana",
+        "body": "Dodatkowy chromosom X powstaje zwykle wskutek losowego błędu rozdziału chromosomów podczas tworzenia komórek rozrodczych. Mozaicyzm może powstać we wczesnych podziałach zarodka. Zespół zazwyczaj nie jest dziedziczony. Liczba chromosomów nie pozwala sama w sobie przewidzieć nasilenia cech u konkretnej osoby."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Zespół Klinefeltera",
+        "url": "https://medlineplus.gov/genetics/condition/klinefelter-syndrome/"
+      }
+    ],
+    "topics": [
+      "chromosomal"
+    ],
+    "diseaseType": "chromosomal"
+  },
+  {
+    "id": "edwards",
+    "title": "Zespół Edwardsa — trisomia 18",
+    "category": "diseases",
+    "summary": "Dodatkowy materiał chromosomu 18 wpływa na rozwój wielu narządów. Zespół Edwardsa może mieć postać pełną, mozaikową lub częściową.",
+    "minutes": 2,
+    "keywords": [
+      "Edwards",
+      "trisomia 18",
+      "chromosom 18",
+      "T18",
+      "mozaicyzm",
+      "translokacja"
+    ],
+    "sections": [
+      {
+        "title": "Na czym polega trisomia",
+        "body": "W pełnej trisomii 18 komórki zawierają trzy kopie chromosomu 18 zamiast dwóch. Zmieniona dawka wielu genów zaburza rozwój organizmu. W postaci mozaikowej dodatkowy chromosom występuje tylko w części komórek, a w postaci częściowej powielony jest fragment tego chromosomu."
+      },
+      {
+        "title": "Wpływ na rozwój",
+        "body": "Zespół może wiązać się z ograniczeniem wzrastania przed urodzeniem, różnicami budowy serca i innych narządów oraz znacznymi trudnościami rozwojowymi. Cechy i ich nasilenie zależą między innymi od rodzaju zmiany. Pełna trisomia często powoduje poważne problemy zdrowotne; przebieg mozaikowy lub częściowy bywa bardziej zróżnicowany."
+      },
+      {
+        "title": "Powstawanie i dziedziczenie",
+        "body": "Większość przypadków pełnej trisomii powstaje przypadkowo wskutek nieprawidłowego rozdziału chromosomów w komórkach rozrodczych. Nie oznacza to zazwyczaj dziedziczenia od rodzica. Niektóre częściowe trisomie wynikają z translokacji, która może być związana z rodzinną zmianą chromosomową. Dlatego różne postacie zespołu mają różne znaczenie dla oceny dziedziczenia."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Zespół Edwardsa — trisomia 18",
+        "url": "https://medlineplus.gov/genetics/condition/trisomy-18/"
+      }
+    ],
+    "topics": [
+      "chromosomal",
+      "chromosomal-effects"
+    ],
+    "diseaseType": "chromosomal"
+  },
+  {
+    "id": "patau",
+    "title": "Zespół Pataua — trisomia 13",
+    "category": "diseases",
+    "summary": "Trisomia 13 oznacza dodatkową kopię całości lub części chromosomu 13. Może wpływać na rozwój mózgu, serca i innych narządów.",
+    "minutes": 2,
+    "keywords": [
+      "Patau",
+      "trisomia 13",
+      "chromosom 13",
+      "T13",
+      "mozaicyzm",
+      "translokacja Robertsona"
+    ],
+    "sections": [
+      {
+        "title": "Dodatkowy materiał genetyczny",
+        "body": "W pełnej trisomii 13 większość lub wszystkie komórki mają trzy kopie chromosomu 13. Dodatkowy materiał zmienia ilość produktów wielu genów. Istnieją też postacie częściowe i mozaikowe. W mozaicyzmie nie wszystkie komórki mają ten sam zestaw chromosomów, co może wpływać na różnorodność obrazu."
+      },
+      {
+        "title": "Jak może wpływać na organizm",
+        "body": "Możliwe są poważne różnice rozwoju mózgu, oczu, twarzy i serca oraz trudności wzrastania i rozwoju. Zestaw cech nie jest identyczny u wszystkich osób. Pełna trisomia często wiąże się z ciężkimi problemami zdrowotnymi. Samo określenie „trisomia 13” nie wyjaśnia jednak wszystkich różnic między poszczególnymi przypadkami."
+      },
+      {
+        "title": "Czy zmiana pochodzi od rodzica",
+        "body": "Pełna trisomia zwykle powstaje wskutek przypadkowego błędu rozdziału chromosomów podczas powstawania komórek rozrodczych. Część przypadków wiąże się z translokacją, czyli przemieszczeniem materiału między chromosomami. Taka postać może mieć związek z rodzinną translokacją zrównoważoną. Sposób powstania zmiany ma znaczenie dla rozmowy o dziedziczeniu."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Zespół Pataua — trisomia 13",
+        "url": "https://medlineplus.gov/genetics/condition/trisomy-13/"
+      }
+    ],
+    "topics": [
+      "chromosomal",
+      "chromosomal-effects"
+    ],
+    "diseaseType": "chromosomal"
+  },
+  {
+    "id": "cri-du-chat",
+    "title": "Zespół cri du chat — delecja 5p",
+    "category": "diseases",
+    "summary": "Utrata fragmentu krótkiego ramienia chromosomu 5 może wpływać na wzrastanie i rozwój. Charakterystyczny płacz niemowlęcia dał zespołowi jego nazwę.",
+    "minutes": 2,
+    "keywords": [
+      "cri du chat",
+      "zespół kociego krzyku",
+      "delecja 5p",
+      "chromosom 5",
+      "5p minus",
+      "CTNND2"
+    ],
+    "sections": [
+      {
+        "title": "Co oznacza delecja 5p",
+        "body": "Delecja to utrata fragmentu DNA. W zespole cri du chat brakuje części krótkiego ramienia chromosomu 5, oznaczanego literą p. Utrata obejmuje wiele genów, a jej wielkość i położenie mogą być różne. Zespół nie jest więc zmianą pojedynczej litery w jednym genie."
+      },
+      {
+        "title": "Cechy i ich zmienność",
+        "body": "U niemowląt może występować wysoki, charakterystyczny płacz, od którego pochodzi francuska nazwa zespołu. Możliwe są mały obwód głowy, słabsze napięcie mięśniowe oraz trudności rozwoju mowy i umiejętności ruchowych. Obraz jest indywidualny. Cechy mogą zmieniać się z wiekiem, a sam rozmiar delecji nie wyjaśnia wszystkich różnic."
+      },
+      {
+        "title": "Jak powstaje utrata fragmentu",
+        "body": "Większość delecji pojawia się po raz pierwszy w rodzinie, podczas tworzenia komórek rozrodczych lub wczesnego rozwoju zarodka. Rzadziej dziecko dziedziczy niezrównoważony układ chromosomów od rodzica z translokacją zrównoważoną. Rodzic może wtedy nie mieć cech zespołu, ponieważ nie utracił materiału genetycznego."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Zespół cri du chat — delecja 5p",
+        "url": "https://medlineplus.gov/genetics/condition/cri-du-chat-syndrome/"
+      }
+    ],
+    "topics": [
+      "chromosomal"
+    ],
+    "diseaseType": "chromosomal"
+  },
+  {
+    "id": "deletion-22q11",
+    "title": "Zespół delecji 22q11.2",
+    "category": "diseases",
+    "summary": "Brak niewielkiego fragmentu chromosomu 22 może wpływać na różne układy organizmu. Nawet w jednej rodzinie cechy zespołu bywają bardzo odmienne.",
+    "minutes": 2,
+    "keywords": [
+      "delecja 22q11.2",
+      "22q11",
+      "zespół DiGeorge’a",
+      "DiGeorge",
+      "zespół podniebienno-sercowo-twarzowy",
+      "TBX1"
+    ],
+    "sections": [
+      {
+        "title": "Mikrodelecja chromosomu 22",
+        "body": "W tym zespole brakuje fragmentu długiego ramienia chromosomu 22, w regionie 22q11.2. Zwykle utraconych jest wiele genów, w tym często TBX1, ważny dla rozwoju zarodkowego. Wielkość delecji może się różnić. Dawne nazwy, takie jak zespół DiGeorge’a, opisują częściowo nakładające się obrazy tej zmiany."
+      },
+      {
+        "title": "Dlaczego cechy są tak różne",
+        "body": "Możliwe są różnice budowy serca i podniebienia, osłabienie niektórych funkcji odporności, niższe stężenie wapnia oraz trudności uczenia się. Nie każda osoba ma wszystkie te cechy. Nasilenie może być bardzo odmienne także u osób z podobną delecją, dlatego jeden opis nie przedstawia wszystkich doświadczeń."
+      },
+      {
+        "title": "Dziedziczenie delecji",
+        "body": "Większość przypadków pojawia się po raz pierwszy w rodzinie. Delecja może jednak być przekazywana autosomalnie dominująco. Osoba z delecją ma w każdej ciąży 50% prawdopodobieństwa przekazania jej dziecku. Przekazanie zmiany nie pozwala przewidzieć zestawu ani nasilenia cech u dziecka na podstawie objawów rodzica."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Zespół delecji 22q11.2",
+        "url": "https://medlineplus.gov/genetics/condition/22q112-deletion-syndrome/"
+      }
+    ],
+    "topics": [
+      "chromosomal",
+      "chromosomal-effects"
+    ],
+    "diseaseType": "chromosomal"
+  },
+  {
+    "id": "fragile-x",
+    "title": "Zespół łamliwego chromosomu X",
+    "category": "diseases",
+    "summary": "Zespół łamliwego chromosomu X wynika najczęściej z rozszerzenia powtórzeń w genie FMR1. Może wpływać na rozwój, uczenie się i zachowanie.",
+    "minutes": 2,
+    "keywords": [
+      "łamliwy chromosom X",
+      "fragile X",
+      "FXS",
+      "FMR1",
+      "CGG",
+      "premutacja",
+      "chromosom X"
+    ],
+    "sections": [
+      {
+        "title": "Powtórzenia w genie FMR1",
+        "body": "W genie FMR1 występuje odcinek z powtarzającą się sekwencją CGG. Bardzo duża liczba powtórzeń może prowadzić do wyciszenia genu i niedoboru białka ważnego dla działania komórek nerwowych. Nazwa zespołu nawiązuje do wyglądu fragmentu chromosomu w szczególnych warunkach laboratoryjnych, a nie do jego dosłownego pękania."
+      },
+      {
+        "title": "Zróżnicowany wpływ na rozwój",
+        "body": "Możliwe są trudności rozwoju mowy, uczenia się, regulacji uwagi i kontaktów społecznych. Nasilenie jest bardzo różne. U osób z dwoma chromosomami X cechy bywają łagodniejsze, między innymi dzięki działaniu drugiej kopii genu. Nie oznacza to jednak braku wpływu zmiany u wszystkich takich osób."
+      },
+      {
+        "title": "Dziedziczenie nie jest proste",
+        "body": "FMR1 znajduje się na chromosomie X, a liczba powtórzeń może zmieniać się między pokoleniami. Premutacja nie jest tym samym co pełna mutacja powodująca zespół; może wiązać się z innymi problemami zdrowotnymi. Ryzyko rozszerzenia powtórzeń zależy od ich liczby i sposobu przekazania, dlatego nie opisuje go jeden prosty procent."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Zespół łamliwego chromosomu X",
+        "url": "https://medlineplus.gov/genetics/condition/fragile-x-syndrome/"
+      }
+    ],
+    "topics": [
+      "neurological"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "sma",
+    "title": "Rdzeniowy zanik mięśni — SMA",
+    "category": "diseases",
+    "summary": "Najczęstsza postać SMA, związana z genem SMN1, powoduje utratę neuronów sterujących mięśniami. Początek i nasilenie osłabienia mogą być bardzo różne.",
+    "minutes": 2,
+    "keywords": [
+      "SMA",
+      "rdzeniowy zanik mięśni",
+      "SMN1",
+      "SMN2",
+      "5q",
+      "neurony ruchowe",
+      "autosomalne recesywne"
+    ],
+    "sections": [
+      {
+        "title": "Rola białka SMN",
+        "body": "W najczęstszej postaci SMA, określanej jako SMA 5q, obie kopie genu SMN1 nie zapewniają wystarczającej ilości sprawnego białka SMN. Szczególnie wrażliwe są neurony ruchowe, które przekazują sygnały do mięśni. Ich utrata prowadzi do osłabienia i zaniku mięśni, choć podstawowa zmiana dotyczy komórek nerwowych."
+      },
+      {
+        "title": "Dlaczego przebieg się różni",
+        "body": "Początek może przypadać na niemowlęctwo, dzieciństwo lub dorosłość. Różne mogą być trudności ruchowe, połykania i oddychania. Na obraz wpływa między innymi liczba kopii podobnego genu SMN2, który wytwarza część potrzebnego białka. Sama liczba tych kopii nie wyjaśnia jednak wszystkich różnic między osobami."
+      },
+      {
+        "title": "Dziedziczenie recesywne",
+        "body": "SMA 5q dziedziczy się autosomalnie recesywnie. Gdy oboje rodzice są nosicielami wariantu powodującego tę postać, w każdej ciąży prawdopodobieństwo choroby u dziecka wynosi 25%. Nosicielstwo zwykle nie powoduje jej typowych objawów. Określenie SMA obejmuje też rzadsze choroby o innych przyczynach genetycznych, więc nie wszystkie mają identyczny mechanizm."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Rdzeniowy zanik mięśni — SMA",
+        "url": "https://medlineplus.gov/genetics/condition/spinal-muscular-atrophy/"
+      }
+    ],
+    "topics": [
+      "neurological"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "myotonic-dystrophy",
+    "title": "Dystrofia miotoniczna",
+    "category": "diseases",
+    "summary": "Dystrofia miotoniczna to choroba wieloukładowa związana z rozszerzeniem powtórzeń DNA. Może powodować osłabienie mięśni i trudność ich rozluźniania.",
+    "minutes": 2,
+    "keywords": [
+      "dystrofia miotoniczna",
+      "miotonia",
+      "DM1",
+      "DM2",
+      "DMPK",
+      "CNBP",
+      "CTG",
+      "CCTG",
+      "antycypacja"
+    ],
+    "sections": [
+      {
+        "title": "Dwie główne postacie",
+        "body": "Dystrofia miotoniczna typu 1, DM1, wiąże się z rozszerzeniem powtórzeń CTG w genie DMPK. Typ 2, DM2, wynika z powtórzeń CCTG w genie CNBP. Zmienione cząsteczki RNA zakłócają pracę innych procesów komórkowych. Obie postacie są dziedziczne, ale nie są tą samą zmianą genetyczną."
+      },
+      {
+        "title": "Więcej niż osłabienie mięśni",
+        "body": "Miotonia oznacza opóźnione rozluźnienie mięśnia po skurczu. Poza nią mogą występować osłabienie mięśni, zaćma oraz zaburzenia pracy serca i innych układów. Początek i nasilenie zależą od postaci oraz wielu cech indywidualnych. DM1 może też występować w ciężkiej postaci wrodzonej; obrazu DM2 nie należy z nią utożsamiać."
+      },
+      {
+        "title": "Dziedziczenie i antycypacja",
+        "body": "Obie główne postacie dziedziczą się autosomalnie dominująco. Przy jednej zmienionej kopii genu prawdopodobieństwo jej przekazania wynosi 50% w każdej ciąży. W DM1 rozszerzanie powtórzeń między pokoleniami może powodować wcześniejszy lub cięższy przebieg, nazywany antycypacją. Liczba powtórzeń nie daje jednak dokładnej prognozy wszystkich cech u konkretnej osoby."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Dystrofia miotoniczna",
+        "url": "https://medlineplus.gov/genetics/condition/myotonic-dystrophy/"
+      }
+    ],
+    "topics": [
+      "neurological"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "neurofibromatosis-1",
+    "title": "Nerwiakowłókniakowatość typu 1 — NF1",
+    "category": "diseases",
+    "summary": "NF1 wiąże się ze zmianą genu regulującego wzrost komórek. Jej cechy obejmują skórę i układ nerwowy, ale różnią się nawet w jednej rodzinie.",
+    "minutes": 2,
+    "keywords": [
+      "NF1",
+      "nerwiakowłókniakowatość",
+      "neurofibromatoza",
+      "neurofibromina",
+      "plamy café-au-lait",
+      "nerwiakowłókniaki"
+    ],
+    "sections": [
+      {
+        "title": "Gen regulujący sygnały wzrostu",
+        "body": "Gen NF1 koduje neurofibrominę, białko pomagające kontrolować sygnały wzrostu komórek. Wariant ograniczający jego działanie może prowadzić do nerwiakowłókniakowatości typu 1. Jest to inna choroba niż inne zespoły dawniej zbiorczo określane jako neurofibromatozy, dlatego nazwa i numer typu mają znaczenie."
+      },
+      {
+        "title": "Cechy nie są jednakowe",
+        "body": "Częste są jasnobrązowe plamy skórne, nazywane café-au-lait, oraz nerwiakowłókniaki, czyli zwykle łagodne guzy związane z nerwami. Mogą występować trudności uczenia się, zmiany kostne i inne powikłania. Ryzyko niektórych nowotworów jest zwiększone, ale ich wystąpienie nie jest nieuniknione. Cechy mogą ujawniać się stopniowo z wiekiem."
+      },
+      {
+        "title": "Dziedziczenie i nowe warianty",
+        "body": "NF1 dziedziczy się autosomalnie dominująco. Osoba z jedną zmienioną kopią genu ma 50% prawdopodobieństwa przekazania jej w każdej ciąży. Około połowa przypadków wynika z nowego wariantu, którego wcześniej nie stwierdzano w rodzinie. Nasilenia u dziecka nie można pewnie przewidzieć na podstawie obrazu u rodzica."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Nerwiakowłókniakowatość typu 1 — NF1",
+        "url": "https://medlineplus.gov/genetics/condition/neurofibromatosis-type-1/"
+      }
+    ],
+    "topics": [
+      "neurological"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "rett",
+    "title": "Zespół Retta",
+    "category": "diseases",
+    "summary": "Zespół Retta najczęściej wiąże się z wariantem genu MECP2. Wpływa na rozwój układu nerwowego i może powodować utratę wcześniej nabytych umiejętności.",
+    "minutes": 2,
+    "keywords": [
+      "Rett",
+      "MECP2",
+      "regres rozwoju",
+      "chromosom X",
+      "stereotypie rąk",
+      "zespół Retta"
+    ],
+    "sections": [
+      {
+        "title": "Regulacja pracy genów",
+        "body": "MECP2 koduje białko uczestniczące w regulowaniu aktywności wielu genów, szczególnie istotne dla komórek nerwowych. Warianty tego genu są najczęstszą przyczyną zespołu Retta. Nie każdy wariant MECP2 oznacza jednak ten sam obraz kliniczny i nie każda osoba z takim wariantem ma klasyczny zespół Retta."
+      },
+      {
+        "title": "Zmiana przebiegu rozwoju",
+        "body": "Po okresie pozornie prawidłowego lub mniej wyraźnie odmiennego rozwoju może pojawić się utrata części umiejętności, na przykład celowych ruchów rąk i komunikacji. Częste są powtarzalne ruchy rąk oraz trudności ruchowe. Mogą występować napady padaczkowe i zmiany oddychania. Kolejność, zakres i nasilenie cech nie są jednakowe u wszystkich."
+      },
+      {
+        "title": "Chromosom X i nowe warianty",
+        "body": "MECP2 leży na chromosomie X. Zespół rozpoznaje się przede wszystkim u dziewcząt, a większość przypadków powstaje wskutek nowego wariantu. U chłopców warianty MECP2 również mogą powodować chorobę, często o innym obrazie. Zmienność zależy między innymi od rodzaju wariantu i sposobu działania chromosomów X w komórkach."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Zespół Retta",
+        "url": "https://medlineplus.gov/genetics/condition/rett-syndrome/"
+      }
+    ],
+    "topics": [
+      "neurological"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "friedreich-ataxia",
+    "title": "Ataksja Friedreicha",
+    "category": "diseases",
+    "summary": "Ataksja Friedreicha jest chorobą związaną z genem FXN. Może wpływać na koordynację ruchów, nerwy obwodowe i pracę serca.",
+    "minutes": 2,
+    "keywords": [
+      "ataksja Friedreicha",
+      "Friedreich",
+      "FXN",
+      "frataksyna",
+      "GAA",
+      "ataksja",
+      "autosomalne recesywne"
+    ],
+    "sections": [
+      {
+        "title": "Gen FXN i mitochondria",
+        "body": "Najczęściej chorobę powoduje nadmierna liczba powtórzeń GAA w obu kopiach genu FXN. Zmniejsza to ilość frataksyny, białka ważnego dla prawidłowego działania mitochondriów. Mimo związku z mitochondriami gen FXN znajduje się w DNA jądrowym. Choroba nie ma więc typowego matczynego sposobu dziedziczenia DNA mitochondrialnego."
+      },
+      {
+        "title": "Jakie funkcje mogą być zmienione",
+        "body": "Ataksja oznacza zaburzenie koordynacji ruchów. Możliwe są trudności z równowagą, chodem i mową, zmiany czucia oraz osłabienie mięśni. U części osób występują zmiany mięśnia sercowego lub cukrzyca. Początek bywa dziecięcy lub młodzieńczy, ale istnieją także późniejsze postacie, a tempo zmian jest indywidualne."
+      },
+      {
+        "title": "Dziedziczenie recesywne",
+        "body": "Choroba dziedziczy się autosomalnie recesywnie: zwykle potrzebne są zmiany obu kopii FXN. Gdy oboje rodzice są nosicielami, w każdej ciąży prawdopodobieństwo choroby wynosi 25%. Sama liczba powtórzeń może mieć związek z przebiegiem, ale nie przewiduje dokładnie wszystkich cech ani wieku ich ujawnienia u danej osoby."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Ataksja Friedreicha",
+        "url": "https://medlineplus.gov/genetics/condition/friedreich-ataxia/"
+      }
+    ],
+    "topics": [
+      "neurological"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "achondroplasia",
+    "title": "Achondroplazja",
+    "category": "diseases",
+    "summary": "Achondroplazja jest najczęstszą przyczyną nieproporcjonalnej niskorosłości. Wariant genu FGFR3 zmienia sposób wzrastania kości rozwijających się z chrząstki.",
+    "minutes": 2,
+    "keywords": [
+      "achondroplazja",
+      "FGFR3",
+      "niskorosłość",
+      "chrząstka wzrostowa",
+      "autosomalne dominujące",
+      "nowy wariant"
+    ],
+    "sections": [
+      {
+        "title": "Sygnał ograniczający wzrastanie kości",
+        "body": "Gen FGFR3 koduje receptor uczestniczący w regulacji rozwoju kości. W achondroplazji jego zmieniona postać wysyła zbyt silny sygnał ograniczający wzrastanie kości na podłożu chrzęstnym. Zmiana dotyczy mechanizmu rozwoju szkieletu, a nie po prostu niedoboru składnika odżywczego potrzebnego do budowy kości."
+      },
+      {
+        "title": "Budowa ciała i zmienność",
+        "body": "Typowe są krótsze kończyny przy względnie dłuższym tułowiu oraz charakterystyczne proporcje głowy. Mogą występować różnice budowy kręgosłupa, dróg oddechowych i kanału kręgowego. Rozwój intelektualny zwykle pozostaje prawidłowy. Zestaw i nasilenie problemów zdrowotnych są indywidualne, więc sam niski wzrost nie opisuje całego obrazu."
+      },
+      {
+        "title": "Jak powstaje wariant",
+        "body": "Achondroplazja zwykle wynika z nowego wariantu u dziecka rodziców bez tej choroby. Może też być dziedziczona autosomalnie dominująco. Gdy jeden rodzic ma jedną zmienioną kopię FGFR3, prawdopodobieństwo jej przekazania wynosi 50% w każdej ciąży. Obecność zmian obu kopii genu może prowadzić do znacznie cięższego obrazu."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Achondroplazja",
+        "url": "https://medlineplus.gov/genetics/condition/achondroplasia/"
+      }
+    ],
+    "topics": [
+      "connective"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "osteogenesis-imperfecta",
+    "title": "Wrodzona łamliwość kości",
+    "category": "diseases",
+    "summary": "Wrodzona łamliwość kości obejmuje grupę chorób o różnym nasileniu. Najczęściej zmiana dotyczy kolagenu typu I, ważnego dla wytrzymałości tkanki kostnej.",
+    "minutes": 2,
+    "keywords": [
+      "wrodzona łamliwość kości",
+      "osteogenesis imperfecta",
+      "OI",
+      "COL1A1",
+      "COL1A2",
+      "kolagen typu I",
+      "złamania"
+    ],
+    "sections": [
+      {
+        "title": "Kolagen i wytrzymałość tkanek",
+        "body": "Kolagen typu I jest ważnym białkiem kości oraz innych tkanek łącznych. Wiele postaci wrodzonej łamliwości kości wynika z wariantów COL1A1 lub COL1A2, które zmieniają ilość albo budowę kolagenu. Inne postacie dotyczą białek uczestniczących w jego przetwarzaniu lub prawidłowym rozwoju kości."
+      },
+      {
+        "title": "Nie tylko jedna postać",
+        "body": "Kości mogą łamać się łatwiej, ale zakres choroby rozciąga się od łagodnych do bardzo ciężkich postaci. Możliwe są także różnice zabarwienia twardówek, budowy zębów, wzrostu i słuchu. Nie każda osoba ma wszystkie te cechy. Nazwa grupy nie oznacza identycznego obrazu ani stałego stopnia kruchości kości."
+      },
+      {
+        "title": "Różne sposoby dziedziczenia",
+        "body": "Wiele postaci związanych z COL1A1 lub COL1A2 dziedziczy się autosomalnie dominująco i może też wynikać z nowego wariantu. Istnieją postacie recesywne oraz rzadsze inne mechanizmy. Sposób przekazywania zależy od konkretnego genu i wariantu. Dlatego jeden ogólny procent ryzyka nie opisuje całej tej zróżnicowanej grupy chorób."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Wrodzona łamliwość kości",
+        "url": "https://medlineplus.gov/genetics/condition/osteogenesis-imperfecta/"
+      }
+    ],
+    "topics": [
+      "connective"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "ehlers-danlos",
+    "title": "Zespoły Ehlersa–Danlosa — EDS",
+    "category": "diseases",
+    "summary": "EDS to zróżnicowana grupa zaburzeń tkanki łącznej. Poszczególne typy różnią się genami, dziedziczeniem i wpływem na stawy, skórę lub naczynia.",
+    "minutes": 2,
+    "keywords": [
+      "Ehlers Danlos",
+      "EDS",
+      "hEDS",
+      "vEDS",
+      "tkanka łączna",
+      "hipermobilność",
+      "COL5A1",
+      "COL5A2",
+      "COL3A1"
+    ],
+    "sections": [
+      {
+        "title": "Grupa różnych zaburzeń",
+        "body": "Tkanka łączna pomaga utrzymywać wytrzymałość i elastyczność organizmu. W wielu typach EDS zmienione geny dotyczą kolagenu lub jego przetwarzania. Na przykład typ klasyczny często wiąże się z COL5A1 lub COL5A2, a naczyniowy z COL3A1. EDS nie jest jednak jedną chorobą powodowaną zawsze tym samym genem."
+      },
+      {
+        "title": "Cechy zależą od typu",
+        "body": "Możliwe są nadmierna ruchomość stawów, zmieniona elastyczność lub kruchość skóry i łatwiejsze siniaczenie. Niektóre typy obejmują szczególne zagrożenia dotyczące naczyń lub narządów; nie należy przenosić ich automatycznie na każdą osobę z EDS. Sama ruchomość stawów jest częstą cechą i nie oznacza jeszcze określonego zespołu genetycznego."
+      },
+      {
+        "title": "Dziedziczenie i ważny wyjątek",
+        "body": "Część typów dziedziczy się autosomalnie dominująco, a inne recesywnie. W wielu postaciach znana jest przyczyna jednogenowa. Dla najczęstszego typu hipermobilnego, hEDS, nie ustalono dotąd jednej potwierdzonej przyczyny genetycznej wyjaśniającej większość przypadków. Brak takiego wyjaśnienia odróżnia go od wielu innych typów EDS."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Zespoły Ehlersa–Danlosa — EDS",
+        "url": "https://medlineplus.gov/genetics/condition/ehlers-danlos-syndrome/"
+      }
+    ],
+    "topics": [
+      "connective"
+    ],
+    "diseaseType": "heterogeneous"
+  },
+  {
+    "id": "familial-hypercholesterolemia",
+    "title": "Hipercholesterolemia rodzinna",
+    "category": "diseases",
+    "summary": "Hipercholesterolemia rodzinna najczęściej wynika z jednogenowej zmiany zaburzającej usuwanie LDL z krwi. Może zwiększać ryzyko przedwczesnych chorób sercowo-naczyniowych.",
+    "minutes": 2,
+    "keywords": [
+      "hipercholesterolemia rodzinna",
+      "FH",
+      "cholesterol LDL",
+      "LDLR",
+      "APOB",
+      "PCSK9",
+      "LDLRAP1",
+      "miażdżyca"
+    ],
+    "sections": [
+      {
+        "title": "Dlaczego LDL pozostaje we krwi",
+        "body": "Cząsteczki LDL przenoszą cholesterol, a komórki usuwają je między innymi za pomocą receptora LDL. Warianty genów takich jak LDLR, APOB i PCSK9 mogą zaburzać ten proces. Skutkiem bywa wysokie stężenie cholesterolu LDL już od wczesnego życia, niezależnie od tego, czy pojawiają się zauważalne dolegliwości."
+      },
+      {
+        "title": "Ryzyko nie oznacza pewności",
+        "body": "Długotrwale zwiększone stężenie LDL sprzyja odkładaniu cholesterolu w ścianach tętnic i może przyspieszać rozwój miażdżycy. Przebieg różni się między osobami i zależy też od innych czynników. Nie każde wysokie stężenie LDL wynika z hipercholesterolemii rodzinnej: częste są również przyczyny wielogenowe oraz wpływy środowiskowe i zdrowotne."
+      },
+      {
+        "title": "Sposoby dziedziczenia",
+        "body": "Najczęstsze postacie dziedziczą się autosomalnie dominująco. Osoba z jedną zmienioną kopią odpowiedniego genu ma 50% prawdopodobieństwa przekazania jej w każdej ciąży. Istnieją też rzadsze postacie recesywne, między innymi związane z LDLRAP1. Zmiany obu kopii niektórych genów mogą prowadzić do znacznie wcześniejszego i cięższego obrazu niż zmiana jednej kopii."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Hipercholesterolemia rodzinna",
+        "url": "https://medlineplus.gov/genetics/condition/familial-hypercholesterolemia/"
+      }
+    ],
+    "topics": [
+      "metabolic",
+      "organs"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "thalassemia",
+    "title": "Talasemia",
+    "category": "diseases",
+    "summary": "Grupa dziedzicznych chorób krwi, w których powstaje za mało jednego z łańcuchów hemoglobiny. Nasilenie może być bardzo różne.",
+    "minutes": 2,
+    "keywords": [
+      "talasemia",
+      "talasemia alfa",
+      "talasemia beta",
+      "hemoglobina",
+      "niedokrwistość",
+      "HBA1",
+      "HBA2",
+      "HBB",
+      "thalassemia"
+    ],
+    "sections": [
+      {
+        "title": "Co zmienia się we krwi",
+        "body": "Hemoglobina przenosi tlen w czerwonych krwinkach. Składa się z kilku łańcuchów białkowych, między innymi alfa i beta. W talasemii produkcja jednego z nich jest ograniczona. Zaburza to równowagę między składnikami hemoglobiny, przez co krwinki łatwiej ulegają zniszczeniu, a organizm może mieć trudność z wytwarzaniem wystarczającej liczby prawidłowych krwinek."
+      },
+      {
+        "title": "Alfa i beta to różne grupy",
+        "body": "Talasemia alfa wiąże się zwykle ze zmianami liczby lub działania kopii genów HBA1 i HBA2. Talasemia beta wynika ze zmian genu HBB. Istnieją postacie niemal bezobjawowe i postacie powodujące ciężką niedokrwistość. Nie każda osoba z wariantem genetycznym ma taki sam przebieg choroby; znaczenie ma zestaw odziedziczonych zmian."
+      },
+      {
+        "title": "Jak jest dziedziczona",
+        "body": "Dziedziczenie zwykle opisuje się jako autosomalne recesywne, lecz szczegóły zależą od rodzaju talasemii. W talasemii alfa ważna jest liczba zmienionych kopii genów oraz ich rozmieszczenie na chromosomach. Nosicielstwo często daje łagodne zmiany we krwi. Talasemia nie jest zakaźna i nie jest tym samym co niedobór żelaza."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Talasemia",
+        "url": "https://medlineplus.gov/genetics/condition/beta-thalassemia/"
+      },
+      {
+        "title": "MedlinePlus Genetics — talasemia alfa",
+        "url": "https://medlineplus.gov/genetics/condition/alpha-thalassemia/"
+      }
+    ],
+    "topics": [
+      "blood"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "g6pd-deficiency",
+    "title": "Niedobór dehydrogenazy glukozo-6-fosforanowej",
+    "category": "diseases",
+    "summary": "Niedobór enzymu G6PD może zwiększać podatność czerwonych krwinek na uszkodzenie. Wiele osób przez długi czas nie ma objawów.",
+    "minutes": 2,
+    "keywords": [
+      "G6PD",
+      "niedobór G6PD",
+      "dehydrogenaza glukozo-6-fosforanowa",
+      "fawizm",
+      "hemoliza",
+      "chromosom X"
+    ],
+    "sections": [
+      {
+        "title": "Dlaczego krwinki potrzebują G6PD",
+        "body": "Enzym G6PD uczestniczy w procesach, które pomagają chronić komórki przed stresem oksydacyjnym. Czerwone krwinki szczególnie zależą od tego mechanizmu. Gdy aktywność enzymu jest zbyt mała, w określonych warunkach mogą rozpadać się szybciej niż zwykle. Taki rozpad nazywa się hemolizą i może prowadzić do niedokrwistości."
+      },
+      {
+        "title": "Przebieg bywa zmienny",
+        "body": "U wielu osób niedobór nie powoduje stałych objawów. Epizody hemolizy mogą wiązać się między innymi z infekcjami albo ekspozycją na niektóre substancje. Nazwa fawizm odnosi się do reakcji związanej z bobem, ale nie opisuje wszystkich przypadków niedoboru G6PD. Różne warianty genu mogą wpływać na stopień obniżenia aktywności enzymu."
+      },
+      {
+        "title": "Dziedziczenie związane z X",
+        "body": "Gen G6PD leży na chromosomie X. Niedobór częściej ujawnia się u mężczyzn, ale może też powodować objawy u kobiet. Ważną rolę odgrywa losowe wyciszanie jednego chromosomu X w komórkach. Samo określenie kobiety jako nosicielki nie oznacza więc, że na pewno nie wystąpią u niej zmiany związane z niedoborem enzymu."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Niedobór dehydrogenazy glukozo-6-fosforanowej",
+        "url": "https://medlineplus.gov/genetics/condition/glucose-6-phosphate-dehydrogenase-deficiency/"
+      }
+    ],
+    "topics": [
+      "blood"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "hemochromatosis",
+    "title": "Hemochromatoza dziedziczna",
+    "category": "diseases",
+    "summary": "Zaburzenie regulacji gospodarki żelazem, w którym jego nadmiar może stopniowo gromadzić się w narządach. Nie każdy wariant oznacza rozwój choroby.",
+    "minutes": 2,
+    "keywords": [
+      "hemochromatoza",
+      "żelazo",
+      "HFE",
+      "C282Y",
+      "przeciążenie żelazem",
+      "hemochromatosis"
+    ],
+    "sections": [
+      {
+        "title": "Żelazo potrzebuje równowagi",
+        "body": "Żelazo jest niezbędne między innymi do działania hemoglobiny. Organizm reguluje przede wszystkim ilość wchłanianą z pożywienia. W hemochromatozie dziedzicznej sygnały sterujące tą równowagą mogą działać nieprawidłowo. Z czasem nadmiar żelaza może odkładać się w wątrobie i innych narządach, a jego duża ilość może uszkadzać tkanki."
+      },
+      {
+        "title": "Nie tylko jeden gen",
+        "body": "Najczęstsza postać wiąże się z genem HFE. Istnieją też rzadsze postacie związane z innymi genami regulującymi gospodarkę żelazem. Objawy i wiek ich wystąpienia zależą od postaci oraz wielu dodatkowych czynników. Obecność określonego zestawu wariantów HFE nie oznacza, że u każdej osoby rozwinie się istotne uszkodzenie narządów."
+      },
+      {
+        "title": "Dziedziczenie i niepełna penetracja",
+        "body": "Postać związana z HFE zwykle dziedziczy się autosomalnie recesywnie. Niektóre rzadsze zaburzenia tego szlaku mają inny sposób dziedziczenia. Pojęcie niepełnej penetracji opisuje sytuację, w której nie wszystkie osoby z danym zestawem wariantów wykazują objawy. Genetyczne predyspozycje trzeba więc odróżniać od rzeczywistego przeciążenia żelazem i jego następstw."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Hemochromatoza dziedziczna",
+        "url": "https://medlineplus.gov/genetics/condition/hereditary-hemochromatosis/"
+      }
+    ],
+    "topics": [
+      "metabolic",
+      "blood"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "wilson",
+    "title": "Choroba Wilsona",
+    "category": "diseases",
+    "summary": "Dziedziczne zaburzenie gospodarki miedzią. Jej nadmiar może gromadzić się między innymi w wątrobie i mózgu.",
+    "minutes": 2,
+    "keywords": [
+      "choroba Wilsona",
+      "miedź",
+      "ATP7B",
+      "zwyrodnienie wątrobowo-soczewkowe",
+      "Wilson"
+    ],
+    "sections": [
+      {
+        "title": "Gdy miedź nie jest usuwana prawidłowo",
+        "body": "Miedź w niewielkich ilościach jest potrzebna organizmowi, lecz jej nadmiar może szkodzić. W chorobie Wilsona nieprawidłowe działanie białka ATP7B utrudnia prawidłowe przetwarzanie miedzi w wątrobie oraz jej wydalanie z żółcią. Miedź może więc stopniowo gromadzić się w komórkach, a później także w innych częściach organizmu."
+      },
+      {
+        "title": "Różne narządy, różne objawy",
+        "body": "Choroba może wpływać na wątrobę, układ nerwowy i funkcjonowanie psychiczne. Nie u każdej osoby występuje ten sam zestaw zmian, a pierwsze objawy mogą pojawić się w różnym wieku. Różnice te oznaczają, że pojedynczy objaw nie opisuje całej choroby. Związek między konkretnym wariantem ATP7B a przebiegiem nie zawsze jest prosty."
+      },
+      {
+        "title": "Dlaczego może dotyczyć rodzeństwa",
+        "body": "Choroba Wilsona dziedziczy się autosomalnie recesywnie. Zwykle osoba chora ma zmiany w obu kopiach genu ATP7B, a rodzice są nosicielami jednej zmienionej kopii. Jeśli oboje rodzice są nosicielami, w każdej ciąży ryzyko odziedziczenia dwóch zmienionych kopii wynosi 25%. Jest ono liczone oddzielnie dla każdej ciąży, nie dla całej rodziny."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Choroba Wilsona",
+        "url": "https://medlineplus.gov/genetics/condition/wilson-disease/"
+      }
+    ],
+    "topics": [
+      "metabolic"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "galactosemia",
+    "title": "Galaktozemia",
+    "category": "diseases",
+    "summary": "Grupa chorób metabolicznych, w których organizm nieprawidłowo przetwarza galaktozę — cukier związany między innymi z rozkładem laktozy.",
+    "minutes": 2,
+    "keywords": [
+      "galaktozemia",
+      "galaktoza",
+      "GALT",
+      "GALK1",
+      "GALE",
+      "metabolizm",
+      "galactosemia"
+    ],
+    "sections": [
+      {
+        "title": "Na czym polega zaburzenie",
+        "body": "Galaktoza jest cukrem wykorzystywanym w procesach metabolicznych. Jej przekształcanie wymaga działania kilku enzymów. Gdy jeden z etapów działa nieprawidłowo, galaktoza lub jej pochodne mogą gromadzić się w organizmie. Nazwa galaktozemia obejmuje kilka postaci, które różnią się przyczyną genetyczną, aktywnością enzymu oraz możliwym wpływem na zdrowie."
+      },
+      {
+        "title": "Postać klasyczna i inne odmiany",
+        "body": "Klasyczna galaktozemia najczęściej wynika ze znacznie obniżonej aktywności enzymu kodowanego przez gen GALT. Może wcześnie wpływać na wątrobę, wzrastanie i inne funkcje organizmu. Postacie związane z innymi genami, na przykład GALK1 lub GALE, mogą mieć inny obraz. Również w obrębie jednego genu nie wszystkie warianty powodują taki sam stopień zaburzenia."
+      },
+      {
+        "title": "Galaktozemia a nietolerancja laktozy",
+        "body": "Galaktozemia zwykle dziedziczy się autosomalnie recesywnie i dotyczy wewnątrzkomórkowego przetwarzania galaktozy. Nietolerancja laktozy wiąże się z trawieniem laktozy w jelicie i jest innym zjawiskiem. Podobieństwo nazw cukrów nie oznacza podobnej przyczyny ani przebiegu. Nosiciele jednej zmienionej kopii genu odpowiedzialnego za recesywną postać zwykle nie mają pełnego obrazu choroby."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Galaktozemia",
+        "url": "https://medlineplus.gov/genetics/condition/galactosemia/"
+      }
+    ],
+    "topics": [
+      "metabolic"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "maple-syrup-urine",
+    "title": "Choroba syropu klonowego",
+    "category": "diseases",
+    "summary": "Wrodzone zaburzenie rozkładu niektórych aminokwasów. Jego nazwa pochodzi od charakterystycznego zapachu, który może występować w części przypadków.",
+    "minutes": 2,
+    "keywords": [
+      "choroba syropu klonowego",
+      "MSUD",
+      "leucyna",
+      "izoleucyna",
+      "walina",
+      "BCKDHA",
+      "BCKDHB",
+      "DBT"
+    ],
+    "sections": [
+      {
+        "title": "Problem z rozkładem aminokwasów",
+        "body": "Białka składają się z aminokwasów. Leucyna, izoleucyna i walina należą do aminokwasów o rozgałęzionych łańcuchach. W chorobie syropu klonowego nieprawidłowo działa kompleks enzymatyczny uczestniczący w ich rozkładzie. Aminokwasy i produkty ich przemian mogą gromadzić się w organizmie, wpływając szczególnie na pracę układu nerwowego."
+      },
+      {
+        "title": "Kilka postaci jednej choroby",
+        "body": "Klasyczna postać może ujawniać się już u noworodków, lecz istnieją też postacie o późniejszym początku lub łagodniejszym przebiegu. Pozostała aktywność enzymów ma znaczenie dla obrazu choroby. Charakterystyczny zapach nie występuje w każdej sytuacji i sam nie określa rozpoznania. Różnice między postaciami pokazują, że nazwa choroby nie opisuje w pełni jej nasilenia."
+      },
+      {
+        "title": "Geny i dziedziczenie",
+        "body": "Najczęściej zmiany dotyczą genów BCKDHA, BCKDHB lub DBT, kodujących elementy kompleksu enzymatycznego. Dziedziczenie jest autosomalne recesywne. Osoba z jedną zmienioną kopią właściwego genu jest zwykle bezobjawowym nosicielem. To zaburzenie metabolizmu, a nie reakcja alergiczna na białko; jego mechanizm polega na ograniczonej zdolności przetwarzania konkretnych składników."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Choroba syropu klonowego",
+        "url": "https://medlineplus.gov/genetics/condition/maple-syrup-urine-disease/"
+      }
+    ],
+    "topics": [
+      "metabolic"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "tay-sachs",
+    "title": "Choroba Taya-Sachsa",
+    "category": "diseases",
+    "summary": "Choroba spichrzeniowa, w której niedobór aktywności enzymu prowadzi do gromadzenia określonych lipidów, szczególnie w komórkach nerwowych.",
+    "minutes": 2,
+    "keywords": [
+      "choroba Taya-Sachsa",
+      "Tay-Sachs",
+      "HEXA",
+      "GM2",
+      "heksozaminidaza A",
+      "lizosomy"
+    ],
+    "sections": [
+      {
+        "title": "Kiedy komórka nie rozkłada lipidów",
+        "body": "Lizosomy można porównać do komórkowych miejsc przetwarzania zużytych składników. W chorobie Taya-Sachsa brakuje wystarczającej aktywności enzymu heksozaminidazy A. Utrudnia to rozkład gangliozydu GM2, rodzaju lipidu obecnego w komórkach. Jego gromadzenie jest szczególnie szkodliwe dla neuronów i zaburza prawidłowe funkcjonowanie układu nerwowego."
+      },
+      {
+        "title": "Nie tylko postać niemowlęca",
+        "body": "Najbardziej znana jest ciężka postać niemowlęca, w której rozwój początkowo może wydawać się prawidłowy, a później dochodzi do utraty nabytych umiejętności. Istnieją również postacie młodzieńcze i dorosłych. Ich przebieg bywa inny, ponieważ zmienione białko może zachowywać część aktywności. Nie wszystkie osoby z chorobą mają zatem identyczny wiek początku i obraz zmian."
+      },
+      {
+        "title": "Dziedziczenie autosomalne recesywne",
+        "body": "Przyczyną są warianty genu HEXA w obu kopiach. Rodzice osoby chorej często są zdrowymi nosicielami jednej zmienionej kopii. Choroba występuje w różnych populacjach, choć częstość nosicielstwa nie jest wszędzie taka sama. Pochodzenie rodzinne nie przesądza o wystąpieniu choroby, a samo nosicielstwo jednej kopii zwykle nie daje jej objawów."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Choroba Taya-Sachsa",
+        "url": "https://medlineplus.gov/genetics/condition/tay-sachs-disease/"
+      }
+    ],
+    "topics": [
+      "metabolic",
+      "neurological"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "gaucher",
+    "title": "Choroba Gauchera",
+    "category": "diseases",
+    "summary": "Dziedziczna choroba lizosomalna, która może wpływać na śledzionę, wątrobę, kości i krew. Niektóre postacie obejmują też układ nerwowy.",
+    "minutes": 2,
+    "keywords": [
+      "choroba Gauchera",
+      "GBA1",
+      "glukocerebrozydaza",
+      "glukozyloceramid",
+      "lizosomy",
+      "Gaucher"
+    ],
+    "sections": [
+      {
+        "title": "Co gromadzi się w komórkach",
+        "body": "W chorobie Gauchera obniżona aktywność enzymu zwanego glukocerebrozydazą utrudnia rozkład określonych lipidów. Gromadzą się one przede wszystkim w komórkach uczestniczących w usuwaniu zużytego materiału. Zmienione komórki mogą odkładać się w narządach i szpiku kostnym. Skutki wynikają więc z zaburzonego działania komórkowego systemu rozkładu, a nie z zakażenia."
+      },
+      {
+        "title": "Przebieg zależy od postaci",
+        "body": "W obrazie choroby mogą pojawiać się powiększenie śledziony i wątroby, zmiany kostne oraz nieprawidłowa liczba komórek krwi. Typ 1 zwykle nie powoduje pierwotnego zajęcia ośrodkowego układu nerwowego. Typy 2 i 3 mogą obejmować także układ nerwowy. Nasilenie i tempo zmian różnią się nie tylko między typami, lecz także między osobami z tą samą postacią."
+      },
+      {
+        "title": "Rola genu GBA1",
+        "body": "Choroba jest zwykle związana ze zmianami obu kopii genu GBA1 i dziedziczy się autosomalnie recesywnie. Nosiciele jednej zmienionej kopii zazwyczaj nie mają choroby Gauchera. Związek między wariantem a objawami jest złożony, dlatego sama nazwa genu nie przewiduje dokładnie przebiegu. Istotne jest odróżnienie nosicielstwa od dziedziczenia dwóch zmian powodujących zaburzenie."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Choroba Gauchera",
+        "url": "https://medlineplus.gov/genetics/condition/gaucher-disease/"
+      }
+    ],
+    "topics": [
+      "metabolic"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "lhon",
+    "title": "Dziedziczna neuropatia nerwu wzrokowego Lebera",
+    "category": "diseases",
+    "summary": "Mitochondrialne zaburzenie mogące powodować utratę widzenia centralnego. Nie każda osoba z odpowiednim wariantem mitochondrialnego DNA ma objawy.",
+    "minutes": 2,
+    "keywords": [
+      "LHON",
+      "neuropatia Lebera",
+      "nerw wzrokowy",
+      "widzenie",
+      "MT-ND1",
+      "MT-ND4",
+      "MT-ND6",
+      "mtDNA"
+    ],
+    "sections": [
+      {
+        "title": "Dlaczego ważne są mitochondria",
+        "body": "Mitochondria pomagają dostarczać komórkom energię. W LHON niektóre warianty mitochondrialnego DNA zakłócają pracę białek łańcucha oddechowego. Szczególnie podatne mogą być komórki związane z nerwem wzrokowym. Główną cechą choroby jest zaburzenie widzenia centralnego, które odpowiada między innymi za wyraźne rozpoznawanie szczegółów. Obraz zmian może różnić się między osobami."
+      },
+      {
+        "title": "Wariant nie oznacza pewnej utraty wzroku",
+        "body": "Najczęstsze przyczyny dotyczą mitochondrialnych genów MT-ND1, MT-ND4 i MT-ND6. Część osób z takim wariantem nigdy nie rozwija typowych objawów. To przykład niepełnej penetracji. Choroba częściej ujawnia się u mężczyzn, ale może również dotyczyć kobiet. Na wystąpienie i przebieg zmian wpływają także inne czynniki genetyczne oraz środowiskowe."
+      },
+      {
+        "title": "Dziedziczenie po matce",
+        "body": "Mitochondrialne DNA jest zwykle przekazywane przez matkę. Mężczyzna z wariantem mitochondrialnym zasadniczo nie przekazuje go dzieciom. Kobieta może przekazać go potomstwu, ale odziedziczenie wariantu nie jest równoznaczne z wystąpieniem objawów. W części rodzin znaczenie może mieć również proporcja różnych wersji mitochondrialnego DNA, czyli heteroplazmia; wiele częstych wariantów LHON występuje jednak w homoplazmii."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Dziedziczna neuropatia nerwu wzrokowego Lebera",
+        "url": "https://medlineplus.gov/genetics/condition/leber-hereditary-optic-neuropathy/"
+      }
+    ],
+    "topics": [
+      "mitochondrial",
+      "sensory"
+    ],
+    "diseaseType": "mitochondrial"
+  },
+  {
+    "id": "melas",
+    "title": "Zespół MELAS",
+    "category": "diseases",
+    "summary": "Choroba mitochondrialna, która może obejmować mięśnie, mózg i inne narządy. Nazwa jest skrótem opisującym charakterystyczne cechy zespołu.",
+    "minutes": 2,
+    "keywords": [
+      "MELAS",
+      "mitochondria",
+      "MT-TL1",
+      "kwasica mleczanowa",
+      "epizody udaropodobne",
+      "heteroplazmia",
+      "mtDNA"
+    ],
+    "sections": [
+      {
+        "title": "Zaburzenie komórkowej energii",
+        "body": "Skrót MELAS odnosi się do encefalomiopatii mitochondrialnej, kwasicy mleczanowej i epizodów udaropodobnych. Wspólną podstawą jest zaburzone działanie mitochondriów. Gdy komórki nie uzyskują energii prawidłowo, szczególnie wrażliwe mogą być tkanki o dużym zapotrzebowaniu energetycznym, na przykład mózg i mięśnie. Nie wszystkie elementy nazwy muszą być widoczne jednocześnie u każdej osoby."
+      },
+      {
+        "title": "Zmienny zestaw cech",
+        "body": "Możliwe są osłabienie mięśni, zaburzenia słuchu, napady padaczkowe oraz epizody udaropodobne, których mechanizm różni się od typowego udaru naczyniowego. Początek i nasilenie są zróżnicowane. Częstą przyczyną jest wariant mitochondrialnego genu MT-TL1, ale zespół może wiązać się także z innymi genami mitochondrialnymi. Nazwa genu nie wyjaśnia sama całej różnorodności przebiegu."
+      },
+      {
+        "title": "Dziedziczenie i heteroplazmia",
+        "body": "Warianty mitochondrialnego DNA przekazywane są zwykle przez matkę. W jednej osobie mogą współistnieć różne wersje tego DNA, co nazywa się heteroplazmią. Ich proporcje mogą różnić się między tkankami i między członkami rodziny. Dlatego matczyny sposób dziedziczenia nie oznacza, że wszystkie dzieci będą miały podobne objawy albo taki sam stopień ich nasilenia."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Zespół MELAS",
+        "url": "https://medlineplus.gov/genetics/condition/mitochondrial-encephalomyopathy-lactic-acidosis-and-stroke-like-episodes/"
+      }
+    ],
+    "topics": [
+      "mitochondrial",
+      "neurological"
+    ],
+    "diseaseType": "mitochondrial"
+  },
+  {
+    "id": "alport",
+    "title": "Zespół Alporta",
+    "category": "diseases",
+    "summary": "Grupa zaburzeń kolagenu typu IV, które mogą wpływać na nerki, słuch i oczy. Sposób dziedziczenia zależy od przyczyny genetycznej.",
+    "minutes": 2,
+    "keywords": [
+      "zespół Alporta",
+      "COL4A3",
+      "COL4A4",
+      "COL4A5",
+      "nerki",
+      "słuch",
+      "kolagen IV"
+    ],
+    "sections": [
+      {
+        "title": "Kolagen jako element filtra",
+        "body": "Kolagen typu IV pomaga budować błony podstawne, czyli cienkie struktury podtrzymujące komórki w wielu tkankach. W nerkach jest ważnym składnikiem bariery filtrującej krew. Zmiany w genach kodujących wybrane łańcuchy tego kolagenu mogą zaburzać jej budowę. Powoduje to stopniowe nieprawidłowości funkcji nerek, których przebieg nie jest jednakowy u wszystkich osób."
+      },
+      {
+        "title": "Nie tylko nerki",
+        "body": "W zespole Alporta mogą występować także zaburzenia słuchu i charakterystyczne zmiany w oczach. Wynika to z roli tego samego rodzaju kolagenu w różnych tkankach. Nie każda osoba ma wszystkie cechy, a wiek ich ujawnienia jest zmienny. Obecność zmian w jednym narządzie nie pozwala samodzielnie przewidzieć, co wydarzy się w pozostałych."
+      },
+      {
+        "title": "Kilka sposobów dziedziczenia",
+        "body": "Zmiany COL4A5 najczęściej powodują postać sprzężoną z chromosomem X. Warianty COL4A3 lub COL4A4 mogą wiązać się z postaciami autosomalnymi recesywnymi albo dominującymi. Kobiety z wariantem związanym z X także mogą mieć istotne objawy. Określenie nosicielstwo nie oznacza tu automatycznie braku wpływu na zdrowie; znaczenie ma konkretny gen i układ zmian."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Zespół Alporta",
+        "url": "https://medlineplus.gov/genetics/condition/alport-syndrome/"
+      }
+    ],
+    "topics": [
+      "organs",
+      "sensory"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "polycystic-kidney",
+    "title": "Wielotorbielowatość nerek",
+    "category": "diseases",
+    "summary": "Dziedziczne zaburzenie, w którym liczne torbiele mogą zmieniać budowę i funkcjonowanie nerek. Istnieją różne postacie genetyczne.",
+    "minutes": 2,
+    "keywords": [
+      "wielotorbielowatość nerek",
+      "torbielowatość",
+      "ADPKD",
+      "ARPKD",
+      "PKD1",
+      "PKD2",
+      "PKHD1"
+    ],
+    "sections": [
+      {
+        "title": "Jak torbiele wpływają na narząd",
+        "body": "Torbiele są przestrzeniami wypełnionymi płynem. W wielotorbielowatości liczne torbiele stopniowo zmieniają strukturę nerek i mogą utrudniać ich pracę. Choroba wiąże się z nieprawidłowym działaniem białek istotnych dla komórek kanalików nerkowych. Samo znalezienie pojedynczej torbieli nie oznacza jednak tej dziedzicznej choroby; torbiele mogą mieć także inne przyczyny."
+      },
+      {
+        "title": "Postać dominująca i recesywna",
+        "body": "Częsta postać autosomalna dominująca, ADPKD, zwykle wiąże się z genami PKD1 lub PKD2. Może obejmować też narządy poza nerkami. Postać autosomalna recesywna, ARPKD, często związana z genem PKHD1, nierzadko ujawnia się wcześniej i może wpływać na wątrobę. Wiek początku nie jest jednak sztywną granicą odróżniającą wszystkie przypadki."
+      },
+      {
+        "title": "Dziedziczenie nie określa całego przebiegu",
+        "body": "W ADPKD zmiana jednej kopii odpowiedniego genu może wystarczać do zwiększenia ryzyka rozwoju choroby. W ARPKD zwykle dotyczą jej obie kopie. Nasilenie zmian jest zróżnicowane nawet w obrębie rodziny, a część przypadków wynika z nowej zmiany genetycznej. Skróty dominujący i recesywny opisują sposób dziedziczenia, nie to, jak ciężkie będą objawy."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Wielotorbielowatość nerek",
+        "url": "https://medlineplus.gov/genetics/condition/polycystic-kidney-disease/"
+      }
+    ],
+    "topics": [
+      "organs"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "retinitis-pigmentosa",
+    "title": "Zwyrodnienie barwnikowe siatkówki",
+    "category": "diseases",
+    "summary": "Grupa chorób genetycznych stopniowo wpływających na fotoreceptory siatkówki. Różnią się przyczyną, sposobem dziedziczenia i tempem zmian.",
+    "minutes": 2,
+    "keywords": [
+      "zwyrodnienie barwnikowe siatkówki",
+      "retinitis pigmentosa",
+      "RP",
+      "siatkówka",
+      "pręciki",
+      "czopki",
+      "RHO",
+      "RPGR"
+    ],
+    "sections": [
+      {
+        "title": "Siatkówka i odbieranie światła",
+        "body": "Siatkówka zawiera fotoreceptory: pręciki, ważne dla widzenia przy słabym oświetleniu, oraz czopki, istotne dla ostrości i barw. W zwyrodnieniu barwnikowym siatkówki komórki te stopniowo tracą sprawność. Często wcześniej zaburzone jest działanie pręcików. Może to prowadzić do trudności w ciemności i ograniczania pola widzenia, ale przebieg nie zawsze jest taki sam."
+      },
+      {
+        "title": "Wiele genów pod wspólną nazwą",
+        "body": "RP nie oznacza jednej choroby wywołanej zawsze tym samym genem. Związane z nim mogą być liczne geny uczestniczące w odbiorze światła, utrzymaniu fotoreceptorów lub ich prawidłowej budowie. Niektóre postacie dotyczą głównie oczu, a inne są częścią szerszego zespołu. Różnią się też wiekiem początku i szybkością postępu zmian."
+      },
+      {
+        "title": "Różne wzorce dziedziczenia",
+        "body": "Możliwe jest dziedziczenie autosomalne dominujące, autosomalne recesywne lub sprzężone z chromosomem X. Dlatego dwie rodziny z tą samą ogólną nazwą schorzenia mogą mieć inne zasady przekazywania ryzyka. Brak podobnych objawów u rodziców nie wyklucza przyczyny genetycznej. Dotyczy to między innymi postaci recesywnych oraz zmian pojawiających się po raz pierwszy w rodzinie."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Zwyrodnienie barwnikowe siatkówki",
+        "url": "https://medlineplus.gov/genetics/condition/retinitis-pigmentosa/"
+      }
+    ],
+    "topics": [
+      "sensory"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "usher",
+    "title": "Zespół Ushera",
+    "category": "diseases",
+    "summary": "Grupa chorób dziedzicznych łączących zaburzenia słuchu ze zwyrodnieniem siatkówki. W części postaci występują także trudności z równowagą.",
+    "minutes": 2,
+    "keywords": [
+      "zespół Ushera",
+      "słuch",
+      "siatkówka",
+      "równowaga",
+      "MYO7A",
+      "USH2A",
+      "CLRN1",
+      "Usher"
+    ],
+    "sections": [
+      {
+        "title": "Dwa zmysły, wspólne białka",
+        "body": "Zespół Ushera wiąże się z zaburzeniem działania białek potrzebnych zarówno w uchu wewnętrznym, jak i w siatkówce oka. Dlatego w jednej osobie mogą współistnieć problemy ze słuchem i stopniowe zmiany widzenia. Siatkówka zwykle wykazuje obraz zwyrodnienia barwnikowego, które może ograniczać widzenie przy słabym świetle i pole widzenia."
+      },
+      {
+        "title": "Typy różnią się przebiegiem",
+        "body": "Wyróżnia się kilka głównych typów, ale rzeczywisty obraz bywa bardziej zróżnicowany niż prosty podział. Wiek początku i nasilenie zaburzeń słuchu oraz wzroku mogą być różne. Nie u każdej osoby występują zaburzenia równowagi. Różnice wynikają między innymi z tego, który gen jest zmieniony i jak wpływa to na działanie jego białka."
+      },
+      {
+        "title": "Dziedziczenie recesywne",
+        "body": "Zespół Ushera zwykle dziedziczy się autosomalnie recesywnie. Związane z nim geny obejmują między innymi MYO7A, USH2A i CLRN1. Osoba chora najczęściej ma zmiany w obu kopiach jednego z właściwych genów, a rodzice mogą być bezobjawowymi nosicielami. To wyjaśnia, dlaczego choroba może wystąpić w rodzinie, w której wcześniej nie odnotowano podobnych trudności."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Zespół Ushera",
+        "url": "https://medlineplus.gov/genetics/condition/usher-syndrome/"
+      }
+    ],
+    "topics": [
+      "sensory"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "brca-susceptibility",
+    "title": "Dziedziczna predyspozycja związana z BRCA1 i BRCA2",
+    "category": "diseases",
+    "summary": "Niektóre warianty BRCA1 lub BRCA2 zwiększają ryzyko określonych nowotworów. Predyspozycja genetyczna nie oznacza, że nowotwór na pewno się rozwinie.",
+    "minutes": 2,
+    "keywords": [
+      "BRCA1",
+      "BRCA2",
+      "BRCA",
+      "rak piersi",
+      "rak jajnika",
+      "dziedziczny rak",
+      "predyspozycja nowotworowa",
+      "HBOC"
+    ],
+    "sections": [
+      {
+        "title": "Geny pomagające naprawiać DNA",
+        "body": "Białka BRCA1 i BRCA2 uczestniczą w naprawie uszkodzeń DNA. Niektóre warianty tych genów ograniczają ochronę komórek przed gromadzeniem zmian. Odziedziczenie takiego wariantu może zwiększać podatność na określone nowotwory. Nie każda różnica w sekwencji BRCA1 lub BRCA2 jest jednak szkodliwa; wiele wariantów jest obojętnych, a znaczenie innych pozostaje niepewne."
+      },
+      {
+        "title": "Ryzyko, a nie pewność zachorowania",
+        "body": "Zwiększone ryzyko może obejmować raka piersi, jajnika i inne nowotwory, a szczegóły zależą od genu i dodatkowych czynników. Warianty te mogą mieć znaczenie także u mężczyzn. Nie wszystkie osoby z predyspozycją zachorują. Większość przypadków raka piersi nie wynika z odziedziczonego wariantu BRCA1 lub BRCA2, więc rozpoznanie nowotworu samo nie ustala przyczyny dziedzicznej."
+      },
+      {
+        "title": "Co jest przekazywane w rodzinie",
+        "body": "Predyspozycja zwykle dziedziczy się autosomalnie dominująco: jeden odpowiedni wariant może zwiększać ryzyko. Przekazywana jest podatność, a nie gotowy nowotwór. Dziedziczny wariant obecny w wielu komórkach trzeba odróżniać od zmiany powstałej wyłącznie w komórkach guza. Te dwa rodzaje informacji nie oznaczają automatycznie tego samego dla krewnych."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Dziedziczna predyspozycja związana z BRCA1 i BRCA2",
+        "url": "https://medlineplus.gov/genetics/condition/breast-cancer/"
+      }
+    ],
+    "topics": [
+      "cancer"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "lynch",
+    "title": "Zespół Lyncha",
+    "category": "diseases",
+    "summary": "Dziedziczna predyspozycja do niektórych nowotworów związana z zaburzeniem naprawy błędów DNA. Ryzyko zależy między innymi od zmienionego genu.",
+    "minutes": 2,
+    "keywords": [
+      "zespół Lyncha",
+      "Lynch",
+      "HNPCC",
+      "MLH1",
+      "MSH2",
+      "MSH6",
+      "PMS2",
+      "EPCAM",
+      "rak jelita grubego",
+      "rak endometrium"
+    ],
+    "sections": [
+      {
+        "title": "System sprawdzania kopii DNA",
+        "body": "Podczas kopiowania DNA mogą powstawać drobne błędy. Białka systemu naprawy niedopasowań pomagają je wykrywać i usuwać. Zespół Lyncha wiąże się z dziedziczną zmianą ograniczającą ten mechanizm. W komórkach, które tracą skuteczną ochronę, może łatwiej gromadzić się więcej zmian. Zwiększa to ryzyko rozwoju niektórych nowotworów, lecz nie oznacza nieuchronnej choroby."
+      },
+      {
+        "title": "Nie tylko jelito grube",
+        "body": "Zespół jest szczególnie kojarzony z rakiem jelita grubego i błony śluzowej macicy, ale zakres zwiększonego ryzyka może być szerszy. Zależy między innymi od genu i historii rodziny. Związane z nim geny to MLH1, MSH2, MSH6 i PMS2; określone zmiany EPCAM mogą pośrednio wyciszać MSH2. Nie każda zmiana w tych genach ma znaczenie chorobotwórcze."
+      },
+      {
+        "title": "Dziedziczenie predyspozycji",
+        "body": "Predyspozycja zwykle dziedziczy się autosomalnie dominująco. Dziecko może odziedziczyć wariant zarówno od matki, jak i od ojca. Nie wszystkie osoby, które go mają, zachorują, a wiek wystąpienia nowotworu nie jest stały. Większość przypadków raka jelita grubego nie wynika z zespołu Lyncha; genetyczną predyspozycję należy odróżniać od zmian nabytych wyłącznie przez guz."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — Zespół Lyncha",
+        "url": "https://medlineplus.gov/genetics/condition/lynch-syndrome/"
+      }
+    ],
+    "topics": [
+      "cancer"
+    ],
+    "diseaseType": "monogenic"
+  },
+  {
+    "id": "genetic-mutations",
+    "title": "Mutacje genetyczne",
+    "category": "inheritance",
+    "summary": "Czym jest mutacja, jakie są jej rodzaje i kiedy może być przekazana potomstwu.",
+    "minutes": 2,
+    "keywords": [
+      "mutacje genetyczne",
+      "mutacja genetyczna",
+      "mutacje genowe",
+      "rodzaje mutacji",
+      "wariant genetyczny",
+      "substytucja",
+      "delecja",
+      "insercja",
+      "somatyczne",
+      "de novo"
+    ],
+    "sections": [
+      {
+        "title": "Zmiana w zapisie DNA",
+        "body": "Mutacja to utrwalona zmiana materiału genetycznego. W obrębie genu może polegać na zastąpieniu zasady, wstawieniu lub usunięciu fragmentu DNA. Zmiany występują również poza genami. Określenie „wariant” opisuje różnicę w zapisie bez przesądzania, czy jest szkodliwa."
+      },
+      {
+        "title": "Geny a chromosomy",
+        "body": "W szkolnym podziale mutacje genowe dotyczą sekwencji genu, a zmiany chromosomowe — budowy lub liczby chromosomów. Duża zmiana może obejmować wiele genów. Wielkość zmiany sama nie określa jednak jej skutków: ważne są także miejsce i funkcja danego fragmentu."
+      },
+      {
+        "title": "Czy mutacja jest dziedziczna?",
+        "body": "Zmiana w komórce rozrodczej może zostać przekazana dziecku. Mutacje somatyczne powstają w komórkach ciała i zwykle nie przechodzą na potomstwo. Wariant może też pojawić się de novo. Nie każda mutacja powoduje chorobę."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — warianty genetyczne i ich pochodzenie",
+        "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/genemutation/"
+      },
+      {
+        "title": "MedlinePlus Genetics — rodzaje zmian w DNA",
+        "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/possiblemutations/"
+      }
+    ],
+    "topics": [
+      "mutations"
+    ]
+  },
+  {
+    "id": "mutation-effects",
+    "title": "Skutki mutacji genetycznych",
+    "category": "inheritance",
+    "summary": "Mutacje mogą być obojętne, szkodliwe lub korzystne — ich znaczenie zależy od kontekstu.",
+    "minutes": 2,
+    "keywords": [
+      "skutki mutacji genetycznej",
+      "skutki mutacji genetycznych",
+      "skutki mutacji genowych",
+      "mutacja neutralna",
+      "mutacja szkodliwa",
+      "mutacja korzystna",
+      "białko",
+      "zmiana funkcji"
+    ],
+    "sections": [
+      {
+        "title": "Skutki obojętne",
+        "body": "Wiele wariantów nie zmienia działania komórki. Zmieniony zapis może nadal kodować ten sam aminokwas albo nie wpływać na ważną funkcję danego fragmentu. Dlatego wykrycie różnicy w DNA nie oznacza automatycznie problemu zdrowotnego."
+      },
+      {
+        "title": "Zmiana białka lub regulacji",
+        "body": "Niektóre warianty zmieniają budowę białka, jego ilość lub sposób włączania genu. Mogą zaburzać pracę komórek, wywoływać chorobę albo zwiększać jej ryzyko. Skutek zależy między innymi od funkcji genu i liczby zmienionych kopii."
+      },
+      {
+        "title": "Kontekst ma znaczenie",
+        "body": "Ten sam wariant może mieć różne znaczenie zależnie od środowiska i innych genów. W pewnych warunkach zmiana bywa korzystna, na przykład ułatwia przetrwanie w określonym środowisku. Nie można więc przewidzieć zdrowia osoby wyłącznie na podstawie słowa „mutacja”."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — wpływ wariantów na zdrowie",
+        "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/mutationscausedisease/"
+      },
+      {
+        "title": "MedlinePlus Genetics — warianty obojętne i korzystne",
+        "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/neutralmutations/"
+      },
+      {
+        "title": "MedlinePlus Genetics — warianty i dobór naturalny",
+        "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/evolution/"
+      }
+    ],
+    "topics": [
+      "mutations",
+      "mutation-effects"
+    ]
+  },
+  {
+    "id": "chromosomal-mutation-effects",
+    "title": "Skutki mutacji chromosomowych",
+    "category": "inheritance",
+    "summary": "Zmiany liczby lub budowy chromosomów mogą zmieniać ilość informacji genetycznej i pracę wielu genów.",
+    "minutes": 2,
+    "keywords": [
+      "skutki mutacji chromosomowych",
+      "mutacje chromosomowe",
+      "zmiany chromosomowe",
+      "mutacje genomowe",
+      "trisomia",
+      "monosomia",
+      "translokacja",
+      "inwersja",
+      "delecja",
+      "duplikacja",
+      "zrównoważona"
+    ],
+    "sections": [
+      {
+        "title": "Zmiany liczby chromosomów",
+        "body": "Zmiany liczby chromosomów, nazywane też genomowymi, mogą zmieniać liczbę kopii wielu genów. Przykładem jest trisomia 21 związana z zespołem Downa. Brak całego chromosomu lub dodatkowa kopia mogą wpływać na rozwój; rozległe zmiany bywają niezgodne z życiem."
+      },
+      {
+        "title": "Zmiany budowy chromosomu",
+        "body": "Delecja usuwa fragment, a duplikacja dodaje jego kopię. Inwersja odwraca fragment, a translokacja przenosi go między chromosomami. Skutki zależą od zajętych genów, miejsca pęknięcia i tego, czy materiału genetycznego ubyło lub przybyło."
+      },
+      {
+        "title": "Nie każda zmiana daje objawy",
+        "body": "Niektóre zrównoważone przestawienia nie powodują widocznych objawów, ale mogą mieć znaczenie dla potomstwa. W mozaicyzmie zmiana występuje tylko w części komórek. Obraz kliniczny zależy więc od rodzaju zmiany i tkanek, których dotyczy."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MedlinePlus Genetics — zmiany liczby chromosomów",
+        "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/chromosomalconditions/"
+      },
+      {
+        "title": "MedlinePlus Genetics — zmiany budowy chromosomów",
+        "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/structuralchanges/"
+      }
+    ],
+    "topics": [
+      "mutations",
+      "chromosomal-effects"
+    ]
+  },
+  {
+    "id": "mutation-causes",
+    "title": "Przyczyny mutacji",
+    "category": "inheritance",
+    "summary": "Mutacje powstają spontanicznie lub pod wpływem czynników uszkadzających DNA; nie są celową reakcją organizmu.",
+    "minutes": 2,
+    "keywords": [
+      "przyczyny mutacji",
+      "skąd biorą się mutacje",
+      "mutagen",
+      "czynniki mutagenne",
+      "mutacje spontaniczne",
+      "błędy replikacji",
+      "promieniowanie UV",
+      "promieniowanie jonizujące",
+      "substancje chemiczne",
+      "naprawa DNA"
+    ],
+    "sections": [
+      {
+        "title": "Kopiowanie i podział komórki",
+        "body": "Podczas kopiowania DNA mogą zdarzać się błędy. Większość jest poprawiana, ale niektóre utrwalają się w kolejnych komórkach. Błędy rozdziału chromosomów podczas podziału mogą natomiast prowadzić do zmiany ich liczby. Takie zdarzenia zachodzą również bez wyraźnego czynnika zewnętrznego."
+      },
+      {
+        "title": "Czynniki mutagenne",
+        "body": "Promieniowanie ultrafioletowe, promieniowanie jonizujące i niektóre substancje chemiczne mogą uszkadzać DNA. Komórka ma systemy naprawcze, dlatego uszkodzenie nie zawsze staje się trwałą mutacją. Znaczenie mają rodzaj czynnika, warunki kontaktu i skuteczność naprawy."
+      },
+      {
+        "title": "Miejsce zmiany ma znaczenie",
+        "body": "Mutacja powstała w komórce rozrodczej może być dziedziczna. Zmiana w komórce skóry czy mięśnia dotyczy zwykle tej komórki i jej potomnych. Mutacje nie pojawiają się dlatego, że organizm ich potrzebuje; nie świadczą też o czyjejś winie."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NHGRI — mutacja i jej pochodzenie",
+        "url": "https://www.genome.gov/genetics-glossary/Mutation"
+      },
+      {
+        "title": "NHGRI — czym jest mutagen",
+        "url": "https://www.genome.gov/genetics-glossary/Mutagen"
+      },
+      {
+        "title": "MedlinePlus Genetics — błędy liczby chromosomów",
+        "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/chromosomalconditions/"
+      }
+    ],
+    "topics": [
+      "mutations",
+      "mutation-causes"
+    ]
+  }
+]

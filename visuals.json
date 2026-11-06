@@ -1,0 +1,315 @@
+[
+  {
+    "id": "dna-helix",
+    "title": "Podwójna helisa DNA",
+    "term": "DNA",
+    "summary": "DNA składa się z dwóch nici. Kolejność zasad stanowi zapis informacji genetycznej.",
+    "alt": "Dwie skręcone nici DNA połączone poprzecznymi parami zasad.",
+    "src": "illustrations/dna-helix.svg",
+    "articleIds": [
+      "dna",
+      "genome",
+      "dna-origin",
+      "nuclear-dna"
+    ]
+  },
+  {
+    "id": "nucleotide",
+    "title": "Z czego składa się nukleotyd?",
+    "term": "Nukleotyd",
+    "summary": "Nukleotyd DNA łączy resztę fosforanową, cukier i jedną z czterech zasad.",
+    "alt": "Trzy połączone elementy nukleotydu: reszta fosforanowa, deoksyryboza oraz zasada A, T, G lub C.",
+    "src": "illustrations/nucleotide.svg",
+    "articleIds": [
+      "nucleotides",
+      "dna"
+    ]
+  },
+  {
+    "id": "base-pairs",
+    "title": "Dlaczego zasady łączą się w pary?",
+    "term": "Pary zasad",
+    "summary": "W typowym dwuniciowym DNA adenina łączy się z tyminą, a guanina z cytozyną.",
+    "alt": "Para A–T z dwoma wiązaniami wodorowymi i para G–C z trzema wiązaniami.",
+    "src": "illustrations/base-pairs.svg",
+    "articleIds": [
+      "base-pairing",
+      "dna-rna",
+      "replication"
+    ]
+  },
+  {
+    "id": "chromosome",
+    "title": "Jak czytać schemat chromosomu?",
+    "term": "Chromosom",
+    "summary": "Kształt litery X przedstawia chromosom po skopiowaniu DNA i silnym upakowaniu. Nie jest to stały wygląd chromosomów.",
+    "alt": "Chromosom w kształcie X: dwie chromatydy siostrzane połączone w centromerze.",
+    "src": "illustrations/chromosome.svg",
+    "articleIds": [
+      "chromosomes",
+      "cell-division",
+      "telomeres"
+    ]
+  },
+  {
+    "id": "chromatin",
+    "title": "Jak DNA mieści się w jądrze?",
+    "term": "Chromatyna",
+    "summary": "Histony pomagają pakować DNA. Sposób upakowania wiąże się z dostępnością genów dla komórki.",
+    "alt": "Trzy zespoły histonów oplecione nicią DNA, przedstawione jako paciorki na nici.",
+    "src": "illustrations/chromatin.svg",
+    "articleIds": [
+      "chromatin",
+      "gene",
+      "coding-noncoding",
+      "epigenetics"
+    ]
+  },
+  {
+    "id": "gene-expression",
+    "title": "Jak komórka odczytuje gen?",
+    "term": "Ekspresja genu",
+    "summary": "Transkrypcja tworzy RNA. Podczas translacji rybosom może wykorzystać RNA do budowy białka.",
+    "alt": "Schemat DNA prowadzi przez transkrypcję do RNA, a następnie przez translację do białka.",
+    "src": "illustrations/gene-expression.svg",
+    "articleIds": [
+      "gene-to-protein",
+      "gene",
+      "transcription",
+      "translation",
+      "rna-splicing",
+      "coding-noncoding"
+    ]
+  },
+  {
+    "id": "replication",
+    "title": "Jak DNA kopiuje samo siebie?",
+    "term": "Replikacja",
+    "summary": "Dwie nici służą jako wzorce. Po replikacji w każdej cząsteczce pozostaje jedna nić wyjściowa.",
+    "alt": "Jedna para starych zielonych nici staje się dwiema parami, każda z jedną zieloną i jedną nową pomarańczową nicią.",
+    "src": "illustrations/replication.svg",
+    "articleIds": [
+      "replication",
+      "dna-origin"
+    ]
+  },
+  {
+    "id": "cell-division",
+    "title": "Dwa sposoby podziału komórki",
+    "term": "Mitoza i mejoza",
+    "summary": "Mitoza zwykle zachowuje liczbę zestawów chromosomów. Mejoza ją zmniejsza; u człowieka wiąże się z powstawaniem gamet.",
+    "alt": "Mitoza daje dwie komórki 2n, a mejoza cztery komórki n w uproszczonym schemacie.",
+    "src": "illustrations/cell-division.svg",
+    "articleIds": [
+      "cell-division",
+      "recombination",
+      "chromosomes"
+    ]
+  },
+  {
+    "id": "recessive",
+    "title": "Jak działa dziedziczenie recesywne?",
+    "term": "Dziedziczenie recesywne",
+    "summary": "Dla pary nosicieli Aa i Aa w każdej ciąży możliwe są układy AA, Aa lub aa. To model dla konkretnego sposobu dziedziczenia.",
+    "alt": "Krzyżówka Aa na Aa pokazuje AA, Aa, Aa i aa oraz proporcje 25, 50 i 25 procent.",
+    "src": "illustrations/recessive.svg",
+    "articleIds": [
+      "recessive",
+      "inheritance",
+      "cystic-fibrosis",
+      "phenylketonuria",
+      "sma",
+      "galactosemia",
+      "maple-syrup-urine",
+      "tay-sachs",
+      "gaucher",
+      "friedreich-ataxia"
+    ]
+  },
+  {
+    "id": "dominant",
+    "title": "Jak może być przekazany wariant dominujący?",
+    "term": "Dziedziczenie dominujące",
+    "summary": "Dla pary Aa i aa szansa odziedziczenia wariantu A wynosi 50% w każdej ciąży. Obecność wariantu nie zawsze przesądza o objawach.",
+    "alt": "Rodzic Aa i rodzic aa mogą mieć dziecko Aa lub aa, z równą szansą w każdej ciąży.",
+    "src": "illustrations/dominant.svg",
+    "articleIds": [
+      "dominant",
+      "huntington",
+      "marfan",
+      "neurofibromatosis-1",
+      "achondroplasia",
+      "familial-hypercholesterolemia",
+      "penetrance"
+    ]
+  },
+  {
+    "id": "mitochondrial",
+    "title": "Gdzie w komórce znajduje się DNA?",
+    "term": "DNA mitochondrialne",
+    "summary": "Mitochondria mają mały genom. Większość białek potrzebnych mitochondriom kodują jednak geny jądrowe.",
+    "alt": "Komórka z jądrem zawierającym DNA oraz mitochondrium z małą kolistą cząsteczką mtDNA.",
+    "src": "illustrations/mitochondrial.svg",
+    "articleIds": [
+      "mitochondrial-dna",
+      "nuclear-dna",
+      "mitochondrial-inheritance",
+      "lhon",
+      "melas"
+    ]
+  },
+  {
+    "id": "mutations",
+    "title": "Jak może zmienić się sekwencja DNA?",
+    "term": "Mutacja / wariant",
+    "summary": "W DNA może dojść do zamiany, utraty lub dodania zasad. Znaczenie wariantu zależy od miejsca i jego wpływu na działanie komórki.",
+    "alt": "Sekwencja ACGT zmienia się przez substytucję w ATGT, przez delecję w AGT albo przez insercję w ACAGT.",
+    "src": "illustrations/mutations.svg",
+    "articleIds": [
+      "mutations",
+      "dna-repair",
+      "mosaicism",
+      "gene-therapy"
+    ]
+  },
+  {
+    "id": "epigenetics",
+    "title": "Co zmienia się w epigenetyce?",
+    "term": "Epigenetyka i metylacja",
+    "summary": "Metylacja DNA jest jednym ze sposobów regulacji. Nie zmienia kolejności zasad, a jej skutki zależą od kontekstu.",
+    "alt": "Nić DNA z niezmienionymi literami i przyłączonymi grupami metylowymi CH3.",
+    "src": "illustrations/epigenetics.svg",
+    "articleIds": [
+      "epigenetics",
+      "dna-methylation",
+      "gene-environment"
+    ]
+  },
+  {
+    "id": "pcr",
+    "title": "Trzy etapy reakcji PCR",
+    "term": "PCR",
+    "summary": "PCR wykorzystuje startery i polimerazę do powielania wybranego fragmentu DNA. Parametry zależą od konkretnego protokołu.",
+    "alt": "Trzy etapy PCR: rozdzielenie nici około 95 stopni, przyłączenie starterów często w 50–65 stopniach i wydłużanie często około 72 stopni.",
+    "src": "illustrations/pcr.svg",
+    "articleIds": [
+      "pcr",
+      "genetic-testing"
+    ]
+  },
+  {
+    "id": "crispr",
+    "title": "Jak działa narzędzie CRISPR-Cas9?",
+    "term": "CRISPR",
+    "summary": "RNA pomaga skierować białko Cas9 do wybranej sekwencji. Po przecięciu DNA dalszy wynik zależy od procesów naprawy.",
+    "alt": "RNA przewodnik kieruje białko Cas9 do DNA; zaznaczone miejsce cięcia prowadzi do naprawy przez komórkę.",
+    "src": "illustrations/crispr.svg",
+    "articleIds": [
+      "crispr",
+      "gene-therapy"
+    ]
+  },
+  {
+    "id": "trisomy",
+    "title": "Co oznacza trisomia?",
+    "term": "Trisomia",
+    "summary": "Trisomia oznacza dodatkową kopię określonego chromosomu. W postaci mozaikowej zmiana występuje tylko w części komórek.",
+    "alt": "Po lewej dwie kopie wybranego chromosomu, po prawej trzy kopie.",
+    "src": "illustrations/trisomy.svg",
+    "articleIds": [
+      "down-syndrome",
+      "edwards",
+      "patau",
+      "mosaicism"
+    ]
+  },
+  {
+    "id": "metabolism",
+    "title": "Dlaczego zmiana enzymu ma znaczenie?",
+    "term": "Enzym i metabolizm",
+    "summary": "To uproszczony model wybranych chorób metabolicznych. Konsekwencje zależą od konkretnego enzymu i szlaku.",
+    "alt": "Substrat przechodzi z udziałem enzymu w produkt. Mniejsza aktywność enzymu może powodować gromadzenie substratu i niedobór produktu.",
+    "src": "illustrations/metabolism.svg",
+    "articleIds": [
+      "phenylketonuria",
+      "galactosemia",
+      "maple-syrup-urine",
+      "tay-sachs",
+      "gaucher"
+    ]
+  },
+  {
+    "id": "sickle-cell",
+    "title": "Skąd nazwa choroby sierpowatej?",
+    "term": "Hemoglobina HbS",
+    "summary": "W pewnych warunkach hemoglobina HbS może zmieniać właściwości krwinki. Sierpowacenie jest procesem zależnym od warunków.",
+    "alt": "Porównanie dwuwklęsłej krwinki czerwonej i schematycznej krwinki o kształcie sierpa.",
+    "src": "illustrations/sickle-cell.svg",
+    "articleIds": [
+      "sickle-cell"
+    ]
+  },
+  {
+    "id": "cancer-risk",
+    "title": "Wariant genetyczny a ryzyko nowotworu",
+    "term": "Predyspozycja genetyczna",
+    "summary": "Warianty BRCA1, BRCA2 i genów związanych z zespołem Lyncha mogą zwiększać określone ryzyka. Wynik nie jest zapowiedzią nieuniknionej choroby.",
+    "alt": "Wariant genu wiąże się ze zmienionym ryzykiem, na które wpływają także inne geny, wiek i środowisko.",
+    "src": "illustrations/cancer-risk.svg",
+    "articleIds": [
+      "brca-susceptibility",
+      "lynch",
+      "penetrance"
+    ]
+  },
+  {
+    "id": "x-linked",
+    "title": "Jak wariant może być związany z chromosomem X?",
+    "term": "Dziedziczenie sprzężone z X",
+    "summary": "Układ chromosomów dziecka wpływa na przekazanie wariantu. Schemat pokazuje jedną sytuację rodzinną, a nie wszystkie możliwe przypadki.",
+    "alt": "Krzyżówka matki XAXa i ojca XAY z czterema układami: XAXA, XAY, XAXa oraz XaY.",
+    "src": "illustrations/x-linked.svg",
+    "articleIds": [
+      "x-linked",
+      "hemophilia",
+      "duchenne",
+      "g6pd-deficiency"
+    ]
+  },
+  {
+    "id": "evolution-selection",
+    "title": "Dobór naturalny: zmiana w populacji",
+    "term": "Dobór naturalny",
+    "summary": "Dziedziczne różnice mogą wpływać na przeżycie i liczbę potomstwa. W kolejnych pokoleniach zmienia się częstość wariantów w populacji; pokazane proporcje są tylko przykładem.",
+    "alt": "Trzy etapy przykładu doboru: dziedziczne warianty zielonych i brązowych chrząszczy, częstsze przeżycie lepiej maskujących się osobników na brązowym podłożu i zmiana proporcji w kolejnym pokoleniu.",
+    "src": "illustrations/evolution-selection.svg",
+    "articleIds": [],
+    "lessonIds": [
+      "evo-06"
+    ]
+  },
+  {
+    "id": "ecosystem-flow",
+    "title": "Łańcuch pokarmowy i obieg materii",
+    "term": "Ekosystem: materia i energia",
+    "summary": "Strzałki łańcucha prowadzą od pokarmu do konsumenta. Destruenci uczestniczą w obiegu materii; energia przepływa przez ekosystem i rozprasza się jako ciepło.",
+    "alt": "Energia słoneczna trafia do trawy. Strzałki pokarmowe prowadzą od trawy do konika polnego, żaby i bociana. Martwa materia ze wszystkich poziomów trafia do destruentów; po rozkładzie sole mineralne wracają do roślin.",
+    "src": "illustrations/ecosystem-flow.svg",
+    "articleIds": [],
+    "lessonIds": [
+      "eco-10"
+    ]
+  },
+  {
+    "id": "biodiversity-levels",
+    "title": "Trzy poziomy różnorodności biologicznej",
+    "term": "Różnorodność biologiczna",
+    "summary": "Bioróżnorodność obejmuje różnice genetyczne w obrębie gatunków, różnorodność gatunków i ekosystemów. Ochrona siedlisk pomaga zachować wszystkie te poziomy.",
+    "alt": "Różnorodność genetyczna oznacza różnice w obrębie gatunku. Różnorodność gatunkowa obejmuje różne gatunki. Różnorodność ekosystemów to między innymi las, jezioro i łąka.",
+    "src": "illustrations/biodiversity-levels.svg",
+    "articleIds": [],
+    "lessonIds": [
+      "env-01"
+    ]
+  }
+]

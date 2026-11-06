@@ -1,0 +1,26 @@
+GENOM — BIOLOGIA, KLASA 8
+
+КАК ОТКРЫТЬ САЙТ
+1. Полностью распакуйте ZIP в отдельную папку.
+2. Откройте index.html в Chrome, Edge или Firefox.
+Python, установка программ и сервер для этого не нужны.
+Статьи, уроки, тесты, схемы и фон находятся внутри архива.
+Для учебных видео YouTube и внешних источников нужен интернет. Если встроенный плеер не открывается из файла, используйте прямую ссылку YouTube на карточке видео.
+Сохранение прогресса при открытии файла зависит от браузера; используйте одну и ту же папку и браузер.
+
+JAK OTWORZYĆ STRONĘ
+1. Rozpakuj cały ZIP do osobnego folderu.
+2. Otwórz index.html w przeglądarce Chrome, Edge lub Firefox.
+Nie trzeba instalować Pythona ani uruchamiać serwera.
+Artykuły, lekcje, testy, schematy i tło są w archiwum.
+Filmy z YouTube i zewnętrzne źródła wymagają internetu. Jeśli odtwarzacz osadzony w pliku lokalnym nie działa, skorzystaj z bezpośredniego odnośnika do YouTube przy filmie.
+Zapis postępu przy otwieraniu pliku zależy od przeglądarki; korzystaj z tego samego folderu i przeglądarki.
+
+PUBLIKACJA NA WŁASNYM HOSTINGU
+Prześlij zawartość tego folderu na hosting statyczny. Plik index.html ma być w katalogu głównym.
+Budowanie projektu, konto ChatGPT i klucze API nie są potrzebne.
+Przy publikacji przez HTTP/HTTPS strona korzysta ze zwykłych plików JSON.
+Plik offline-data.js służy wyłącznie do otwierania przez file://.
+
+ŹRÓDŁA
+Odnośniki naukowe są przy lekcjach i artykułach. Źródło filmu tła: media/earth-pinterest-source.json.

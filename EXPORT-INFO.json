@@ -1,0 +1,15 @@
+{
+  "site": "Genom — biologia, klasa 8",
+  "sourceCommit": "1931776c08d590e24a1b928e2a8d5672c179e8f4",
+  "publishedVersion": 13,
+  "entrypoint": "index.html",
+  "exportOnlyChanges": [
+    "offline-data.js",
+    "index.html: offline bootstrap added",
+    "START-HERE.txt",
+    "README-PROJECT.md",
+    "EXPORT-INFO.json"
+  ],
+  "requiresBuild": false,
+  "externalVideoNeedsInternet": true
+}

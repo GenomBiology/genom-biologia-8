@@ -1,0 +1,909 @@
+{
+  "paths": [
+    {
+      "id": "basics",
+      "title": "DNA od pierwszej litery",
+      "description": "Poznaj budulec DNA, zasady łączenia liter oraz różnicę między genem, chromosomem i genomem. Dobry początek bez specjalnego przygotowania.",
+      "icon": "dna",
+      "articleIds": [
+        "dna",
+        "nucleotides",
+        "base-pairing",
+        "gene",
+        "chromosomes",
+        "genome",
+        "mitochondrial-dna",
+        "dna-rna"
+      ]
+    },
+    {
+      "id": "inheritance",
+      "title": "Dlaczego jesteśmy podobni?",
+      "description": "Prześledź drogę od podziału komórek do dziedziczenia cech. Porównaj różne modele i zobacz, dlaczego rodzinne podobieństwo nie oznacza identyczności.",
+      "icon": "branch",
+      "articleIds": [
+        "inheritance",
+        "cell-division",
+        "recombination",
+        "dominant",
+        "recessive",
+        "x-linked",
+        "mitochondrial-inheritance",
+        "penetrance"
+      ]
+    },
+    {
+      "id": "health",
+      "title": "Genetyka i zdrowie bez mitów",
+      "description": "Zrozum związek zmian DNA ze zdrowiem, poznaj kilka przykładów chorób i dowiedz się, czym różnią się ryzyko, badanie przesiewowe i diagnoza.",
+      "icon": "heart",
+      "articleIds": [
+        "mutations",
+        "cystic-fibrosis",
+        "phenylketonuria",
+        "down-syndrome",
+        "brca-susceptibility",
+        "genetic-testing",
+        "screening",
+        "genetic-counseling"
+      ]
+    },
+    {
+      "id": "technology",
+      "title": "Jak nauka czyta i zmienia DNA",
+      "description": "Od odczytywania genu do PCR, sekwencjonowania i CRISPR. Odkryj możliwości narzędzi laboratoryjnych oraz ich ograniczenia.",
+      "icon": "microscope",
+      "articleIds": [
+        "gene-to-protein",
+        "transcription",
+        "translation",
+        "sequencing",
+        "pcr",
+        "crispr",
+        "gene-therapy"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "basics-1",
+      "category": "basics",
+      "question": "Jaką główną rolę pełni DNA w komórkach?",
+      "options": [
+        "Przechowuje informację genetyczną.",
+        "Zastępuje wszystkie białka.",
+        "Jest jedynym źródłem energii.",
+        "Transportuje tlen we krwi."
+      ],
+      "answer": 0,
+      "explanation": "Kolejność nukleotydów DNA jest zapisem informacji genetycznej. Komórka wykorzystuje ją między innymi do wytwarzania RNA i białek.",
+      "articleId": "dna"
+    },
+    {
+      "id": "basics-2",
+      "category": "basics",
+      "question": "Z którą zasadą łączy się adenina (A) w typowej parze zasad DNA?",
+      "options": [
+        "Z guaniną (G).",
+        "Z cytozyną (C).",
+        "Z tyminą (T).",
+        "Z uracylem (U)."
+      ],
+      "answer": 2,
+      "explanation": "W DNA adenina łączy się z tyminą, a guanina z cytozyną. Uracyl jest charakterystyczny dla RNA.",
+      "articleId": "base-pairing"
+    },
+    {
+      "id": "basics-3",
+      "category": "basics",
+      "question": "Z jakich elementów składa się nukleotyd DNA?",
+      "options": [
+        "Z trzech aminokwasów.",
+        "Z cukru, reszty fosforanowej i zasady azotowej.",
+        "Z dwóch chromosomów i białka.",
+        "Wyłącznie z zasady azotowej."
+      ],
+      "answer": 1,
+      "explanation": "Nukleotyd DNA zawiera cukier — deoksyrybozę — resztę fosforanową oraz jedną z czterech zasad azotowych.",
+      "articleId": "nucleotides"
+    },
+    {
+      "id": "basics-4",
+      "category": "basics",
+      "question": "Które zdanie najlepiej opisuje gen?",
+      "options": [
+        "Jest całym zestawem chromosomów.",
+        "Jest organellum wytwarzającym energię.",
+        "Jest dowolnym białkiem obecnym we krwi.",
+        "Jest odcinkiem DNA zawierającym informację potrzebną do wytworzenia funkcjonalnego RNA."
+      ],
+      "answer": 3,
+      "explanation": "Gen to określony odcinek DNA. Niektóre powstające z genów RNA służą jako instrukcje do wytworzenia białek, a inne same pełnią funkcje w komórce.",
+      "articleId": "gene"
+    },
+    {
+      "id": "basics-5",
+      "category": "basics",
+      "question": "Ile par chromosomów zwykle zawiera ludzka komórka somatyczna z jądrem?",
+      "options": [
+        "46 par.",
+        "23 pary.",
+        "12 par.",
+        "92 pary."
+      ],
+      "answer": 1,
+      "explanation": "Typowa ludzka komórka somatyczna z jądrem ma 46 chromosomów, czyli 23 pary. Komórki rozrodcze zwykle mają jeden zestaw 23 chromosomów.",
+      "articleId": "chromosomes"
+    },
+    {
+      "id": "basics-6",
+      "category": "basics",
+      "question": "Która zasada występuje w RNA zamiast tyminy charakterystycznej dla DNA?",
+      "options": [
+        "Adenina.",
+        "Guanina.",
+        "Cytozyna.",
+        "Uracyl."
+      ],
+      "answer": 3,
+      "explanation": "RNA zawiera uracyl (U) zamiast tyminy (T). Różni się od DNA także cukrem w nukleotydach i zwykle budową pojedynczej nici.",
+      "articleId": "dna-rna"
+    },
+    {
+      "id": "inheritance-1",
+      "category": "inheritance",
+      "question": "W uproszczonym modelu recesywnym rodzice mają genotypy Aa i Aa. Jaka jest szansa genotypu aa w każdej ciąży?",
+      "options": [
+        "0%.",
+        "25%.",
+        "50%.",
+        "100%."
+      ],
+      "answer": 1,
+      "explanation": "Możliwe połączenia to AA, Aa, Aa i aa. Jedno z czterech ma układ aa, więc jego prawdopodobieństwo wynosi 25% w każdej ciąży osobno.",
+      "articleId": "recessive"
+    },
+    {
+      "id": "inheritance-2",
+      "category": "inheritance",
+      "question": "W modelu Aa × aa jaka część potomstwa może odziedziczyć allel A?",
+      "options": [
+        "0%.",
+        "25%.",
+        "50%.",
+        "100%."
+      ],
+      "answer": 2,
+      "explanation": "Rodzic Aa przekazuje A lub a, a rodzic aa przekazuje a. Powstają układy Aa i aa z równym prawdopodobieństwem; samo odziedziczenie allelu nie opisuje całego przebiegu choroby.",
+      "articleId": "dominant"
+    },
+    {
+      "id": "inheritance-3",
+      "category": "inheritance",
+      "question": "Czym jest allel?",
+      "options": [
+        "Wersją danego genu.",
+        "Całym zestawem chromosomów.",
+        "Inną nazwą mitochondrium.",
+        "Każdym rodzajem białka."
+      ],
+      "answer": 0,
+      "explanation": "Allele to różne wersje genu. W prostym zapisie A i a oznaczają dwa allele rozpatrywanego genu.",
+      "articleId": "inheritance"
+    },
+    {
+      "id": "inheritance-4",
+      "category": "inheritance",
+      "question": "Ile chromosomów zwykle zawiera dojrzały ludzki plemnik lub komórka jajowa?",
+      "options": [
+        "46 par chromosomów.",
+        "46 chromosomów.",
+        "23 pary chromosomów.",
+        "23 chromosomy."
+      ],
+      "answer": 3,
+      "explanation": "Gamety zwykle zawierają po jednym zestawie 23 chromosomów. Po połączeniu komórki jajowej i plemnika powstaje komórka z dwoma zestawami.",
+      "articleId": "cell-division"
+    },
+    {
+      "id": "inheritance-5",
+      "category": "inheritance",
+      "question": "Od którego rodzica człowiek zwykle otrzymuje mitochondrialne DNA?",
+      "options": [
+        "Wyłącznie od ojca.",
+        "Od matki.",
+        "W równych częściach od obojga rodziców.",
+        "Wyłącznie od dziadka ze strony ojca."
+      ],
+      "answer": 1,
+      "explanation": "Mitochondrialne DNA jest zwykle przekazywane wraz z mitochondriami komórki jajowej. Inaczej dziedziczy się większość DNA jądrowego.",
+      "articleId": "mitochondrial-inheritance"
+    },
+    {
+      "id": "inheritance-6",
+      "category": "inheritance",
+      "question": "Czy w typowym modelu XX/XY ojciec przekazuje synowi swój chromosom X?",
+      "options": [
+        "Nie — w tym modelu przekazuje synowi chromosom Y.",
+        "Tak — zawsze przekazuje mu dwa chromosomy X.",
+        "Tak — syn otrzymuje X wyłącznie od ojca.",
+        "Nie — syn nie otrzymuje od ojca żadnych chromosomów."
+      ],
+      "answer": 0,
+      "explanation": "W tym uproszczonym modelu syn otrzymuje X od matki i Y od ojca. Dlatego wariant na ojcowskim chromosomie X nie jest przekazywany synowi tą drogą.",
+      "articleId": "x-linked"
+    },
+    {
+      "id": "health-1",
+      "category": "health",
+      "question": "Czy choroba genetyczna musi być odziedziczona po rodzicach?",
+      "options": [
+        "Tak, w każdym przypadku.",
+        "Tak, ale tylko od matki.",
+        "Nie — zmiana genetyczna może powstać po raz pierwszy.",
+        "Nie — choroby genetyczne nie mają związku z DNA."
+      ],
+      "answer": 2,
+      "explanation": "Genetyczne nie zawsze oznacza dziedziczne. Wariant może powstać de novo, czyli po raz pierwszy w komórce rozrodczej rodzica lub na wczesnym etapie rozwoju.",
+      "articleId": "mutations"
+    },
+    {
+      "id": "health-2",
+      "category": "health",
+      "question": "Z jaką zmianą najczęściej wiąże się zespół Downa?",
+      "options": [
+        "Z dodatkową kopią materiału chromosomu 21.",
+        "Z brakiem całego DNA mitochondrialnego.",
+        "Z zamianą wszystkich zasad A na G.",
+        "Z dodatkową kopią wyłącznie genu CFTR."
+      ],
+      "answer": 0,
+      "explanation": "Zespół Downa wiąże się z dodatkową kopią materiału chromosomu 21, najczęściej jako pełna trisomia. Istnieją także postacie translokacyjne i mozaikowe.",
+      "articleId": "down-syndrome"
+    },
+    {
+      "id": "health-3",
+      "category": "health",
+      "question": "Która z tych chorób jest zwykle dziedziczona autosomalnie recesywnie?",
+      "options": [
+        "Choroba Huntingtona.",
+        "Zespół Marfana.",
+        "Zespół Downa.",
+        "Mukowiscydoza."
+      ],
+      "answer": 3,
+      "explanation": "Mukowiscydoza jest związana z patogennymi wariantami obu kopii genu CFTR i zwykle dziedziczy się autosomalnie recesywnie. Pozostałe przykłady mają inne typowe mechanizmy.",
+      "articleId": "cystic-fibrosis"
+    },
+    {
+      "id": "health-4",
+      "category": "health",
+      "question": "Co oznacza wynik badania przesiewowego wskazujący podwyższone ryzyko?",
+      "options": [
+        "Zawsze potwierdza chorobę.",
+        "Może wskazywać potrzebę dalszej diagnostyki.",
+        "Zawsze wyklucza chorobę.",
+        "Pozwala z pewnością przewidzieć wszystkie przyszłe objawy."
+      ],
+      "answer": 1,
+      "explanation": "Badanie przesiewowe pomaga wyłonić osoby, które mogą wymagać dalszej oceny. Sam wynik podwyższonego ryzyka nie jest jeszcze rozpoznaniem.",
+      "articleId": "screening"
+    },
+    {
+      "id": "health-5",
+      "category": "health",
+      "question": "Co może oznaczać patogenny wariant BRCA1 lub BRCA2?",
+      "options": [
+        "Pewność wystąpienia każdego rodzaju nowotworu.",
+        "Całkowitą ochronę przed nowotworami.",
+        "Zwiększone ryzyko niektórych nowotworów, ale nie pewność zachorowania.",
+        "Brak jakiegokolwiek znaczenia dla zdrowia."
+      ],
+      "answer": 2,
+      "explanation": "Niektóre patogenne warianty BRCA1 i BRCA2 zwiększają ryzyko wybranych nowotworów. Predyspozycja nie oznacza jednak, że dana osoba na pewno zachoruje.",
+      "articleId": "brca-susceptibility"
+    },
+    {
+      "id": "health-6",
+      "category": "health",
+      "question": "Czy każda zmiana sekwencji DNA wywołuje chorobę?",
+      "options": [
+        "Tak, każda zmiana jest groźna.",
+        "Tak, jeśli dotyczy choć jednego nukleotydu.",
+        "Nie, ponieważ żaden wariant DNA nie ma znaczenia.",
+        "Nie — wiele wariantów jest obojętnych dla zdrowia."
+      ],
+      "answer": 3,
+      "explanation": "Warianty DNA mogą być obojętne, wpływać na cechy lub wiązać się z chorobą. Ich znaczenie zależy między innymi od miejsca zmiany i jej wpływu na funkcję komórki.",
+      "articleId": "mutations"
+    },
+    {
+      "id": "technology-1",
+      "category": "technology",
+      "question": "Do czego służy klasyczna reakcja PCR?",
+      "options": [
+        "Do zmiany wszystkich genów organizmu.",
+        "Do powielania wybranego fragmentu DNA.",
+        "Do wytwarzania tlenu w krwinkach.",
+        "Do liczenia wszystkich białek komórki."
+      ],
+      "answer": 1,
+      "explanation": "PCR pozwala uzyskać wiele kopii wybranego fragmentu DNA. Ułatwia jego dalszą analizę, ale sama nie odczytuje całej sekwencji genomu.",
+      "articleId": "pcr"
+    },
+    {
+      "id": "technology-2",
+      "category": "technology",
+      "question": "Co odczytuje sekwencjonowanie DNA?",
+      "options": [
+        "Kolejność nukleotydów w badanym DNA.",
+        "Kolor każdej komórki organizmu.",
+        "Wyłącznie liczbę mitochondriów.",
+        "Dokładny przebieg wszystkich przyszłych chorób."
+      ],
+      "answer": 0,
+      "explanation": "Sekwencjonowanie ustala kolejność liter DNA. Odczytanie sekwencji i zrozumienie znaczenia znalezionych wariantów to dwa różne etapy.",
+      "articleId": "sequencing"
+    },
+    {
+      "id": "technology-3",
+      "category": "technology",
+      "question": "Jak nazywa się proces przepisywania informacji z DNA na RNA?",
+      "options": [
+        "Translacja.",
+        "Mejoza.",
+        "Replikacja białka.",
+        "Transkrypcja."
+      ],
+      "answer": 3,
+      "explanation": "Podczas transkrypcji powstaje RNA na podstawie jednej z nici DNA. W przypadku genów kodujących białka RNA może następnie uczestniczyć w translacji.",
+      "articleId": "transcription"
+    },
+    {
+      "id": "technology-4",
+      "category": "technology",
+      "question": "Co dzieje się podczas translacji?",
+      "options": [
+        "Każda cząsteczka DNA zmienia się w chromosom.",
+        "Komórka zawsze dzieli się na cztery części.",
+        "Rybosom odczytuje mRNA i składa łańcuch aminokwasów.",
+        "Wszystkie zasady DNA zostają usunięte."
+      ],
+      "answer": 2,
+      "explanation": "Rybosom odczytuje kolejne kodony mRNA i łączy aminokwasy w łańcuch. Łańcuch następnie przyjmuje strukturę potrzebną do działania białka.",
+      "articleId": "translation"
+    },
+    {
+      "id": "technology-5",
+      "category": "technology",
+      "question": "Jaką rolę pełni naprowadzające RNA w typowym narzędziu CRISPR-Cas9?",
+      "options": [
+        "Zastępuje wszystkie enzymy komórki.",
+        "Pomaga skierować białko Cas9 do wybranego miejsca DNA.",
+        "Gwarantuje wyleczenie każdej choroby.",
+        "Zmienia DNA w cukier."
+      ],
+      "answer": 1,
+      "explanation": "RNA naprowadzające pomaga rozpoznać wybrane miejsce DNA. W klasycznym modelu Cas9 może przeciąć DNA, a efekt zmiany zależy także od naprawy i warunków działania.",
+      "articleId": "crispr"
+    },
+    {
+      "id": "technology-6",
+      "category": "technology",
+      "question": "Które zdanie o terapii genowej jest prawdziwe?",
+      "options": [
+        "Może być stosowana w określonych wskazaniach; nie jest uniwersalnym lekiem.",
+        "Jest sprawdzonym leczeniem każdej choroby genetycznej.",
+        "Zawsze zmienia DNA wszystkich przyszłych pokoleń.",
+        "Nie wymaga badań bezpieczeństwa ani skuteczności."
+      ],
+      "answer": 0,
+      "explanation": "Terapie genowe są opracowywane lub zatwierdzone dla konkretnych chorób i grup pacjentów. Ich możliwości, ograniczenia i ryzyko zależą od zastosowanej metody.",
+      "articleId": "gene-therapy"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "dna",
+      "term": "DNA",
+      "definition": "Kwas deoksyrybonukleinowy przechowujący informację genetyczną. Jego zapis tworzy kolejność czterech rodzajów nukleotydów: A, T, G i C.",
+      "articleId": "dna",
+      "aliases": [
+        "kwas deoksyrybonukleinowy",
+        "deoxyribonucleic acid"
+      ]
+    },
+    {
+      "id": "rna",
+      "term": "RNA",
+      "definition": "Kwas rybonukleinowy uczestniczący między innymi w odczytywaniu genów i budowie białek. Zawiera rybozę i uracyl, a zwykle występuje jako pojedyncza nić.",
+      "articleId": "dna-rna",
+      "aliases": [
+        "kwas rybonukleinowy",
+        "ribonucleic acid"
+      ]
+    },
+    {
+      "id": "gene",
+      "term": "Gen",
+      "definition": "Odcinek DNA zawierający informację potrzebną do wytworzenia funkcjonalnego RNA. Niektóre geny poprzez RNA dostarczają instrukcji do budowy białek.",
+      "articleId": "gene",
+      "aliases": [
+        "gene",
+        "geny"
+      ]
+    },
+    {
+      "id": "allele",
+      "term": "Allel",
+      "definition": "Jedna z wersji danego genu. W prostych modelach dziedziczenia różne allele oznacza się na przykład literami A i a.",
+      "articleId": "inheritance",
+      "aliases": [
+        "allele",
+        "allele genu"
+      ]
+    },
+    {
+      "id": "genome",
+      "term": "Genom",
+      "definition": "Pełny zestaw informacji genetycznej organizmu. U człowieka obejmuje DNA jądrowe oraz niewielki genom mitochondrialny.",
+      "articleId": "genome",
+      "aliases": [
+        "genome",
+        "genom człowieka"
+      ]
+    },
+    {
+      "id": "chromosome",
+      "term": "Chromosom",
+      "definition": "Upakowana struktura zawierająca DNA związane z białkami. Charakterystyczny kształt X przedstawia chromosom po skopiowaniu DNA, a nie jego stały wygląd.",
+      "articleId": "chromosomes",
+      "aliases": [
+        "chromosome",
+        "chromosomy"
+      ]
+    },
+    {
+      "id": "chromatin",
+      "term": "Chromatyna",
+      "definition": "DNA wraz z białkami, które pomagają je pakować i regulować jego dostępność. Stopień upakowania chromatyny może wpływać na aktywność genów.",
+      "articleId": "chromatin",
+      "aliases": [
+        "chromatin",
+        "histony"
+      ]
+    },
+    {
+      "id": "nucleotide",
+      "term": "Nukleotyd",
+      "definition": "Podstawowy element budowy DNA lub RNA: cukier, reszta fosforanowa i zasada azotowa. W DNA cukrem jest deoksyryboza.",
+      "articleId": "nucleotides",
+      "aliases": [
+        "nucleotide",
+        "nukleotydy"
+      ]
+    },
+    {
+      "id": "nitrogenous-base",
+      "term": "Zasada azotowa",
+      "definition": "Część nukleotydu oznaczana literą A, T, G lub C w DNA. To kolejność tych liter tworzy zapis informacji genetycznej.",
+      "articleId": "nucleotides",
+      "aliases": [
+        "adenina",
+        "tymina",
+        "guanina",
+        "cytozyna",
+        "zasady azotowe"
+      ]
+    },
+    {
+      "id": "base-complementarity",
+      "term": "Komplementarność zasad",
+      "definition": "Zasada dopasowania zasad: w DNA A łączy się z T, a G z C. Dzięki temu kolejność jednej nici pozwala ustalić kolejność nici do niej komplementarnej.",
+      "articleId": "base-pairing",
+      "aliases": [
+        "pary zasad",
+        "komplementarnosc",
+        "base pairing"
+      ]
+    },
+    {
+      "id": "double-helix",
+      "term": "Podwójna helisa",
+      "definition": "Dwie nici DNA skręcone wokół wspólnej osi. Szkielety cukrowo-fosforanowe znajdują się na zewnątrz, a pary zasad łączą nici wewnątrz.",
+      "articleId": "dna",
+      "aliases": [
+        "double helix",
+        "spirala DNA"
+      ]
+    },
+    {
+      "id": "genotype",
+      "term": "Genotyp",
+      "definition": "Układ alleli organizmu rozpatrywany dla jednego genu, wielu genów lub całego genomu. Przykładowy zapis dotyczący jednego genu to Aa.",
+      "articleId": "inheritance",
+      "aliases": [
+        "genotype",
+        "układ alleli"
+      ]
+    },
+    {
+      "id": "phenotype",
+      "term": "Fenotyp",
+      "definition": "Zespół obserwowalnych cech organizmu wynikających z działania genów, środowiska i ich współdziałania. Fenotyp nie jest prostą kopią samej sekwencji DNA.",
+      "articleId": "gene-environment",
+      "aliases": [
+        "phenotype",
+        "cechy"
+      ]
+    },
+    {
+      "id": "heterozygote",
+      "term": "Heterozygota",
+      "definition": "Organizm albo komórka z dwiema różnymi wersjami danego genu, na przykład Aa. Znaczenie takiego układu zależy od rozpatrywanego genu i cechy.",
+      "articleId": "inheritance",
+      "aliases": [
+        "heterozygote",
+        "heterozygotyczność",
+        "Aa"
+      ]
+    },
+    {
+      "id": "homozygote",
+      "term": "Homozygota",
+      "definition": "Organizm albo komórka z dwiema takimi samymi wersjami danego genu, na przykład AA lub aa. Sam zapis nie mówi jeszcze, czy cecha ma znaczenie dla zdrowia.",
+      "articleId": "inheritance",
+      "aliases": [
+        "homozygote",
+        "homozygotyczność",
+        "AA",
+        "aa"
+      ]
+    },
+    {
+      "id": "gamete",
+      "term": "Gameta",
+      "definition": "Komórka rozrodcza, na przykład komórka jajowa lub plemnik. U człowieka zwykle zawiera jeden zestaw 23 chromosomów.",
+      "articleId": "cell-division",
+      "aliases": [
+        "gamete",
+        "komórka jajowa",
+        "plemnik"
+      ]
+    },
+    {
+      "id": "mitosis",
+      "term": "Mitoza",
+      "definition": "Podział prowadzący zwykle do powstania dwóch komórek o tej samej liczbie chromosomów co komórka wyjściowa. Umożliwia między innymi wzrost i odnowę tkanek.",
+      "articleId": "cell-division",
+      "aliases": [
+        "mitosis",
+        "podział komórki"
+      ]
+    },
+    {
+      "id": "meiosis",
+      "term": "Mejoza",
+      "definition": "Dwa kolejne podziały, które zmniejszają liczbę zestawów chromosomów z dwóch do jednego. Uczestniczą w tworzeniu komórek rozrodczych i zwiększają różnorodność genetyczną.",
+      "articleId": "cell-division",
+      "aliases": [
+        "meiosis",
+        "podział redukcyjny"
+      ]
+    },
+    {
+      "id": "replication",
+      "term": "Replikacja",
+      "definition": "Kopiowanie DNA przed podziałem komórki. Każda nowa cząsteczka zawiera jedną nić pochodzącą z cząsteczki wyjściowej i jedną nowo zbudowaną.",
+      "articleId": "replication",
+      "aliases": [
+        "replication",
+        "kopiowanie DNA"
+      ]
+    },
+    {
+      "id": "transcription",
+      "term": "Transkrypcja",
+      "definition": "Tworzenie RNA na podstawie informacji jednej z nici DNA. Jest etapem odczytywania genu, a nie kopiowaniem całego genomu.",
+      "articleId": "transcription",
+      "aliases": [
+        "transcription",
+        "przepisywanie DNA"
+      ]
+    },
+    {
+      "id": "translation",
+      "term": "Translacja",
+      "definition": "Odczytywanie kodonów mRNA przez rybosom i łączenie aminokwasów w łańcuch. W ten sposób powstaje podstawowa struktura białka.",
+      "articleId": "translation",
+      "aliases": [
+        "translation",
+        "synteza białka"
+      ]
+    },
+    {
+      "id": "mrna",
+      "term": "mRNA",
+      "definition": "Informacyjne RNA, które może przenosić odczytaną z genu instrukcję budowy białka do rybosomu. W komórkach człowieka powstające RNA często wymaga wcześniejszej obróbki.",
+      "articleId": "gene-to-protein",
+      "aliases": [
+        "messenger RNA",
+        "informacyjne RNA",
+        "matrycowe RNA"
+      ]
+    },
+    {
+      "id": "ribosome",
+      "term": "Rybosom",
+      "definition": "Struktura komórkowa z RNA i białek, która składa łańcuch aminokwasów zgodnie z kolejnością kodonów mRNA. Nie jest kopią genu ani osobnym chromosomem.",
+      "articleId": "translation",
+      "aliases": [
+        "ribosome",
+        "rybosomy"
+      ]
+    },
+    {
+      "id": "protein",
+      "term": "Białko",
+      "definition": "Cząsteczka zbudowana z jednego lub kilku łańcuchów aminokwasów. Białka mogą między innymi budować struktury, transportować substancje i przyspieszać reakcje.",
+      "articleId": "gene-to-protein",
+      "aliases": [
+        "protein",
+        "proteiny",
+        "aminokwasy"
+      ]
+    },
+    {
+      "id": "codon",
+      "term": "Kodon",
+      "definition": "Trójka nukleotydów odczytywana podczas translacji w mRNA. Wskazuje aminokwas lub sygnał zakończenia translacji.",
+      "articleId": "translation",
+      "aliases": [
+        "codon",
+        "kodony",
+        "tryplet"
+      ]
+    },
+    {
+      "id": "mutation",
+      "term": "Mutacja",
+      "definition": "Trwała zmiana sekwencji DNA. Może być obojętna, wpływać na cechę albo wiązać się z chorobą.",
+      "articleId": "mutations",
+      "aliases": [
+        "mutation",
+        "wariant genetyczny",
+        "mutacje"
+      ]
+    },
+    {
+      "id": "substitution",
+      "term": "Substytucja",
+      "definition": "Zastąpienie jednego nukleotydu innym w sekwencji DNA. Taka zmiana nie zawsze prowadzi do zmiany białka lub wystąpienia objawów.",
+      "articleId": "mutations",
+      "aliases": [
+        "substitution",
+        "zamiana nukleotydu"
+      ]
+    },
+    {
+      "id": "deletion",
+      "term": "Delecja",
+      "definition": "Utrata fragmentu DNA: jednego lub wielu nukleotydów. Duża delecja może obejmować część chromosomu i wiele genów.",
+      "articleId": "mutations",
+      "aliases": [
+        "deletion",
+        "utrata fragmentu DNA"
+      ]
+    },
+    {
+      "id": "insertion",
+      "term": "Insercja",
+      "definition": "Wstawienie dodatkowego fragmentu do sekwencji DNA. Może dotyczyć jednego nukleotydu lub większej liczby nukleotydów.",
+      "articleId": "mutations",
+      "aliases": [
+        "insertion",
+        "wstawienie DNA"
+      ]
+    },
+    {
+      "id": "recombination",
+      "term": "Rekombinacja",
+      "definition": "Powstawanie nowych układów materiału genetycznego, na przykład wskutek wymiany fragmentów między chromosomami podczas mejozy. Pomaga tworzyć różnorodne kombinacje alleli.",
+      "articleId": "recombination",
+      "aliases": [
+        "recombination",
+        "crossing-over",
+        "wymiana fragmentów"
+      ]
+    },
+    {
+      "id": "dominant-inheritance",
+      "term": "Dziedziczenie dominujące",
+      "definition": "Sposób dziedziczenia, w którym jedna kopia określonego allelu może wystarczyć do ujawnienia związanej z nim cechy. Ujawnienie objawów może zależeć między innymi od penetracji.",
+      "articleId": "dominant",
+      "aliases": [
+        "dominant inheritance",
+        "dominacja",
+        "autosomalne dominujące"
+      ]
+    },
+    {
+      "id": "recessive-inheritance",
+      "term": "Dziedziczenie recesywne",
+      "definition": "Sposób dziedziczenia, w którym cecha zwykle ujawnia się przy dwóch związanych z nią allelach recesywnych. Uproszczony przykład autosomalny zapisuje się jako aa.",
+      "articleId": "recessive",
+      "aliases": [
+        "recessive inheritance",
+        "recesywność",
+        "autosomalne recesywne"
+      ]
+    },
+    {
+      "id": "carrier-state",
+      "term": "Nosicielstwo",
+      "definition": "Posiadanie wariantu, który może zostać przekazany potomstwu. W typowym modelu autosomalnym recesywnym nosiciel ma jedną kopię wariantu i zwykle nie wykazuje choroby.",
+      "articleId": "recessive",
+      "aliases": [
+        "carrier",
+        "nosiciel",
+        "nosicielka"
+      ]
+    },
+    {
+      "id": "mitochondrion",
+      "term": "Mitochondrium",
+      "definition": "Struktura w komórce uczestnicząca między innymi w wytwarzaniu ATP, nośnika energii. Ma własne DNA, ale większość potrzebnych jej białek jest kodowana w jądrze.",
+      "articleId": "mitochondrial-dna",
+      "aliases": [
+        "mitochondria",
+        "mitochondrion",
+        "ATP"
+      ]
+    },
+    {
+      "id": "mitochondrial-dna",
+      "term": "DNA mitochondrialne",
+      "definition": "Niewielki genom znajdujący się w mitochondriach. U człowieka jest zwykle przekazywany przez matkę, inaczej niż większość DNA jądrowego.",
+      "articleId": "mitochondrial-dna",
+      "aliases": [
+        "mtDNA",
+        "mitochondrial DNA"
+      ]
+    },
+    {
+      "id": "epigenetics",
+      "term": "Epigenetyka",
+      "definition": "Dziedzina badająca mechanizmy regulacji aktywności genów, między innymi przez zmiany chromatyny, bez zmiany sekwencji DNA. Nie każdy wpływ środowiska jest dziedziczny epigenetycznie.",
+      "articleId": "epigenetics",
+      "aliases": [
+        "epigenetics",
+        "regulacja genów"
+      ]
+    },
+    {
+      "id": "dna-methylation",
+      "term": "Metylacja DNA",
+      "definition": "Dołączanie grup metylowych do DNA, które może wiązać się z regulacją aktywności genów. Skutek zależy od miejsca i kontekstu komórkowego.",
+      "articleId": "dna-methylation",
+      "aliases": [
+        "DNA methylation",
+        "metylacja"
+      ]
+    },
+    {
+      "id": "penetrance",
+      "term": "Penetracja",
+      "definition": "Odsetek osób z określonym wariantem genetycznym, u których ujawnia się związana z nim cecha. Może zależeć między innymi od wieku.",
+      "articleId": "penetrance",
+      "aliases": [
+        "penetrance",
+        "niepełna penetracja"
+      ]
+    },
+    {
+      "id": "expressivity",
+      "term": "Ekspresywność",
+      "definition": "Sposób i nasilenie, z jakimi dana cecha ujawnia się u różnych osób. Ten sam wariant może wiązać się z odmiennymi objawami.",
+      "articleId": "penetrance",
+      "aliases": [
+        "expressivity",
+        "zmienna ekspresywność",
+        "zmienna ekspresja"
+      ]
+    },
+    {
+      "id": "mosaicism",
+      "term": "Mozaicyzm",
+      "definition": "Występowanie u jednej osoby co najmniej dwóch grup komórek różniących się informacją genetyczną, powstałych z jednej zapłodnionej komórki jajowej. Zmiana może więc dotyczyć tylko części komórek.",
+      "articleId": "mosaicism",
+      "aliases": [
+        "mosaicism",
+        "mozaika genetyczna"
+      ]
+    },
+    {
+      "id": "trisomy",
+      "term": "Trisomia",
+      "definition": "Obecność trzech kopii danego chromosomu zamiast dwóch, na przykład chromosomu 21. Może dotyczyć wszystkich badanych komórek albo tylko ich części.",
+      "articleId": "down-syndrome",
+      "aliases": [
+        "trisomy",
+        "trisomia 21",
+        "dodatkowy chromosom"
+      ]
+    },
+    {
+      "id": "pcr",
+      "term": "PCR",
+      "definition": "Metoda laboratoryjna do wielokrotnego powielania wybranego fragmentu DNA. Badanie RNA wymaga dodatkowego etapu przepisania go na DNA.",
+      "articleId": "pcr",
+      "aliases": [
+        "reakcja łańcuchowa polimerazy",
+        "polymerase chain reaction"
+      ]
+    },
+    {
+      "id": "sequencing",
+      "term": "Sekwencjonowanie",
+      "definition": "Odczytywanie kolejności nukleotydów w badanym fragmencie DNA lub w większej części genomu. Znaczenie uzyskanej sekwencji wymaga dalszej interpretacji.",
+      "articleId": "sequencing",
+      "aliases": [
+        "sequencing",
+        "odczytywanie DNA"
+      ]
+    },
+    {
+      "id": "crispr",
+      "term": "CRISPR",
+      "definition": "Grupa narzędzi umożliwiających ukierunkowane zmiany materiału genetycznego, na przykład z wykorzystaniem białka Cas i RNA naprowadzającego. Nie jest automatyczną naprawą dowolnej choroby.",
+      "articleId": "crispr",
+      "aliases": [
+        "CRISPR-Cas9",
+        "edycja genomu",
+        "genome editing"
+      ]
+    },
+    {
+      "id": "gene-therapy",
+      "term": "Terapia genowa",
+      "definition": "Leczenie, w którym wykorzystuje się materiał genetyczny do zmiany działania komórek. Jest opracowywane lub dostępne tylko dla określonych wskazań.",
+      "articleId": "gene-therapy",
+      "aliases": [
+        "gene therapy",
+        "leczenie genowe"
+      ]
+    },
+    {
+      "id": "screening",
+      "term": "Badanie przesiewowe",
+      "definition": "Badanie oceniające, kto może wymagać dalszej diagnostyki. Wynik podwyższonego ryzyka nie jest sam w sobie rozpoznaniem choroby.",
+      "articleId": "screening",
+      "aliases": [
+        "screening",
+        "badania przesiewowe"
+      ]
+    },
+    {
+      "id": "enzyme",
+      "term": "Enzym",
+      "definition": "Najczęściej białko przyspieszające określoną reakcję chemiczną w komórce. Niektóre cząsteczki RNA również mają działanie enzymatyczne.",
+      "articleId": "phenylketonuria",
+      "aliases": [
+        "enzyme",
+        "enzymy",
+        "katalizator biologiczny"
+      ]
+    },
+    {
+      "id": "genetic-predisposition",
+      "term": "Predyspozycja genetyczna",
+      "definition": "Zwiększone prawdopodobieństwo wystąpienia choroby związane z określonymi wariantami genetycznymi. Podwyższone ryzyko nie oznacza pewności zachorowania.",
+      "articleId": "brca-susceptibility",
+      "aliases": [
+        "genetic predisposition",
+        "ryzyko genetyczne",
+        "podatność"
+      ]
+    }
+  ]
+}

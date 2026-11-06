@@ -1,0 +1,332 @@
+[
+  {
+    "id": "pl-dna-structure",
+    "youtubeId": "40_KvcVvMis",
+    "title": "Budowa i rola DNA",
+    "originalTitle": "Budowa i rola DNA #1 [ Genetyka ]",
+    "publisher": "Pi-stacja Biologia (Katalyst Education)",
+    "language": "pl",
+    "category": "basics",
+    "summary": "Poznaj podwójną helisę, znaczenie DNA i zasadę kopiowania informacji genetycznej. Dobry punkt wyjścia przed pierwszym eksperymentem w laboratorium.",
+    "articleIds": [
+      "dna",
+      "nucleotides",
+      "base-pairing",
+      "replication"
+    ],
+    "keywords": [
+      "DNA",
+      "helisa",
+      "nukleotydy",
+      "replikacja",
+      "podstawy"
+    ],
+    "watchUrl": "https://www.youtube.com/watch?v=40_KvcVvMis",
+    "thumbnail": "illustrations/dna-helix.svg",
+    "thumbnailKind": "diagram",
+    "verificationUrl": "https://www.youtube.com/watch?v=40_KvcVvMis"
+  },
+  {
+    "id": "pl-dna-code",
+    "youtubeId": "7Puf7ydJ0pY",
+    "title": "DNA i kod genetyczny",
+    "originalTitle": "DNA i kod genetyczny",
+    "publisher": "KhanAcademyPoPolsku",
+    "language": "pl",
+    "category": "basics",
+    "summary": "Wprowadzenie do DNA i informacji zapisanej w kolejności zasad. Materiał pomaga połączyć pojęcia genu, kodu genetycznego i dziedziczenia.",
+    "articleIds": [
+      "dna",
+      "gene",
+      "genome"
+    ],
+    "keywords": [
+      "DNA",
+      "kod genetyczny",
+      "gen",
+      "genom",
+      "informacja genetyczna"
+    ],
+    "watchUrl": "https://www.youtube.com/watch?v=7Puf7ydJ0pY",
+    "thumbnail": "illustrations/base-pairs.svg",
+    "thumbnailKind": "diagram",
+    "verificationUrl": "https://www.youtube.com/watch?v=7Puf7ydJ0pY"
+  },
+  {
+    "id": "pl-dna-protein",
+    "youtubeId": "Y8FpBBbTw4o",
+    "title": "Od DNA do białka",
+    "originalTitle": "DNA  i biosynteza białka",
+    "publisher": "KhanAcademyPoPolsku",
+    "language": "pl",
+    "category": "basics",
+    "summary": "Zobacz, jak komórka wykorzystuje informację genetyczną podczas wytwarzania białek. Połącz transkrypcję, RNA i translację w jedną historię.",
+    "articleIds": [
+      "gene-to-protein",
+      "transcription",
+      "translation",
+      "dna-rna"
+    ],
+    "keywords": [
+      "białko",
+      "RNA",
+      "transkrypcja",
+      "translacja",
+      "biosynteza",
+      "ekspresja genów"
+    ],
+    "watchUrl": "https://www.youtube.com/watch?v=Y8FpBBbTw4o",
+    "thumbnail": "illustrations/gene-expression.svg",
+    "thumbnailKind": "diagram",
+    "verificationUrl": "https://www.youtube.com/watch?v=Y8FpBBbTw4o"
+  },
+  {
+    "id": "pl-chromosomes",
+    "youtubeId": "2KnZhBbJrHU",
+    "title": "Chromosomy, chromatydy i chromatyna",
+    "originalTitle": "Chromosomy, chromatydy, chromatyna...",
+    "publisher": "KhanAcademyPoPolsku",
+    "language": "pl",
+    "category": "basics",
+    "summary": "Uporządkuj podobnie brzmiące pojęcia związane z pakowaniem DNA. Wyjaśnienie pomaga odróżnić chromosom, chromatydę i chromatynę.",
+    "articleIds": [
+      "chromosomes",
+      "chromatin",
+      "cell-division"
+    ],
+    "keywords": [
+      "chromosom",
+      "chromatyda",
+      "chromatyna",
+      "DNA",
+      "podział komórki"
+    ],
+    "watchUrl": "https://www.youtube.com/watch?v=2KnZhBbJrHU",
+    "thumbnail": "illustrations/chromosome.svg",
+    "thumbnailKind": "diagram",
+    "verificationUrl": "https://www.youtube.com/watch?v=2KnZhBbJrHU"
+  },
+  {
+    "id": "pl-mitosis",
+    "youtubeId": "X_gzYDBlH18",
+    "title": "Cykl komórkowy i mitoza",
+    "originalTitle": "Cykl komórkowy, mitoza #3 [ Genetyka ]",
+    "publisher": "Pi-stacja Biologia (Katalyst Education)",
+    "language": "pl",
+    "category": "basics",
+    "summary": "Prześledź cykl komórkowy i znaczenie mitozy. Materiał wyjaśnia także budowę chromosomu oraz rolę chromatyd i centromeru.",
+    "articleIds": [
+      "cell-division",
+      "replication",
+      "chromosomes"
+    ],
+    "keywords": [
+      "mitoza",
+      "cykl komórkowy",
+      "chromatydy",
+      "centromer",
+      "podział komórki"
+    ],
+    "watchUrl": "https://www.youtube.com/watch?v=X_gzYDBlH18",
+    "thumbnail": "illustrations/cell-division.svg",
+    "thumbnailKind": "diagram",
+    "verificationUrl": "https://www.youtube.com/watch?v=X_gzYDBlH18"
+  },
+  {
+    "id": "pl-meiosis",
+    "youtubeId": "XEQChMRWDRU",
+    "title": "Mejoza i komórki rozrodcze",
+    "originalTitle": "Podziały komórkowe, mejoza #4 [ Genetyka ]",
+    "publisher": "Pi-stacja Biologia (Katalyst Education)",
+    "language": "pl",
+    "category": "inheritance",
+    "summary": "Dowiedz się, po co organizmom mejoza i jak wiąże się z tworzeniem komórek rozrodczych. To kolejny krok w zrozumieniu przekazywania chromosomów potomstwu.",
+    "articleIds": [
+      "cell-division",
+      "recombination",
+      "inheritance"
+    ],
+    "keywords": [
+      "mejoza",
+      "gamety",
+      "komórki rozrodcze",
+      "chromosomy",
+      "dziedziczenie"
+    ],
+    "watchUrl": "https://www.youtube.com/watch?v=XEQChMRWDRU",
+    "thumbnail": "illustrations/cell-division.svg",
+    "thumbnailKind": "diagram",
+    "verificationUrl": "https://www.youtube.com/watch?v=XEQChMRWDRU"
+  },
+  {
+    "id": "pl-inheritance",
+    "youtubeId": "Frt8HOWKAlg",
+    "title": "Dziedziczenie cech i allele",
+    "originalTitle": "Dziedziczenie cech #5 [ Genetyka ]",
+    "publisher": "Pi-stacja Biologia (Katalyst Education)",
+    "language": "pl",
+    "category": "inheritance",
+    "summary": "Poznaj genotyp, fenotyp, allele oraz proste modele dominacji i recesywności. Traktuj przykłady cech jednogenowych jako modele — wiele rzeczywistych cech człowieka ma bardziej złożone podłoże.",
+    "articleIds": [
+      "inheritance",
+      "dominant",
+      "recessive"
+    ],
+    "keywords": [
+      "dziedziczenie",
+      "allel",
+      "genotyp",
+      "fenotyp",
+      "dominacja",
+      "recesywność",
+      "krzyżówka"
+    ],
+    "watchUrl": "https://www.youtube.com/watch?v=Frt8HOWKAlg",
+    "thumbnail": "illustrations/recessive.svg",
+    "thumbnailKind": "diagram",
+    "verificationUrl": "https://www.youtube.com/watch?v=Frt8HOWKAlg"
+  },
+  {
+    "id": "pl-heredity",
+    "youtubeId": "kdBo0trIZm8",
+    "title": "Dziedziczenie i geny",
+    "originalTitle": "Dziedziczenie i geny",
+    "publisher": "KhanAcademyPoPolsku",
+    "language": "pl",
+    "category": "inheritance",
+    "summary": "Wprowadzenie do przekazywania cech i różnych wersji genów. Uproszczone przykłady pomagają zrozumieć model; nie opisują całej złożoności takich cech jak kolor oczu.",
+    "articleIds": [
+      "inheritance",
+      "gene",
+      "dominant",
+      "recessive"
+    ],
+    "keywords": [
+      "dziedziczenie",
+      "geny",
+      "allele",
+      "cechy",
+      "genotyp",
+      "homozygota",
+      "heterozygota"
+    ],
+    "watchUrl": "https://www.youtube.com/watch?v=kdBo0trIZm8",
+    "thumbnail": "illustrations/dominant.svg",
+    "thumbnailKind": "diagram",
+    "verificationUrl": "https://www.youtube.com/watch?v=kdBo0trIZm8"
+  },
+  {
+    "id": "en-dna-stated-clearly",
+    "youtubeId": "zwibgNGe4aY",
+    "title": "Czym jest DNA i jak działa?",
+    "originalTitle": "What is DNA and How Does it Work?",
+    "publisher": "Stated Clearly",
+    "language": "en",
+    "category": "basics",
+    "summary": "Animacja wprowadzająca w budowę DNA i przepływ informacji od DNA przez RNA do białek. Dobry punkt wyjścia do poznania roli genów.",
+    "articleIds": [
+      "dna",
+      "gene-to-protein",
+      "transcription",
+      "translation"
+    ],
+    "keywords": [
+      "DNA",
+      "RNA",
+      "białka",
+      "geny",
+      "Stated Clearly"
+    ],
+    "watchUrl": "https://www.youtube.com/watch?v=zwibgNGe4aY",
+    "thumbnail": "illustrations/dna-helix.svg",
+    "thumbnailKind": "diagram",
+    "verificationUrl": "https://www.statedclearly.com/videos/what-is-dna/",
+    "publisherUrl": "https://www.statedclearly.com/videos/what-is-dna/"
+  },
+  {
+    "id": "en-alleles-amoeba-sisters",
+    "youtubeId": "pv3Kj0UjiLE",
+    "title": "Geny i allele — na czym polega różnica?",
+    "originalTitle": "Alleles and Genes",
+    "publisher": "Amoeba Sisters",
+    "language": "en",
+    "category": "inheritance",
+    "summary": "Wyjaśnienie różnicy między genem a jego wariantami, czyli allelami. Film używa uproszczonego przykładu odczuwania smaku i zaznacza, że rzeczywiste dziedziczenie bywa bardziej złożone.",
+    "articleIds": [
+      "gene",
+      "inheritance",
+      "dominant",
+      "recessive"
+    ],
+    "keywords": [
+      "allel",
+      "allele",
+      "gen",
+      "dziedziczenie",
+      "Amoeba Sisters",
+      "genotyp"
+    ],
+    "watchUrl": "https://www.youtube.com/watch?v=pv3Kj0UjiLE",
+    "thumbnail": "illustrations/recessive.svg",
+    "thumbnailKind": "diagram",
+    "verificationUrl": "https://www.amoebasisters.com/handouts.html",
+    "publisherUrl": "https://www.amoebasisters.com/handouts.html"
+  },
+  {
+    "id": "en-mutations-amoeba-sisters",
+    "youtubeId": "vl6Vlf2thvI",
+    "title": "Mutacje genów i chromosomów",
+    "originalTitle": "Mutations (Updated)",
+    "publisher": "Amoeba Sisters",
+    "language": "en",
+    "category": "diseases",
+    "summary": "Przegląd zmian w sekwencji DNA oraz zmian dotyczących chromosomów. Pomaga zrozumieć, dlaczego znaczenie mutacji zależy od ich miejsca i skutków.",
+    "articleIds": [
+      "mutations",
+      "dna-repair",
+      "chromosomes",
+      "mosaicism"
+    ],
+    "keywords": [
+      "mutacje",
+      "mutacja",
+      "chromosomy",
+      "substytucja",
+      "delecja",
+      "insercja",
+      "Amoeba Sisters"
+    ],
+    "watchUrl": "https://www.youtube.com/watch?v=vl6Vlf2thvI",
+    "thumbnail": "illustrations/mutations.svg",
+    "thumbnailKind": "diagram",
+    "verificationUrl": "https://www.amoebasisters.com/handouts.html",
+    "publisherUrl": "https://www.amoebasisters.com/handouts.html"
+  },
+  {
+    "id": "en-crispr-ted-ed",
+    "youtubeId": "6tw_JVz_IEc",
+    "title": "Jak CRISPR pozwala zmieniać DNA?",
+    "originalTitle": "How CRISPR lets you edit DNA - Andrea M. Henle",
+    "publisher": "TED-Ed",
+    "language": "en",
+    "category": "research",
+    "summary": "Krótka animowana lekcja o pochodzeniu CRISPR i sposobie kierowania narzędzia do wybranego fragmentu DNA. Uzupełnia artykuł o możliwościach i ograniczeniach edycji genów.",
+    "articleIds": [
+      "crispr",
+      "gene-therapy",
+      "dna-repair"
+    ],
+    "keywords": [
+      "CRISPR",
+      "Cas9",
+      "edycja genów",
+      "biotechnologia",
+      "TED-Ed"
+    ],
+    "watchUrl": "https://www.youtube.com/watch?v=6tw_JVz_IEc",
+    "thumbnail": "illustrations/crispr.svg",
+    "thumbnailKind": "diagram",
+    "verificationUrl": "https://ed.ted.com/lessons/how-crispr-lets-you-edit-dna-andrea-m-henle",
+    "publisherUrl": "https://ed.ted.com/lessons/how-crispr-lets-you-edit-dna-andrea-m-henle"
+  }
+]

@@ -1,0 +1,94 @@
+/* A full welcome screen, then one clear choice of biology chapter. */
+.hero.home-welcome{display:flex;align-items:center;min-height:560px;min-height:max(560px,calc(100svh - 185px));margin-bottom:68px;border-radius:24px}
+.home-welcome .hero-copy{width:64%;padding:66px 44px 104px}
+.home-welcome h1{font-size:clamp(43px,5.1vw,76px);line-height:1.08;letter-spacing:-2.8px;margin:24px 0}
+.home-welcome .hero-copy>p{max-width:365px;font-size:14px;line-height:1.95;margin-bottom:29px}
+.home-welcome .hero-gif{inset:0 0 0 40%;background-position:69% center}
+.home-welcome .hero-shade{display:block;background:linear-gradient(90deg,#173b30 0%,#173b30fa 35%,#173b30d6 48%,#173b3050 68%,#173b3008 90%)}
+.home-welcome .primary-button{min-height:47px;padding:13px 21px;font-size:12px}
+.home-scroll-hint{position:absolute;bottom:27px;left:44px;display:flex;align-items:center;gap:13px;color:#d0e1cb;font-size:10px;letter-spacing:.7px;line-height:1.7}
+.home-scroll-hint svg{width:15px;height:15px;transform:rotate(90deg);color:#eeb180;animation:home-scroll-cue 3s var(--ease-calm) infinite}
+.home-topic-picker{position:relative;scroll-margin-top:28px;padding:33px 0 9px;margin-bottom:33px;border-top:1px solid #d6e2c9;outline:none}
+.home-topic-picker:focus-visible{outline:3px solid #d08c5a;outline-offset:10px;border-radius:12px}
+.home-topic-kicker{display:block;color:#8a643f;font-size:9px;font-weight:700;letter-spacing:1.6px;margin-bottom:13px}
+.home-topic-picker .section-heading{margin-bottom:11px}
+.home-topic-picker .section-heading h2{font-size:clamp(29px,3.4vw,43px);line-height:1.2;letter-spacing:-1.2px}
+.home-topic-picker .section-heading h2:focus{outline:none}
+.home-topic-picker>p{font-size:13px;line-height:1.9;color:#597246;margin-bottom:28px;max-width:570px}
+.home-topic-picker .school-home-grid{gap:18px;margin-top:24px}
+.home-topic-picker .school-card{min-height:270px;padding:28px;border-radius:19px}
+.home-topic-picker .school-card h2,.home-topic-picker .school-card h3{font-size:26px;line-height:1.3}
+.home-topic-picker .school-card p{font-size:13px;max-width:335px}
+.home-topic-picker .school-card-icon{width:51px;height:51px;border-radius:15px}
+.home-topic-picker .school-card-action{padding-top:5px}
+.home-choose-button{display:inline-flex;align-items:center;gap:15px;width:min(100%,340px);min-height:65px;max-width:100%;padding:15px 21px;margin:15px 0 0;border:1px solid #315b42;border-radius:100px;background:#244d3b;color:#f8faed;box-shadow:0 9px 24px #25432a15;font-size:14px;font-weight:600;line-height:1.7;text-align:left;cursor:pointer;transition:background-color .4s var(--ease-calm),transform .5s var(--ease-soft),box-shadow .5s var(--ease-soft)}
+.home-choose-button>svg{width:20px;height:20px;flex:none;color:#edb185}
+.home-choose-button>span{flex:1;min-width:0}
+.home-choose-button>svg:last-child{width:17px;height:17px;transform:rotate(90deg);transition:transform .6s var(--ease-soft)}
+.home-choose-button[aria-expanded=true]>svg:last-child{transform:rotate(-90deg)}
+.home-choose-button:focus-visible{outline:3px solid #b36f43;outline-offset:5px}
+.home-choose-button:active{transform:scale(.98)}
+.home-welcome .home-choose-button{margin:0;background:#eea574;border-color:#eea574;color:#183c2d}
+.home-welcome .home-choose-button>svg{color:#315640}
+.home-welcome .home-choose-button:focus-visible{outline-color:#ffd7a6}
+@media(hover:hover) and (pointer:fine){.home-welcome .home-choose-button:hover{background:#ffc593;border-color:#ffc593}}
+/* Keep the choice absent until a downward scroll brings it into view. */
+.home-choice-reveal-enabled .home-choose-button{transition:opacity 1.6s cubic-bezier(.22,.61,.36,1),transform 1.6s cubic-bezier(.22,.61,.36,1),background-color .4s,box-shadow .5s}
+.home-choice-reveal-enabled .home-choose-button:not(.is-scroll-revealed){opacity:0;transform:translateY(24px);pointer-events:none}
+.home-choice-reveal-enabled .home-choose-button.is-reveal-instant,.home-choice-reveal-enabled .home-choose-button:focus{opacity:1;transform:none;pointer-events:auto;transition:none}
+.home-topic-options{display:grid;grid-template-rows:0fr;opacity:0;transition:grid-template-rows .7s var(--ease-soft),opacity .5s var(--ease-calm)}
+.home-topic-options.open{grid-template-rows:1fr;opacity:1}
+.home-topic-options-inner{min-height:0;overflow:hidden}
+
+/* The user's selected Pinterest clip plays behind readable navigation surfaces. */
+.sidebar{isolation:isolate;background:#12372f}
+.sidebar-earth{position:absolute;inset:0;z-index:-1;pointer-events:none;background:#12372f url('media/earth-pinterest-poster.jpg') center/cover no-repeat;overflow:hidden}
+.sidebar-earth::after{content:'';position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,#173c31f0 0%,#173c31d9 38%,#173c3180 65%,#12372f70 100%)}
+.sidebar-earth-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:0;transition:opacity .7s var(--ease-calm)}
+.sidebar-earth-video.is-playing{opacity:1}
+.sidebar-heading{background:#173c31}
+#primaryNav>.nav-item,.sidebar .menu-more{background:#173c31de;color:#e0eadd}
+#primaryNav>.nav-item:hover,.sidebar .menu-more:hover{background:#2a5142;color:#fff}
+#primaryNav>.nav-item.active{background:#325846;color:#ffca9f}
+.sidebar .menu-panel-inner{background:#173c31f5;border-radius:0 0 10px 10px}
+.sidebar .menu-panel .nav-item{color:#deeadb}
+.sidebar .menu-panel .nav-item.active{color:#ffca9f;background:#325846}
+.sidebar .menu-panel .nav-item:hover{background:#2a5142;color:#fff}
+.sidebar .sidebar-rule{background:#c1d7bb2b}
+.sidebar .menu-panel{transition:grid-template-rows .65s var(--ease-soft),opacity .45s var(--ease-calm)}
+@keyframes home-scroll-cue{0%,100%{transform:translateY(0) rotate(90deg)}50%{transform:translateY(5px) rotate(90deg)}}
+@keyframes sidebar-link-entry{from{opacity:0;transform:translateX(-12px)}to{opacity:1;transform:translateX(0)}}
+@media(hover:hover) and (pointer:fine){
+  .home-topic-picker .school-card:hover{transform:translateY(-5px);border-color:#a8c191;box-shadow:0 16px 35px #294b2410}
+  .home-choose-button:hover{background:#315d46;transform:translateY(-2px);box-shadow:0 13px 28px #25432a1c}
+}
+@media(max-width:1190px){.home-welcome .hero-copy{padding-left:34px;padding-right:28px}.home-scroll-hint{left:34px}.home-welcome h1{font-size:clamp(42px,5vw,62px)}.home-topic-picker .school-card{padding:25px}}
+@media(max-width:980px){.home-welcome .hero-copy{width:68%;padding-left:29px}.home-welcome h1{font-size:clamp(39px,5vw,52px);letter-spacing:-1.9px}.home-welcome .hero-copy>p{font-size:13px;max-width:310px}.home-scroll-hint{left:29px}.home-topic-picker .school-card h2,.home-topic-picker .school-card h3{font-size:23px}}
+@media(max-width:760px){
+  .hero.home-welcome{min-height:560px;min-height:max(560px,calc(100svh - 161px));margin-bottom:52px;border-radius:20px}
+  .home-welcome .hero-copy{padding-top:54px;padding-bottom:92px}
+  body:not(.motion-paused):not(.reduced-motion) .sidebar.open #primaryNav>.nav-item{animation:sidebar-link-entry .65s var(--ease-soft) both}
+  body:not(.motion-paused):not(.reduced-motion) .sidebar.open #primaryNav>.nav-item:focus-visible{animation:none!important}
+  .sidebar.open #primaryNav>.nav-item:nth-child(2){animation-delay:.035s}.sidebar.open #primaryNav>.nav-item:nth-child(3){animation-delay:.07s}.sidebar.open #primaryNav>.nav-item:nth-child(4){animation-delay:.105s}.sidebar.open #primaryNav>.nav-item:nth-child(5){animation-delay:.14s}.sidebar.open #primaryNav>.nav-item:nth-child(6){animation-delay:.175s}.sidebar.open #primaryNav>.nav-item:nth-child(7){animation-delay:.21s}
+}
+@media(max-width:680px){
+  .hero.home-welcome{display:flex;align-items:stretch;flex-direction:column;min-height:580px;min-height:max(580px,calc(100svh - 149px));margin-bottom:45px}
+  .home-welcome .hero-copy{display:flex;flex-direction:column;justify-content:center;flex:1;width:100%;padding:38px 26px 33px;z-index:1}
+  .home-welcome h1{font-size:clamp(37px,9.5vw,57px);letter-spacing:-1.8px;line-height:1.1;margin:22px 0 20px}
+  .home-welcome .hero-copy>p{font-size:13px;line-height:1.9;max-width:420px;margin-bottom:25px}
+  .home-welcome .hero-gif{position:relative;inset:auto;width:100%;flex:none;order:2;min-height:180px;height:180px;aspect-ratio:auto;background-position:60% center;z-index:0}
+  .home-welcome .hero-shade{display:none}
+  .home-scroll-hint{position:relative;inset:auto;order:3;flex:none;margin:0;padding:17px 26px 19px;background:#173b30;font-size:9px}
+  .home-topic-picker{padding-top:26px;scroll-margin-top:20px;margin-bottom:24px}
+  .home-topic-picker>p{font-size:12px;margin-bottom:22px}
+  .home-topic-picker .school-home-grid{grid-template-columns:1fr;gap:14px;margin-top:23px}
+  .home-topic-picker .school-card{padding:25px;min-height:246px}
+  .home-topic-picker .school-card h2,.home-topic-picker .school-card h3{font-size:27px}
+  .home-choose-button{width:100%;font-size:13px;min-height:62px;padding:15px 20px}
+}
+body.motion-paused .home-scroll-hint svg,body.reduced-motion .home-scroll-hint svg{animation:none}
+body.motion-paused .sidebar-earth-video,body.reduced-motion .sidebar-earth-video{opacity:0;transition:none}
+body.motion-paused .home-topic-options,body.reduced-motion .home-topic-options{transition:none}
+body.motion-paused .home-choose-button,body.reduced-motion .home-choose-button{opacity:1!important;transform:none!important;pointer-events:auto!important;transition:none!important}
+@media(prefers-reduced-motion:reduce){.home-choose-button{opacity:1!important;transform:none!important;pointer-events:auto!important;transition:none!important}}
+@media(prefers-reduced-motion:reduce){.sidebar-earth-video{opacity:0!important;transition:none!important}.home-topic-options{transition:none!important}.home-scroll-hint svg,.sidebar.open #primaryNav>.nav-item{animation:none!important}}

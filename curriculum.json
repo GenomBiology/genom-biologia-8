@@ -1,0 +1,3964 @@
+{
+  "version": 1,
+  "curriculumSource": {
+    "title": "Biologia — szkoła podstawowa, działy dla klasy VIII",
+    "url": "https://zpe.gov.pl/podstawa-programowa/szkola-podstawowa/biologia"
+  },
+  "units": [
+    {
+      "id": "genetics",
+      "title": "Genetyka i DNA",
+      "summary": "Poznaj informację genetyczną, zasady dziedziczenia oraz znaczenie mutacji dla zdrowia i różnorodności.",
+      "icon": "dna",
+      "lessonIds": [
+        "gen-01",
+        "gen-02",
+        "gen-03",
+        "gen-04",
+        "gen-05",
+        "gen-06",
+        "gen-07",
+        "gen-08",
+        "gen-09",
+        "gen-10"
+      ]
+    },
+    {
+      "id": "evolution",
+      "title": "Ewolucja życia",
+      "summary": "Odkryj dowody wspólnego pochodzenia, działanie doboru i miejsce człowieka na drzewie życia.",
+      "icon": "branch",
+      "lessonIds": [
+        "evo-01",
+        "evo-02",
+        "evo-03",
+        "evo-04",
+        "evo-05",
+        "evo-06",
+        "evo-07",
+        "evo-08",
+        "evo-09",
+        "evo-10"
+      ]
+    },
+    {
+      "id": "ecology",
+      "title": "Ekologia",
+      "summary": "Poznaj populacje, zależności między organizmami oraz przepływ energii i obieg materii w ekosystemach.",
+      "icon": "leaf",
+      "lessonIds": [
+        "eco-01",
+        "eco-02",
+        "eco-03",
+        "eco-04",
+        "eco-05",
+        "eco-06",
+        "eco-07",
+        "eco-08",
+        "eco-09",
+        "eco-10"
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Człowiek i środowisko",
+      "summary": "Zrozum zagrożenia dla różnorodności biologicznej i wybieraj działania, które pomagają chronić przyrodę.",
+      "icon": "heart",
+      "lessonIds": [
+        "env-01",
+        "env-02",
+        "env-03",
+        "env-04",
+        "env-05",
+        "env-06",
+        "env-07",
+        "env-08",
+        "env-09",
+        "env-10"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "gen-01",
+      "unitId": "genetics",
+      "title": "DNA, geny i chromosomy",
+      "minutes": 4,
+      "objectives": [
+        "Rozróżniam DNA, gen i chromosom.",
+        "Wyjaśniam zasadę łączenia zasad DNA w pary."
+      ],
+      "sections": [
+        {
+          "title": "Informacja zapisana w cząsteczce",
+          "body": "DNA jest nośnikiem informacji dziedzicznej. Tworzą je dwie nici zbudowane z nukleotydów, skręcone w podwójną helisę. Każdy nukleotyd zawiera cukier, resztę fosforanową i jedną zasadę: A, T, C lub G. Po przeciwnych stronach cząsteczki A łączy się z T, a C z G. Kolejność zasad ma znaczenie dla zapisanej informacji."
+        },
+        {
+          "title": "Od genu do chromosomu",
+          "body": "Gen jest odcinkiem DNA, którego informacja umożliwia wytworzenie określonego RNA, a często także białka. Białka uczestniczą w budowie organizmu i przebiegu reakcji chemicznych. Chromosom składa się z długiej cząsteczki DNA połączonej z białkami. Zawiera wiele genów oraz inne odcinki DNA. Jego wyraźny kształt na rysunkach dotyczy zwykle etapu podziału komórki."
+        },
+        {
+          "title": "Gdzie szukać DNA?",
+          "body": "U człowieka większość DNA znajduje się w jądrze komórkowym; niewielka część jest także w mitochondriach. Typowa komórka somatyczna z jądrem ma 46 chromosomów, czyli 23 pary. Gamety mają zwykle po 23 chromosomy. Nie każda komórka człowieka ma jądro: dojrzałe krwinki czerwone go nie zawierają. Dlatego liczby chromosomów zawsze odnosimy do wskazanego rodzaju komórki."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "DNA",
+          "definition": "Cząsteczka przechowująca informację dziedziczną."
+        },
+        {
+          "term": "Gen",
+          "definition": "Odcinek DNA zawierający informację potrzebną do wytworzenia funkcjonalnego RNA."
+        },
+        {
+          "term": "Chromosom",
+          "definition": "Uporządkowana struktura z DNA i związanych z nim białek."
+        }
+      ],
+      "takeaways": [
+        "Gen jest fragmentem DNA.",
+        "A łączy się z T, a C z G.",
+        "Typowa komórka somatyczna człowieka ma 23 pary chromosomów."
+      ],
+      "misconception": {
+        "myth": "Gen, DNA i chromosom to trzy nazwy tej samej struktury.",
+        "fact": "Gen jest odcinkiem DNA, a chromosom zawiera długą cząsteczkę DNA i białka."
+      },
+      "articleIds": [
+        "dna",
+        "gene",
+        "chromosomes",
+        "nucleotides",
+        "base-pairing"
+      ],
+      "visualIds": [
+        "dna-helix",
+        "nucleotide",
+        "chromosome"
+      ],
+      "sources": [
+        {
+          "title": "NHGRI: gen",
+          "url": "https://www.genome.gov/genetics-glossary/Gene"
+        },
+        {
+          "title": "NHGRI: chromosom",
+          "url": "https://www.genome.gov/genetics-glossary/Chromosome"
+        },
+        {
+          "title": "NHGRI: budowa DNA",
+          "url": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet"
+        }
+      ]
+    },
+    {
+      "id": "gen-02",
+      "unitId": "genetics",
+      "title": "Replikacja: jak komórka kopiuje DNA",
+      "minutes": 4,
+      "objectives": [
+        "Opisuję powstawanie dwóch kopii DNA.",
+        "Zapisuję nić komplementarną do krótkiej sekwencji DNA."
+      ],
+      "sections": [
+        {
+          "title": "Kopia przed podziałem",
+          "body": "Przed podziałem komórka musi przygotować materiał genetyczny dla komórek potomnych. Replikacja to kopiowanie DNA na podstawie istniejących nici. Zachodzi przed mitozą oraz przed pierwszym podziałem mejotycznym. Nie powtarza się między dwoma podziałami mejozy. Skopiowanie DNA zwiększa jego ilość, lecz nie oznacza automatycznie podwojenia liczby chromosomów liczonej według centromerów."
+        },
+        {
+          "title": "Każda nić jest wzorem",
+          "body": "Enzymy rozdzielają miejscowo dwie nici podwójnej helisy. Do odsłoniętych zasad dobudowywane są nukleotydy według reguły komplementarności: A do T, a C do G. Powstają dwie cząsteczki DNA. Każda zawiera jedną nić wcześniejszą i jedną nową. Jeśli fragment starej nici ma zapis ACGT, odpowiadający mu nowy fragment ma zapis TGCA."
+        },
+        {
+          "title": "Dokładność i możliwe błędy",
+          "body": "Kopiowanie odbywa się bardzo dokładnie dzięki pracy enzymów i mechanizmom naprawczym. Nie jest jednak całkowicie bezbłędne. Zmiana, która pozostanie w sekwencji DNA, może stać się mutacją i zostać przekazana komórkom potomnym. Sama replikacja nie wybiera cech przydatnych organizmowi. Jej zadaniem jest odtworzenie informacji, aby nowa komórka mogła z niej korzystać. Dzięki temu informacja może zostać przekazana dalej."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Replikacja",
+          "definition": "Proces kopiowania DNA."
+        },
+        {
+          "term": "Komplementarność",
+          "definition": "Zasada dopasowania A do T oraz C do G w DNA."
+        },
+        {
+          "term": "Nić matrycowa",
+          "definition": "Istniejąca nić DNA stanowiąca wzór do zbudowania nowej nici."
+        }
+      ],
+      "takeaways": [
+        "Każda nowa cząsteczka ma jedną starą i jedną nową nić.",
+        "Replikacja poprzedza podział komórki.",
+        "Mechanizmy naprawy ograniczają liczbę błędów."
+      ],
+      "misconception": {
+        "myth": "Nowa cząsteczka DNA powstaje bez wykorzystania poprzedniego DNA.",
+        "fact": "Istniejące nici są wzorami do dobudowania nici komplementarnych."
+      },
+      "articleIds": [
+        "replication",
+        "base-pairing",
+        "dna-repair"
+      ],
+      "visualIds": [
+        "replication",
+        "base-pairs"
+      ],
+      "sources": [
+        {
+          "title": "NHGRI: replikacja DNA",
+          "url": "https://www.genome.gov/genetics-glossary/DNA-Replication"
+        }
+      ]
+    },
+    {
+      "id": "gen-03",
+      "unitId": "genetics",
+      "title": "Mitoza i mejoza: dwa zadania podziału",
+      "minutes": 4,
+      "objectives": [
+        "Porównuję znaczenie mitozy i mejozy.",
+        "Określam liczbę chromosomów w typowych gametach człowieka."
+      ],
+      "sections": [
+        {
+          "title": "Mitoza buduje i odnawia",
+          "body": "Wzrost organizmu oraz odnowa wielu tkanek wymagają powstawania nowych komórek. Mitoza jest podziałem jądra, po którym zwykle następuje podział komórki na dwie komórki potomne. Zachowują one liczbę chromosomów komórki wyjściowej. Po wcześniejszej replikacji kopie DNA są rozdzielane. Pomijając nowe mutacje, materiał genetyczny obu komórek potomnych jest taki sam."
+        },
+        {
+          "title": "Mejoza przygotowuje gamety",
+          "body": "Mejoza obejmuje dwa kolejne podziały jądra, poprzedzone jednym kopiowaniem DNA. Zmniejsza liczbę chromosomów o połowę. U człowieka prowadzi do powstania komórek uczestniczących w wytwarzaniu gamet z 23 chromosomami. W jej trakcie zachodzą wymiana fragmentów między chromosomami homologicznymi i różne kombinacje ich rozdziału. Dzięki temu gamety różnią się zestawami alleli."
+        },
+        {
+          "title": "Zapłodnienie przywraca pary",
+          "body": "Podczas zapłodnienia łączą się materiały genetyczne komórki jajowej i plemnika. Typowa zygota człowieka otrzymuje więc 23 chromosomy od każdej gamety i ma 46 chromosomów. Gdyby gamety miały tyle chromosomów co komórki somatyczne, liczba ta podwajałaby się w kolejnych pokoleniach. Mejoza i zapłodnienie pozwalają zachować typową dla gatunku liczbę chromosomów. Oba procesy pełnią więc odmienne, uzupełniające się zadania."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Mitoza",
+          "definition": "Podział jądra zachowujący liczbę chromosomów w jądrach potomnych."
+        },
+        {
+          "term": "Mejoza",
+          "definition": "Dwa kolejne podziały jądra zmniejszające liczbę chromosomów o połowę."
+        },
+        {
+          "term": "Gameta",
+          "definition": "Komórka rozrodcza: na przykład plemnik lub komórka jajowa."
+        }
+      ],
+      "takeaways": [
+        "Mitoza umożliwia wzrost i odnowę tkanek.",
+        "Mejoza zmniejsza liczbę chromosomów o połowę.",
+        "Zapłodnienie łączy materiał genetyczny gamet."
+      ],
+      "misconception": {
+        "myth": "Mejoza daje komórki o takim samym zestawie alleli.",
+        "fact": "Rekombinacja i rozdział chromosomów zwiększają różnorodność gamet."
+      },
+      "articleIds": [
+        "cell-division",
+        "recombination",
+        "chromosomes"
+      ],
+      "visualIds": [
+        "cell-division"
+      ],
+      "sources": [
+        {
+          "title": "NHGRI: mitoza",
+          "url": "https://www.genome.gov/genetics-glossary/Mitosis"
+        },
+        {
+          "title": "NHGRI: mejoza",
+          "url": "https://www.genome.gov/genetics-glossary/Meiosis"
+        },
+        {
+          "title": "MedlinePlus: podziały komórki",
+          "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/cellsdivide/"
+        }
+      ]
+    },
+    {
+      "id": "gen-04",
+      "unitId": "genetics",
+      "title": "Genotyp, fenotyp i allele",
+      "minutes": 4,
+      "objectives": [
+        "Odróżniam genotyp od fenotypu.",
+        "Rozpoznaję homozygotę i heterozygotę w prostym modelu."
+      ],
+      "sections": [
+        {
+          "title": "Wersje tego samego genu",
+          "body": "Allele to różne wersje sekwencji DNA w określonym miejscu genomu. W szkolnym modelu pojedynczego genu autosomalnego organizm diploidalny ma dwa allele: po jednym od każdego rodzica. Zapis AA albo aa oznacza homozygotę, a Aa heterozygotę. W całej populacji może istnieć więcej niż dwa allele tego samego genu."
+        },
+        {
+          "title": "Zapis a obserwowana cecha",
+          "body": "Genotyp oznacza zestaw wariantów genetycznych; w zadaniu często rozpatrujemy tylko jedną parę alleli. Fenotyp to obserwowalne właściwości organizmu, na przykład barwa kwiatów lub aktywność enzymu. Przy dominacji zupełnej allele A i a dają ten sam fenotyp w układach AA oraz Aa. Wtedy cecha recesywna pojawia się w układzie aa."
+        },
+        {
+          "title": "Geny współdziałają ze środowiskiem",
+          "body": "Nie każdą cechę można wyjaśnić jedną parą alleli. Wzrost człowieka zależy od wielu genów, a także między innymi od odżywiania i zdrowia. Ta sama roślina może rosnąć inaczej przy różnym dostępie do światła i wody. Dominujący nie znaczy lepszy ani częstszy. To określenie relacji między allelami przy opisie konkretnego fenotypu. Zapis zawsze interpretujemy zgodnie z założeniami zadania."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Allel",
+          "definition": "Jedna z wersji sekwencji DNA w określonym miejscu genomu."
+        },
+        {
+          "term": "Genotyp",
+          "definition": "Zestaw wariantów genetycznych organizmu lub zapis rozpatrywanych alleli."
+        },
+        {
+          "term": "Fenotyp",
+          "definition": "Obserwowalne właściwości wynikające z działania genów i środowiska."
+        }
+      ],
+      "takeaways": [
+        "Aa to heterozygota.",
+        "AA i aa to homozygoty.",
+        "Środowisko może wpływać na fenotyp."
+      ],
+      "misconception": {
+        "myth": "Allel dominujący zawsze występuje częściej w populacji.",
+        "fact": "Dominacja opisuje ujawnianie się cechy u heterozygoty, a nie częstość allelu."
+      },
+      "articleIds": [
+        "inheritance",
+        "dominant",
+        "recessive",
+        "gene-environment"
+      ],
+      "visualIds": [
+        "dominant",
+        "recessive"
+      ],
+      "sources": [
+        {
+          "title": "NHGRI: allel",
+          "url": "https://www.genome.gov/genetics-glossary/Allele"
+        },
+        {
+          "title": "NHGRI: genotyp",
+          "url": "https://www.genome.gov/genetics-glossary/genotype"
+        },
+        {
+          "title": "NHGRI: fenotyp",
+          "url": "https://www.genome.gov/genetics-glossary/Phenotype"
+        }
+      ]
+    },
+    {
+      "id": "gen-05",
+      "unitId": "genetics",
+      "title": "Krzyżówka genetyczna krok po kroku",
+      "minutes": 4,
+      "objectives": [
+        "Rozwiązuję krzyżówkę jednogenową przy dominacji zupełnej.",
+        "Odróżniam prawdopodobieństwo od pewnego wyniku."
+      ],
+      "sections": [
+        {
+          "title": "Model Mendla",
+          "body": "Gregor Mendel badał dziedziczenie wybranych cech grochu. W prostym modelu przyjmijmy, że allel A odpowiada za żółte nasiona i dominuje nad allelem a związanym z zieloną barwą. Podczas tworzenia gamet allele jednej pary rozdzielają się. Gameta otrzymuje tylko jeden z nich. Heterozygota Aa wytwarza więc dwa rodzaje gamet: A oraz a."
+        },
+        {
+          "title": "Zbuduj tabelę możliwości",
+          "body": "Dla krzyżówki Aa × Aa zapisz gamety jednego rodzica nad tabelą, a drugiego z jej boku. Połącz ich symbole w czterech polach: AA, Aa, Aa, aa. W tym modelu prawdopodobieństwo genotypu AA wynosi 25%, Aa wynosi 50%, a aa wynosi 25%. Fenotyp dominujący ma prawdopodobieństwo 75%, ponieważ obejmuje dwa różne genotypy."
+        },
+        {
+          "title": "Odczytaj wynik ostrożnie",
+          "body": "Każde zapłodnienie jest oddzielnym zdarzeniem. Wynik 25% nie oznacza, że dokładnie jedno z czworga potomstwa musi mieć cechę recesywną. W małej rodzinie proporcje mogą się różnić od przewidywania. Przed obliczeniami zawsze sprawdź założenia: sposób dziedziczenia, genotypy rodziców i to, o jaki wynik pyta zadanie. Takiego prostego modelu nie przenosimy automatycznie na złożone cechy człowieka."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Prawo czystości gamet",
+          "definition": "Dwa allele danej pary rozdzielają się podczas powstawania gamet."
+        },
+        {
+          "term": "Krzyżówka genetyczna",
+          "definition": "Tabela możliwych połączeń alleli pochodzących z gamet."
+        },
+        {
+          "term": "Prawdopodobieństwo",
+          "definition": "Miara szansy określonego wyniku, nie gwarancja dla małej liczby zdarzeń."
+        }
+      ],
+      "takeaways": [
+        "Gameta otrzymuje jeden allel z pary.",
+        "Aa × Aa daje możliwość powstania AA, Aa i aa.",
+        "Proporcje przewidywane nie są obowiązkowym wynikiem każdej rodziny."
+      ],
+      "misconception": {
+        "myth": "Po trzech potomkach z cechą dominującą czwarty musi mieć cechę recesywną.",
+        "fact": "W tym modelu każde zapłodnienie ma te same prawdopodobieństwa, niezależnie od poprzednich."
+      },
+      "articleIds": [
+        "inheritance",
+        "dominant",
+        "recessive"
+      ],
+      "visualIds": [
+        "recessive"
+      ],
+      "sources": [
+        {
+          "title": "ZPE: istota dziedziczenia",
+          "url": "https://zpe.gov.pl/a/istota-dziedziczenia/DBetmw8cS"
+        },
+        {
+          "title": "NHGRI: dziedziczenie mendlowskie",
+          "url": "https://www.genome.gov/genetics-glossary/Mendelian-Inheritance"
+        }
+      ]
+    },
+    {
+      "id": "gen-06",
+      "unitId": "genetics",
+      "title": "Chromosomy płci: szkolny model XX i XY",
+      "minutes": 4,
+      "objectives": [
+        "Wyjaśniam typowy schemat przekazywania chromosomów X i Y.",
+        "Wskazuję ograniczenia uproszczonego modelu."
+      ],
+      "sections": [
+        {
+          "title": "Dwadzieścia dwie pary i jedna",
+          "body": "Typowa komórka somatyczna człowieka ma 22 pary autosomów oraz jedną parę chromosomów płci. Najczęściej spotykane zestawy to XX u kobiet i XY u mężczyzn. Chromosomy X i Y różnią się wielkością oraz zawartością genów. Geny uczestniczące w rozwoju płci nie opisują wszystkich właściwości człowieka, a sam rozwój jest procesem złożonym."
+        },
+        {
+          "title": "Co pokazuje krzyżówka?",
+          "body": "W uproszczonej krzyżówce XX × XY komórki jajowe zawierają X, a plemniki X albo Y. Połączenie daje możliwość powstania zygoty XX albo XY. Szkolny model przypisuje każdej możliwości prawdopodobieństwo około 50%. Jest to opis losowego przekazania chromosomów, a nie decyzji rodziców. Kolejny wynik nie jest wyznaczany przez zestawy chromosomów wcześniej urodzonych dzieci."
+        },
+        {
+          "title": "Model ma granice",
+          "body": "Istnieją różnice rozwoju płciowego i inne układy chromosomów, na przykład XXY albo pojedynczy X. Znaczenie mają także konkretne geny, hormony i reakcja tkanek. Dlatego zapis XX lub XY nie wystarcza do pełnego opisu rozwoju każdej osoby. Na lekcji model pomaga zrozumieć dziedziczenie chromosomów, ale nie jest regułą pozbawioną wyjątków ani podstawą oceniania ludzi."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Autosom",
+          "definition": "Chromosom inny niż chromosom płci."
+        },
+        {
+          "term": "Chromosomy płci",
+          "definition": "Chromosomy uczestniczące w genetycznej regulacji rozwoju płci; u człowieka X i Y."
+        },
+        {
+          "term": "Zygota",
+          "definition": "Pierwsza komórka organizmu powstająca po połączeniu gamet."
+        }
+      ],
+      "takeaways": [
+        "W modelu XX × XY możliwe są zestawy XX i XY.",
+        "Komórka jajowa w tym modelu wnosi X.",
+        "Rozwój płci jest bardziej złożony niż sama para chromosomów."
+      ],
+      "misconception": {
+        "myth": "Zestaw XX albo XY bez wyjątków określa każdy aspekt rozwoju płci.",
+        "fact": "Model opisuje częsty schemat; w rozwoju uczestniczą również geny, hormony i reakcje tkanek."
+      },
+      "articleIds": [
+        "chromosomes",
+        "x-linked",
+        "turner",
+        "klinefelter"
+      ],
+      "visualIds": [
+        "x-linked"
+      ],
+      "sources": [
+        {
+          "title": "NHGRI: chromosom płci",
+          "url": "https://www.genome.gov/genetics-glossary/Sex-Chromosome"
+        },
+        {
+          "title": "ZPE: dziedziczenie wybranych cech",
+          "url": "https://zpe.gov.pl/a/dziedziczenie-wybranych-cech-u-czlowieka/D12GJxnZT"
+        }
+      ]
+    },
+    {
+      "id": "gen-07",
+      "unitId": "genetics",
+      "title": "Grupy krwi AB0 i szkolny model Rh",
+      "minutes": 4,
+      "objectives": [
+        "Przyporządkowuję genotypy do grup krwi AB0.",
+        "Obliczam możliwości dziedziczenia Rh w uproszczonym modelu D/d."
+      ],
+      "sections": [
+        {
+          "title": "Trzy allele, cztery grupy",
+          "body": "W szkolnym modelu układu AB0 występują trzy allele: Iᴬ, Iᴮ oraz i. Jedna osoba ma dwa z nich. Iᴬ i Iᴮ są względem siebie kodominujące, a oba dominują nad i. Grupie A odpowiada IᴬIᴬ lub Iᴬi, grupie B IᴮIᴮ lub Iᴮi, grupie AB IᴬIᴮ, a grupie 0 ii."
+        },
+        {
+          "title": "Sprawdź gamety rodziców",
+          "body": "Osoba z grupą AB tworzy w tym modelu gamety Iᴬ i Iᴮ, a osoba z grupą 0 tylko gamety i. Ich potomstwo może więc mieć grupę A albo B. Rodzice z grupami A i B mogą mieć dziecko z grupą 0, jeśli oboje mają allel i, czyli odpowiednio genotypy Iᴬi i Iᴮi."
+        },
+        {
+          "title": "Rh jako uproszczenie do zadań",
+          "body": "Status RhD wiąże się z obecnością antygenu D na krwinkach czerwonych. W prostych zadaniach przyjmujemy, że DD i Dd oznaczają Rh+, a dd oznacza Rh−. Krzyżówka Dd × Dd daje 25% możliwości dd. Rzeczywista genetyka układu Rh jest bardziej złożona. Te tabele służą nauce dziedziczenia; zgodność do przetoczenia wymaga osobnych badań laboratoryjnych."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Kodominacja",
+          "definition": "Ujawnianie się obu alleli u heterozygoty, jak Iᴬ i Iᴮ w grupie AB."
+        },
+        {
+          "term": "Antygen",
+          "definition": "Cząsteczka rozpoznawana przez układ odpornościowy."
+        },
+        {
+          "term": "RhD",
+          "definition": "Oznaczenie związane z obecnością lub brakiem antygenu D na erytrocytach."
+        }
+      ],
+      "takeaways": [
+        "Grupa AB ma w modelu genotyp IᴬIᴮ.",
+        "Grupa 0 ma w modelu genotyp ii.",
+        "Model D/d upraszcza dziedziczenie RhD."
+      ],
+      "misconception": {
+        "myth": "Grupa krwi A zawsze oznacza jeden możliwy genotyp.",
+        "fact": "W modelu AB0 grupa A może odpowiadać genotypowi IᴬIᴬ albo Iᴬi."
+      },
+      "articleIds": [
+        "inheritance",
+        "dominant",
+        "recessive"
+      ],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "Narodowe Centrum Krwi: dziedziczenie grup krwi",
+          "url": "https://www.gov.pl/web/nck/dziedziczenie-grup-krwi"
+        },
+        {
+          "title": "ZPE: dziedziczenie cech człowieka",
+          "url": "https://zpe.gov.pl/a/dziedziczenie-wybranych-cech-u-czlowieka/D12GJxnZT"
+        }
+      ]
+    },
+    {
+      "id": "gen-08",
+      "unitId": "genetics",
+      "title": "Mutacje genowe i ich przyczyny",
+      "minutes": 4,
+      "objectives": [
+        "Podaję przykłady zmian sekwencji DNA i czynników mutagennych.",
+        "Odróżniam mutację komórki somatycznej od zmiany przekazywanej potomstwu."
+      ],
+      "sections": [
+        {
+          "title": "Zmiana w zapisie",
+          "body": "Mutacja genowa dotyczy sekwencji DNA w obrębie genu. Może polegać na zamianie nukleotydu, dodaniu nukleotydów albo ich utracie. Zmiana może wpływać na budowę białka lub ilość powstającego produktu genu. Nie każda mutacja powoduje zauważalną zmianę cechy. Wiele wariantów jest obojętnych, inne bywają szkodliwe, a niektóre mogą być korzystne w określonych warunkach."
+        },
+        {
+          "title": "Skąd biorą się mutacje?",
+          "body": "Część zmian powstaje samoistnie, na przykład wskutek błędów kopiowania DNA lub procesów chemicznych zachodzących w komórce. Czynniki mutagenne zwiększają częstość zmian. Należą do nich promieniowanie UV, promieniowanie jonizujące oraz niektóre substancje chemiczne, także zawarte w dymie tytoniowym. Komórki mają mechanizmy naprawy DNA, które usuwają wiele uszkodzeń, lecz nie wszystkie."
+        },
+        {
+          "title": "Które zmiany są dziedziczne?",
+          "body": "U człowieka zmiana w komórce skóry może trafić do jej komórek potomnych, lecz zwykle nie do dzieci tej osoby. Przekazanie potomstwu wymaga udziału zmienionego materiału genetycznego w powstaniu gamety. Mutacje nie powstają dlatego, że organizm ich potrzebuje. Wnoszą nowe warianty, a ich znaczenie zależy między innymi od miejsca zmiany i warunków środowiska."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Mutacja genowa",
+          "definition": "Zmiana sekwencji DNA w obrębie genu."
+        },
+        {
+          "term": "Mutagen",
+          "definition": "Czynnik zwiększający częstość mutacji."
+        },
+        {
+          "term": "Komórka somatyczna",
+          "definition": "Komórka ciała inna niż komórki linii prowadzącej do powstania gamet."
+        }
+      ],
+      "takeaways": [
+        "Mutacje mogą powstawać samoistnie.",
+        "UV i niektóre substancje chemiczne działają mutagennie.",
+        "Zmiana DNA nie musi wywoływać choroby."
+      ],
+      "misconception": {
+        "myth": "Każda mutacja jest chorobą przekazywaną dzieciom.",
+        "fact": "Skutki mutacji są różne; zmiana w komórce somatycznej zwykle nie jest przekazywana potomstwu."
+      },
+      "articleIds": [
+        "genetic-mutations",
+        "mutation-effects",
+        "mutation-causes",
+        "dna-repair"
+      ],
+      "visualIds": [
+        "mutations"
+      ],
+      "sources": [
+        {
+          "title": "NHGRI: mutacja",
+          "url": "https://www.genome.gov/genetics-glossary/Mutation"
+        },
+        {
+          "title": "ZPE: istota dziedziczenia",
+          "url": "https://zpe.gov.pl/a/istota-dziedziczenia/DBetmw8cS"
+        }
+      ]
+    },
+    {
+      "id": "gen-09",
+      "unitId": "genetics",
+      "title": "Mutacje chromosomowe i choroby genetyczne",
+      "minutes": 4,
+      "objectives": [
+        "Odróżniam zmianę pojedynczego genu od zmiany liczby lub budowy chromosomów.",
+        "Porównuję podłoże mukowiscydozy i zespołu Downa."
+      ],
+      "sections": [
+        {
+          "title": "Liczba albo budowa chromosomów",
+          "body": "Zmiany materiału genetycznego mogą dotyczyć dużych odcinków DNA lub liczby całych chromosomów. Utrata fragmentu chromosomu to delecja, a dodatkowa kopia fragmentu to duplikacja. Błąd rozdziału chromosomów podczas podziału może prowadzić do powstania komórki z dodatkowym chromosomem. Skutki zależą od zakresu zmiany oraz genów, których ona dotyczy; nie są identyczne u wszystkich osób."
+        },
+        {
+          "title": "Przykład: zespół Downa",
+          "body": "Najczęstszą przyczyną zespołu Downa jest obecność trzech kopii chromosomu 21 zamiast dwóch, czyli trisomia 21. Dodatkowy materiał genetyczny wpływa na rozwój organizmu. Istnieją także inne postacie, na przykład mozaikowa i związana z translokacją. Zespół Downa nie jest zakaźny. Osoby z tym zespołem różnią się zdrowiem, możliwościami i potrzebami, tak jak inni ludzie."
+        },
+        {
+          "title": "Przykład: mukowiscydoza",
+          "body": "Mukowiscydoza jest związana z chorobotwórczymi wariantami genu CFTR. Dziedziczy się autosomalnie recesywnie: chora osoba ma odpowiednie warianty w obu kopiach genu. Zaburzają one działanie białka transportującego jony, co wpływa między innymi na wydzielinę w drogach oddechowych. To przykład choroby jednogenowej, a nie skutku dodatkowego chromosomu. Rozpoznanie choroby wymaga badań medycznych, nie porównywania wyglądu z opisem."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Trisomia",
+          "definition": "Obecność trzech kopii określonego chromosomu zamiast dwóch."
+        },
+        {
+          "term": "Delecja",
+          "definition": "Utrata fragmentu materiału genetycznego."
+        },
+        {
+          "term": "Choroba jednogenowa",
+          "definition": "Choroba związana przede wszystkim ze zmianami w jednym określonym genie."
+        }
+      ],
+      "takeaways": [
+        "Trisomia 21 jest najczęstszym podłożem zespołu Downa.",
+        "Mukowiscydoza wiąże się z genem CFTR.",
+        "Choroba genetyczna nie zawsze jest odziedziczona po rodzicu."
+      ],
+      "misconception": {
+        "myth": "Wszystkie choroby genetyczne wynikają z dodatkowego chromosomu.",
+        "fact": "Przyczyną może być zmiana jednego genu, budowy chromosomu albo liczby chromosomów."
+      },
+      "articleIds": [
+        "chromosomal-mutation-effects",
+        "down-syndrome",
+        "cystic-fibrosis",
+        "turner"
+      ],
+      "visualIds": [
+        "trisomy",
+        "metabolism"
+      ],
+      "sources": [
+        {
+          "title": "MedlinePlus: zespół Downa",
+          "url": "https://medlineplus.gov/genetics/condition/down-syndrome/"
+        },
+        {
+          "title": "MedlinePlus: mukowiscydoza",
+          "url": "https://medlineplus.gov/genetics/condition/cystic-fibrosis/"
+        }
+      ]
+    },
+    {
+      "id": "gen-10",
+      "unitId": "genetics",
+      "title": "Nowotwory: kiedy zawodzi kontrola podziałów",
+      "minutes": 4,
+      "objectives": [
+        "Wyjaśniam związek zmian DNA z niekontrolowanym podziałem komórek.",
+        "Odróżniam genetyczne podłoże nowotworu od dziedzicznej predyspozycji."
+      ],
+      "sections": [
+        {
+          "title": "Komórki mają system kontroli",
+          "body": "Zdrowa tkanka utrzymuje równowagę między powstawaniem, działaniem i obumieraniem komórek. Geny uczestniczą w kontroli podziałów, naprawie DNA oraz uruchamianiu śmierci komórki. Gdy nagromadzą się odpowiednie zmiany zaburzające te mechanizmy, niektóre komórki mogą namnażać się bez prawidłowej kontroli. Powstawanie nowotworu jest zwykle procesem wieloetapowym, a pojedyncza dowolna mutacja nie oznacza automatycznie choroby."
+        },
+        {
+          "title": "Genetyczny nie znaczy dziedziczny",
+          "body": "Zmiany DNA uczestniczące w rozwoju nowotworu często pojawiają się dopiero w ciągu życia w komórkach określonej tkanki. Nie muszą być obecne w gametach, więc nie są automatycznie przekazywane dzieciom. Niektóre osoby dziedziczą wariant zwiększający ryzyko określonych nowotworów. Predyspozycja oznacza większe prawdopodobieństwo, a nie pewność zachorowania ani odziedziczenie gotowego nowotworu."
+        },
+        {
+          "title": "Ryzyko i wsparcie",
+          "body": "Na ryzyko wpływają różne czynniki, w tym wiek, przypadkowe błędy podziałów i niektóre narażenia środowiskowe. Unikanie dymu tytoniowego i ochrona przed nadmiernym UV zmniejszają część ryzyka, lecz nie dają pełnej gwarancji. Choroba nie jest podstawą do obwiniania osoby chorej. Badania, rozpoznanie i leczenie prowadzą specjaliści, a wsparcie społeczne jest ważne dla chorego i bliskich."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Nowotwór",
+          "definition": "Nieprawidłowy rozrost komórek związany z zaburzeniem kontroli ich namnażania."
+        },
+        {
+          "term": "Predyspozycja genetyczna",
+          "definition": "Uwarunkowane genetycznie zwiększenie prawdopodobieństwa określonej choroby."
+        },
+        {
+          "term": "Mutacja somatyczna",
+          "definition": "Zmiana DNA powstała w komórce ciała, która może przejść do jej komórek potomnych."
+        }
+      ],
+      "takeaways": [
+        "Zmiany DNA mogą zaburzać kontrolę podziałów.",
+        "Większość zmian nowotworowych nie jest dziedziczona.",
+        "Podwyższone ryzyko nie jest pewnością choroby."
+      ],
+      "misconception": {
+        "myth": "Każdy nowotwór jest chorobą odziedziczoną po rodzicach.",
+        "fact": "Wiele zmian powstaje w komórkach ciała w ciągu życia; tylko część predyspozycji jest dziedziczna."
+      },
+      "articleIds": [
+        "brca-susceptibility",
+        "lynch",
+        "mutation-effects",
+        "gene-environment"
+      ],
+      "visualIds": [
+        "cancer-risk"
+      ],
+      "sources": [
+        {
+          "title": "NCI: genetyka nowotworów",
+          "url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics"
+        },
+        {
+          "title": "NCI: czym jest nowotwór",
+          "url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer"
+        }
+      ]
+    },
+    {
+      "id": "evo-01",
+      "unitId": "evolution",
+      "title": "Ewolucja: zmiany populacji przez pokolenia",
+      "minutes": 4,
+      "objectives": [
+        "Wyjaśniam, co zmienia się podczas ewolucji.",
+        "Odróżniam ewolucję od zmian zachodzących w życiu jednej osoby."
+      ],
+      "sections": [
+        {
+          "title": "Zmienia się populacja",
+          "body": "Ewolucja biologiczna obejmuje zmiany dziedzicznych właściwości populacji w kolejnych pokoleniach. Populacja to osobniki tego samego gatunku żyjące na określonym obszarze i w tym samym czasie. Zmieniać może się na przykład częstość allelu wpływającego na ubarwienie. Pojedynczy osobnik rozwija się i starzeje, ale nie ewoluuje w tym znaczeniu w ciągu własnego życia."
+        },
+        {
+          "title": "Małe zmiany, długa historia",
+          "body": "Gdy przez wiele pokoleń dziedziczone warianty zmieniają częstość, populacje mogą coraz bardziej się różnić. Długotrwałe rozdzielenie linii bywa związane z powstawaniem nowych gatunków. Historia życia obejmuje także wymieranie. Ewolucja nie jest marszem wszystkich organizmów do jednego celu i nie musi prowadzić do wzrostu rozmiaru, siły ani złożoności budowy."
+        },
+        {
+          "title": "Obserwacje i wyjaśnienia",
+          "body": "Badacze porównują organizmy współczesne, zapis kopalny i sekwencje DNA. Badają też zmiany zachodzące obecnie, na przykład wzrost udziału bakterii opornych na antybiotyk. Różne źródła danych pozwalają sprawdzać wyjaśnienia historii życia. Dobór naturalny jest ważnym mechanizmem ewolucji, ale działa obok mutacji, przepływu genów i przypadkowych zmian częstości alleli. Nie każda zmiana jest przystosowaniem."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Ewolucja biologiczna",
+          "definition": "Zmiany dziedzicznych właściwości populacji w kolejnych pokoleniach."
+        },
+        {
+          "term": "Populacja",
+          "definition": "Osobniki jednego gatunku żyjące na danym obszarze w tym samym czasie."
+        },
+        {
+          "term": "Pokolenie",
+          "definition": "Grupa organizmów stanowiąca kolejny etap przekazywania cech od rodziców do potomstwa."
+        }
+      ],
+      "takeaways": [
+        "Ewolucję opisujemy na poziomie populacji.",
+        "Dziedziczenie łączy kolejne pokolenia.",
+        "Ewolucja nie ma z góry ustalonego celu."
+      ],
+      "misconception": {
+        "myth": "Każdy gatunek ewoluuje po to, aby stać się coraz doskonalszy.",
+        "fact": "Zmiany zależą od dziedzicznej zmienności, warunków i różnych mechanizmów; nie mają zaplanowanego celu."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "UC Berkeley: dziedziczenie ze zmianami",
+          "url": "https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/descent-with-modification/"
+        },
+        {
+          "title": "UC Berkeley: wprowadzenie do ewolucji",
+          "url": "https://evolution.berkeley.edu/evolution-101/"
+        }
+      ]
+    },
+    {
+      "id": "evo-02",
+      "unitId": "evolution",
+      "title": "Zmienność: materiał dla ewolucji",
+      "minutes": 4,
+      "objectives": [
+        "Odróżniam zmienność dziedziczną od środowiskowej.",
+        "Wskazuję źródła nowych alleli i nowych ich kombinacji."
+      ],
+      "sections": [
+        {
+          "title": "Osobniki nie są identyczne",
+          "body": "W obrębie populacji osobniki często różnią się barwą, rozmiarem, tempem wzrostu lub innymi właściwościami. Nie wszystkie różnice mają takie samo podłoże. Na wiele cech wpływają jednocześnie geny i środowisko. Aby dana różnica uczestniczyła w zmianach ewolucyjnych przez dziedziczenie, jej podłoże genetyczne musi móc przechodzić z rodziców na potomstwo."
+        },
+        {
+          "title": "Skąd nowe warianty?",
+          "body": "Mutacje wprowadzają nowe wersje sekwencji DNA. Rekombinacja podczas mejozy i losowe łączenie gamet tworzą nowe kombinacje alleli już obecnych w populacji. Przemieszczanie się osobników między populacjami może przenosić allele do nowych miejsc. Mutacje nie powstają na zamówienie organizmu. Nie ma gwarancji, że nowy wariant okaże się korzystny w danych warunkach."
+        },
+        {
+          "title": "Zmiana cechy nie zawsze jest dziedziczna",
+          "body": "Liście tej samej rośliny mogą mieć różną wielkość zależnie od oświetlenia. Opalenizna człowieka jest reakcją skóry na promieniowanie UV, a nie nowym allelem dziedziczonym przez dzieci. Takie przykłady pokazują znaczenie środowiska. Dobór naturalny może zmieniać częstość dziedzicznych wariantów, ale nie przekazuje potomstwu każdej cechy nabytej podczas życia rodzica. Dlatego zawsze pytamy o źródło obserwowanej różnicy."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Zmienność dziedziczna",
+          "definition": "Różnice związane z materiałem genetycznym, który może być przekazany potomstwu."
+        },
+        {
+          "term": "Rekombinacja",
+          "definition": "Powstawanie nowych kombinacji materiału genetycznego."
+        },
+        {
+          "term": "Przepływ genów",
+          "definition": "Przenoszenie alleli między populacjami wraz z osobnikami lub gametami."
+        }
+      ],
+      "takeaways": [
+        "Mutacje są źródłem nowych wariantów DNA.",
+        "Rekombinacja zmienia kombinacje alleli.",
+        "Nie każda różnica fenotypu jest dziedziczna."
+      ],
+      "misconception": {
+        "myth": "Potomstwo automatycznie dziedziczy wszystkie cechy nabyte przez rodziców.",
+        "fact": "Na przykład opalenizna lub wytrenowane mięśnie nie są przekazywane jako nowy allel."
+      },
+      "articleIds": [
+        "mutations",
+        "recombination",
+        "gene-environment"
+      ],
+      "visualIds": [
+        "mutations"
+      ],
+      "sources": [
+        {
+          "title": "UC Berkeley: zmienność genetyczna",
+          "url": "https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/genetic-variation/"
+        }
+      ]
+    },
+    {
+      "id": "evo-03",
+      "unitId": "evolution",
+      "title": "Skamieniałości: ślady dawnego życia",
+      "minutes": 4,
+      "objectives": [
+        "Rozpoznaję różne rodzaje skamieniałości.",
+        "Wyjaśniam, dlaczego zapis kopalny jest niepełny."
+      ],
+      "sections": [
+        {
+          "title": "Co może się zachować?",
+          "body": "Skamieniałości to zachowane w skałach szczątki organizmów lub ślady ich działalności z przeszłości geologicznej. Mogą to być kości, muszle, odciski liści, tropy albo nory. Nie każda skamieniałość jest kompletnym szkieletem. Ślad stopy może dostarczać informacji o sposobie poruszania się, a budowa zęba pomaga wnioskować o rodzaju pobieranego pokarmu."
+        },
+        {
+          "title": "Warunki zachowania",
+          "body": "Większość martwych organizmów rozkłada się lub zostaje zjedzona. Szybkie przykrycie osadem i obecność twardych części zwiększają szansę zachowania śladów. Zapis kopalny jest więc wybiórczy i nie obejmuje każdego osobnika ani gatunku. W nieprzemieszczonych warstwach osadowych warstwy niższe są zwykle starsze od wyższych. Dokładniejsze ustalanie wieku wymaga dodatkowych metod geologicznych."
+        },
+        {
+          "title": "Co mówią o ewolucji?",
+          "body": "Porównywanie skamieniałości z różnych okresów pokazuje, że skład świata organizmów zmieniał się w czasie. Znamy gatunki wymarłe i formy łączące cechy różnych grup. Nie oznacza to, że każdy znaleziony okaz był bezpośrednim przodkiem współczesnego gatunku. Wnioski o pokrewieństwie sprawdza się z użyciem wielu danych, między innymi anatomii oraz DNA, jeśli odpowiedni materiał się zachował."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Skamieniałość",
+          "definition": "Zachowany w skałach szczątek dawnego organizmu lub ślad jego działalności."
+        },
+        {
+          "term": "Zapis kopalny",
+          "definition": "Całość znanych skamieniałości i informacji o ich występowaniu."
+        },
+        {
+          "term": "Wymieranie",
+          "definition": "Zanik wszystkich przedstawicieli gatunku lub innej grupy organizmów."
+        }
+      ],
+      "takeaways": [
+        "Tropy także mogą być skamieniałościami.",
+        "Zapis kopalny jest niepełny.",
+        "Skamieniałości dokumentują zmiany świata organizmów."
+      ],
+      "misconception": {
+        "myth": "Brak skamieniałości każdego pokolenia uniemożliwia badanie ewolucji.",
+        "fact": "Wiele niezależnych znalezisk wraz z innymi danymi pozwala odtwarzać historię życia mimo luk."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "UC Berkeley: dowody kopalne",
+          "url": "https://evolution.berkeley.edu/lines-of-evidence/fossil-evidence/"
+        }
+      ]
+    },
+    {
+      "id": "evo-04",
+      "unitId": "evolution",
+      "title": "Homologia i analogia: podobieństwa mają różne źródła",
+      "minutes": 4,
+      "objectives": [
+        "Rozróżniam narządy homologiczne i analogiczne.",
+        "Wyjaśniam, dlaczego sama podobna funkcja nie dowodzi bliskiego pokrewieństwa."
+      ],
+      "sections": [
+        {
+          "title": "Ten sam plan po przodku",
+          "body": "Narządy homologiczne mają wspólne pochodzenie ewolucyjne, choć mogą obecnie wykonywać różne zadania. Kończyna przednia człowieka, nietoperza i wieloryba zachowuje podobny układ podstawowych kości. Umożliwia jednak odpowiednio chwytanie, lot i pływanie. Wspólna budowa wskazuje na dziedziczenie planu po wspólnym przodku, a późniejsze zmiany wiążą się z odmiennym sposobem życia."
+        },
+        {
+          "title": "Podobne zadanie, inne pochodzenie",
+          "body": "Narządy analogiczne pełnią podobną funkcję, lecz ich rozpatrywana postać powstała niezależnie. Skrzydło owada i skrzydło ptaka umożliwiają lot, ale mają inną budowę i historię powstania. Podobne warunki mogą sprzyjać podobnym rozwiązaniom u różnych linii organizmów. Takie niezależne powstawanie podobieństw nazywamy konwergencją. Nie oznacza ono braku jakiegokolwiek, bardzo dawnego wspólnego przodka."
+        },
+        {
+          "title": "Najpierw ustal, co porównujesz",
+          "body": "Ważny jest poziom porównania. Przednie kończyny ptaka i nietoperza są homologiczne jako kończyny kręgowców, natomiast ich przystosowania do aktywnego lotu powstały niezależnie. Do ustalania pokrewieństwa nie wystarcza więc zdanie, że oba zwierzęta mają skrzydła. Badacze analizują szczegóły budowy, rozwój, DNA i zapis kopalny. Wniosek powinien uwzględniać te różne rodzaje dowodów. Sama funkcja nie rozstrzyga pochodzenia."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Homologia",
+          "definition": "Podobieństwo wynikające ze wspólnego pochodzenia danej struktury."
+        },
+        {
+          "term": "Analogia",
+          "definition": "Podobieństwo funkcji lub postaci, które powstało niezależnie w różnych liniach."
+        },
+        {
+          "term": "Konwergencja",
+          "definition": "Niezależne powstawanie podobnych cech w różnych liniach ewolucyjnych."
+        }
+      ],
+      "takeaways": [
+        "Wspólne pochodzenie jest podstawą homologii.",
+        "Skrzydło owada i ptaka to przykład analogii.",
+        "Rodzaj podobieństwa zależy od tego, co dokładnie porównujemy."
+      ],
+      "misconception": {
+        "myth": "Każde dwa narządy o tej samej funkcji są homologiczne.",
+        "fact": "Ta sama funkcja może powstać niezależnie; homologię ustalamy na podstawie pochodzenia."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "UC Berkeley: homologie i analogie",
+          "url": "https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/homologies-and-analogies/"
+        }
+      ]
+    },
+    {
+      "id": "evo-05",
+      "unitId": "evolution",
+      "title": "DNA jako dowód pokrewieństwa",
+      "minutes": 4,
+      "objectives": [
+        "Wyjaśniam, jak porównywanie DNA pomaga badać pokrewieństwo.",
+        "Łączę dowody molekularne z innymi dowodami ewolucji."
+      ],
+      "sections": [
+        {
+          "title": "Wspólny język komórek",
+          "body": "Organizmy komórkowe wykorzystują DNA do przechowywania informacji dziedzicznej i bardzo podobny kod genetyczny do wytwarzania białek. Wspólne podstawowe mechanizmy są zgodne z pochodzeniem życia od dawnych wspólnych przodków. W DNA zachowują się ślady dziedziczenia i zmian. Nie trzeba więc ograniczać porównań do wyglądu zewnętrznego, który może ulegać podobnym zmianom niezależnie."
+        },
+        {
+          "title": "Porównuj odpowiadające sobie fragmenty",
+          "body": "Badacze zestawiają sekwencje odpowiadających sobie genów lub innych odcinków genomu. Ogólnie bliżej spokrewnione gatunki mają więcej podobieństw w wielu porównywalnych sekwencjach. Znaczenie ma jednak to, który fragment badamy i jak szybko się zmienia. Przypadkowo wybrany krótki zapis nie wystarcza do pewnego ustalenia pokrewieństwa. Dlatego analizuje się wiele danych i właściwe metody porównania."
+        },
+        {
+          "title": "Kilka linii dowodowych",
+          "body": "Podobieństwa DNA, białek, anatomii i skamieniałości często prowadzą do zgodnych wniosków. Gdy wyniki różnią się, badacze sprawdzają próbki, metody i historię porównywanych genów. Różnica w DNA nie oznacza, że jeden gatunek jest lepszy od drugiego. Opisuje historię zmian w rozdzielonych liniach. Procent podobieństwa wymaga wyjaśnienia, jaki materiał oraz jaki sposób liczenia przyjęto."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Sekwencja DNA",
+          "definition": "Kolejność nukleotydów w cząsteczce DNA."
+        },
+        {
+          "term": "Dowód molekularny",
+          "definition": "Informacja o historii ewolucyjnej uzyskana z porównania cząsteczek, na przykład DNA."
+        },
+        {
+          "term": "Pokrewieństwo ewolucyjne",
+          "definition": "Relacja organizmów wynikająca z posiadania wspólnych przodków."
+        }
+      ],
+      "takeaways": [
+        "Wiele organizmów łączy podobny kod genetyczny.",
+        "Porównuje się odpowiadające sobie fragmenty DNA.",
+        "Wnioski wzmacnia zgodność różnych rodzajów danych."
+      ],
+      "misconception": {
+        "myth": "Wygląd zewnętrzny zawsze lepiej wskazuje pokrewieństwo niż DNA.",
+        "fact": "Wnioski opiera się na wielu dowodach, a podobny wygląd może wynikać z konwergencji."
+      },
+      "articleIds": [
+        "dna",
+        "gene",
+        "genome"
+      ],
+      "visualIds": [
+        "dna-helix"
+      ],
+      "sources": [
+        {
+          "title": "UC Berkeley: dowody komórkowe i molekularne",
+          "url": "https://evolution.berkeley.edu/lines-of-evidence/homologies/homologies-cellular-molecular-evidence/"
+        },
+        {
+          "title": "Smithsonian: genetyka i pochodzenie człowieka",
+          "url": "https://humanorigins.si.edu/evidence/genetics"
+        }
+      ]
+    },
+    {
+      "id": "evo-06",
+      "unitId": "evolution",
+      "title": "Dobór naturalny: znaczenie przeżycia i rozrodu",
+      "minutes": 4,
+      "objectives": [
+        "Opisuję warunki działania doboru naturalnego.",
+        "Wyjaśniam zmianę częstości cechy na przykładzie populacji."
+      ],
+      "sections": [
+        {
+          "title": "Różnice mają znaczenie",
+          "body": "Dobór naturalny działa, gdy osobniki różnią się cechami dziedzicznymi, a różnice wpływają na pozostawianie potomstwa w danych warunkach. W kolejnych pokoleniach częstsze mogą stawać się warianty związane z większym sukcesem rozrodczym. Znaczenie mają zarówno przeżycie do rozrodu, jak i liczba potomków, którzy sami mogą się rozmnażać. Sama duża siła nie jest uniwersalną przewagą."
+        },
+        {
+          "title": "Przykład z ubarwieniem",
+          "body": "Wyobraź sobie populację owadów, w której jasne i ciemne ubarwienie jest dziedziczne. Na jasnym podłożu drapieżniki łatwiej zauważają ciemne osobniki. Jeśli jasne owady częściej przeżywają i pozostawiają potomstwo, ich udział może rosnąć przez pokolenia. Po zmianie podłoża zależność może wyglądać inaczej. Korzystność cechy zależy zatem od środowiska, nie jest stałą oceną organizmu."
+        },
+        {
+          "title": "Bez planu i zamawiania mutacji",
+          "body": "Dobór naturalny nie sprawia, że każdy owad zmienia kolor w odpowiedzi na potrzebę. Selekcja działa na istniejącą zmienność, do której dochodzą nowe mutacje. Organizm nie decyduje, jaki wariant DNA otrzyma potomstwo. Również oporność bakterii nie wynika z ich świadomego przyzwyczajania się. W obecności antybiotyku warianty oporne mogą pozostawić więcej potomstwa niż wrażliwe."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Dobór naturalny",
+          "definition": "Różnice w sukcesie rozrodczym związane z dziedzicznymi cechami w określonym środowisku."
+        },
+        {
+          "term": "Sukces rozrodczy",
+          "definition": "Udział organizmu w powstaniu kolejnych pokoleń przez pozostawione potomstwo."
+        },
+        {
+          "term": "Selekcja",
+          "definition": "Zróżnicowane przeżywanie i rozmnażanie się osobników."
+        }
+      ],
+      "takeaways": [
+        "Dobór działa na dziedziczną zmienność.",
+        "Znaczenie cechy zależy od warunków.",
+        "Większy sukces rozrodczy może zwiększać częstość wariantu."
+      ],
+      "misconception": {
+        "myth": "Dobór naturalny zawsze wybiera największego i najsilniejszego osobnika.",
+        "fact": "Przewaga zależy od wpływu cechy na rozród w konkretnym środowisku."
+      },
+      "articleIds": [
+        "mutations",
+        "gene-environment"
+      ],
+      "visualIds": [
+        "evolution-selection"
+      ],
+      "sources": [
+        {
+          "title": "UC Berkeley: dobór naturalny",
+          "url": "https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/natural-selection/"
+        }
+      ]
+    },
+    {
+      "id": "evo-07",
+      "unitId": "evolution",
+      "title": "Dobór sztuczny: kiedy wybiera człowiek",
+      "minutes": 4,
+      "objectives": [
+        "Porównuję dobór naturalny i sztuczny.",
+        "Podaję przykłady cech utrwalanych przez hodowców."
+      ],
+      "sections": [
+        {
+          "title": "Wybór do rozmnażania",
+          "body": "Dobór sztuczny polega na wybieraniu przez człowieka osobników do rozrodu ze względu na pożądane cechy dziedziczne. Hodowca może wybierać rośliny o większych owocach lub zwierzęta o określonej jakości wełny. Jeśli potomstwo dziedziczy te właściwości, ich częstość może wzrastać przez pokolenia. Efekt nie powstaje przez samo przycinanie liści albo uczenie pojedynczego zwierzęcia."
+        },
+        {
+          "title": "Wspólny mechanizm, inne kryterium",
+          "body": "Dobór naturalny i sztuczny wykorzystują istniejącą zmienność dziedziczną oraz różnice w udziale osobników w następnym pokoleniu. W doborze sztucznym kierunek wyznaczają decyzje człowieka. W naturalnym znaczenie mają warunki środowiska i ich wpływ na przeżywanie oraz rozród. Cecha ceniona w hodowli nie musi być korzystna poza nią, na przykład bardzo ciężkie owoce mogą wymagać podpór."
+        },
+        {
+          "title": "Korzyści i ograniczenia",
+          "body": "Różne odmiany kapusty i rasy psów pokazują, jak duże zmiany można uzyskać przez selekcję. Hodowla wymaga jednak dbania o zdrowie, dobrostan i różnorodność genetyczną. Rozmnażanie niewielu blisko spokrewnionych osobników może zwiększać częstość niektórych chorób recesywnych. Dobór sztuczny nie jest tym samym co bezpośrednia edycja DNA: może zachodzić bez zmieniania sekwencji za pomocą narzędzi laboratoryjnych."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Dobór sztuczny",
+          "definition": "Selekcja osobników do rozrodu prowadzona przez człowieka."
+        },
+        {
+          "term": "Odmiana rośliny",
+          "definition": "Grupa roślin uprawnych wyróżniana ze względu na utrwalone właściwości."
+        },
+        {
+          "term": "Różnorodność genetyczna",
+          "definition": "Zróżnicowanie wariantów DNA w badanej grupie organizmów."
+        }
+      ],
+      "takeaways": [
+        "Dobór sztuczny wykorzystuje dziedziczne różnice.",
+        "Człowiek określa kryterium wyboru do rozrodu.",
+        "Dobrostan i różnorodność są ważne w hodowli."
+      ],
+      "misconception": {
+        "myth": "Dobór sztuczny zawsze wymaga laboratoryjnej edycji genów.",
+        "fact": "Może polegać wyłącznie na wyborze rodziców i rozmnażaniu osobników o pożądanych cechach."
+      },
+      "articleIds": [
+        "inheritance",
+        "recessive"
+      ],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "UC Berkeley: dobór sztuczny",
+          "url": "https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/artificial-selection/"
+        },
+        {
+          "title": "ZPE: mechanizmy ewolucji",
+          "url": "https://zpe.gov.pl/a/mechanizmy-ewolucji-biologicznej/Dthwg3ahD"
+        }
+      ]
+    },
+    {
+      "id": "evo-08",
+      "unitId": "evolution",
+      "title": "Przystosowania i powstawanie gatunków",
+      "minutes": 4,
+      "objectives": [
+        "Odróżniam przystosowanie ewolucyjne od krótkotrwałej reakcji organizmu.",
+        "Opisuję prosty scenariusz rozdzielenia populacji i powstania gatunków."
+      ],
+      "sections": [
+        {
+          "title": "Cecha korzystna w danych warunkach",
+          "body": "Przystosowanie ewolucyjne jest dziedziczną właściwością, która ukształtowała się pod wpływem doboru i zwiększa sukces rozrodczy w określonych warunkach. Przykładem może być budowa liści ograniczająca utratę wody w suchym środowisku. Nie jest to świadoma odpowiedź rośliny na potrzebę. Korzystność takiej cechy może zmaleć, gdy środowisko istotnie się zmieni."
+        },
+        {
+          "title": "Gdy populacje zostają rozdzielone",
+          "body": "Rzeka, góry lub zmiana zasięgu mogą ograniczyć wymianę genów między populacjami. W oddzielonych grupach gromadzą się różne zmiany genetyczne; dobór i przypadek mogą działać w nich inaczej. Po wielu pokoleniach różnice mogą być tak duże, że osobniki nie krzyżują się skutecznie. Powstanie trwałych barier rozrodczych może prowadzić do wyodrębnienia nowych gatunków."
+        },
+        {
+          "title": "Nie każda bariera daje nowy gatunek",
+          "body": "Rozdzielenie przestrzenne samo w sobie nie dowodzi zakończenia specjacji. Liczą się dalsza historia i wymiana genów. W szkolnym ujęciu gatunek to zwykle grupa naturalnych populacji, których osobniki mogą krzyżować się i wydawać płodne potomstwo, a są rozrodczo oddzielone od innych grup. Ta definicja ma ograniczenia, na przykład dla skamieniałości i organizmów rozmnażających się bezpłciowo."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Przystosowanie ewolucyjne",
+          "definition": "Dziedziczna cecha ukształtowana przez dobór i korzystna w określonych warunkach."
+        },
+        {
+          "term": "Specjacja",
+          "definition": "Proces powstawania nowych gatunków."
+        },
+        {
+          "term": "Izolacja rozrodcza",
+          "definition": "Bariery ograniczające skuteczne krzyżowanie się populacji i przepływ genów."
+        }
+      ],
+      "takeaways": [
+        "Przystosowanie nie powstaje na życzenie organizmu.",
+        "Ograniczenie przepływu genów może sprzyjać rozchodzeniu się populacji.",
+        "Rozdzielenie populacji nie zawsze kończy się specjacją."
+      ],
+      "misconception": {
+        "myth": "Każda populacja odcięta przez rzekę natychmiast staje się nowym gatunkiem.",
+        "fact": "Powstawanie gatunków wymaga dalszych zmian i utrwalenia barier rozrodczych."
+      },
+      "articleIds": [
+        "gene-environment",
+        "mutations"
+      ],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "UC Berkeley: przystosowanie",
+          "url": "https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/adaptation/"
+        },
+        {
+          "title": "UC Berkeley: specjacja",
+          "url": "https://evolution.berkeley.edu/evolution-101/speciation/"
+        }
+      ]
+    },
+    {
+      "id": "evo-09",
+      "unitId": "evolution",
+      "title": "Drzewo pokrewieństwa i wspólni przodkowie",
+      "minutes": 4,
+      "objectives": [
+        "Odczytuję znaczenie węzłów i rozgałęzień drzewa.",
+        "Porównuję pokrewieństwo na podstawie najbliższego wspólnego przodka."
+      ],
+      "sections": [
+        {
+          "title": "Drzewo przedstawia hipotezę historii",
+          "body": "Drzewo filogenetyczne jest schematem powiązań ewolucyjnych. Końce gałęzi mogą oznaczać gatunki lub inne badane grupy, a węzły ich wspólnych przodków. Rozgałęzienie oznacza rozdzielenie linii, nie zamianę jednego dzisiejszego gatunku w drugi. Takie drzewa buduje się na podstawie porównania cech, DNA i innych danych, a nowe wyniki mogą zmieniać szczegóły schematu."
+        },
+        {
+          "title": "Jak porównać dwa gatunki?",
+          "body": "Im bardziej niedawny jest wspólny przodek dwóch grup w porównaniu z trzecią, tym bliższe jest ich pokrewieństwo. Jeśli gatunki A i B łączy wspólny węzeł, którego nie dzielą z C, to A i B są bliższymi krewnymi. Odległość napisów na kartce i położenie po lewej lub prawej stronie nie określają pokrewieństwa."
+        },
+        {
+          "title": "Bez drabiny doskonałości",
+          "body": "Obrócenie gałęzi wokół węzła nie zmienia relacji na drzewie. Żyjące dziś gatunki nie tworzą szeregu od prymitywnych do najlepszych. Każda obecna linia ma długą historię od wspólnych przodków. Długości gałęzi pokazują czas albo liczbę zmian tylko wtedy, gdy podano odpowiednią skalę. Bez niej odczytujemy przede wszystkim kolejność rozgałęzień, a nie dokładne daty."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Drzewo filogenetyczne",
+          "definition": "Schemat hipotezy pokrewieństwa ewolucyjnego badanych grup."
+        },
+        {
+          "term": "Węzeł",
+          "definition": "Punkt rozgałęzienia reprezentujący wspólnego przodka linii."
+        },
+        {
+          "term": "Wspólny przodek",
+          "definition": "Organizm lub populacja przodków, od których pochodzą porównywane linie."
+        }
+      ],
+      "takeaways": [
+        "Węzły oznaczają wspólnych przodków.",
+        "Bliższe pokrewieństwo oznacza bardziej niedawnego wspólnego przodka.",
+        "Obrót gałęzi przy węźle nie zmienia pokrewieństwa."
+      ],
+      "misconception": {
+        "myth": "Gatunek na najwyższej gałęzi jest najbardziej rozwinięty.",
+        "fact": "Położenie na rysunku nie oznacza stopnia doskonałości ani wartości gatunku."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "UC Berkeley: odczytywanie filogenezy",
+          "url": "https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/understanding-phylogenies/"
+        }
+      ]
+    },
+    {
+      "id": "evo-10",
+      "unitId": "evolution",
+      "title": "Człowiek wśród naczelnych",
+      "minutes": 4,
+      "objectives": [
+        "Wskazuję cechy łączące człowieka z innymi naczelnymi.",
+        "Wyjaśniam wspólne pochodzenie człowieka i innych małp człekokształtnych."
+      ],
+      "sections": [
+        {
+          "title": "Nasze miejsce w klasyfikacji",
+          "body": "Człowiek rozumny, Homo sapiens, jest ssakiem należącym do naczelnych i małp człekokształtnych. Z innymi naczelnymi łączą nas między innymi chwytne dłonie, paznokcie i oczy skierowane do przodu, umożliwiające nakładanie się pól widzenia. To przykłady cech wspólnego pochodzenia. Stopień ich wykształcenia bywa różny u poszczególnych gatunków, więc nie każda cecha wygląda identycznie."
+        },
+        {
+          "title": "Wspólny przodek, różne linie",
+          "body": "Ludzie i współczesne szympansy mają wspólnych dawnych przodków. Żaden żyjący dziś szympans nie jest przodkiem człowieka. Od rozdzielenia linii obie grupy podlegały zmianom ewolucyjnym. O pokrewieństwie świadczą anatomia, skamieniałości i porównania DNA. Historia człowieka przypomina rozgałęzione drzewo: w przeszłości istniało wiele blisko spokrewnionych form, nie tylko jedna prosta kolejka przodków."
+        },
+        {
+          "title": "Cechy i różnorodność człowieka",
+          "body": "Stały chód dwunożny wiąże się z budową miednicy, kręgosłupa i stóp człowieka. Duże znaczenie mają też rozwinięty język i przekazywanie wiedzy w kulturze. Cechy te nie pojawiły się wszystkie jednocześnie. Wszyscy współcześni ludzie należą do jednego gatunku. Różnice wyglądu między ludźmi nie tworzą osobnych szczebli ewolucji i nie uzasadniają hierarchii wartości osób."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Naczelne",
+          "definition": "Rząd ssaków obejmujący między innymi lemury, małpy i człowieka."
+        },
+        {
+          "term": "Homo sapiens",
+          "definition": "Nazwa gatunkowa człowieka rozumnego."
+        },
+        {
+          "term": "Dwunożność",
+          "definition": "Poruszanie się na dwóch kończynach; u człowieka podstawowy sposób chodu."
+        }
+      ],
+      "takeaways": [
+        "Człowiek należy do naczelnych.",
+        "Człowiek i szympans mają wspólnych dawnych przodków.",
+        "Wszyscy współcześni ludzie należą do jednego gatunku."
+      ],
+      "misconception": {
+        "myth": "Człowiek pochodzi od współczesnego szympansa.",
+        "fact": "Obie współczesne linie wywodzą się od wspólnych przodków i od tego czasu ewoluowały."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "Smithsonian: skąd wiemy, że człowiek jest naczelnym",
+          "url": "https://humanorigins.si.edu/education/how-do-we-know/how-do-we-know-humans-are-primates"
+        },
+        {
+          "title": "Smithsonian: pytania o ewolucję człowieka",
+          "url": "https://humanorigins.si.edu/education/frequently-asked-questions"
+        }
+      ]
+    },
+    {
+      "id": "eco-01",
+      "unitId": "ecology",
+      "title": "Populacja i biocenoza",
+      "minutes": 4,
+      "objectives": [
+        "Odróżnisz populację od biocenozy.",
+        "Rozpoznasz przykłady różnych poziomów organizacji przyrody."
+      ],
+      "sections": [
+        {
+          "title": "Jeden gatunek, określony teren",
+          "body": "Populację tworzą osobniki jednego gatunku żyjące na określonym obszarze w tym samym czasie. Mogą na siebie oddziaływać, a osobniki zdolne do rozrodu mogą się ze sobą rozmnażać. Wszystkie żaby trawne w jednym stawie należą do jednej populacji. Żaby tego samego gatunku w odległym, odizolowanym stawie mogą tworzyć inną populację."
+        },
+        {
+          "title": "Wiele gatunków, wspólne życie",
+          "body": "Biocenoza obejmuje populacje różnych gatunków zamieszkujących dany obszar i powiązanych zależnościami. W stawie są to między innymi rośliny, glony, żaby, ślimaki oraz mikroorganizmy. Część organizmów stanowi dla innych pokarm, inne konkurują o zasoby. Sama woda nie należy do biocenozy, ponieważ jest nieożywionym składnikiem środowiska. Organizmy nie muszą być od razu widoczne gołym okiem."
+        },
+        {
+          "title": "Jak to rozpoznać w zadaniu?",
+          "body": "Najpierw sprawdź, czy opis dotyczy jednego gatunku, czy wielu gatunków. Potem zwróć uwagę na obszar i czas obserwacji. Wszystkie dęby szypułkowe w parku to przykład populacji. Dęby, mchy, grzyby i zwierzęta tego parku należą do biocenozy. Z kolei pojedynczy dąb jest organizmem, a nie całą populacją ani całą biocenozą."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Populacja",
+          "definition": "Osobniki jednego gatunku żyjące na określonym obszarze w tym samym czasie."
+        },
+        {
+          "term": "Biocenoza",
+          "definition": "Populacje różnych gatunków połączone zależnościami na wspólnym obszarze."
+        },
+        {
+          "term": "Organizm",
+          "definition": "Pojedynczy osobnik, na przykład jeden dąb lub jedna żaba."
+        }
+      ],
+      "takeaways": [
+        "Populacja dotyczy jednego gatunku.",
+        "Biocenoza obejmuje wiele gatunków.",
+        "Nieożywione składniki nie należą do biocenozy."
+      ],
+      "misconception": {
+        "myth": "Wszystkie zwierzęta w lesie tworzą jedną populację.",
+        "fact": "Zwierzęta różnych gatunków należą do różnych populacji, będących częścią biocenozy lasu."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "Lasy Państwowe — biocenoza",
+          "url": "https://www.lasy.gov.pl/pl/edukacja/slownik/b/biocenoza"
+        },
+        {
+          "title": "OpenStax — ekologia populacji",
+          "url": "https://openstax.org/books/biology-2e/pages/45-1-population-demography"
+        }
+      ]
+    },
+    {
+      "id": "eco-02",
+      "unitId": "ecology",
+      "title": "Liczebność i zagęszczenie populacji",
+      "minutes": 4,
+      "objectives": [
+        "Obliczysz zagęszczenie populacji.",
+        "Wyjaśnisz, co zwiększa lub zmniejsza jej liczebność."
+      ],
+      "sections": [
+        {
+          "title": "Ile osobników i na jakiej powierzchni?",
+          "body": "Liczebność to liczba osobników w populacji, a zagęszczenie informuje, ile przypada ich na jednostkę powierzchni lub objętości. Jeśli na dwóch hektarach łąki żyje czterdzieści osobników danego gatunku, zagęszczenie wynosi dwadzieścia osobników na hektar. Sama liczebność nie wystarczy do porównania zatłoczenia dwóch terenów, ponieważ mogą mieć różną wielkość. Zawsze zapisz jednostkę wyniku."
+        },
+        {
+          "title": "Dlaczego liczba osobników się zmienia?",
+          "body": "Narodziny i przybywanie osobników z innych terenów zwiększają liczebność. Zgony oraz opuszczanie obszaru ją zmniejszają. Napływ to imigracja, a odpływ to emigracja. Wzrost liczby ptaków w parku nie musi więc oznaczać, że wykluło się dużo piskląt. Część ptaków mogła przylecieć z sąsiednich miejsc. Warto porównywać pomiary wykonane o podobnej porze roku."
+        },
+        {
+          "title": "Inne cechy populacji",
+          "body": "Opis populacji uwzględnia także wiek osobników oraz ich rozmieszczenie. Osobniki mogą występować w skupiskach, równomiernie albo w sposób zbliżony do losowego. Dostępność pokarmu, schronień i miejsca wpływa na te wzory. Duży udział młodych osobników może sprzyjać przyszłemu wzrostowi, ale nie gwarantuje go: znaczenie mają również przeżywalność, warunki środowiska i późniejszy rozród."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Liczebność",
+          "definition": "Liczba osobników danej populacji."
+        },
+        {
+          "term": "Zagęszczenie",
+          "definition": "Liczba osobników przypadająca na jednostkę powierzchni lub objętości."
+        },
+        {
+          "term": "Migracja",
+          "definition": "Przemieszczanie się osobników, które może zmieniać liczebność populacji."
+        }
+      ],
+      "takeaways": [
+        "Zagęszczenie wymaga podania jednostki.",
+        "Narodziny i imigracja zwiększają liczebność.",
+        "Zgony i emigracja zmniejszają liczebność."
+      ],
+      "misconception": {
+        "myth": "Dwie populacje po sto osobników zawsze mają takie samo zagęszczenie.",
+        "fact": "Ich zagęszczenie będzie różne, jeśli zajmują obszary o różnej wielkości."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "ZPE — Populacja i jej cechy",
+          "url": "https://zpe.gov.pl/a/populacja-i-jej-cechy/D15iFlNg7"
+        },
+        {
+          "title": "OpenStax — demografia populacji",
+          "url": "https://openstax.org/books/biology-2e/pages/45-1-population-demography"
+        }
+      ]
+    },
+    {
+      "id": "eco-03",
+      "unitId": "ecology",
+      "title": "Ekosystem: część żywa i nieożywiona",
+      "minutes": 4,
+      "objectives": [
+        "Rozróżnisz czynniki biotyczne i abiotyczne.",
+        "Wyjaśnisz, dlaczego organizmy i środowisko tworzą wspólny układ."
+      ],
+      "sections": [
+        {
+          "title": "Dwie części jednego układu",
+          "body": "Ekosystem tworzą organizmy, czyli biocenoza, oraz nieożywione warunki ich życia, czyli biotop. Przykładami są jezioro, las i łąka. Do składników nieożywionych należą woda, światło, temperatura oraz podłoże. Do ożywionych zaliczamy rośliny, zwierzęta, grzyby i mikroorganizmy. Granice badanego ekosystemu dobieramy do pytania: można badać cały staw lub niewielki fragment jego brzegu."
+        },
+        {
+          "title": "Czynniki działające na organizmy",
+          "body": "Czynniki abiotyczne mają pochodzenie nieożywione, na przykład wilgotność i dostępność światła. Czynniki biotyczne wynikają z obecności oraz działania innych organizmów, na przykład zjadania lub konkurencji. Młody dąb może słabo rosnąć zarówno z powodu suszy, jak i zacieniania przez inne drzewa. Jeden skutek może więc mieć kilka powiązanych przyczyn w tym samym czasie."
+        },
+        {
+          "title": "Organizmy też zmieniają środowisko",
+          "body": "Wpływ nie działa tylko w jedną stronę. Drzewa zacieniają glebę, korzenie ograniczają jej wymywanie, a rozkład opadłych liści dostarcza związków mineralnych. Gdy zmienia się ilość wody w stawie, zmieniają się warunki życia wielu gatunków. Aby wyjaśnić taką sytuację, warto wskazać najpierw zmianę czynnika, a następnie jej możliwe skutki dla konkretnych organizmów."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Ekosystem",
+          "definition": "Biocenoza i biotop połączone wzajemnymi zależnościami."
+        },
+        {
+          "term": "Czynnik biotyczny",
+          "definition": "Wpływ innych organizmów na badany organizm."
+        },
+        {
+          "term": "Czynnik abiotyczny",
+          "definition": "Nieożywiony warunek środowiska, na przykład temperatura."
+        }
+      ],
+      "takeaways": [
+        "Ekosystem obejmuje biocenozę i biotop.",
+        "Światło jest czynnikiem abiotycznym.",
+        "Organizmy zmieniają warunki swojego otoczenia."
+      ],
+      "misconception": {
+        "myth": "Ekosystem to tylko zbiór żywych organizmów.",
+        "fact": "Ekosystem obejmuje również nieożywione środowisko i zależności między jego składnikami."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "OpenStax — ekologia ekosystemów",
+          "url": "https://openstax.org/books/biology-2e/pages/46-1-ecology-of-ecosystems"
+        },
+        {
+          "title": "ZPE — Funkcjonowanie ekosystemu",
+          "url": "https://zpe.gov.pl/a/funkcjonowanie-ekosystemu/D18nMx7t7"
+        }
+      ]
+    },
+    {
+      "id": "eco-04",
+      "unitId": "ecology",
+      "title": "Tolerancja ekologiczna, siedlisko i nisza",
+      "minutes": 4,
+      "objectives": [
+        "Odróżnisz siedlisko od niszy ekologicznej.",
+        "Zinterpretujesz zakres tolerancji organizmu."
+      ],
+      "sections": [
+        {
+          "title": "Gdzie żyje, a jak żyje?",
+          "body": "Siedlisko to miejsce życia organizmu wraz z panującymi tam warunkami. Nisza ekologiczna jest szerszym opisem jego wymagań i sposobu funkcjonowania: obejmuje wykorzystywany pokarm, aktywność oraz zależności z innymi gatunkami. Dwa ptaki mogą mieszkać w tym samym lesie, lecz żerować na innych wysokościach i zjadać inny pokarm, zajmując odmienne nisze ekologiczne."
+        },
+        {
+          "title": "Zakres tolerancji",
+          "body": "Każdy gatunek może funkcjonować tylko w określonym zakresie wartości danego czynnika, na przykład temperatury. Najkorzystniejszy przedział nazywamy optimum. Blisko granic tolerancji przeżycie jest trudniejsze, a poza nimi niemożliwe w danych warunkach. Szeroki zakres tolerancji na temperaturę nie oznacza równie szerokiej tolerancji na zasolenie czy brak wody. Każdy czynnik trzeba rozpatrywać osobno."
+        },
+        {
+          "title": "Czynnik ograniczający",
+          "body": "Nawet przy odpowiedniej temperaturze roślina może przestać rosnąć, jeżeli zabraknie wody. Wtedy to dostępność wody ogranicza jej funkcjonowanie. Odczytując wykres tolerancji, najpierw sprawdź czynnik na osi poziomej i badaną cechę na osi pionowej. Następnie znajdź optimum oraz granice. Nie zakładaj, że wszystkie osobniki reagują identycznie: znaczenie mogą mieć wiek organizmu i inne warunki środowiska."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Siedlisko",
+          "definition": "Miejsce życia organizmu i jego warunki."
+        },
+        {
+          "term": "Nisza ekologiczna",
+          "definition": "Wymagania organizmu oraz jego sposób wykorzystywania zasobów i relacje z otoczeniem."
+        },
+        {
+          "term": "Zakres tolerancji",
+          "definition": "Przedział wartości czynnika, w którym organizm może funkcjonować."
+        }
+      ],
+      "takeaways": [
+        "Siedlisko opisuje miejsce życia.",
+        "Nisza obejmuje wymagania i sposób życia.",
+        "Optimum to najkorzystniejszy zakres warunków."
+      ],
+      "misconception": {
+        "myth": "Gatunki żyjące w jednym siedlisku muszą mieć identyczną niszę.",
+        "fact": "Mogą korzystać z różnych zasobów, być aktywne o innej porze i zajmować odmienne nisze."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "ZPE — nisza ekologiczna i siedlisko",
+          "url": "https://zpe.gov.pl/a/przeczytaj/DpeSCYb6V"
+        },
+        {
+          "title": "ZPE — Ekologia organizmu",
+          "url": "https://zpe.gov.pl/a/ekologia-organizmu/DA28PBQUQ"
+        }
+      ]
+    },
+    {
+      "id": "eco-05",
+      "unitId": "ecology",
+      "title": "Konkurencja: kto potrzebuje tych samych zasobów?",
+      "minutes": 4,
+      "objectives": [
+        "Rozróżnisz konkurencję wewnątrzgatunkową i międzygatunkową.",
+        "Wyjaśnisz rolę ograniczonej dostępności zasobów."
+      ],
+      "sections": [
+        {
+          "title": "Wspólna potrzeba, ograniczony zasób",
+          "body": "Konkurencja pojawia się wtedy, gdy organizmy potrzebują tego samego zasobu, którego nie wystarcza dla wszystkich. Mogą rywalizować o wodę, światło, pokarm, schronienie lub partnera do rozrodu. Nie musi to oznaczać bezpośredniej walki. Korzenie roślin pobierające wodę z tej samej suchej gleby konkurują, chociaż nie dochodzi między nimi do starcia widocznego dla obserwatora."
+        },
+        {
+          "title": "W obrębie gatunku i między gatunkami",
+          "body": "Konkurencja wewnątrzgatunkowa zachodzi między osobnikami jednego gatunku, na przykład siewkami dębu rosnącymi blisko siebie. Międzygatunkowa dotyczy różnych gatunków, na przykład roślin łąkowych rywalizujących o światło. Osobniki tego samego gatunku zwykle mają bardzo podobne potrzeby. Siła konkurencji zależy jednak od ilości zasobów i warunków, a nie tylko od nazw konkurujących organizmów."
+        },
+        {
+          "title": "Możliwe skutki",
+          "body": "Konkurencja może zmniejszać tempo wzrostu, przeżywalność lub liczbę potomstwa. Rozdzielenie zasobów, na przykład żerowanie na różnych częściach drzewa, ogranicza nakładanie się potrzeb. W zadaniu wskaż najpierw wspólny zasób, a potem informację, że jest ograniczony. Samo przebywanie dwóch gatunków obok siebie nie dowodzi konkurencji. Zwiększenie ilości zasobu może ją osłabić, lecz zależy to od całej sytuacji."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Konkurencja",
+          "definition": "Rywalizacja o ten sam zasób występujący w ograniczonej ilości."
+        },
+        {
+          "term": "Konkurencja wewnątrzgatunkowa",
+          "definition": "Konkurencja osobników należących do jednego gatunku."
+        },
+        {
+          "term": "Konkurencja międzygatunkowa",
+          "definition": "Konkurencja organizmów należących do różnych gatunków."
+        }
+      ],
+      "takeaways": [
+        "Konkurencja nie wymaga walki.",
+        "Może dotyczyć światła, wody lub pokarmu.",
+        "Rozdzielenie zasobów może ją osłabić."
+      ],
+      "misconception": {
+        "myth": "Każde dwa organizmy żyjące obok siebie konkurują.",
+        "fact": "Konkurencja wymaga nakładania się potrzeb i ograniczonej dostępności wspólnego zasobu."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "ZPE — konkurencja między organizmami",
+          "url": "https://zpe.gov.pl/a/przeczytaj/DCx9Suu3a"
+        },
+        {
+          "title": "ZPE — Konkurencja i pasożytnictwo",
+          "url": "https://zpe.gov.pl/a/konkurencja-i-pasozytnictwo/D120yRvX9"
+        }
+      ]
+    },
+    {
+      "id": "eco-06",
+      "unitId": "ecology",
+      "title": "Drapieżnictwo i roślinożerność",
+      "minutes": 4,
+      "objectives": [
+        "Porównasz drapieżnictwo z roślinożernością.",
+        "Powiążesz przystosowania organizmów z ich sposobem odżywiania."
+      ],
+      "sections": [
+        {
+          "title": "Zjadanie innych organizmów",
+          "body": "Drapieżnik chwyta i zabija ofiarę, którą wykorzystuje jako pokarm. Przykładem jest pająk polujący na muchę. Roślinożerca odżywia się roślinami lub ich częściami, na przykład gąsienica zjadająca liście. Roślinożerność nie zawsze kończy się śmiercią całej rośliny, ale może ograniczać jej wzrost, rozmnażanie lub zdolność do przetrwania. Obie relacje przynoszą korzyść zjadającemu i stratę zjadanemu organizmowi."
+        },
+        {
+          "title": "Przystosowania obu stron",
+          "body": "Drapieżnikom pomagają między innymi dobry wzrok, pazury, sieci łowne lub szybki bieg. Ofiary mogą ukrywać się, uciekać albo mieć ochronne ubarwienie. Rośliny ograniczają zjadanie dzięki kolcom, twardym tkankom lub substancjom obronnym. Te cechy nie powstały dlatego, że pojedynczy organizm postanowił się zmienić. Ich rozpowszechnianie w populacjach wyjaśnia dobór naturalny działający przez wiele pokoleń."
+        },
+        {
+          "title": "Zależności w ekosystemie",
+          "body": "Zmiana liczby ofiar może wpływać na liczebność drapieżników, ale zależność nie jest natychmiastowa ani zawsze jednakowa. Znaczenie mają inne źródła pokarmu, pogoda i choroby. Usunięcie drapieżnika może zwiększyć presję roślinożerców na rośliny. Analizując wykresy, szukaj opóźnienia zmian i sprawdzaj dane, zamiast zakładać, że każdy wzrost jednej populacji musi od razu wywołać wzrost drugiej."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Drapieżnictwo",
+          "definition": "Relacja, w której drapieżnik zabija i zjada ofiarę."
+        },
+        {
+          "term": "Roślinożerność",
+          "definition": "Odżywianie się roślinami lub ich częściami."
+        },
+        {
+          "term": "Przystosowanie",
+          "definition": "Cecha zwiększająca szanse przeżycia i rozrodu w określonych warunkach."
+        }
+      ],
+      "takeaways": [
+        "Drapieżnictwo przynosi korzyść drapieżnikowi.",
+        "Roślinożerca nie zawsze zabija całą roślinę.",
+        "Zmiany liczebności mogą następować z opóźnieniem."
+      ],
+      "misconception": {
+        "myth": "Rośliny są bezbronne wobec roślinożerców.",
+        "fact": "Wiele roślin ma cechy ograniczające zjadanie, na przykład kolce lub substancje obronne."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "ZPE — Drapieżnictwo i roślinożerność",
+          "url": "https://zpe.gov.pl/a/zaleznosci-antagonistyczne-drapieznictwo-roslinozernosc/DUFccPxBr"
+        },
+        {
+          "title": "ZPE — Zjadający i zjadani",
+          "url": "https://zpe.gov.pl/a/zjadajacy-i-zjadani/DRlWU29ql"
+        }
+      ]
+    },
+    {
+      "id": "eco-07",
+      "unitId": "ecology",
+      "title": "Pasożytnictwo i żywiciel",
+      "minutes": 4,
+      "objectives": [
+        "Rozpoznasz pasożyta i jego żywiciela.",
+        "Odróżnisz pasożytnictwo od drapieżnictwa."
+      ],
+      "sections": [
+        {
+          "title": "Korzyść jednego, koszt drugiego",
+          "body": "Pasożyt żyje na powierzchni lub wewnątrz organizmu innego gatunku i czerpie z niego korzyści, szkodząc mu. Organizm wykorzystywany nazywamy żywicielem. Kleszcz pobierający krew jest pasożytem zewnętrznym, a tasiemiec żyjący w jelicie pasożytem wewnętrznym. Strata żywiciela może polegać na utracie składników odżywczych, uszkodzeniu tkanek lub osłabieniu funkcjonowania. Nasilenie szkody zależy od konkretnego przypadku."
+        },
+        {
+          "title": "Związek zwykle trwa dłużej",
+          "body": "Drapieżnik zwykle szybko zabija ofiarę, natomiast pasożyt korzysta z żywiciela przez pewien czas. Nie znaczy to, że pasożyty nigdy nie powodują jego śmierci. Mają różne cykle rozwojowe i drogi przenoszenia. Nie każdy drobny organizm znaleziony na zwierzęciu jest pasożytem: trzeba ustalić, czy czerpie korzyść kosztem żywiciela. Samo współwystępowanie nie wystarcza do rozpoznania relacji."
+        },
+        {
+          "title": "Przystosowania i znaczenie",
+          "body": "Przyczepianie się do żywiciela ułatwiają odpowiednie narządy, a duża liczba jaj może zwiększać szanse dotarcia potomstwa do kolejnego żywiciela. Nie wszystkie pasożyty mają jednak takie same cechy. Pasożytnictwo wpływa na kondycję osobników i liczebność populacji, dlatego jest częścią sieci zależności ekologicznych. Podczas obserwacji przyrody nie dotykaj znalezionych pasożytów i nie przeprowadzaj doświadczeń na dzikich zwierzętach."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Pasożyt",
+          "definition": "Organizm odnoszący korzyści z życia kosztem żywiciela."
+        },
+        {
+          "term": "Żywiciel",
+          "definition": "Organizm wykorzystywany przez pasożyta."
+        },
+        {
+          "term": "Pasożyt zewnętrzny",
+          "definition": "Pasożyt przebywający na powierzchni ciała żywiciela."
+        }
+      ],
+      "takeaways": [
+        "Pasożyt odnosi korzyść, żywiciel ponosi koszt.",
+        "Pasożyty mogą żyć na ciele lub wewnątrz niego.",
+        "Pasożytnictwo zwykle trwa dłużej niż pojedynczy atak drapieżnika."
+      ],
+      "misconception": {
+        "myth": "Pasożyt nigdy nie może doprowadzić do śmierci żywiciela.",
+        "fact": "Pasożytnictwo może zakończyć się śmiercią żywiciela, chociaż nie jest to warunek tej relacji."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "ZPE — Konkurencja i pasożytnictwo",
+          "url": "https://zpe.gov.pl/a/konkurencja-i-pasozytnictwo/D120yRvX9"
+        },
+        {
+          "title": "OpenStax — zależności w biocenozie",
+          "url": "https://openstax.org/books/biology-2e/pages/45-6-community-ecology"
+        }
+      ]
+    },
+    {
+      "id": "eco-08",
+      "unitId": "ecology",
+      "title": "Mutualizm, protokooperacja i komensalizm",
+      "minutes": 4,
+      "objectives": [
+        "Porównasz korzyści stron w mutualizmie, protokooperacji i komensalizmie.",
+        "Rozpoznasz nieantagonistyczne zależności na przykładach."
+      ],
+      "sections": [
+        {
+          "title": "Kiedy obie strony korzystają",
+          "body": "Mutualizm jest relacją między gatunkami, w której obie strony odnoszą korzyść. W mikoryzie grzyb pomaga roślinie pobierać wodę i sole mineralne, a otrzymuje od niej związki organiczne. Zapylanie także może przynosić obustronne korzyści: owad zdobywa pokarm, a roślina jest zapylana. Znaczenie relacji zależy od gatunków i warunków, więc nie każde spotkanie owada z kwiatem jest skutecznym zapylaniem."
+        },
+        {
+          "title": "Korzyść bez wyraźnego kosztu",
+          "body": "W komensalizmie jeden gatunek odnosi korzyść, a drugi nie uzyskuje zauważalnej korzyści ani nie ponosi istotnej szkody w opisywanej sytuacji. Przykładem może być ptak wykorzystujący opuszczoną dziuplę wykutą wcześniej przez dzięcioła. Ważne jest wskazanie konkretnej korzyści i braku wyraźnego wpływu na drugą stronę. Taka ocena wymaga obserwacji, a nie samego wyglądu organizmów."
+        },
+        {
+          "title": "Jak porządkować zależności?",
+          "body": "Możesz zapisać wpływ relacji znakami: mutualizm jako plus i plus, komensalizm jako plus i zero. To uproszczenie pomaga porównywać przykłady, lecz nie zastępuje wyjaśnienia. W szkolnym podziale nieobowiązkową współpracę korzystną dla obu stron nazywamy protokooperacją. Jeśli warunki się zmienią, mogą zmienić się także koszty i korzyści. W odpowiedzi zawsze nazwij obie strony oraz opisz, co każda zyskuje lub traci."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Mutualizm",
+          "definition": "Relacja między gatunkami przynosząca korzyści obu stronom."
+        },
+        {
+          "term": "Komensalizm",
+          "definition": "Relacja korzystna dla jednej strony, bez wyraźnego wpływu na drugą."
+        },
+        {
+          "term": "Protokooperacja",
+          "definition": "Szkolna nazwa nieobowiązkowej współpracy międzygatunkowej korzystnej dla obu stron."
+        }
+      ],
+      "takeaways": [
+        "Mutualizm oznacza korzyści obu stron.",
+        "Komensalizm zapisujemy jako +/0.",
+        "Protokooperacja jest korzystna dla obu stron, ale nieobowiązkowa."
+      ],
+      "misconception": {
+        "myth": "Każda współpraca oznacza, że oba gatunki nie mogą żyć oddzielnie.",
+        "fact": "Niektóre korzystne relacje są nieobowiązkowe; zależność partnerów może mieć różną siłę."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "ZPE — Mutualizm, protokooperacja i komensalizm",
+          "url": "https://zpe.gov.pl/a/zaleznosci-nieantagonistyczne-mutualizm-protokooperacja-komensalizm/Dv7u1j8Cd"
+        },
+        {
+          "title": "ZPE — Współpraca między gatunkami",
+          "url": "https://zpe.gov.pl/a/wspolpraca-miedzy-gatunkami/DrIPKglTY"
+        }
+      ]
+    },
+    {
+      "id": "eco-09",
+      "unitId": "ecology",
+      "title": "Łańcuchy i sieci pokarmowe",
+      "minutes": 4,
+      "objectives": [
+        "Ułożysz prosty łańcuch pokarmowy.",
+        "Wyjaśnisz role producentów, konsumentów i destruentów."
+      ],
+      "sections": [
+        {
+          "title": "Kto skąd czerpie pokarm?",
+          "body": "Producenci wytwarzają związki organiczne z prostych związków nieorganicznych. W większości poznawanych ekosystemów robią to dzięki fotosyntezie, wykorzystując energię światła. Konsumenci pobierają gotowe związki organiczne, zjadając inne organizmy lub ich części. Destruenci, zwłaszcza bakterie i grzyby, rozkładają martwą materię organiczną i uczestniczą w uwalnianiu składników mineralnych. Rozkład dotyczy szczątków pochodzących z różnych poziomów pokarmowych."
+        },
+        {
+          "title": "Jak czytać strzałki?",
+          "body": "W łańcuchu trawa → konik polny → żaba → zaskroniec strzałka prowadzi od organizmu zjadanego do zjadającego. Pokazuje kierunek przekazywania materii i energii. Trawa jest producentem, a konik polny konsumentem pierwszego rzędu. Żaba jest tutaj konsumentem drugiego rzędu. Rola organizmu zależy od analizowanego połączenia: wszystkożerca może zajmować różne poziomy pokarmowe w różnych łańcuchach."
+        },
+        {
+          "title": "Dlaczego sieć jest trafniejsza?",
+          "body": "Organizm zwykle ma więcej niż jedno źródło pokarmu i może być zjadany przez kilka gatunków. Połączone łańcuchy tworzą sieć pokarmową, która lepiej przedstawia te zależności. Zanik jednego gatunku może wpłynąć na wiele połączeń, lecz skutki zależą od dostępności zastępczego pokarmu. Przewidując zmianę, prześledź strzałki i wyjaśnij mechanizm, zamiast jedynie wymieniać nazwy gatunków."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Producent",
+          "definition": "Organizm wytwarzający związki organiczne z nieorganicznych."
+        },
+        {
+          "term": "Konsument",
+          "definition": "Organizm pobierający pokarm zawierający gotowe związki organiczne."
+        },
+        {
+          "term": "Destruent",
+          "definition": "Organizm rozkładający martwą materię organiczną, na przykład wiele bakterii i grzybów."
+        }
+      ],
+      "takeaways": [
+        "Strzałka biegnie od zjadanego do zjadającego.",
+        "Sieć pokarmowa łączy wiele łańcuchów.",
+        "Destruenci rozkładają materię z różnych poziomów."
+      ],
+      "misconception": {
+        "myth": "Destruenci działają tylko na końcu jednego łańcucha.",
+        "fact": "Rozkładają szczątki i odchody pochodzące z wielu poziomów sieci pokarmowej."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "ZPE — Funkcjonowanie ekosystemu",
+          "url": "https://zpe.gov.pl/a/funkcjonowanie-ekosystemu/D18nMx7t7"
+        },
+        {
+          "title": "OpenStax — przepływ energii w ekosystemach",
+          "url": "https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems"
+        }
+      ]
+    },
+    {
+      "id": "eco-10",
+      "unitId": "ecology",
+      "title": "Energia przepływa, materia krąży",
+      "minutes": 4,
+      "objectives": [
+        "Porównasz obieg materii z przepływem energii.",
+        "Wyjaśnisz, dlaczego ekosystem wymaga dopływu energii."
+      ],
+      "sections": [
+        {
+          "title": "Energia ma kierunek",
+          "body": "W większości ekosystemów głównym źródłem energii jest Słońce. Producenci przekształcają część energii światła w energię chemiczną związków organicznych. Dalej jest ona przekazywana konsumentom i destruentom. Organizmy zużywają energię na procesy życiowe, a część rozprasza się jako ciepło. Dlatego energia nie krąży w zamkniętej pętli i potrzebny jest jej stały dopływ z zewnątrz."
+        },
+        {
+          "title": "Pierwiastki mogą wracać",
+          "body": "Materia przechodzi między organizmami a nieożywionym środowiskiem. Roślina pobiera dwutlenek węgla, wodę i związki mineralne. Po zjedzeniu rośliny część jej materii staje się składnikiem ciała konsumenta. Oddychanie, wydalanie i rozkład umożliwiają powrót różnych substancji do otoczenia. Uwolnione składniki mogą zostać ponownie wykorzystane. To właśnie odróżnia obieg materii od jednokierunkowego przepływu energii przez ekosystem."
+        },
+        {
+          "title": "Mniej energii na kolejnych poziomach",
+          "body": "Nie cała energia jednego poziomu pokarmowego trafia do następnego: część materiału nie zostaje zjedzona albo przyswojona, a organizmy oddychają. Sprawność przekazywania jest zmienna, dlatego nie należy traktować dziesięciu procent jako uniwersalnego prawa. Jeśli zadanie podaje konkretną sprawność, użyj jej w obliczeniach. Gdy danych brakuje, wyjaśnij kierunek zmian i ich przyczynę, bez dopisywania stałej wartości."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Przepływ energii",
+          "definition": "Przekazywanie energii przez ekosystem, z jej rozpraszaniem jako ciepła."
+        },
+        {
+          "term": "Obieg materii",
+          "definition": "Wielokrotne przechodzenie materii między organizmami i środowiskiem."
+        },
+        {
+          "term": "Poziom troficzny",
+          "definition": "Miejsce organizmu w zależnościach pokarmowych, na przykład producent lub konsument pierwszego rzędu."
+        }
+      ],
+      "takeaways": [
+        "Energia przepływa i rozprasza się jako ciepło.",
+        "Pierwiastki uczestniczą w obiegu materii.",
+        "Sprawność przekazywania energii nie jest zawsze jednakowa."
+      ],
+      "misconception": {
+        "myth": "Materia i energia krążą w ekosystemie w identyczny sposób.",
+        "fact": "Materia może być wielokrotnie wykorzystywana, a energia przepływa i rozprasza się jako ciepło."
+      },
+      "articleIds": [],
+      "visualIds": [
+        "ecosystem-flow"
+      ],
+      "sources": [
+        {
+          "title": "ZPE — Obieg materii i przepływ energii w przyrodzie",
+          "url": "https://zpe.gov.pl/a/obieg-materii-i-przeplyw-energii-w-przyrodzie/Dbmr96KrG"
+        },
+        {
+          "title": "OpenStax — cykle biogeochemiczne",
+          "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles"
+        }
+      ]
+    },
+    {
+      "id": "env-01",
+      "unitId": "environment",
+      "title": "Trzy poziomy różnorodności biologicznej",
+      "minutes": 4,
+      "objectives": [
+        "Rozpoznasz różnorodność genetyczną, gatunkową i ekosystemową.",
+        "Wyjaśnisz, dlaczego ochrona przyrody obejmuje więcej niż rzadkie gatunki."
+      ],
+      "sections": [
+        {
+          "title": "Różnice w obrębie gatunku",
+          "body": "Różnorodność genetyczna oznacza zróżnicowanie informacji genetycznej między osobnikami i populacjami tego samego gatunku. Dzięki niej osobniki mogą różnić się cechami, a populacja ma większe możliwości reagowania na zmiany warunków. Nie oznacza to, że każdy osobnik poradzi sobie z każdą zmianą. Ważne jest zachowanie wielu populacji, a nie tylko dużej liczby identycznych organizmów."
+        },
+        {
+          "title": "Wiele gatunków i ekosystemów",
+          "body": "Różnorodność gatunkowa dotyczy gatunków obecnych na danym obszarze i ich udziału w zbiorowisku. Różnorodność ekosystemowa obejmuje rozmaitość ekosystemów, na przykład lasów, łąk, torfowisk i jezior. Te trzy poziomy są powiązane: utrata mokradła może oznaczać zanik miejscowych populacji oraz części ich zmienności genetycznej. Sama liczba drzew nie opisuje całej różnorodności lasu."
+        },
+        {
+          "title": "Dlaczego warto ją chronić?",
+          "body": "Różne organizmy uczestniczą w zapylaniu, rozkładzie szczątków, tworzeniu gleby i obiegu pierwiastków. Zróżnicowanie może pomagać ekosystemom reagować na zaburzenia, choć odporność zależy także od ich rodzaju i siły. Chronimy więc zarówno gatunki, jak i ich siedliska oraz zależności. Porównując dwa tereny, sprawdź, czego dotyczą dane: genów, gatunków czy typów ekosystemów, zamiast mieszać te poziomy."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Różnorodność genetyczna",
+          "definition": "Zróżnicowanie informacji genetycznej w obrębie gatunku."
+        },
+        {
+          "term": "Różnorodność gatunkowa",
+          "definition": "Zróżnicowanie gatunków i ich udziału na danym obszarze."
+        },
+        {
+          "term": "Różnorodność ekosystemowa",
+          "definition": "Rozmaitość ekosystemów występujących na określonym obszarze."
+        }
+      ],
+      "takeaways": [
+        "Różnorodność biologiczna ma trzy główne poziomy.",
+        "Chronimy też populacje i ich zmienność genetyczną.",
+        "Ochrona siedlisk wspiera ochronę gatunków."
+      ],
+      "misconception": {
+        "myth": "Różnorodność biologiczna to wyłącznie liczba gatunków zwierząt.",
+        "fact": "Obejmuje także inne organizmy, zmienność genetyczną oraz zróżnicowanie ekosystemów."
+      },
+      "articleIds": [],
+      "visualIds": [
+        "biodiversity-levels"
+      ],
+      "sources": [
+        {
+          "title": "GDOŚ — Przyroda i różnorodność biologiczna",
+          "url": "https://www.gov.pl/web/gdos/przyroda-i-roznorodnosc-biologiczna"
+        },
+        {
+          "title": "OpenStax — poziomy różnorodności biologicznej",
+          "url": "https://openstax.org/books/biology-2e/pages/47-1-the-biodiversity-crisis"
+        }
+      ]
+    },
+    {
+      "id": "env-02",
+      "unitId": "environment",
+      "title": "Utrata siedlisk i ich fragmentacja",
+      "minutes": 4,
+      "objectives": [
+        "Odróżnisz zniszczenie siedliska od jego fragmentacji.",
+        "Wyjaśnisz znaczenie połączeń między siedliskami."
+      ],
+      "sections": [
+        {
+          "title": "Gdy znika miejsce życia",
+          "body": "Utrata siedliska następuje wtedy, gdy obszar przestaje zapewniać warunki potrzebne jego mieszkańcom. Osuszenie mokradła może pozbawić płazy miejsc rozrodu, a zabudowa łąki usuwa rośliny i schronienia bezkręgowców. Nie każdy gatunek reaguje tak samo. Organizm wyspecjalizowany w korzystaniu z jednego rodzaju siedliska zwykle ma mniej możliwości przeniesienia się niż gatunek o szerszych wymaganiach."
+        },
+        {
+          "title": "Małe wyspy zamiast całości",
+          "body": "Fragmentacja oznacza podzielenie siedliska na mniejsze, oddzielone fragmenty. Droga przez las może utrudniać przemieszczanie się zwierząt i zwiększać ryzyko ich śmierci. Odizolowane populacje mają trudniejszy dostęp do partnerów i mniejsze możliwości wymiany genów. Na granicach fragmentów panują też inne warunki, na przykład więcej światła, wiatru i wyższa temperatura niż we wnętrzu lasu."
+        },
+        {
+          "title": "Łączność ma znaczenie",
+          "body": "Korytarze ekologiczne łączą miejsca życia organizmów i ułatwiają przemieszczanie się między nimi. Mogą to być pasy roślinności lub odpowiednio zaplanowane przejścia dla zwierząt. Ich skuteczność zależy od potrzeb gatunków i otoczenia. Posadzenie kilku drzew nie zawsze zastąpi dojrzały las. W ochronie najpierw warto zachowywać istniejące cenne siedliska, a odtwarzanie planować tak, aby przywracało warunki i połączenia."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Utrata siedliska",
+          "definition": "Zanik miejsca lub warunków potrzebnych organizmom do życia."
+        },
+        {
+          "term": "Fragmentacja",
+          "definition": "Podział siedliska na mniejsze, oddzielone części."
+        },
+        {
+          "term": "Korytarz ekologiczny",
+          "definition": "Obszar umożliwiający przemieszczanie się organizmów między siedliskami."
+        }
+      ],
+      "takeaways": [
+        "Utrata i fragmentacja siedlisk są powiązane, ale różne.",
+        "Izolacja może ograniczać wymianę genów.",
+        "Korytarze wspierają łączność siedlisk."
+      ],
+      "misconception": {
+        "myth": "Dziesięć małych fragmentów lasu zawsze zastępuje jeden zwarty las o tej samej powierzchni.",
+        "fact": "Izolacja i zmienione warunki na brzegach mogą sprawić, że fragmenty nie zapewnią tych samych warunków."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "RDOŚ w Warszawie — Przyroda i różnorodność biologiczna",
+          "url": "https://www.gov.pl/web/rdos-warszawa/przyroda-i-roznorodnosc-biologiczna"
+        },
+        {
+          "title": "OpenStax — zagrożenia dla różnorodności biologicznej",
+          "url": "https://openstax.org/books/biology-2e/pages/47-3-threats-to-biodiversity"
+        }
+      ]
+    },
+    {
+      "id": "env-03",
+      "unitId": "environment",
+      "title": "Zanieczyszczenia i organizmy wskaźnikowe",
+      "minutes": 4,
+      "objectives": [
+        "Powiążesz zanieczyszczenia powietrza, wody i gleby z ich skutkami.",
+        "Wyjaśnisz zastosowanie oraz ograniczenia bioindykatorów."
+      ],
+      "sections": [
+        {
+          "title": "Zanieczyszczenia przemieszczają się",
+          "body": "Zanieczyszczenia powietrza, wody i gleby mogą wpływać na wzrost, rozmnażanie i przeżywanie organizmów. Pyły i niektóre gazy pochodzą między innymi ze spalania paliw. Ścieki oraz spływ z pól mogą dostarczać wodom nadmiaru związków azotu i fosforu. Substancje trafiające do gleby mogą przemieszczać się z wodą, dlatego podział na trzy środowiska nie oznacza ich całkowitej niezależności."
+        },
+        {
+          "title": "Za dużo składników w wodzie",
+          "body": "Nadmiar substancji odżywczych może przyspieszać rozwój glonów i sinic. Gdy duża ilość obumarłej materii jest rozkładana, mikroorganizmy zużywają tlen. Jego niedobór zagraża rybom i innym organizmom. Taki proces to eutrofizacja. Nie oznacza on, że każda zielona woda ma tę samą przyczynę lub że sama obserwacja koloru pozwala bezpiecznie ocenić jakość wody."
+        },
+        {
+          "title": "Co mówią nam porosty?",
+          "body": "Organizmy wskaźnikowe, czyli bioindykatory, pomagają oceniać warunki środowiska dzięki znanej wrażliwości na określone czynniki. Porosty wykorzystuje się do oceny niektórych zanieczyszczeń powietrza. Nie są uniwersalnym miernikiem wszystkich substancji: wpływają na nie także wilgotność, podłoże i inne warunki. Obserwacje trzeba porównywać według ustalonej metody, a dokładne stężenia substancji ustala się pomiarami. Nie zrywaj porostów podczas badania."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Zanieczyszczenie",
+          "definition": "Substancja lub czynnik występujący w ilości szkodliwej dla środowiska."
+        },
+        {
+          "term": "Eutrofizacja",
+          "definition": "Wzbogacanie wody w substancje odżywcze, mogące prowadzić do zakwitów i niedoboru tlenu."
+        },
+        {
+          "term": "Bioindykator",
+          "definition": "Organizm wykorzystywany jako wskaźnik określonych warunków środowiska."
+        }
+      ],
+      "takeaways": [
+        "Zanieczyszczenia mogą przechodzić między wodą, glebą i powietrzem.",
+        "Rozkład nadmiaru martwej materii może obniżać ilość tlenu w wodzie.",
+        "Porosty wskazują wybrane warunki, a nie wszystkie zanieczyszczenia."
+      ],
+      "misconception": {
+        "myth": "Obecność dowolnego porostu dowodzi, że powietrze jest całkowicie czyste.",
+        "fact": "Wniosek zależy od gatunków, metody i innych warunków; porosty nie wykrywają wszystkich zanieczyszczeń."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "Ministerstwo Klimatu i Środowiska — Stan środowiska a zdrowie publiczne",
+          "url": "https://www.gov.pl/web/klimat/czy-zly-stan-srodowiska-ma-wplyw-na-zdrowie-publiczne"
+        },
+        {
+          "title": "ZPE — Porosty jako organizmy wskaźnikowe",
+          "url": "https://zpe.gov.pl/a/przeczytaj/D1PjMabeK"
+        }
+      ]
+    },
+    {
+      "id": "env-04",
+      "unitId": "environment",
+      "title": "Zmiana klimatu a różnorodność biologiczna",
+      "minutes": 4,
+      "objectives": [
+        "Wyjaśnisz związek emisji gazów cieplarnianych ze zmianą warunków życia.",
+        "Wskażesz przykładowe skutki zmiany klimatu dla organizmów."
+      ],
+      "sections": [
+        {
+          "title": "Od emisji do zmiany warunków",
+          "body": "Spalanie paliw kopalnych zwiększa ilość dwutlenku węgla w atmosferze. Rosnące stężenia gazów cieplarnianych wzmacniają zatrzymywanie energii w systemie klimatycznym i prowadzą do ocieplenia. Zmieniają się także opady, częstość części zjawisk ekstremalnych oraz warunki w oceanach. Klimat opisuje długotrwałe cechy i zmienność pogody, dlatego pojedynczy chłodny dzień nie podważa obserwowanego wieloletniego trendu."
+        },
+        {
+          "title": "Organizmy nie reagują jednakowo",
+          "body": "Gatunki mogą przesuwać zasięgi występowania, jeśli mają możliwość przemieszczania się i odpowiednie siedliska. Zmienia się czas kwitnienia, rozrodu i migracji. Gdy roślina zakwita wcześniej, a jej zapylacz nie zmienia aktywności w podobnym tempie, może osłabnąć ich współpraca. Susze, upały i utrata odpowiednich warunków szczególnie zagrażają organizmom o wąskich wymaganiach środowiskowych."
+        },
+        {
+          "title": "Dwa rodzaje działań",
+          "body": "Ograniczanie emisji pomaga zmniejszać przyszłą skalę zmiany klimatu. Ochrona mokradeł, zachowanie połączeń między siedliskami i odtwarzanie przyrody pomagają organizmom radzić sobie z już zachodzącymi zmianami. Te działania się uzupełniają. Nie każdy pojedynczy zanik populacji można jednak przypisać wyłącznie klimatowi: trzeba rozważyć również zanieczyszczenia, zabudowę, choroby i inne możliwe przyczyny oraz oprzeć wniosek na danych."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Klimat",
+          "definition": "Długotrwałe cechy i zmienność warunków pogodowych na danym obszarze."
+        },
+        {
+          "term": "Gaz cieplarniany",
+          "definition": "Gaz pochłaniający i emitujący promieniowanie podczerwone, wpływający na bilans energii Ziemi."
+        },
+        {
+          "term": "Zasięg gatunku",
+          "definition": "Obszar, na którym gatunek występuje."
+        }
+      ],
+      "takeaways": [
+        "Klimat oceniamy na podstawie długich serii danych.",
+        "Zmiana klimatu może zaburzać terminy współzależnych procesów.",
+        "Ograniczanie emisji i ochrona siedlisk wzajemnie się uzupełniają."
+      ],
+      "misconception": {
+        "myth": "Jeden mroźny dzień dowodzi, że klimat się nie ociepla.",
+        "fact": "Pogoda jednego dnia nie opisuje wieloletnich trendów klimatu."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "Edukacja ekologiczna — Ochrona bioróżnorodności",
+          "url": "https://www.gov.pl/web/edukacja-ekologiczna/bioroznorodnosc-ochrona"
+        },
+        {
+          "title": "IPCC — Raport syntetyczny AR6, podsumowanie dla decydentów",
+          "url": "https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/"
+        }
+      ]
+    },
+    {
+      "id": "env-05",
+      "unitId": "environment",
+      "title": "Gatunki obce i gatunki inwazyjne",
+      "minutes": 4,
+      "objectives": [
+        "Odróżnisz gatunek obcy od inwazyjnego gatunku obcego.",
+        "Wyjaśnisz, jak człowiek może ograniczać rozprzestrzenianie gatunków."
+      ],
+      "sections": [
+        {
+          "title": "Obcy nie zawsze znaczy inwazyjny",
+          "body": "Gatunek obcy został przeniesiony przez człowieka poza swój naturalny zasięg, celowo albo przypadkowo. Nie każdy taki gatunek staje się inwazyjny. Inwazyjny gatunek obcy rozprzestrzenia się i zagraża różnorodności biologicznej lub związanym z nią funkcjom ekosystemów. Ocenę opieramy na skutkach i danych, a nie na tym, czy organizm wygląda atrakcyjnie albo budzi sympatię."
+        },
+        {
+          "title": "Jak powstaje problem?",
+          "body": "Nowo przybyły organizm może konkurować z gatunkami rodzimymi, zjadać je, przenosić patogeny albo zmieniać siedliska. Rozprzestrzenianie ułatwiają transport, handel i wypuszczanie zwierząt z hodowli. W Polsce przykładami inwazyjnych gatunków obcych są barszcz Sosnowskiego i niecierpek gruczołowaty. Ich wpływ jest różny, dlatego nie należy przypisywać każdemu gatunkowi identycznego sposobu szkodzenia ani takiego samego zagrożenia dla człowieka."
+        },
+        {
+          "title": "Zapobieganie zamiast samodzielnej walki",
+          "body": "Nie wypuszczaj zwierząt akwariowych do stawu i nie przenoś roślin wodnych między zbiornikami. Oczyszczanie obuwia oraz sprzętu może ograniczać przypadkowe przenoszenie nasion. Podejrzaną obserwację warto udokumentować z bezpiecznej odległości i przekazać odpowiedniej instytucji z pomocą dorosłego. Nie wyrywaj nieznanych roślin ani nie chwytaj zwierząt: identyfikacja może być błędna, a niektóre gatunki są niebezpieczne lub chronione."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Gatunek rodzimy",
+          "definition": "Gatunek występujący naturalnie na danym obszarze."
+        },
+        {
+          "term": "Gatunek obcy",
+          "definition": "Gatunek przeniesiony wskutek działalności człowieka poza naturalny zasięg."
+        },
+        {
+          "term": "Inwazyjny gatunek obcy",
+          "definition": "Gatunek obcy, którego wprowadzenie lub rozprzestrzenianie zagraża różnorodności biologicznej i powiązanym funkcjom ekosystemów."
+        }
+      ],
+      "takeaways": [
+        "Nie każdy gatunek obcy jest inwazyjny.",
+        "Transport może przenosić organizmy przypadkowo.",
+        "Nie wolno wypuszczać zwierząt hodowlanych do przyrody."
+      ],
+      "misconception": {
+        "myth": "Każda roślina sprowadzona z innego kontynentu jest gatunkiem inwazyjnym.",
+        "fact": "Obce pochodzenie nie wystarcza; o inwazyjności świadczy zagrożenie wynikające z wprowadzenia lub rozprzestrzeniania."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "GDOŚ — Inwazyjne gatunki obce",
+          "url": "https://www.gov.pl/web/gdos/inwazyjne-gatunki-obce-ias"
+        },
+        {
+          "title": "Edukacja ekologiczna — Ochrona bioróżnorodności",
+          "url": "https://www.gov.pl/web/edukacja-ekologiczna/bioroznorodnosc-ochrona"
+        }
+      ]
+    },
+    {
+      "id": "env-06",
+      "unitId": "environment",
+      "title": "Nadmierna eksploatacja przyrody",
+      "minutes": 4,
+      "objectives": [
+        "Wyjaśnisz, kiedy korzystanie z zasobów staje się nadmierne.",
+        "Powiążesz tempo pozyskiwania z możliwościami odtwarzania populacji."
+      ],
+      "sections": [
+        {
+          "title": "Szybciej, niż zasób się odnawia",
+          "body": "Nadmierna eksploatacja występuje, gdy człowiek pozyskuje organizmy lub inne zasoby szybciej, niż mogą się odtwarzać. Przykładem są połowy ryb przewyższające zdolność populacji do uzupełniania strat. Nawet bardzo liczna populacja może się zmniejszać przy stałej silnej presji. Ważne są nie tylko liczby zabieranych osobników, ale także ich wiek, rozród i warunki życia."
+        },
+        {
+          "title": "Skutki sięgają dalej",
+          "body": "Usuwanie dużej liczby osobników może zmieniać strukturę wieku populacji oraz zależności pokarmowe. Jeśli zabierane są głównie osobniki zdolne do rozrodu, odnowa może być trudniejsza. Nielegalny handel dzikimi zwierzętami i roślinami może dodatkowo zagrażać rzadkim gatunkom. Z kolei pozyskiwanie drewna połączone z niszczeniem siedlisk wpływa także na organizmy, których człowiek bezpośrednio nie wykorzystuje."
+        },
+        {
+          "title": "Jak ograniczać presję?",
+          "body": "Potrzebne są badania populacji, dostosowanie sposobu i skali pozyskiwania oraz ochrona miejsc rozrodu. Konsument może ograniczać marnowanie żywności, dłużej używać przedmiotów i sprawdzać pochodzenie produktów. Sama etykieta lub wygląd nie zastępują wiarygodnych informacji. W zadaniu porównaj tempo ubywania zasobu z tempem jego odnowy, a następnie wyjaśnij, jakie dane pomogłyby ocenić, czy wykorzystanie jest długotrwale możliwe."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Eksploatacja",
+          "definition": "Pozyskiwanie i wykorzystywanie zasobów przez człowieka."
+        },
+        {
+          "term": "Nadmierna eksploatacja",
+          "definition": "Pozyskiwanie zasobu w tempie przewyższającym jego odtwarzanie."
+        },
+        {
+          "term": "Odnawianie populacji",
+          "definition": "Uzupełnianie jej liczebności głównie dzięki rozrodowi i napływowi osobników."
+        }
+      ],
+      "takeaways": [
+        "Zasób odnawialny można wykorzystywać zbyt intensywnie.",
+        "Utrata osobników rozrodczych utrudnia odnowę populacji.",
+        "Ograniczanie marnowania zmniejsza zapotrzebowanie na zasoby."
+      ],
+      "misconception": {
+        "myth": "Jeśli gatunek jest obecnie liczny, jego nadmierne pozyskiwanie nie stanowi zagrożenia.",
+        "fact": "Duża liczebność nie chroni przed spadkiem, gdy ubytki długotrwale przewyższają odnowę."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "OpenStax — zagrożenia dla różnorodności biologicznej",
+          "url": "https://openstax.org/books/biology-2e/pages/47-3-threats-to-biodiversity"
+        },
+        {
+          "title": "ZPE — zasoby i zrównoważony rozwój",
+          "url": "https://zpe.gov.pl/a/przeczytaj/D1EuLFnRf"
+        }
+      ]
+    },
+    {
+      "id": "env-07",
+      "unitId": "environment",
+      "title": "Ochrona in situ i ex situ",
+      "minutes": 4,
+      "objectives": [
+        "Rozróżnisz ochronę w naturalnym środowisku i poza nim.",
+        "Wyjaśnisz, dlaczego obie metody mogą się uzupełniać."
+      ],
+      "sections": [
+        {
+          "title": "W miejscu naturalnego występowania",
+          "body": "Ochrona in situ odbywa się w naturalnym środowisku organizmów. Obejmuje zachowanie siedlisk oraz zależności, dzięki którym populacje mogą funkcjonować. Przykładem jest ochrona torfowiska razem z rosnącymi tam roślinami i żyjącymi zwierzętami. Czasem potrzebne jest działanie, na przykład utrzymanie odpowiedniego poziomu wody. Ochrona nie zawsze polega więc na całkowitym pozostawieniu terenu bez ingerencji."
+        },
+        {
+          "title": "Poza naturalnym środowiskiem",
+          "body": "Ochrona ex situ odbywa się poza miejscem naturalnego występowania. Przykładami są przechowywanie nasion w banku genów oraz odpowiednio prowadzone programy hodowli zagrożonych gatunków w ogrodach zoologicznych i botanicznych. Celem jest zachowanie organizmów i ich zmienności genetycznej, a czasem przygotowanie do powrotu do przyrody. Sama obecność zwierzęcia w niewoli nie oznacza jednak udziału w programie ochronnym."
+        },
+        {
+          "title": "Metody, które się uzupełniają",
+          "body": "Ex situ może pomóc przetrwać populacji w krytycznej sytuacji, ale nie zastępuje ochrony jej siedliska. Powrót organizmów wymaga odpowiednich warunków oraz usunięcia przyczyn wcześniejszego zagrożenia. Liczą się także zdrowie, pochodzenie i różnorodność genetyczna osobników. Nie wolno samodzielnie zbierać nasion rzadkich roślin ani wypuszczać hodowanych zwierząt. Takie działania wymagają wiedzy i mogą zaszkodzić miejscowym populacjom zamiast im pomóc."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "In situ",
+          "definition": "Ochrona organizmów w ich naturalnym środowisku."
+        },
+        {
+          "term": "Ex situ",
+          "definition": "Ochrona organizmów lub ich materiału genetycznego poza naturalnym środowiskiem."
+        },
+        {
+          "term": "Bank genów",
+          "definition": "Zbiór przechowywanego materiału, na przykład nasion, służący zachowaniu różnorodności genetycznej."
+        }
+      ],
+      "takeaways": [
+        "In situ chroni organizmy w naturalnym środowisku.",
+        "Bank nasion jest przykładem ex situ.",
+        "Hodowla ochronna nie zastępuje odpowiedniego siedliska."
+      ],
+      "misconception": {
+        "myth": "Wystarczy hodować zagrożony gatunek, aby jego naturalne siedlisko przestało być potrzebne.",
+        "fact": "Trwała ochrona wymaga także zachowania lub odtworzenia warunków życia w przyrodzie."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "GDOŚ — Przyroda i różnorodność biologiczna",
+          "url": "https://www.gov.pl/web/gdos/przyroda-i-roznorodnosc-biologiczna"
+        },
+        {
+          "title": "ZPE — Ochrona gatunkowa roślin, zwierząt i grzybów",
+          "url": "https://zpe.gov.pl/a/ochrona-gatunkowa-roslin-zwierzat-i-grzybow/D1EQDDWpJ"
+        }
+      ]
+    },
+    {
+      "id": "env-08",
+      "unitId": "environment",
+      "title": "Jak chronimy przyrodę w Polsce?",
+      "minutes": 4,
+      "objectives": [
+        "Porównasz wybrane obszarowe i gatunkowe formy ochrony.",
+        "Wyjaśnisz cel sieci Natura 2000."
+      ],
+      "sections": [
+        {
+          "title": "Parki narodowe i rezerwaty",
+          "body": "Park narodowy chroni rozległy obszar o szczególnych wartościach przyrodniczych, obejmując całość przyrody i krajobrazu. Rezerwat przyrody służy zachowaniu cennych ekosystemów, siedlisk, gatunków lub innych elementów przyrody. Nie musi być po prostu małym parkiem narodowym: obie formy mają własne cele. Ochronie podlegają procesy i zależności, a nie wyłącznie najbardziej rozpoznawalne zwierzęta czy rośliny."
+        },
+        {
+          "title": "Natura 2000 i ochrona gatunkowa",
+          "body": "Natura 2000 to europejska sieć obszarów służąca zachowaniu określonych siedlisk oraz gatunków ważnych dla wspólnego dziedzictwa przyrodniczego. Nie oznacza automatycznie całkowitego wyłączenia obszaru z użytkowania. Ochrona gatunkowa dotyczy wskazanych gatunków roślin, zwierząt i grzybów oraz służy ich zachowaniu. Może działać także poza parkami i rezerwatami, dlatego granica obszaru chronionego nie wyznacza granicy odpowiedzialności za przyrodę."
+        },
+        {
+          "title": "Wybierz zachowanie zgodne z miejscem",
+          "body": "W Polsce istnieją również inne formy ochrony, między innymi parki krajobrazowe i pomniki przyrody. Formy mogą nakładać się na siebie i uzupełniać. Przed wycieczką sprawdź aktualny regulamin konkretnego terenu, pozostań na udostępnionych trasach i nie płosz zwierząt. Nazwa formy pomaga zrozumieć cel ochrony, ale nie zastępuje informacji obowiązujących w danym miejscu i czasie."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Park narodowy",
+          "definition": "Forma ochrony rozległego obszaru o szczególnych wartościach przyrodniczych, obejmująca przyrodę i krajobraz."
+        },
+        {
+          "term": "Natura 2000",
+          "definition": "Europejska sieć obszarów chroniących określone siedliska i gatunki."
+        },
+        {
+          "term": "Ochrona gatunkowa",
+          "definition": "Ochrona wskazanych gatunków roślin, zwierząt i grzybów."
+        }
+      ],
+      "takeaways": [
+        "Różne formy ochrony mają różne, uzupełniające się cele.",
+        "Natura 2000 chroni wybrane siedliska i gatunki.",
+        "Ochrona gatunkowa działa także poza parkami."
+      ],
+      "misconception": {
+        "myth": "Każdy obszar Natura 2000 jest parkiem narodowym.",
+        "fact": "To różne formy ochrony; ich granice mogą się pokrywać, ale nie muszą."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "GDOŚ — Ochrona przyrody",
+          "url": "https://www.gov.pl/web/gdos/ochrona-przyrody4"
+        },
+        {
+          "title": "Ministerstwo Klimatu i Środowiska — Formy ochrony przyrody",
+          "url": "https://www.gov.pl/web/klimat/formy-ochrony-przyrody"
+        }
+      ]
+    },
+    {
+      "id": "env-09",
+      "unitId": "environment",
+      "title": "Zasoby przyrody, zrównoważony rozwój i 5R",
+      "minutes": 4,
+      "objectives": [
+        "Odróżnisz zasoby odnawialne od nieodnawialnych.",
+        "Zastosujesz zasadę 5R do codziennych wyborów."
+      ],
+      "sections": [
+        {
+          "title": "Odnowa wymaga czasu i warunków",
+          "body": "Zasoby nieodnawialne, na przykład węgiel i ropa naftowa, powstają tak wolno, że ich zużycia nie uzupełnimy w skali ludzkiego życia. Zasoby odnawialne mogą się odtwarzać, lecz ich dostępność zależy od tempa wykorzystania i stanu środowiska. Las można wyciąć szybciej, niż odrośnie, a krążąca w przyrodzie woda nie zawsze jest dostępna jako czysta woda pitna."
+        },
+        {
+          "title": "Pięć kroków ograniczania odpadów",
+          "body": "Popularny wariant zasady 5R obejmuje: odmawiaj zbędnych rzeczy, ograniczaj zużycie, używaj ponownie, poddawaj recyklingowi i kompostuj odpowiednie odpady organiczne. Najpierw warto zapobiegać powstawaniu odpadów, zamiast polegać wyłącznie na przetwarzaniu. Bidon wielokrotnego użytku, naprawa plecaka i rozsądne zakupy mogą zmniejszać zapotrzebowanie na surowce. Sposób segregacji sprawdzaj w aktualnych zasadach swojej gminy."
+        },
+        {
+          "title": "Potrzeby dziś i w przyszłości",
+          "body": "Zrównoważony rozwój łączy potrzeby ludzi z zachowaniem możliwości korzystania z zasobów przez przyszłe pokolenia. Obejmuje przyrodę, społeczeństwo i gospodarkę. Nie każdy produkt opisany jako ekologiczny jest automatycznie najlepszy: liczy się między innymi trwałość, zużycie energii i to, czy jest potrzebny. Przy wyborze działania wyjaśnij, jaki zasób oszczędza i w jaki sposób ogranicza presję na środowisko."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Zasób odnawialny",
+          "definition": "Zasób mogący się odtwarzać w odpowiednich warunkach i przy odpowiednim tempie użytkowania."
+        },
+        {
+          "term": "Zasób nieodnawialny",
+          "definition": "Zasób, którego odtworzenie jest pomijalne w skali czasu jego wykorzystania przez ludzi."
+        },
+        {
+          "term": "Zrównoważony rozwój",
+          "definition": "Rozwój zaspokajający obecne potrzeby bez odbierania tej możliwości przyszłym pokoleniom."
+        }
+      ],
+      "takeaways": [
+        "Odnawialny nie oznacza niewyczerpalny.",
+        "Zapobieganie odpadom poprzedza recykling.",
+        "Dłuższe używanie rzeczy ogranicza zużycie zasobów."
+      ],
+      "misconception": {
+        "myth": "Skoro woda uczestniczy w obiegu, czystej wody pitnej nigdy nie zabraknie.",
+        "fact": "Dostępność czystej wody jest ograniczana przez jej rozmieszczenie, zanieczyszczenie i tempo poboru."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "ZPE — zasoby i zrównoważony rozwój",
+          "url": "https://zpe.gov.pl/a/przeczytaj/D1EuLFnRf"
+        },
+        {
+          "title": "Gmina Kalwaria Zebrzydowska — Domowy recykling odpadów i zasada 5R",
+          "url": "https://samorzad.gov.pl/web/gmina-kalwaria-zebrzydowska/domowy-recykling-odpadow-i-zasada-5r"
+        }
+      ]
+    },
+    {
+      "id": "env-10",
+      "unitId": "environment",
+      "title": "Obserwuj lokalnie i pomagaj przyrodzie",
+      "minutes": 4,
+      "objectives": [
+        "Zaplanujesz prostą, powtarzalną obserwację przyrodniczą.",
+        "Oddzielisz obserwację od wniosku i wybierzesz działanie bez niepokojenia organizmów."
+      ],
+      "sections": [
+        {
+          "title": "Dobre pytanie i stała metoda",
+          "body": "Zacznij od pytania, na przykład: ile różnych gatunków ptaków dostrzegam w parku podczas dziesięciu minut? Ustal miejsce, czas i sposób zapisu. Powtarzaj obserwacje w porównywalnych warunkach, zapisując także datę, pogodę i wysiłek obserwacji. Brak zauważonego ptaka nie oznacza pewności, że go nie było. Możliwe, że ukrywał się, milczał lub znajdował poza polem widzenia."
+        },
+        {
+          "title": "Dane, a potem wyjaśnienie",
+          "body": "Zdjęcie, liczba i opis zachowania są danymi; zdanie o przyczynie zmiany jest już wnioskiem wymagającym sprawdzenia. Nauka obywatelska polega na udziale osób spoza zawodowych zespołów badawczych w zbieraniu lub opracowywaniu danych według zasad projektu. Warto korzystać z instrukcji i oznaczać niepewne rozpoznania. Lokalizacje szczególnie wrażliwych gatunków należy chronić zgodnie z zasadami danego projektu."
+        },
+        {
+          "title": "Pomoc bez zakłócania życia",
+          "body": "Obserwuj z dystansu, nie dotykaj gniazd, nie chwytaj zwierząt i nie zrywaj roślin. Nie wab organizmów odtwarzaniem głosów tylko po to, by je zobaczyć. Działania w szkole można uzgodnić z nauczycielem: ograniczyć koszenie fragmentu trawnika, sadzić odpowiednie rodzime rośliny lub bezpiecznie sprzątać teren. Najpierw rozpoznaj problem, potem wybierz działanie i sprawdź jego efekt kolejnymi obserwacjami."
+        }
+      ],
+      "keyTerms": [
+        {
+          "term": "Obserwacja",
+          "definition": "Zbieranie danych bez celowej zmiany badanego czynnika."
+        },
+        {
+          "term": "Nauka obywatelska",
+          "definition": "Udział społeczności w badaniach prowadzonych według uzgodnionej metody."
+        },
+        {
+          "term": "Powtarzalna metoda",
+          "definition": "Sposób pracy umożliwiający porównywanie kolejnych pomiarów."
+        }
+      ],
+      "takeaways": [
+        "Zapisuj metodę, czas, miejsce i warunki obserwacji.",
+        "Dane i wyjaśnienie ich przyczyny to różne rzeczy.",
+        "Dobra obserwacja nie wymaga niepokojenia organizmów."
+      ],
+      "misconception": {
+        "myth": "Im bliżej podejdę do gniazda, tym lepsza i bardziej wartościowa będzie obserwacja.",
+        "fact": "Płoszenie ptaków może szkodzić lęgowi; wartościowe dane można zbierać z bezpiecznej odległości."
+      },
+      "articleIds": [],
+      "visualIds": [],
+      "sources": [
+        {
+          "title": "Lasy Państwowe — Nauka obywatelska i obserwacje przyrody",
+          "url": "https://www.lasy.gov.pl/pl/informacje/wydarzenia/druga-edycja-projektu-201epierwszy-dzien-wiosny201d"
+        },
+        {
+          "title": "ZPE — Ochrona przyrody",
+          "url": "https://zpe.gov.pl/a/ochrona-przyrody/DWCPNFdn3"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gen-q01",
+      "unitId": "genetics",
+      "lessonId": "gen-01",
+      "type": "single",
+      "prompt": "Który zapis przedstawia prawidłową parę zasad w DNA?",
+      "options": [
+        "A–C",
+        "A–T",
+        "T–G",
+        "C–A"
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "W DNA adenina łączy się z tyminą, a cytozyna z guaniną."
+    },
+    {
+      "id": "gen-q02",
+      "unitId": "genetics",
+      "lessonId": "gen-01",
+      "type": "boolean",
+      "prompt": "Gen zawiera w swojej budowie wiele całych chromosomów.",
+      "options": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "To chromosom zawiera długą cząsteczkę DNA z wieloma genami; gen jest odcinkiem DNA."
+    },
+    {
+      "id": "gen-q03",
+      "unitId": "genetics",
+      "lessonId": "gen-02",
+      "type": "single",
+      "prompt": "Jaki fragment jest komplementarny do fragmentu DNA AAGC?",
+      "options": [
+        "AAGC",
+        "UUCG",
+        "CCAT",
+        "TTCG"
+      ],
+      "correct": [
+        3
+      ],
+      "points": 1,
+      "explanation": "Do A dołączane jest T, a do G dołączane jest C, więc AAGC odpowiada TTCG."
+    },
+    {
+      "id": "gen-q04",
+      "unitId": "genetics",
+      "lessonId": "gen-02",
+      "type": "boolean",
+      "prompt": "Po prawidłowej replikacji każda z dwóch cząsteczek DNA zawiera jedną wcześniejszą i jedną nową nić.",
+      "options": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "correct": [
+        0
+      ],
+      "points": 1,
+      "explanation": "Obie wcześniejsze nici służą jako wzory do dobudowania nowych nici komplementarnych."
+    },
+    {
+      "id": "gen-q05",
+      "unitId": "genetics",
+      "lessonId": "gen-03",
+      "type": "single",
+      "prompt": "Ile chromosomów ma zwykle plemnik człowieka?",
+      "options": [
+        "23",
+        "46",
+        "92",
+        "22 pary"
+      ],
+      "correct": [
+        0
+      ],
+      "points": 1,
+      "explanation": "Gameta ma pojedynczy zestaw 23 chromosomów; po zapłodnieniu typowa zygota ma 46."
+    },
+    {
+      "id": "gen-q06",
+      "unitId": "genetics",
+      "lessonId": "gen-03",
+      "type": "boolean",
+      "prompt": "Mejoza polega na dwóch podziałach, z których każdy poprzedza osobna replikacja DNA.",
+      "options": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "DNA jest kopiowane przed pierwszym podziałem mejozy; między jej podziałami replikacja nie zachodzi."
+    },
+    {
+      "id": "gen-q07",
+      "unitId": "genetics",
+      "lessonId": "gen-04",
+      "type": "single",
+      "prompt": "Który zapis oznacza heterozygotę w modelu jednego genu z allelami A i a?",
+      "options": [
+        "AA",
+        "aa",
+        "Aa",
+        "A"
+      ],
+      "correct": [
+        2
+      ],
+      "points": 1,
+      "explanation": "Heterozygota ma dwa różne allele rozpatrywanego genu, czyli Aa."
+    },
+    {
+      "id": "gen-q08",
+      "unitId": "genetics",
+      "lessonId": "gen-04",
+      "type": "boolean",
+      "prompt": "Na fenotyp organizmu mogą wpływać jednocześnie geny i warunki środowiska.",
+      "options": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "correct": [
+        0
+      ],
+      "points": 1,
+      "explanation": "Na przykład wzrost człowieka zależy od wielu genów oraz między innymi od odżywiania i zdrowia."
+    },
+    {
+      "id": "gen-q09",
+      "unitId": "genetics",
+      "lessonId": "gen-05",
+      "type": "single",
+      "prompt": "Przy dominacji zupełnej jaki jest udział możliwych genotypów aa w krzyżówce Aa × Aa?",
+      "options": [
+        "0%",
+        "25%",
+        "50%",
+        "100%"
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "Cztery jednakowo prawdopodobne połączenia to AA, Aa, Aa i aa, więc aa stanowi 1/4."
+    },
+    {
+      "id": "gen-q10",
+      "unitId": "genetics",
+      "lessonId": "gen-05",
+      "type": "multiple",
+      "prompt": "Dla krzyżówki Aa × Aa zaznacz wszystkie prawidłowe stwierdzenia. Przyjmij dominację zupełną A nad a.",
+      "options": [
+        "Możliwy jest genotyp AA.",
+        "Każde czwarte potomstwo musi mieć genotyp aa.",
+        "Fenotyp dominujący może odpowiadać AA lub Aa.",
+        "Każda gameta rodzica Aa musi zawierać jednocześnie A oraz a."
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "points": 2,
+      "explanation": "AA i Aa dają fenotyp dominujący. Gameta otrzymuje jeden allel, a wynik 25% jest prawdopodobieństwem, nie obowiązkową kolejnością potomków."
+    },
+    {
+      "id": "gen-q11",
+      "unitId": "genetics",
+      "lessonId": "gen-06",
+      "type": "single",
+      "prompt": "Jakie połączenie gamet daje zygotę XY w uproszczonym modelu człowieka?",
+      "options": [
+        "Komórka jajowa X i plemnik X",
+        "Komórka jajowa Y i plemnik Y",
+        "Komórka jajowa Y i plemnik X",
+        "Komórka jajowa X i plemnik Y"
+      ],
+      "correct": [
+        3
+      ],
+      "points": 1,
+      "explanation": "W modelu XX × XY komórka jajowa wnosi X, a zygota XY powstaje po połączeniu z plemnikiem Y."
+    },
+    {
+      "id": "gen-q12",
+      "unitId": "genetics",
+      "lessonId": "gen-06",
+      "type": "multiple",
+      "prompt": "W uproszczonym modelu XX × XY zaznacz wszystkie prawidłowe stwierdzenia.",
+      "options": [
+        "Komórka jajowa wnosi chromosom X.",
+        "Plemnik może wnosić X albo Y.",
+        "Możliwe są wyłącznie zygoty YY.",
+        "Każda z możliwości XX i XY ma prawdopodobieństwo około 50%."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "points": 2,
+      "explanation": "Model przewiduje gamety X oraz X lub Y i dwa możliwe zestawy zygoty. Rzeczywisty rozwój płci jest bardziej złożony."
+    },
+    {
+      "id": "gen-q13",
+      "unitId": "genetics",
+      "lessonId": "gen-07",
+      "type": "single",
+      "prompt": "Jakie grupy krwi są możliwe u potomstwa rodziców IᴬIᴮ × ii w szkolnym modelu AB0?",
+      "options": [
+        "Tylko AB",
+        "A, B, AB i 0",
+        "A albo B",
+        "Tylko 0"
+      ],
+      "correct": [
+        2
+      ],
+      "points": 1,
+      "explanation": "Połączenia Iᴬ z i oraz Iᴮ z i dają genotypy Iᴬi i Iᴮi, czyli grupy A i B."
+    },
+    {
+      "id": "gen-q14",
+      "unitId": "genetics",
+      "lessonId": "gen-07",
+      "type": "multiple",
+      "prompt": "Zaznacz wszystkie prawidłowe przyporządkowania w szkolnym modelu AB0.",
+      "options": [
+        "IᴬIᴮ — grupa AB",
+        "ii — grupa 0",
+        "Iᴬi — grupa B",
+        "Iᴮi — grupa B"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "points": 2,
+      "explanation": "Iᴬ i Iᴮ ujawniają się razem w grupie AB, oba dominują nad i, a ii odpowiada grupie 0."
+    },
+    {
+      "id": "gen-q15",
+      "unitId": "genetics",
+      "lessonId": "gen-08",
+      "type": "single",
+      "prompt": "Która zmiana DNA u człowieka może bezpośrednio zostać przekazana dziecku?",
+      "options": [
+        "Zmiana obecna w materiale genetycznym gamety uczestniczącej w zapłodnieniu",
+        "Zmiana wyłącznie w jednej dojrzałej komórce skóry",
+        "Zmiana wyłącznie w jednej komórce mięśnia uda",
+        "Zmiana wyłącznie w komórce wątroby"
+      ],
+      "correct": [
+        0
+      ],
+      "points": 1,
+      "explanation": "Dziecko otrzymuje DNA z gamet. Zmiana ograniczona do komórki somatycznej zwykle nie trafia do potomstwa."
+    },
+    {
+      "id": "gen-q16",
+      "unitId": "genetics",
+      "lessonId": "gen-08",
+      "type": "multiple",
+      "prompt": "Zaznacz wszystkie czynniki, które mogą zwiększać częstość mutacji.",
+      "options": [
+        "Promieniowanie UV",
+        "Promieniowanie jonizujące",
+        "Niektóre substancje obecne w dymie tytoniowym",
+        "Potrzeba uzyskania nowej cechy przez organizm"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "points": 2,
+      "explanation": "UV, promieniowanie jonizujące i niektóre substancje chemiczne są mutagenami. Potrzeba organizmu nie wyznacza powstawania mutacji."
+    },
+    {
+      "id": "gen-q17",
+      "unitId": "genetics",
+      "lessonId": "gen-09",
+      "type": "single",
+      "prompt": "Które zdanie prawidłowo porównuje mukowiscydozę z najczęstszą postacią zespołu Downa?",
+      "options": [
+        "Obie zawsze wynikają z dodatkowego chromosomu 21.",
+        "Mukowiscydoza dotyczy wariantów CFTR, a zespół Downa najczęściej trisomii 21.",
+        "Mukowiscydozę wywołuje brak X, a zespół Downa bakteria.",
+        "Obie są chorobami zakaźnymi."
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "Mukowiscydoza jest chorobą jednogenową, a najczęstsze podłoże zespołu Downa to trzy kopie chromosomu 21."
+    },
+    {
+      "id": "gen-q18",
+      "unitId": "genetics",
+      "lessonId": "gen-09",
+      "type": "single",
+      "prompt": "Jak nazywa się utrata fragmentu chromosomu?",
+      "options": [
+        "Trisomia",
+        "Replikacja",
+        "Zapłodnienie",
+        "Delecja"
+      ],
+      "correct": [
+        3
+      ],
+      "points": 1,
+      "explanation": "Delecja oznacza utratę fragmentu materiału genetycznego; trisomia dotyczy dodatkowej kopii chromosomu."
+    },
+    {
+      "id": "gen-q19",
+      "unitId": "genetics",
+      "lessonId": "gen-10",
+      "type": "single",
+      "prompt": "Co oznacza odziedziczenie wariantu zwiększającego ryzyko określonego nowotworu?",
+      "options": [
+        "Pewność zachorowania w dzieciństwie",
+        "Możliwość zakażenia innych tym wariantem przez dotyk",
+        "Większe prawdopodobieństwo choroby, ale bez pewności jej wystąpienia",
+        "Brak jakiegokolwiek znaczenia dla zdrowia"
+      ],
+      "correct": [
+        2
+      ],
+      "points": 1,
+      "explanation": "Predyspozycja zwiększa ryzyko, lecz rozwój choroby zależy również od innych zmian i czynników."
+    },
+    {
+      "id": "gen-q20",
+      "unitId": "genetics",
+      "lessonId": "gen-10",
+      "type": "single",
+      "prompt": "Dlaczego nowotwór o podłożu genetycznym nie musi być dziedziczny?",
+      "options": [
+        "Zmiany DNA mogą powstać w komórkach ciała dopiero w ciągu życia.",
+        "Komórki nowotworowe nigdy nie zawierają DNA.",
+        "Każdą zmianę DNA wywołuje wyłącznie uraz mechaniczny.",
+        "Geny nie uczestniczą w kontroli podziałów."
+      ],
+      "correct": [
+        0
+      ],
+      "points": 1,
+      "explanation": "Genetyczny opisuje udział zmian DNA; dziedziczny oznacza przekazanie materiału genetycznego przez gamety od rodzica."
+    },
+    {
+      "id": "evo-q01",
+      "unitId": "evolution",
+      "lessonId": "evo-01",
+      "type": "single",
+      "prompt": "Który przykład przedstawia zmianę ewolucyjną?",
+      "options": [
+        "Wzrost jednej siewki przez tydzień",
+        "Opalenizna po wakacjach",
+        "Wzrost częstości dziedzicznego wariantu w populacji przez pokolenia",
+        "Nauczenie psa reagowania na komendę"
+      ],
+      "correct": [
+        2
+      ],
+      "points": 1,
+      "explanation": "Ewolucja dotyczy dziedzicznych właściwości populacji w kolejnych pokoleniach, nie rozwoju pojedynczego organizmu."
+    },
+    {
+      "id": "evo-q02",
+      "unitId": "evolution",
+      "lessonId": "evo-01",
+      "type": "boolean",
+      "prompt": "Zwiększenie siły mięśni jednej osoby po miesiącu treningu jest ewolucją populacji.",
+      "options": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "To zmiana zachodząca w życiu osobnika, a nie zmiana dziedzicznych właściwości populacji przez pokolenia."
+    },
+    {
+      "id": "evo-q03",
+      "unitId": "evolution",
+      "lessonId": "evo-02",
+      "type": "single",
+      "prompt": "Co jest bezpośrednim źródłem nowych alleli?",
+      "options": [
+        "Mutacje DNA",
+        "Trening mięśni",
+        "Przycinanie liści",
+        "Nauka zachowania"
+      ],
+      "correct": [
+        0
+      ],
+      "points": 1,
+      "explanation": "Mutacje tworzą nowe warianty sekwencji DNA; rekombinacja zestawia już istniejące allele w nowe kombinacje."
+    },
+    {
+      "id": "evo-q04",
+      "unitId": "evolution",
+      "lessonId": "evo-02",
+      "type": "boolean",
+      "prompt": "Każda różnica wyglądu wywołana warunkami środowiska jest przekazywana potomstwu jako nowy allel.",
+      "options": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "Zmiana fenotypu, na przykład opalenizna, nie oznacza powstania nowego allelu przekazywanego przez gamety."
+    },
+    {
+      "id": "evo-q05",
+      "unitId": "evolution",
+      "lessonId": "evo-03",
+      "type": "single",
+      "prompt": "Co zwiększa szansę zachowania szczątków jako skamieniałości?",
+      "options": [
+        "Długie pozostawanie na otwartej powierzchni i całkowity rozkład",
+        "Zjedzenie wszystkich tkanek bez pozostawienia śladów",
+        "Regularne zmywanie szczątków bez osadzania materiału",
+        "Szybkie przykrycie szczątków osadem"
+      ],
+      "correct": [
+        3
+      ],
+      "points": 1,
+      "explanation": "Przykrycie osadem ogranicza niszczenie szczątków; twarde części także częściej się zachowują."
+    },
+    {
+      "id": "evo-q06",
+      "unitId": "evolution",
+      "lessonId": "evo-03",
+      "type": "boolean",
+      "prompt": "Zachowany w skale dawny trop może być skamieniałością.",
+      "options": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "correct": [
+        0
+      ],
+      "points": 1,
+      "explanation": "Skamieniałości obejmują również ślady działalności organizmów, na przykład odciski stóp i nory."
+    },
+    {
+      "id": "evo-q07",
+      "unitId": "evolution",
+      "lessonId": "evo-04",
+      "type": "single",
+      "prompt": "Która para jest klasycznym przykładem narządów analogicznych jako narządów lotu?",
+      "options": [
+        "Przednia kończyna człowieka i płetwa wieloryba",
+        "Skrzydło motyla i skrzydło ptaka",
+        "Kość ramienna człowieka i kość ramienna psa",
+        "Przednia kończyna konia i przednia kończyna kota"
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "Lot owada i ptaka wykorzystuje struktury o różnym pochodzeniu i budowie; podobna funkcja powstała niezależnie."
+    },
+    {
+      "id": "evo-q08",
+      "unitId": "evolution",
+      "lessonId": "evo-04",
+      "type": "boolean",
+      "prompt": "Narządy homologiczne mogą obecnie pełnić różne funkcje.",
+      "options": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "correct": [
+        0
+      ],
+      "points": 1,
+      "explanation": "O homologii decyduje wspólne pochodzenie, jak w przypadku przednich kończyn człowieka i wieloryba."
+    },
+    {
+      "id": "evo-q09",
+      "unitId": "evolution",
+      "lessonId": "evo-05",
+      "type": "single",
+      "prompt": "Które badanie najlepiej pomaga ocenić pokrewieństwo na podstawie DNA?",
+      "options": [
+        "Porównanie masy ciała dorosłych osobników",
+        "Porównanie nazw zwyczajowych gatunków",
+        "Sprawdzenie, czy oba organizmy żyją w wodzie",
+        "Porównanie wielu odpowiadających sobie sekwencji DNA"
+      ],
+      "correct": [
+        3
+      ],
+      "points": 1,
+      "explanation": "Porównywalne odcinki DNA dostarczają danych o wspólnym pochodzeniu; pojedyncza cecha wyglądu może być myląca."
+    },
+    {
+      "id": "evo-q10",
+      "unitId": "evolution",
+      "lessonId": "evo-05",
+      "type": "multiple",
+      "prompt": "Zaznacz wszystkie rodzaje danych przydatne do badania pokrewieństwa ewolucyjnego.",
+      "options": [
+        "Sekwencje odpowiadających sobie genów",
+        "Szczegóły budowy narządów",
+        "Kolejność nazw w alfabecie",
+        "Skamieniałości w kontekście ich wieku"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "points": 2,
+      "explanation": "Dane molekularne, anatomiczne i kopalne mogą wzajemnie sprawdzać wnioski o historii grup."
+    },
+    {
+      "id": "evo-q11",
+      "unitId": "evolution",
+      "lessonId": "evo-06",
+      "type": "single",
+      "prompt": "Dziedzicznie jasne owady na jasnym podłożu częściej unikają drapieżników i pozostawiają potomstwo. Jaki wynik jest możliwy po wielu pokoleniach?",
+      "options": [
+        "Wszystkie owady świadomie zmienią swoje allele.",
+        "Ciemne owady muszą zniknąć po jednym dniu.",
+        "Udział jasnego wariantu ubarwienia wzrośnie.",
+        "Każdy ciemny osobnik automatycznie stanie się jasny."
+      ],
+      "correct": [
+        2
+      ],
+      "points": 1,
+      "explanation": "Większy udział w rozrodzie może zwiększyć częstość dziedzicznego wariantu w kolejnych pokoleniach."
+    },
+    {
+      "id": "evo-q12",
+      "unitId": "evolution",
+      "lessonId": "evo-06",
+      "type": "multiple",
+      "prompt": "Jakie warunki umożliwiają działanie doboru naturalnego? Zaznacz wszystkie prawidłowe odpowiedzi.",
+      "options": [
+        "Każdy osobnik świadomie planuje zmiany swoich genów.",
+        "Osobniki różnią się dziedzicznymi cechami.",
+        "Różnice cech wpływają na sukces rozrodczy.",
+        "Cechy mają podłoże przekazywane potomstwu."
+      ],
+      "correct": [
+        1,
+        2,
+        3
+      ],
+      "points": 2,
+      "explanation": "Dobór wiąże dziedziczną zmienność z różnicami w pozostawianiu potomstwa. Nie wymaga świadomego planu."
+    },
+    {
+      "id": "evo-q13",
+      "unitId": "evolution",
+      "lessonId": "evo-07",
+      "type": "single",
+      "prompt": "Która sytuacja jest przykładem doboru sztucznego?",
+      "options": [
+        "Hodowca rozmnaża rośliny o dziedzicznie większych owocach.",
+        "Susza zabija więcej roślin o płytkich korzeniach.",
+        "Ptaki częściej zjadają widoczne owady.",
+        "Osuwisko losowo niszczy część populacji."
+      ],
+      "correct": [
+        0
+      ],
+      "points": 1,
+      "explanation": "W doborze sztucznym człowiek decyduje, które osobniki rozmnażać ze względu na pożądane cechy."
+    },
+    {
+      "id": "evo-q14",
+      "unitId": "evolution",
+      "lessonId": "evo-07",
+      "type": "multiple",
+      "prompt": "Zaznacz wszystkie prawidłowe porównania doboru naturalnego i sztucznego.",
+      "options": [
+        "Oba zawsze wymagają edycji DNA w laboratorium.",
+        "Oba mogą zmieniać częstość cech dziedzicznych przez pokolenia.",
+        "W doborze sztucznym człowiek wyznacza kryterium wyboru do rozrodu.",
+        "Cecha ceniona w hodowli musi być korzystna w każdym środowisku naturalnym."
+      ],
+      "correct": [
+        1,
+        2
+      ],
+      "points": 2,
+      "explanation": "Oba rodzaje doboru korzystają ze zmienności dziedzicznej. Kryteria hodowcy nie muszą odpowiadać korzyściom w naturze."
+    },
+    {
+      "id": "evo-q15",
+      "unitId": "evolution",
+      "lessonId": "evo-08",
+      "type": "single",
+      "prompt": "Co może sprzyjać rozchodzeniu się dwóch populacji i powstawaniu nowych gatunków?",
+      "options": [
+        "Stałe i bardzo intensywne krzyżowanie się wszystkich osobników",
+        "Ograniczenie przepływu genów i stopniowe narastanie różnic",
+        "Jednorazowe nazwanie jednej grupy nową nazwą",
+        "Wyłącznie zmiana miejsca na rysunku drzewa"
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "Ograniczona wymiana genów pozwala różnicom się gromadzić; trwałe bariery rozrodcze mogą prowadzić do specjacji."
+    },
+    {
+      "id": "evo-q16",
+      "unitId": "evolution",
+      "lessonId": "evo-08",
+      "type": "multiple",
+      "prompt": "Zaznacz wszystkie prawidłowe stwierdzenia o przystosowaniach i specjacji.",
+      "options": [
+        "Cecha korzystna w jednym środowisku może być mniej korzystna w innym.",
+        "Każda rzeka natychmiast tworzy nowy gatunek.",
+        "Ograniczenie wymiany genów może sprzyjać różnicowaniu populacji.",
+        "Przystosowanie ewolucyjne powstaje dlatego, że osobnik postanowił je uzyskać."
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "points": 2,
+      "explanation": "Znaczenie cechy zależy od warunków. Rozdzielenie populacji może rozpocząć proces zmian, lecz nie gwarantuje specjacji."
+    },
+    {
+      "id": "evo-q17",
+      "unitId": "evolution",
+      "lessonId": "evo-09",
+      "type": "single",
+      "prompt": "Co reprezentuje węzeł na prostym drzewie filogenetycznym?",
+      "options": [
+        "Największy żyjący gatunek",
+        "Miejsce występowania wszystkich organizmów",
+        "Wspólnego przodka rozchodzących się linii",
+        "Gatunek o najwyższej wartości"
+      ],
+      "correct": [
+        2
+      ],
+      "points": 1,
+      "explanation": "Węzeł wskazuje wspólnego przodka i rozdzielenie linii ewolucyjnych."
+    },
+    {
+      "id": "evo-q18",
+      "unitId": "evolution",
+      "lessonId": "evo-09",
+      "type": "single",
+      "prompt": "Na drzewie A i B mają bardziej niedawnego wspólnego przodka niż każdy z nich z C. Jaki wniosek jest poprawny?",
+      "options": [
+        "A i B są bliżej spokrewnione ze sobą niż z C.",
+        "C na pewno żyje krócej niż A.",
+        "A jest bezpośrednim przodkiem żyjącego B.",
+        "B musi być większy od C."
+      ],
+      "correct": [
+        0
+      ],
+      "points": 1,
+      "explanation": "Pokrewieństwo oceniamy przez wspólne pochodzenie; nie wynika z niego rozmiar, długość życia ani relacja bezpośredniego przodka między dzisiejszymi gatunkami."
+    },
+    {
+      "id": "evo-q19",
+      "unitId": "evolution",
+      "lessonId": "evo-10",
+      "type": "single",
+      "prompt": "Które zdanie poprawnie opisuje relację człowieka i współczesnego szympansa?",
+      "options": [
+        "Człowiek jest potomkiem każdego żyjącego dziś szympansa.",
+        "Szympans powstaje z człowieka po utracie kultury.",
+        "Obie grupy nie mają żadnych wspólnych przodków.",
+        "Obie linie wywodzą się od dawnych wspólnych przodków."
+      ],
+      "correct": [
+        3
+      ],
+      "points": 1,
+      "explanation": "Człowiek i szympans mają wspólne pochodzenie, ale od rozdzielenia linii obie grupy ewoluowały osobno."
+    },
+    {
+      "id": "evo-q20",
+      "unitId": "evolution",
+      "lessonId": "evo-10",
+      "type": "single",
+      "prompt": "Do jakiej grupy ssaków należy Homo sapiens?",
+      "options": [
+        "Gryzonie",
+        "Naczelne",
+        "Walenie",
+        "Nietoperze"
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "Człowiek należy do naczelnych; świadczą o tym cechy budowy oraz dane molekularne."
+    },
+    {
+      "id": "eco-q01",
+      "unitId": "ecology",
+      "lessonId": "eco-01",
+      "type": "single",
+      "prompt": "Który zbiór organizmów jest przykładem populacji?",
+      "options": [
+        "Wszystkie zwierzęta w jednym lesie",
+        "Wszystkie żaby trawne w jednym stawie w czerwcu",
+        "Rośliny i grzyby rosnące na łące",
+        "Żaby różnych gatunków w kilku krajach"
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "Populacja obejmuje osobniki jednego gatunku na określonym obszarze w tym samym czasie."
+    },
+    {
+      "id": "eco-q02",
+      "unitId": "ecology",
+      "lessonId": "eco-01",
+      "type": "boolean",
+      "prompt": "Woda, rośliny i zwierzęta stawu razem stanowią jego biocenozę.",
+      "options": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "Biocenoza obejmuje organizmy. Woda jest częścią biotopu; biocenoza wraz z biotopem tworzy ekosystem."
+    },
+    {
+      "id": "eco-q03",
+      "unitId": "ecology",
+      "lessonId": "eco-02",
+      "type": "single",
+      "prompt": "Na obszarze 3 ha naliczono 60 osobników tego samego gatunku. Jakie jest ich zagęszczenie?",
+      "options": [
+        "180 osobników/ha",
+        "60 osobników/ha",
+        "20 osobników/ha",
+        "3 osobniki/ha"
+      ],
+      "correct": [
+        2
+      ],
+      "points": 1,
+      "explanation": "Zagęszczenie obliczamy, dzieląc liczebność przez powierzchnię: 60 ÷ 3 = 20 osobników na hektar."
+    },
+    {
+      "id": "eco-q04",
+      "unitId": "ecology",
+      "lessonId": "eco-02",
+      "type": "boolean",
+      "prompt": "Liczebność populacji może wzrosnąć bez narodzin, jeśli na jej obszar napłyną osobniki tego samego gatunku.",
+      "options": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "correct": [
+        0
+      ],
+      "points": 1,
+      "explanation": "Imigracja, czyli napływ osobników, jest jednym z procesów zwiększających liczebność populacji."
+    },
+    {
+      "id": "eco-q05",
+      "unitId": "ecology",
+      "lessonId": "eco-03",
+      "type": "single",
+      "prompt": "Który czynnik wpływający na siewkę dębu jest biotyczny?",
+      "options": [
+        "Spadek temperatury nocą",
+        "Mała ilość wody w glebie",
+        "Silny wiatr",
+        "Zjadanie liści przez gąsienice"
+      ],
+      "correct": [
+        3
+      ],
+      "points": 1,
+      "explanation": "Gąsienice są organizmami, a ich żerowanie to wpływ biotyczny. Pozostałe czynniki są nieożywione."
+    },
+    {
+      "id": "eco-q06",
+      "unitId": "ecology",
+      "lessonId": "eco-03",
+      "type": "boolean",
+      "prompt": "Organizmy mogą zmieniać nieożywione warunki swojego ekosystemu, na przykład zacieniając glebę.",
+      "options": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "correct": [
+        0
+      ],
+      "points": 1,
+      "explanation": "Zależność jest obustronna: warunki wpływają na organizmy, a organizmy mogą zmieniać między innymi światło, wilgotność i skład gleby."
+    },
+    {
+      "id": "eco-q07",
+      "unitId": "ecology",
+      "lessonId": "eco-04",
+      "type": "single",
+      "prompt": "Dwa gatunki ptaków żyją w tym samym lesie, ale żerują o innych porach i zjadają inny pokarm. Co najlepiej opisuje tę sytuację?",
+      "options": [
+        "Mogą zajmować odmienne nisze ekologiczne w tym samym siedlisku",
+        "Muszą mieć identyczne nisze, bo mieszkają w jednym lesie",
+        "Należą do jednej populacji, bo są ptakami",
+        "Nie podlegają żadnym czynnikom abiotycznym"
+      ],
+      "correct": [
+        0
+      ],
+      "points": 1,
+      "explanation": "Wspólne miejsce życia nie oznacza identycznych wymagań i sposobu wykorzystywania zasobów."
+    },
+    {
+      "id": "eco-q08",
+      "unitId": "ecology",
+      "lessonId": "eco-04",
+      "type": "boolean",
+      "prompt": "Gatunek o szerokiej tolerancji na temperaturę musi równie dobrze znosić każde zasolenie wody.",
+      "options": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "Tolerancję określamy osobno dla każdego czynnika. Szeroka tolerancja na jeden czynnik nie przesądza o tolerancji na inny."
+    },
+    {
+      "id": "eco-q09",
+      "unitId": "ecology",
+      "lessonId": "eco-05",
+      "type": "single",
+      "prompt": "Dwie siewki buka pobierają wodę z tego samego suchego fragmentu gleby. Jaka zależność jest tu opisana?",
+      "options": [
+        "Mutualizm",
+        "Konkurencja wewnątrzgatunkowa",
+        "Pasożytnictwo",
+        "Konkurencja międzygatunkowa"
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "Obie siewki należą do jednego gatunku i korzystają ze wspólnego, ograniczonego zasobu, czyli wody."
+    },
+    {
+      "id": "eco-q10",
+      "unitId": "ecology",
+      "lessonId": "eco-05",
+      "type": "multiple",
+      "prompt": "Które sytuacje opisują konkurencję? Zaznacz wszystkie poprawne odpowiedzi.",
+      "options": [
+        "Dwa gatunki roślin zacieniają się, gdy światła jest mało",
+        "Kleszcz pobiera krew ssaka",
+        "Samce jednego gatunku rywalizują o dostęp do partnerki",
+        "Grzyb mikoryzowy otrzymuje cukry od rośliny i pomaga jej pobierać wodę"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "points": 2,
+      "explanation": "O światło konkurują różne gatunki, a o partnerkę osobniki tego samego gatunku. Pozostałe przykłady to pasożytnictwo i mutualizm."
+    },
+    {
+      "id": "eco-q11",
+      "unitId": "ecology",
+      "lessonId": "eco-06",
+      "type": "single",
+      "prompt": "Która para opisuje roślinożerność?",
+      "options": [
+        "Pająk i schwytana mucha",
+        "Kleszcz i sarna",
+        "Gąsienica i zjadany liść kapusty",
+        "Grzyb mikoryzowy i korzenie sosny"
+      ],
+      "correct": [
+        2
+      ],
+      "points": 1,
+      "explanation": "Gąsienica zjada część rośliny, więc jest roślinożercą. Taka relacja nie musi prowadzić do śmierci całej rośliny."
+    },
+    {
+      "id": "eco-q12",
+      "unitId": "ecology",
+      "lessonId": "eco-06",
+      "type": "multiple",
+      "prompt": "Które cechy mogą zmniejszać ryzyko zjedzenia organizmu? Zaznacz wszystkie poprawne odpowiedzi.",
+      "options": [
+        "Kolce rośliny utrudniające jej zjadanie",
+        "Pazury drapieżnika pomagające chwytać ofiarę",
+        "Ubarwienie ofiary zlewające się z otoczeniem",
+        "Szybka ucieczka przed drapieżnikiem"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "points": 2,
+      "explanation": "Kolce, kamuflaż i ucieczka mogą ograniczać zjadanie. Pazury w tym przykładzie pomagają drapieżnikowi, a nie chronią ofiarę."
+    },
+    {
+      "id": "eco-q13",
+      "unitId": "ecology",
+      "lessonId": "eco-07",
+      "type": "single",
+      "prompt": "Który opis najlepiej rozpoznaje pasożytnictwo?",
+      "options": [
+        "Oba gatunki odnoszą korzyści z wymiany zasobów",
+        "Organizm korzysta z żywiciela przez pewien czas, wyrządzając mu szkodę",
+        "Organizmy jedynie mieszkają blisko siebie",
+        "Organizm zabija ofiarę i natychmiast ją zjada"
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "Pasożyt korzysta z żywiciela jego kosztem. Ostatni opis odpowiada typowemu drapieżnictwu."
+    },
+    {
+      "id": "eco-q14",
+      "unitId": "ecology",
+      "lessonId": "eco-07",
+      "type": "multiple",
+      "prompt": "Które zdania o pasożytach są poprawne? Zaznacz wszystkie poprawne odpowiedzi.",
+      "options": [
+        "Pasożyt zewnętrzny może żyć na powierzchni ciała żywiciela",
+        "Każdy organizm obecny na skórze musi być pasożytem",
+        "Pasożyt może osłabiać żywiciela",
+        "Pasożyty nigdy nie powodują śmierci żywiciela"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "points": 2,
+      "explanation": "Miejsce życia może być zewnętrzne, a szkoda polegać na osłabieniu. Trzeba wykazać korzystanie kosztem żywiciela; skutek śmiertelny jest możliwy."
+    },
+    {
+      "id": "eco-q15",
+      "unitId": "ecology",
+      "lessonId": "eco-08",
+      "type": "single",
+      "prompt": "Grzyb pomaga korzeniom pobierać wodę, a roślina dostarcza mu cukry. Jak nazywamy tę relację?",
+      "options": [
+        "Konkurencja",
+        "Komensalizm",
+        "Drapieżnictwo",
+        "Mutualizm"
+      ],
+      "correct": [
+        3
+      ],
+      "points": 1,
+      "explanation": "Obaj partnerzy odnoszą korzyści, co jest cechą mutualizmu; opis dotyczy mikoryzy."
+    },
+    {
+      "id": "eco-q16",
+      "unitId": "ecology",
+      "lessonId": "eco-08",
+      "type": "multiple",
+      "prompt": "Które stwierdzenia o relacjach nieantagonistycznych są poprawne? Zaznacz wszystkie poprawne odpowiedzi.",
+      "options": [
+        "W mutualizmie korzyści odnoszą obie strony",
+        "W komensalizmie jedna strona korzysta, a dla drugiej nie wykazano istotnego wpływu",
+        "Każda korzystna relacja uniemożliwia partnerom życie osobno",
+        "Relację trzeba oceniać na podstawie skutków dla konkretnych partnerów"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "points": 2,
+      "explanation": "Wzajemne korzyści nie zawsze oznaczają obowiązkową zależność. Komensalizm opisuje korzyść jednej strony bez istotnego wpływu na drugą."
+    },
+    {
+      "id": "eco-q17",
+      "unitId": "ecology",
+      "lessonId": "eco-09",
+      "type": "single",
+      "prompt": "W łańcuchu trawa → konik polny → żaba strzałka między trawą a konikiem polnym wskazuje:",
+      "options": [
+        "Kierunek ucieczki konika polnego",
+        "Przekazywanie materii i energii od pokarmu do zjadającego",
+        "Powrót energii od zwierzęcia do rośliny",
+        "Kierunek przepływu wody w glebie"
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "Strzałki pokarmowe prowadzą od organizmu zjadanego do zjadającego, zgodnie z przekazywaniem materii i energii."
+    },
+    {
+      "id": "eco-q18",
+      "unitId": "ecology",
+      "lessonId": "eco-09",
+      "type": "single",
+      "prompt": "Co jest szczególną rolą destruentów w ekosystemie?",
+      "options": [
+        "Wytwarzanie całej energii potrzebnej producentom",
+        "Zjadanie wyłącznie żywych roślin",
+        "Rozkład martwej materii organicznej i udział w uwalnianiu składników mineralnych",
+        "Zatrzymywanie obiegu materii na ostatnim poziomie"
+      ],
+      "correct": [
+        2
+      ],
+      "points": 1,
+      "explanation": "Destruenci rozkładają szczątki z różnych poziomów pokarmowych, umożliwiając ponowne wykorzystanie części składników."
+    },
+    {
+      "id": "eco-q19",
+      "unitId": "ecology",
+      "lessonId": "eco-10",
+      "type": "single",
+      "prompt": "Które zdanie poprawnie porównuje materię i energię w ekosystemie?",
+      "options": [
+        "Materia może krążyć, a energia przepływa i rozprasza się jako ciepło",
+        "Materia i energia krążą bez strat w tej samej zamkniętej pętli",
+        "Energia krąży, a pierwiastki znikają po zjedzeniu",
+        "Tylko energia może być przekazywana między organizmami"
+      ],
+      "correct": [
+        0
+      ],
+      "points": 1,
+      "explanation": "Pierwiastki mogą wracać do środowiska i być pobierane ponownie. Energia stopniowo rozprasza się jako ciepło i wymaga dopływu."
+    },
+    {
+      "id": "eco-q20",
+      "unitId": "ecology",
+      "lessonId": "eco-10",
+      "type": "single",
+      "prompt": "Jak należy używać informacji o sprawności przekazywania energii między poziomami pokarmowymi?",
+      "options": [
+        "Zawsze przyjąć dokładnie 10%, nawet jeśli dane mówią inaczej",
+        "Założyć, że cała energia przechodzi do następnego poziomu",
+        "Pominąć energię zużywaną podczas oddychania",
+        "Skorzystać z danych w zadaniu, ponieważ sprawność jest zmienna"
+      ],
+      "correct": [
+        3
+      ],
+      "points": 1,
+      "explanation": "Sprawność zależy od organizmów i warunków. Dziesięć procent bywa szkolnym przybliżeniem, a nie uniwersalną stałą."
+    },
+    {
+      "id": "env-q01",
+      "unitId": "environment",
+      "lessonId": "env-01",
+      "type": "single",
+      "prompt": "Różnice w DNA między osobnikami jednego gatunku są przykładem różnorodności:",
+      "options": [
+        "Ekosystemowej",
+        "Genetycznej",
+        "Wyłącznie gatunkowej",
+        "Krajobrazowej bez związku z organizmami"
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "Różnorodność genetyczna dotyczy zróżnicowania informacji genetycznej w obrębie jednego gatunku."
+    },
+    {
+      "id": "env-q02",
+      "unitId": "environment",
+      "lessonId": "env-01",
+      "type": "boolean",
+      "prompt": "Ochrona różnorodności biologicznej obejmuje także zróżnicowanie ekosystemów, na przykład lasów, mokradeł i łąk.",
+      "options": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "correct": [
+        0
+      ],
+      "points": 1,
+      "explanation": "Jednym z trzech poziomów różnorodności biologicznej jest różnorodność ekosystemowa."
+    },
+    {
+      "id": "env-q03",
+      "unitId": "environment",
+      "lessonId": "env-02",
+      "type": "single",
+      "prompt": "Droga dzieli zwarty las na dwa odizolowane fragmenty. Jaki proces opisano przede wszystkim?",
+      "options": [
+        "Eutrofizację",
+        "Mutualizm",
+        "Fragmentację siedliska",
+        "Ochronę ex situ"
+      ],
+      "correct": [
+        2
+      ],
+      "points": 1,
+      "explanation": "Fragmentacja polega na podziale siedliska i ograniczeniu łączności między jego częściami."
+    },
+    {
+      "id": "env-q04",
+      "unitId": "environment",
+      "lessonId": "env-02",
+      "type": "boolean",
+      "prompt": "Korytarz ekologiczny może ułatwiać przemieszczanie się organizmów oraz wymianę genów między populacjami.",
+      "options": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "correct": [
+        0
+      ],
+      "points": 1,
+      "explanation": "Łączność między siedliskami pomaga osobnikom docierać do innych populacji i uczestniczyć w rozrodzie."
+    },
+    {
+      "id": "env-q05",
+      "unitId": "environment",
+      "lessonId": "env-03",
+      "type": "single",
+      "prompt": "Dlaczego duża ilość obumarłych glonów może prowadzić do niedoboru tlenu w wodzie?",
+      "options": [
+        "Rozkładające je mikroorganizmy zużywają tlen",
+        "Każdy martwy glon zamienia tlen w piasek",
+        "Tlen może być wytwarzany wyłącznie przez ryby",
+        "Woda przestaje zawierać jakiekolwiek substancje mineralne"
+      ],
+      "correct": [
+        0
+      ],
+      "points": 1,
+      "explanation": "Intensywny rozkład materii organicznej zwiększa zużycie tlenu i może pogorszyć warunki życia organizmów wodnych."
+    },
+    {
+      "id": "env-q06",
+      "unitId": "environment",
+      "lessonId": "env-03",
+      "type": "boolean",
+      "prompt": "Znalezienie jednego porostu pozwala stwierdzić, że w powietrzu nie ma żadnych zanieczyszczeń.",
+      "options": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "Znaczenie mają gatunki porostów, ustalona metoda i inne warunki. Bioindykatory nie są uniwersalnym wykrywaczem wszystkich zanieczyszczeń."
+    },
+    {
+      "id": "env-q07",
+      "unitId": "environment",
+      "lessonId": "env-04",
+      "type": "single",
+      "prompt": "Która sytuacja najlepiej ilustruje zaburzenie zależności wskutek zmiany terminów aktywności?",
+      "options": [
+        "Siewka rośnie po podlaniu w doniczce",
+        "Dwa ptaki jednego gatunku walczą o terytorium",
+        "Kleszcz pobiera krew w czerwcu",
+        "Roślina kwitnie wcześniej, ale jej zapylacz nadal pojawia się później"
+      ],
+      "correct": [
+        3
+      ],
+      "points": 1,
+      "explanation": "Niedopasowanie czasu kwitnienia i aktywności zapylacza może ograniczyć zapylanie i dostępność pokarmu."
+    },
+    {
+      "id": "env-q08",
+      "unitId": "environment",
+      "lessonId": "env-04",
+      "type": "boolean",
+      "prompt": "Jeden wyjątkowo chłodny tydzień wystarcza, aby odrzucić wniosek o wieloletnim ocieplaniu klimatu.",
+      "options": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "Klimat opisujemy na podstawie długich serii danych. Krótki epizod pogodowy nie rozstrzyga o wieloletnim trendzie."
+    },
+    {
+      "id": "env-q09",
+      "unitId": "environment",
+      "lessonId": "env-05",
+      "type": "single",
+      "prompt": "Co odróżnia inwazyjny gatunek obcy od gatunku obcego, który nie jest inwazyjny?",
+      "options": [
+        "Ma zawsze większe rozmiary",
+        "Jego wprowadzenie lub rozprzestrzenianie zagraża różnorodności biologicznej lub funkcjom ekosystemów",
+        "Musi być drapieżnikiem",
+        "Nie może występować w ogrodzie"
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "Samo obce pochodzenie nie wystarcza. Istotne jest zagrożenie związane z wprowadzeniem lub rozprzestrzenianiem."
+    },
+    {
+      "id": "env-q10",
+      "unitId": "environment",
+      "lessonId": "env-05",
+      "type": "multiple",
+      "prompt": "Które działania pomagają zapobiegać rozprzestrzenianiu gatunków obcych? Zaznacz wszystkie poprawne odpowiedzi.",
+      "options": [
+        "Niewypuszczanie zwierząt akwariowych do stawów",
+        "Przenoszenie roślin wodnych do każdego napotkanego jeziora",
+        "Oczyszczanie obuwia z nasion po wycieczce",
+        "Wypuszczanie do lasu zwierzęcia, którym opiekun nie chce się już zajmować"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "points": 2,
+      "explanation": "Ograniczamy zarówno celowe wypuszczanie organizmów, jak i przypadkowy transport nasion. Przenoszenie roślin i zwierząt zwiększa ryzyko."
+    },
+    {
+      "id": "env-q11",
+      "unitId": "environment",
+      "lessonId": "env-06",
+      "type": "single",
+      "prompt": "Kiedy pozyskiwanie ryb staje się nadmierną eksploatacją?",
+      "options": [
+        "Gdy choć jeden człowiek je rybę",
+        "Gdy w zbiorniku żyje więcej niż jeden gatunek",
+        "Gdy długotrwale przewyższa możliwości odtwarzania populacji",
+        "Wyłącznie wtedy, gdy ryby są bardzo małe"
+      ],
+      "correct": [
+        2
+      ],
+      "points": 1,
+      "explanation": "Kluczowa jest relacja między tempem ubywania osobników a odnową populacji, a nie sam fakt korzystania z zasobu."
+    },
+    {
+      "id": "env-q12",
+      "unitId": "environment",
+      "lessonId": "env-06",
+      "type": "multiple",
+      "prompt": "Które działania mogą zmniejszać presję związaną z eksploatacją organizmów? Zaznacz wszystkie poprawne odpowiedzi.",
+      "options": [
+        "Dostosowanie skali połowów do danych o stanie populacji",
+        "Ograniczanie marnowania żywności",
+        "Pozyskiwanie wszystkich osobników zdolnych do rozrodu",
+        "Ochrona miejsc rozrodu"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "points": 2,
+      "explanation": "Monitoring, ograniczenie marnowania i ochrona rozrodu sprzyjają odnowie. Usunięcie osobników rozrodczych ją utrudnia."
+    },
+    {
+      "id": "env-q13",
+      "unitId": "environment",
+      "lessonId": "env-07",
+      "type": "single",
+      "prompt": "Który przykład przedstawia ochronę ex situ?",
+      "options": [
+        "Zachowanie mokradła wraz z jego roślinami",
+        "Przechowywanie nasion zagrożonego gatunku w banku genów",
+        "Ochrona naturalnego miejsca rozrodu płazów",
+        "Utrzymanie korytarza między lasami"
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "Bank genów przechowuje materiał poza naturalnym środowiskiem, co jest przykładem ex situ."
+    },
+    {
+      "id": "env-q14",
+      "unitId": "environment",
+      "lessonId": "env-07",
+      "type": "multiple",
+      "prompt": "Które zdania o metodach ochrony są poprawne? Zaznacz wszystkie poprawne odpowiedzi.",
+      "options": [
+        "Ochrona in situ zachowuje organizmy w ich naturalnym środowisku",
+        "Każde zwierzę trzymane w niewoli uczestniczy w programie ochronnym",
+        "Ex situ może wspierać zachowanie różnorodności genetycznej",
+        "Powrót gatunku do przyrody wymaga odpowiednich warunków w siedlisku"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "points": 2,
+      "explanation": "Obie metody mogą się uzupełniać, lecz przypadkowa hodowla nie jest automatycznie ochroną, a odtworzenie dzikiej populacji wymaga siedliska."
+    },
+    {
+      "id": "env-q15",
+      "unitId": "environment",
+      "lessonId": "env-08",
+      "type": "single",
+      "prompt": "Jaki jest główny cel sieci Natura 2000?",
+      "options": [
+        "Zamiana wszystkich lasów w ogrody zoologiczne",
+        "Ochrona wyłącznie krajobrazu miejskiego",
+        "Całkowite zakazanie każdego działania człowieka w całej Europie",
+        "Zachowanie określonych siedlisk i gatunków ważnych dla europejskiej przyrody"
+      ],
+      "correct": [
+        3
+      ],
+      "points": 1,
+      "explanation": "Sieć Natura 2000 służy ochronie wskazanych siedlisk i gatunków. Nie oznacza automatycznego zakazu każdej działalności."
+    },
+    {
+      "id": "env-q16",
+      "unitId": "environment",
+      "lessonId": "env-08",
+      "type": "multiple",
+      "prompt": "Które stwierdzenia o ochronie przyrody w Polsce są poprawne? Zaznacz wszystkie poprawne odpowiedzi.",
+      "options": [
+        "Ochrona gatunkowa może działać poza parkami narodowymi",
+        "Rezerwat może chronić cenne siedlisko lub określony element przyrody",
+        "Każdy obszar Natura 2000 musi być parkiem narodowym",
+        "Różne formy ochrony mogą obejmować ten sam teren"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "points": 2,
+      "explanation": "Formy ochrony uzupełniają się i mogą nakładać. Ochrona gatunkowa nie ogranicza się do parków, a Natura 2000 jest odrębną formą."
+    },
+    {
+      "id": "env-q17",
+      "unitId": "environment",
+      "lessonId": "env-09",
+      "type": "single",
+      "prompt": "Który zestaw zawiera wyłącznie zasoby nieodnawialne w skali ludzkiego życia?",
+      "options": [
+        "Drewno i nasiona",
+        "Energia wiatru i światła słonecznego",
+        "Węgiel i ropa naftowa",
+        "Ryby i woda w obiegu przyrodniczym"
+      ],
+      "correct": [
+        2
+      ],
+      "points": 1,
+      "explanation": "Powstawanie węgla i ropy trwa tak długo, że nie uzupełnia ich współczesnego zużycia przez ludzi."
+    },
+    {
+      "id": "env-q18",
+      "unitId": "environment",
+      "lessonId": "env-09",
+      "type": "single",
+      "prompt": "Które działanie najlepiej zapobiega powstaniu odpadu zgodnie z zasadą 5R?",
+      "options": [
+        "Odmowa zbędnego jednorazowego opakowania",
+        "Wyrzucenie sprawnego plecaka, aby kupić nowy",
+        "Zmieszanie wszystkich odpadów w jednym pojemniku",
+        "Pozostawienie butelki na leśnej ścieżce"
+      ],
+      "correct": [
+        0
+      ],
+      "points": 1,
+      "explanation": "Odmowa rzeczy niepotrzebnej ogranicza zużycie materiału jeszcze przed wytworzeniem odpadu."
+    },
+    {
+      "id": "env-q19",
+      "unitId": "environment",
+      "lessonId": "env-10",
+      "type": "single",
+      "prompt": "Jak najlepiej porównywać liczbę zauważanych ptaków w tym samym parku w kolejnych tygodniach?",
+      "options": [
+        "Za każdym razem obserwować przez inny, nieznany czas",
+        "Wybrać podobną trasę i czas obserwacji oraz zapisywać warunki",
+        "Zbliżać się do gniazd, aby policzyć każde pisklę",
+        "Zapisywać tylko największą liczbę, a pozostałe wyniki pomijać"
+      ],
+      "correct": [
+        1
+      ],
+      "points": 1,
+      "explanation": "Porównywalny wysiłek i zapis warunków ułatwiają interpretację. Nie trzeba niepokoić ptaków ani usuwać niewygodnych danych."
+    },
+    {
+      "id": "env-q20",
+      "unitId": "environment",
+      "lessonId": "env-10",
+      "type": "single",
+      "prompt": "Które zdanie jest zapisem obserwacji, a nie wnioskiem o jej przyczynie?",
+      "options": [
+        "Ptaków jest mniej, bo na pewno odstraszył je nowy sklep",
+        "Susza jest jedyną przyczyną zmiany liczebności",
+        "Gatunek zniknął z całego regionu, skoro nie widzę go dziś",
+        "W ciągu dziesięciu minut zauważono cztery wróble na ustalonej trasie"
+      ],
+      "correct": [
+        3
+      ],
+      "points": 1,
+      "explanation": "Liczba, czas i miejsce są danymi obserwacyjnymi. Przypisanie przyczyny wymaga dodatkowych danych i sprawdzenia innych wyjaśnień."
+    }
+  ]
+}

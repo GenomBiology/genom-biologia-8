@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f7f3">
+  <meta name="description" content="Biologia dla klasy 8 po polsku: genetyka, ewolucja, ekologia i środowisko. Mini-lekcje, testy, schematy i filmy w jednym miejscu.">
+  <title>Genom — biologia, klasa 8</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="upgrade.css">
+  <link rel="stylesheet" href="motion.css">
+  <link rel="stylesheet" href="videos.css">
+  <link rel="stylesheet" href="refine.css">
+  <link rel="stylesheet" href="school.css">
+  <link rel="stylesheet" href="welcome.css">
+  <script src="offline-data.js"></script>
+  <script src="study.js" defer></script>
+  <script src="lab.js" defer></script>
+  <script src="videos.js" defer></script>
+  <script src="school.js" defer></script>
+  <script src="tests.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="motion.js" defer></script>
+  <script src="background.js" defer></script>
+  <script src="choice-reveal.js" defer></script>
+</head>
+<body>
+  <div class="dna-ambient" aria-hidden="true"></div>
+  <a class="skip-link" href="#main">Przejdź do treści</a>
+  <div class="mobile-shade" id="mobileShade"></div>
+  <aside class="sidebar" id="sidebar" aria-label="Nawigacja główna">
+    <div class="sidebar-earth" aria-hidden="true"><video class="sidebar-earth-video" id="sidebarEarthVideo" loop muted playsinline preload="none" poster="media/earth-pinterest-poster.jpg" tabindex="-1" disablepictureinpicture disableremoteplayback><source src="media/earth-pinterest.mp4" type="video/mp4"></video></div>
+    <div class="sidebar-heading"><a class="brand" href="#home" aria-label="Genom — strona główna"><span class="brand-mark" data-icon="dna"></span><span>genom<span class="brand-dot">.</span><small>BIOLOGIA · KLASA 8</small></span></a><button class="icon-button sidebar-close" id="closeMenuButton" type="button" aria-label="Zamknij menu"><span data-icon="close"></span></button></div>
+    <nav id="primaryNav">
+      <a href="#home" class="nav-item active" data-view="home"><span data-icon="grid"></span>Strona główna<span class="nav-dot"></span></a>
+      <a href="#school" class="nav-item" data-view="school"><span data-icon="book"></span>Biologia — klasa 8</a>
+      <a href="#dna" class="nav-item" data-view="dna"><span data-icon="dna"></span>DNA i genetyka</a>
+      <a href="#learn" class="nav-item" data-view="learn"><span data-icon="leaf"></span>Mini-lekcje</a>
+      <a href="#tests" class="nav-item" data-view="tests"><span data-icon="check"></span>Testy</a>
+      <a href="#visuals" class="nav-item" data-view="visuals"><span data-icon="spark"></span>Atlas ilustracji</a>
+      <a href="#videos" class="nav-item" data-view="videos"><span data-icon="video"></span>Wideo edukacyjne</a>
+    </nav>
+    <div class="sidebar-rule"></div>
+    <button class="nav-item menu-more" id="moreMenuButton" type="button" aria-expanded="false" aria-controls="moreMenuPanel"><span data-icon="menu"></span>Więcej<span class="menu-chevron" data-icon="arrow"></span></button>
+    <div id="moreMenuPanel" class="menu-panel" inert aria-hidden="true"><div class="menu-panel-inner"><nav aria-label="Nauka i narzędzia">
+      <a href="#library" class="nav-item" data-view="library"><span data-icon="dna"></span>Encyklopedia DNA</a>
+      <a href="#mutations" class="nav-item" data-view="mutations"><span data-icon="branch"></span>Mutacje genetyczne</a>
+      <a href="#category/diseases" class="nav-item" data-view="diseases"><span data-icon="heart"></span>Choroby genetyczne</a>
+      <a href="#topics" class="nav-item" data-view="topics"><span data-icon="book"></span>Tematy A–Z</a>
+      <a href="#lab" class="nav-item" data-view="lab"><span data-icon="orbit"></span>Laboratorium DNA</a>
+      <a href="#glossary" class="nav-item" data-view="glossary"><span data-icon="book"></span>Słownik pojęć</a>
+      <a href="#saved" class="nav-item" data-view="saved"><span data-icon="bookmark"></span>Zakładki<span class="saved-count" id="savedCount">0</span></a>
+      <button class="nav-item" id="randomArticle" type="button"><span data-icon="shuffle"></span>Losowy artykuł</button>
+      <a href="#about" class="nav-item" data-view="about"><span data-icon="leaf"></span>O projekcie i źródłach</a>
+    </nav></div></div>
+  </aside>
+
+  <div class="workspace">
+    <header class="topbar">
+      <div class="topbar-left"><button class="icon-button mobile-menu" id="menuButton" aria-label="Otwórz menu" aria-expanded="false" aria-controls="sidebar"><span data-icon="menu"></span></button><span class="breadcrumb">Biologia <span>/</span> <strong id="breadcrumb">Strona główna</strong></span></div>
+      <div class="topbar-right"><span class="science-label"><span class="green-dot"></span>Nauka prostym językiem</span><button class="icon-button motion-toggle" id="motionToggle" aria-label="Wstrzymaj animacje" title="Wstrzymaj animacje" aria-pressed="false"><span data-icon="pause"></span></button><button class="text-size-button" id="textSize" aria-label="Powiększ tekst" aria-pressed="false">A<span>a</span></button><a class="icon-button" href="#saved" aria-label="Moje zakładki"><span data-icon="bookmark"></span></a></div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <div class="search-wrap"><div class="search-shell"><form id="searchForm" role="search" class="search-form"><span data-icon="search"></span><input type="search" id="searchInput" placeholder="DNA, ewolucja, ekologia…" aria-label="Szukaj artykułów i mini-lekcji" aria-controls="searchSuggestions" aria-expanded="false" autocomplete="off"><button class="search-clear" id="clearSearch" type="button" aria-label="Wyczyść wyszukiwanie" hidden>×</button><kbd>/</kbd></form><div id="searchSuggestions" class="search-suggestions" role="region" aria-label="Podpowiedzi wyszukiwania" hidden></div></div></div>
+      <div id="pageContent"><div class="loading">Ładowanie encyklopedii…</div></div>
+      <footer class="footer footer-simple"><div class="footer-meta"><a class="footer-brand" href="#home">genom.</a><a href="#about">Źródła i informacje o projekcie ↗</a></div><section class="project-credits" aria-labelledby="creditsTitle"><h2 id="creditsTitle">Autorzy projektu</h2><dl class="credits-list"><div><dt>Velychko Tymofii</dt><dd>Wykonanie całej strony i stworzenie jej podstaw.</dd></div><div><dt>Artem Skopintcev</dt><dd>Pomysł na stronę oraz nowe pomysły na jej rozwój.</dd></div><div><dt>Alina Kimnatska</dt><dd>Liczne pomysły i udogodnienia dla użytkowników.</dd></div></dl><p class="credits-signature">Zrobiono zostało przez Velychko Tymofii, Artem Skopintcev, Alina Kimnatska</p></section></footer>
+    </main>
+  </div>
+  <nav class="mobile-dock" aria-label="Szybka nawigacja">
+    <a href="#home" data-view="home"><span data-icon="grid"></span><span>Start</span></a>
+    <button type="button" data-focus-search><span data-icon="search"></span><span>Szukaj</span></button>
+    <button type="button" id="dockMenuButton" data-toggle-menu aria-label="Otwórz menu" aria-expanded="false" aria-controls="sidebar"><span data-icon="menu"></span><span>Menu</span></button>
+  </nav>
+  <dialog id="articleDialog" class="article-dialog" aria-labelledby="articleTitle"><div id="articleContent"></div></dialog>
+  <dialog id="visualDialog" class="visual-dialog" aria-labelledby="visualTitle"><div id="visualContent"></div></dialog>
+  <dialog id="videoDialog" class="video-dialog" aria-labelledby="videoTitle"><div id="videoContent"></div></dialog>
+  <button id="backToTop" class="back-to-top" aria-label="Wróć na górę strony" title="Wróć na górę strony" hidden><span data-icon="arrow"></span></button>
+  <div class="toast" id="toast" role="status"></div>
+  <noscript><div class="noscript">Aby wyszukiwać i otwierać artykuły, włącz JavaScript w ustawieniach przeglądarki.</div></noscript>
+</body>
+</html>

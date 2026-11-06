@@ -1,0 +1,264 @@
+/* Soft motion is a progressive enhancement. Reading remains still and clear. */
+:root {
+  --ease-soft: cubic-bezier(.16, 1, .3, 1);
+  --ease-calm: cubic-bezier(.22, .61, .36, 1);
+  --soft-shadow: 0 14px 40px #29451e0c;
+}
+
+/* Once the observer is ready, it owns entry animation for individual blocks. */
+body.motion-enhanced #pageContent > * { animation: none; }
+
+.article-card, .topic-tile, .visual-card, .study-card,
+.path-lesson, .glossary-entry, .study-feature-links > a {
+  border-radius: 17px;
+  transition: transform .55s var(--ease-soft), box-shadow .55s var(--ease-soft),
+    background-color .4s var(--ease-calm), border-color .4s var(--ease-calm);
+}
+
+.topic-explorer, .study-resume, .path-header, .quiz-shell, .lab-panel,
+.disease-panel, .term-panel, .visual-search, .glossary-toolbar,
+.catalogue-controls, .reader-completion, .article-visual {
+  border-radius: 17px;
+  box-shadow: 0 7px 26px #38542904;
+  transition: box-shadow .5s var(--ease-soft), border-color .4s var(--ease-calm),
+    background-color .4s var(--ease-calm);
+}
+
+.primary-button, .icon-button, .reader-action, .reader-read,
+.reader-save, .path-read-toggle, .lab-preset, .quiz-category,
+.glossary-letter, .filter-chip, .topic-chip, .lab-tab,
+.mobile-dock > a, .mobile-dock > button {
+  transition: transform .32s var(--ease-soft), background-color .35s var(--ease-calm),
+    color .3s var(--ease-calm), box-shadow .4s var(--ease-soft),
+    border-color .35s var(--ease-calm);
+}
+
+.primary-button { position: relative; overflow: hidden; border-radius: 10px; }
+.primary-button::before {
+  content: "";
+  position: absolute;
+  top: -50%; bottom: -50%; left: -70%; width: 45%;
+  pointer-events: none;
+  background: linear-gradient(90deg, transparent, #fffff64d, transparent);
+  transform: translateX(0) rotate(20deg);
+}
+
+.primary-button:active, .reader-read:active, .reader-action:active,
+.lab-preset:active, .path-read-toggle:active, .quiz-category:active,
+.filter-chip:active, .topic-chip:active, .glossary-letter:active {
+  transform: translateY(1px) scale(.98);
+}
+.icon-button:active, .mobile-dock > a:active, .mobile-dock > button:active {
+  transform: scale(.93);
+}
+
+.nav-item {
+  position: relative;
+  transition: color .32s var(--ease-calm), background-color .38s var(--ease-calm),
+    transform .45s var(--ease-soft);
+}
+.nav-item svg, .card-drawing, .card-drawing svg, .study-card-icon,
+.study-feature-links > a > span, .topic-tile > span:first-child svg {
+  transition: transform .6s var(--ease-soft), background-color .4s var(--ease-calm);
+}
+.quiet-link svg, .section-heading > a svg, .study-card-link svg,
+.path-open svg, .suggestion-footer svg {
+  transition: transform .45s var(--ease-soft);
+}
+
+.search-form, .glossary-search > span:last-child, .lab-input,
+.lab-select, .catalogue-select, .visual-search-field input {
+  transition: box-shadow .45s var(--ease-soft), border-color .35s var(--ease-calm),
+    background-color .35s var(--ease-calm);
+}
+.search-form:focus-within, .glossary-search > span:last-child:focus-within,
+.lab-input:focus-visible, .lab-select:focus-visible,
+.catalogue-select:focus-visible, .visual-search-field input:focus-visible {
+  box-shadow: 0 0 0 6px #dce8cd66;
+}
+
+.hero.hero-upgrade { border-radius: 24px; }
+.hero-media img {
+  transform-origin: 62% 50%;
+  animation: dna-breathe 22s ease-in-out infinite alternate;
+}
+.hero-caption .green-dot { animation: quiet-pulse 5s ease-in-out infinite; }
+.hero-fact { transition: color .4s var(--ease-calm); }
+
+/* Ambient colour drifts behind the existing DNA GIF. */
+.dna-ambient::before, .dna-ambient::after {
+  content: "";
+  position: absolute;
+  width: min(39vw, 580px); height: min(39vw, 580px);
+  pointer-events: none; border-radius: 50%;
+  opacity: .5;
+}
+.dna-ambient::before {
+  top: -13%; right: -8%;
+  background: radial-gradient(circle, #c6d8a92e, #c6d8a900 72%);
+  animation: ambient-sage 19s ease-in-out infinite alternate;
+}
+.dna-ambient::after {
+  bottom: -15%; left: 15%;
+  background: radial-gradient(circle, #edbe922e, #edbe9200 72%);
+  animation: ambient-peach 23s ease-in-out infinite alternate;
+}
+
+.visual-card-image img {
+  transition: transform .85s var(--ease-soft), opacity .45s var(--ease-calm);
+}
+.visual-zoom-badge {
+  transition: transform .45s var(--ease-soft), background-color .35s var(--ease-calm);
+}
+.visual-image-viewport.visual-zoomed img {
+  animation: detail-settle .4s var(--ease-soft);
+}
+.base-chip {
+  transition: transform .4s var(--ease-soft), background-color .35s var(--ease-calm),
+    border-color .35s var(--ease-calm), box-shadow .4s var(--ease-soft);
+}
+.base-chip.mutation-changed { animation: base-settle .5s var(--ease-soft); }
+.lab-panel:not([hidden]) { animation: panel-settle .5s var(--ease-soft); }
+.quiz-feedback { animation: feedback-settle .5s var(--ease-soft); }
+.quiz-option {
+  transition: background-color .4s var(--ease-calm), border-color .4s var(--ease-calm),
+    box-shadow .5s var(--ease-soft), transform .4s var(--ease-soft);
+}
+.study-progress-bar::-webkit-progress-value,
+.quiz-progress progress::-webkit-progress-value,
+.reader-progress > progress::-webkit-progress-value {
+  transition: width .5s var(--ease-calm);
+}
+
+.search-suggestions:not([hidden]) { animation: suggestions-settle .3s var(--ease-soft); }
+.search-suggestion { transition: background-color .32s var(--ease-calm), color .3s; }
+.toast {
+  transition: opacity .4s var(--ease-calm), transform .5s var(--ease-soft);
+}
+.back-to-top { transition: background-color .35s, transform .45s var(--ease-soft), box-shadow .45s; }
+
+/* Native dialog state and keyboard focus continue to be managed by the browser. */
+.article-dialog, .visual-dialog {
+  border-radius: 18px;
+  opacity: 0;
+  transform: translateY(13px) scale(.985);
+  transition: opacity .3s var(--ease-calm), transform .45s var(--ease-soft),
+    overlay .3s allow-discrete, display .3s allow-discrete;
+}
+.article-dialog[open], .visual-dialog[open] { opacity: 1; transform: none; }
+.article-dialog::backdrop, .visual-dialog::backdrop {
+  opacity: 0;
+  transition: opacity .3s var(--ease-calm), overlay .3s allow-discrete,
+    display .3s allow-discrete;
+}
+.article-dialog[open]::backdrop, .visual-dialog[open]::backdrop { opacity: 1; }
+.article-dialog[open] .reader-layout,
+.visual-dialog[open] .visual-lightbox-body { animation: panel-settle .45s var(--ease-soft); }
+@starting-style {
+  .article-dialog[open], .visual-dialog[open] {
+    opacity: 0;
+    transform: translateY(13px) scale(.985);
+  }
+  .article-dialog[open]::backdrop, .visual-dialog[open]::backdrop { opacity: 0; }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .article-card:hover, .visual-card:hover, .study-card:hover,
+  .topic-tile:hover, .study-feature-links > a:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--soft-shadow);
+    border-color: #a9bf96;
+  }
+  .path-lesson:hover, .glossary-entry:hover {
+    transform: translateX(3px);
+    border-color: #c2d3b0;
+    box-shadow: 0 10px 28px #38502606;
+  }
+  .nav-item:hover { transform: translateX(3px); }
+  .nav-item:hover svg { transform: rotate(-6deg) scale(1.08); }
+  .article-card:hover .card-drawing, .study-card:hover .study-card-icon,
+  .study-feature-links > a:hover > span { transform: translateY(-2px) rotate(-4deg); }
+  .topic-tile:hover > span:first-child svg { transform: rotate(-5deg) translateY(-2px); }
+  .quiet-link:hover svg, .section-heading > a:hover svg,
+  .study-card-link:hover svg, .suggestion-footer:hover svg { transform: translateX(4px); }
+  .primary-button:hover::before { animation: button-sheen .85s var(--ease-calm); }
+  .visual-card-image:hover img { transform: scale(1.035); }
+  .visual-card-image:hover .visual-zoom-badge { transform: translateY(-2px); background: #fffef9; }
+  .base-chip:hover { transform: translateY(-3px); }
+}
+
+@media (hover: none) {
+  .article-card:hover, .topic-tile:hover, .visual-card:hover,
+  .study-card:hover, .study-feature-links > a:hover { transform: none; }
+}
+@media (max-width: 760px) {
+  .sidebar { transition: transform .55s var(--ease-soft), visibility .55s; }
+  .sidebar:not(.open) { pointer-events: none; }
+  .sidebar.open { pointer-events: auto; }
+  .mobile-shade { opacity: 0; transition: opacity .32s, display .32s allow-discrete; }
+  .mobile-shade.open { opacity: 1; }
+  @starting-style { .mobile-shade.open { opacity: 0; } }
+  .hero.hero-upgrade { border-radius: 20px; }
+}
+@media (max-width: 480px) {
+  .article-card, .visual-card, .study-card, .topic-tile { border-radius: 18px; }
+  .article-dialog, .visual-dialog { border-radius: 13px; }
+  .hero-media img { animation-duration: 26s; }
+  .dna-ambient::before, .dna-ambient::after { width: 75vw; height: 75vw; }
+}
+
+@keyframes dna-breathe {
+  from { transform: scale(1.015) translate3d(0, 0, 0); }
+  to { transform: scale(1.055) translate3d(-.6%, .3%, 0); }
+}
+@keyframes quiet-pulse { 0%, 100% { opacity: .75; } 50% { opacity: 1; } }
+@keyframes ambient-sage {
+  from { transform: translate3d(0, 0, 0) scale(1); }
+  to { transform: translate3d(-30px, 28px, 0) scale(1.08); }
+}
+@keyframes ambient-peach {
+  from { transform: translate3d(0, 0, 0) scale(1.04); }
+  to { transform: translate3d(30px, -24px, 0) scale(.96); }
+}
+@keyframes button-sheen {
+  from { transform: translateX(0) rotate(20deg); }
+  to { transform: translateX(470%) rotate(20deg); }
+}
+@keyframes detail-settle { from { opacity: .72; } to { opacity: 1; } }
+@keyframes base-settle {
+  from { opacity: .65; transform: translateY(1px) scale(.94); }
+  to { opacity: 1; transform: translateY(-2px) scale(1); }
+}
+@keyframes panel-settle {
+  from { opacity: .4; transform: translateY(7px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes feedback-settle {
+  from { opacity: .35; transform: translateY(9px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes suggestions-settle {
+  from { opacity: .45; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Pausing includes CSS, pseudo-elements, GIF and the JS observer layer. */
+body.motion-paused *, body.motion-paused *::before, body.motion-paused *::after,
+body.reduced-motion *, body.reduced-motion *::before, body.reduced-motion *::after {
+  animation: none !important;
+  transition: none !important;
+  transition-delay: 0s !important;
+  scroll-behavior: auto !important;
+}
+body.motion-paused .dna-ambient, body.reduced-motion .dna-ambient {
+  background-image: url('media/dna-background-poster.png') !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+    transition-delay: 0s !important;
+    scroll-behavior: auto !important;
+  }
+  .dna-ambient { background-image: url('media/dna-background-poster.png') !important; }
+}
